@@ -11,3 +11,6 @@ author: eyad
 image: "@/assets/blogs/the story of ts.jpg"
 
 references: []
+
+code blocks options
+

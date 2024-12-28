@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to React.useState.md",
+                "file": "blog article data template.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to React.useState"
+              "title": "blog article data template"
             },
             "group": "67c4f6a2aedb32b5"
           },
@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog article frontmatter template.md",
+                "file": "blog article data template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "blog article frontmatter template"
+              "title": "blog article data template"
             }
           }
         ]
@@ -48,12 +48,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to React.useState.md",
+                "file": "blog article data template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to React.useState"
+              "title": "blog article data template"
             },
             "group": "67c4f6a2aedb32b5"
           }
@@ -113,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cef926da4cb06577",
@@ -200,10 +199,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "101d78a3598212db",
+  "active": "d45184f4ab176aa0",
   "lastOpenFiles": [
-    "blog article frontmatter template.md",
     "Introduction to React.useState.md",
+    "blog article data template.md",
     "conflict-files-obsidian-git.md"
   ]
 }
