@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "99df200b28a9e71d",
+        "id": "b432e0fe9b2b9e35",
         "type": "tabs",
         "children": [
           {
-            "id": "d45184f4ab176aa0",
+            "id": "101d78a3598212db",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +19,29 @@
               },
               "icon": "lucide-file",
               "title": "Introduction to React.useState"
-            }
+            },
+            "group": "67c4f6a2aedb32b5"
+          }
+        ]
+      },
+      {
+        "id": "8bad24b40803c702",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d45184f4ab176aa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction to React.useState.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction to React.useState"
+            },
+            "group": "67c4f6a2aedb32b5"
           }
         ]
       }
@@ -77,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cef926da4cb06577",
@@ -163,7 +186,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d45184f4ab176aa0",
+  "active": "101d78a3598212db",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Introduction to React.useState.md"
