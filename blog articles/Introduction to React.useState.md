@@ -39,3 +39,20 @@ setCounter( 0 + 1 )
 لانهم معتمدين على قيمة counter الي لسه متعملهاش update و لو عاوز تتأكد ممكن تعمل console.log(counter) بعد ال setCounter هتلاقيه كمان ب 0.
 
 الطريقة الصح هنا انك تستخدم updater function جوه ال setCounter لانها بتاخد اخر قيمة لل state وقت ما تيجي تعمل update للقيمة و rerender لل component مش وقت ما انت تستخدمها ف لما تيجي تعملها اكتر من مرة ورا بعض لما تيجي تتنفذ قيمتها هتتحط صح زي كده:
+
+// c = 0
+setCounter(c => c + 1) // 0 => 0 + 1 = 1
+// c = 1
+setCounter(c => c + 1) // 1 => 1 + 1 = 2
+و ف النهاية قيمة ال counter هتكون 2 بعد ما يحصل rerender.
+
+او ممكن تريح نفسك من كل ده و تعمل
+
+setCounter(counter + 2)
+بس ساعتها مش هيبقى عندنا مثال :)
+
+فرق تاني بينهم و كمان ميزة لل updater function انها مش بتعتمد على اي حاجة من برا ال updater function، ف لو انت مثلا بتستخدمها من جوه اي حاجة ليها dependency array زي use Effect مش هتحتاج انك تحط ال state القديمة ك dependency ليها
+
+و دول لينكات فيها كلام اكتر عن الموضوع ده:
+Link 1 Link 2
+و اخر لينك ده في تاسك انك تعمل ال update queue بنفسك لازم تجربه.
