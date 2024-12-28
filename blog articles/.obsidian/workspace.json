@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog article data template.md",
+                "file": "Introduction to React.useState.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "blog article data template"
+              "title": "Introduction to React.useState"
             },
             "group": "67c4f6a2aedb32b5"
           },
@@ -36,7 +36,8 @@
               "title": "blog article data template"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8bad24b40803c702",
@@ -48,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog article data template.md",
+                "file": "Introduction to React.useState.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "blog article data template"
+              "title": "Introduction to React.useState"
             },
             "group": "67c4f6a2aedb32b5"
           }
@@ -113,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cef926da4cb06577",
@@ -201,8 +203,8 @@
   },
   "active": "d45184f4ab176aa0",
   "lastOpenFiles": [
-    "Introduction to React.useState.md",
     "blog article data template.md",
+    "Introduction to React.useState.md",
     "conflict-files-obsidian-git.md"
   ]
 }

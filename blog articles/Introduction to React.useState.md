@@ -1,5 +1,18 @@
 
 ---
+title: ايه هو ال updater function في useState?
+
+pubDate: 2024-12-28
+
+intro: تعالو نشوف ميزة قوية جدا في ال useState hook و نشوف ازاي نقدر نستخدمها و بتفيدنا ف ايه
+
+tags: ["react", "hooks"]
+
+author: eyad
+
+image: "@/assets/blogs/the story of ts.jpg"
+
+references: ["https://react.dev/learn/state-as-a-snapshot", "https://react.dev/learn/queueing-a-series-of-state-updates"]
 
 ---
 
@@ -83,7 +96,7 @@ setCounter(counter + 2)
 فرق تاني بينهم و كمان ميزة لل updater function انها مش بتعتمد على اي حاجة من برا ال updater function، ف لو انت مثلا بتستخدمها من جوه اي حاجة ليها dependency array زي use Effect مش هتحتاج انك تحط ال state القديمة ك dependency ليها.
 
 ف مثلا لو عندنا timer قسمته بتزيد كل ثانية بواحد في العادي هنعمله كده:
-```ts
+```ts showLineNumbers
 import {useState, useEffect} from "react"
 
 fucntion App(){
@@ -99,23 +112,20 @@ fucntion App(){
 
 هتلاحظ ان ال effect بيعتمد على قيمة ال count و كل ما يتغير هتلاقي ال effect بيشتغل تاني و ممكن يعمل مشاكل ف ال performance, الحل الاحسن اننا نستخدم ال updater function عشان نلغي اعتمادية ال effect على ال count, زي كده: 
 
-```ts
+```ts showLineNumbers diff lang="ts"
 import {useState, useEffect} from "react"
 
 fucntion App(){
 	const [count, setCount] = useState(0);
 	useEffect(()=>{
-		let timer = setInterval(()=>setCount(c => c+1), 1000)
+		-let timer = setInterval(()=>setCount(count + 1), 1000)
+		+let timer = setInterval(()=>setCount(c => c+1), 1000)
 		return ()=> clearInterval(timer);
 	}, [])
 	
 	return <p> {count} </p>
 }
 ```
-
-
-
-
 
 
 لو عجبك المقال متنساش تنشره مع اصحابك و على مواقع التواصل الاجتماعي و اهم حاجة متنساش تبص عالمصادر تحت 👇🏼
