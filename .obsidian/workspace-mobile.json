@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog articles/Untitled.md",
-                "mode": "source",
+                "file": "blog articles/Introduction to React.useState.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Introduction to React.useState"
             }
           }
         ]
@@ -151,7 +151,7 @@
   "active": "600c4b90fe1464bb",
   "lastOpenFiles": [
     "blog articles/bolg articles/testing a new article.md",
-    "blog articles/Untitled.md",
+    "blog articles/Introduction to React.useState.md",
     "/blog articles/bolg articles/testing a new article.md"
   ]
 }
