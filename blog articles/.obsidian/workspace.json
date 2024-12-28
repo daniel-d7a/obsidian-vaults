@@ -36,8 +36,7 @@
               "title": "blog article frontmatter template"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8bad24b40803c702",
@@ -114,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cef926da4cb06577",
@@ -200,10 +200,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dcac5a50bc458576",
+  "active": "101d78a3598212db",
   "lastOpenFiles": [
-    "Introduction to React.useState.md",
     "blog article frontmatter template.md",
+    "Introduction to React.useState.md",
     "conflict-files-obsidian-git.md"
   ]
 }
