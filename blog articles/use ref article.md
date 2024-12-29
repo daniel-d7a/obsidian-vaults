@@ -155,27 +155,23 @@ export default function App() {
 ```ts
 import { useRef } from 'react';
 
-function App() {
+export function App() {
   const elementSetRef = useRef(new Set());
 
   return (
-    <div>
-      <div ref={(element) => {
-		    if (element) {
-		      elementSetRef.current.add(element);
-		    }else{
-			  elementSetRef.current.delete(element);
-		    }
-  
-    }}>	
-		Element 1
-	  </div>
-    </div>
+      <div
+        ref={(element) => {
+          if (element) {
+            elementSetRef.current.add(element);
+          } else {
+            elementSetRef.current.delete(element);
+          }
+        }}
+      >
+        Element 1
+      </div>
   );
 }
-
-export default App;
-
 ```
   
 طب ايه تطبيقات على حاجة زي كده ؟  
