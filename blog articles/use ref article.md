@@ -10,7 +10,7 @@ author: eyad
 
 image: "@/assets/blogs/the story of ts.jpg"
 
-references: ["https://react.dev/reference/react/useRef", ""]
+references: ["https://react.dev/reference/react/useRef", "https://react.dev/learn/manipulating-the-dom-with-refs"]
 
 
 # ايه هو ال useRef hook و ازاي بنستخدمه ؟
@@ -134,8 +134,7 @@ export default function App() {
 في طريقة تخليك تتعامل مع عدد كبير و متغير من العناصر ب ref واحد بس و كتير من الناس متعرفهاش مع انها طريقة قوية جدا.  
   
 طريقة استخدام ال ref مع ال dom elements ف العادي انك بتعرف ref و بتديه لل ref property بتاعه ال element عشان react تحط ال dom node ف ال current بتاع ال ref زي كده: -
-```ts 
-
+```ts {7}
 import { useRef } from "react";
 
 export default function App() {
