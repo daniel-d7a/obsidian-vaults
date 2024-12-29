@@ -31,20 +31,50 @@ const ref = useRef("eyad") // ref = {current: "eyad"}
 ## الاستخدمات
 
 ليها استخدامين اساسيين اولهم حفظ ال data بين ال renders بس مش اي data و خلاص كده  
-لو ال data دي ليها علاقة بال UI زي مثلا اسم المستخدم او ال todos او اي حاجة متعلقة بال UI لازم تتحفظ ف state  
-ده لانها reactive data يعني تفاعليه بتتغير و لما تتغير لازم التغير ينعكس على ال UI  
-انما ال ref بيستخدم عشان نحفظ فيه اي data غير متعلقة بال UI زي مثلا ال interval id او ال timeout id  
+لو ال data دي ليها علاقة بال UI زي مثلا اسم المستخدم او ال todos او اي حاجة متعلقة بال UI لازم تتحفظ ف state  ده لانها reactive data يعني تفاعليه بتتغير و لما تتغير لازم التغير ينعكس على ال UI انما ال ref بيستخدم عشان نحفظ فيه اي data غير متعلقة بال UI زي مثلا ال interval id او ال timeout id: -
 
-```ts 
+```ts showLineNumbers
+import { useState, useRef } from "react";
+export default function App() {
+  const [isRunning, setlsRunning] = useState(false);
+  const [time, setTime] = useState(0);
+  const intervalRef = useRef(null);
+
+  function startStopwatch() {
+    if (!isRunning) {
+      setlsRunning(true);
+      intervalRef.current = setInterval(
+        () => setTime((prevTime) => prevTime + 1),
+        1000,
+      );
+    }
+  }
+
+  function stopStopwatch() {
+    if (isRunning) {
+      setlsRunning(false);
+      clearInterval(intervalRef.current);
+    }
+  }
+
+  return (
+    <div>
+      <div>{time}</div>
+      <button onClick={startStopwatch}>Start</button>
+      <button onClick={stopStopwatch}>Stop</button>
+    </div>
+  );
+}
 
 ```
 
-
-(شوف سلايد ٢ و ٣ تحت)  
   
 و حاجة كمان مهمة جدا ف ال refs انه بيساعدك تتحكم في ال DOM nodes عن طريق ال DOM methods زي query selector او add event listener او غيرهم.  
-ده عن طريق انك تعمل ref و تديه لاي DOM node ف ال ref property بتاعتها و react تلقائيا هتخلي ال current بتاع ال ref عبارة عن ال DOM node دي  
-(شوف سلايد ٤ تحت)  
+ده عن طريق انك تعمل ref و تديه لاي DOM node ف ال ref property بتاعتها و react تلقائيا هتخلي ال current بتاع ال ref عبارة عن ال DOM node دي: -
+``` ts showLineNumbers
+
+```
+
   
 بس لازم تخلي بالك ان عمليه ربط ال DOM node بال ref بتحصل بعد ال rendering ف يفضل تستخدم ال DOM node جوه event handler زي ال on click مثلا او جوه use effect عشان تضمن ان ال node مش undefined  
   
