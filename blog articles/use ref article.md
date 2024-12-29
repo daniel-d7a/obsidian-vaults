@@ -151,6 +151,32 @@ export default function App() {
 بعدين بدل ما نديه لل ref property بتاعه العناصر الي انا عاوز اتحكم فيها هديلها callback function بتاخد parameter واحد عبارة عن ال dom node الي انا واقف عليها و دي ممكن تكون قيمتها ب ال dom node فعلا او ب null لو العنصر اتشال او الجزء ده من ال dom اتغير.
   
 هنعمل check بسيط على ال node انها لو موجودة ناخدها معانا او لو قيمتها ب null نشيلها  و كده بكل بساطة بقى معاك ref ال current بتاعه شايل اي عدد من الdom nodes انت تحتاجه حتى لو العدد ده زاد او نقص خلال ال run time.
+
+```ts
+import { useRef } from 'react';
+
+function App() {
+  const elementSetRef = useRef(new Set());
+
+  return (
+    <div>
+      <div ref={(element) => {
+		    if (element) {
+		      elementSetRef.current.add(element);
+		    }else{
+			  elementSetRef.current.delete(element);
+		    }
+  
+    }}>	
+		Element 1
+	  </div>
+    </div>
+  );
+}
+
+export default App;
+
+```
   
 طب ايه تطبيقات على حاجة زي كده ؟  
 
