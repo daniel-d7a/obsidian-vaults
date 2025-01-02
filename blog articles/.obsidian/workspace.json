@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles notes/tkdodo useState/3. Things to know about useState.md",
+                "file": "articles notes/tkdodo useState/5. useState vs useReducer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Things to know about useState"
+              "title": "5. useState vs useReducer"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles notes/tkdodo useState/3. Things to know about useState.md",
+                "file": "articles notes/tkdodo useState/5. useState vs useReducer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3. Things to know about useState"
+              "title": "Backlinks for 5. useState vs useReducer"
             }
           },
           {
@@ -165,8 +165,10 @@
   },
   "active": "da4d7f405138a451",
   "lastOpenFiles": [
-    "Untitled.md",
+    "articles notes/tkdodo useState/4. useState for one-time initializations.md",
+    "articles notes/tkdodo useState/5. useState vs useReducer.md",
     "articles notes/tkdodo useState/3. Things to know about useState.md",
+    "Untitled.md",
     "articles notes/tkdodo useState/2. Putting props to useState.md",
     "articles notes/tkdodo useState/1. Don't over useState.md",
     "my articles/use ref article.md",
