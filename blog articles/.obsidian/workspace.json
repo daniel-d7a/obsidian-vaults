@@ -163,8 +163,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da4d7f405138a451",
+  "active": "63001b0f368e2442",
   "lastOpenFiles": [
+    "articles notes/tkodo react query",
     "articles notes/tkdodo useState/4. useState for one-time initializations.md",
     "articles notes/tkdodo useState/5. useState vs useReducer.md",
     "articles notes/tkdodo useState/3. Things to know about useState.md",
