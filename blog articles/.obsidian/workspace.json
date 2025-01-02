@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "use ref article.md",
+                "file": "my articles/use ref article.md",
                 "mode": "source",
                 "source": false
               },
@@ -163,11 +163,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9c1da1fb5ad20d9d",
+  "active": "63001b0f368e2442",
   "lastOpenFiles": [
-    "blog article data template.md",
-    "use ref article.md",
-    "Introduction to React.useState.md",
+    "articles notes/tkdodo useState",
+    "my articles",
+    "articles notes",
+    "my articles/blog article data template.md",
+    "my articles/use ref article.md",
+    "my articles/Introduction to React.useState.md",
     "conflict-files-obsidian-git.md"
   ]
 }
