@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles notes/tkdodo useState/5. useState vs useReducer.md",
+                "file": "articles notes/tkodo react query/1. Practical React Query.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. useState vs useReducer"
+              "title": "1. Practical React Query"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles notes/tkdodo useState/5. useState vs useReducer.md",
+                "file": "articles notes/tkodo react query/1. Practical React Query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 5. useState vs useReducer"
+              "title": "Backlinks for 1. Practical React Query"
             }
           },
           {
@@ -163,11 +163,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63001b0f368e2442",
+  "active": "da4d7f405138a451",
   "lastOpenFiles": [
+    "articles notes/tkdodo useState/5. useState vs useReducer.md",
+    "articles notes/tkodo react query/1. Practical React Query.md",
     "articles notes/tkodo react query",
     "articles notes/tkdodo useState/4. useState for one-time initializations.md",
-    "articles notes/tkdodo useState/5. useState vs useReducer.md",
     "articles notes/tkdodo useState/3. Things to know about useState.md",
     "Untitled.md",
     "articles notes/tkdodo useState/2. Putting props to useState.md",
