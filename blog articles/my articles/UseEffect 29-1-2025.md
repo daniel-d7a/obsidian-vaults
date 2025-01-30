@@ -1,5 +1,5 @@
-السلام عليكم ازيكو عاملين ايه  
-ف البوست ده هنتكلم عن ال use effect hook  
+
+ف المقال ده هنتكلم عن ال use effect hook من جميع الجوانب هنفهم وظيفته في react
   
 لو سألت ١٠ اشخاص مختلفين ايه وظيفة ال use effect hook هيجيلك ١٠ اجابات مختلفة  
   
@@ -9,10 +9,10 @@
   
 احنا ممكن نجمع الردود دي كلها في اجابة من جزئين  
   
-اولا use effect hook هو escape hatch زيه زي use ref بيسمحلنا نتواصل مع حجات برا react جوه ال components بتاعتنا  
+اولا ال use effect hook هو escape hatch زيه زي use ref بيسمحلنا نتواصل مع حجات برا react جوه ال components بتاعتنا  
   
-حجات زي  
-- ال dom apis زي add event listener و ال intersection observer (و ده ممكن يكون له بوست لوحده)  
+حجات زي: -
+- ال dom APIs زي add event listener و ال intersection observer
 - ال apis الخارجية و اني اجيب منها data باستخدام ال fetch api  
 - اي element خارجي مش معمول عشان react زي custom video player او map component او jQuery plugins مثلا  
   
