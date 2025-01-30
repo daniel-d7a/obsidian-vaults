@@ -56,10 +56,17 @@ export default function App({ roomId }){
   
 ال clean up دي بتبقى حاجة عكس ال effect بالظبط و بتشتغل لما ال component يتشال من ال component tree او لو ال dependencies اتغيرت بعد اي rerender بس قبل ما يتم تنفيذ ال effect الجديد و دي موجودة عشان لما ال component يتشال ميسبش وراه اثر بحيث ال effects متدخلش ف بعض ما بين ال rerenders ف لازم ايا كان ال effect يبقى في حاجة بتعكسه او بتلغيه.
   
-* لو كان fetch ممكن تستعمل abort controller  
-* لو كان set timeout او interval ممكن تستعمل clear timeout او clear interval 
-* لو كان add event listener ممكن تستعمل remove event listener  
-* و لو كان حاجة ملهاش تأثير باقي يبقى مش محتاج تعمل clean up  
+لو كان fetch ممكن تستعمل abort controller  
+
+لو كان set timeout او interval ممكن تستعمل clear timeout او clear interval 
+
+لو كان add event listener ممكن تستعمل remove event listener  
+
+
+و لو كان حاجة ملهاش تأثير باقي يبقى مش محتاج تعمل clean up  
+
+
+
 (مع العلم انه لو حاجة ملهاش تأثير ف هي غالبا مش effect و مش محتاج تحطها ف use effect)  
   
 لو انت جاي من ايام ما كانت react بتستخدم ال class component ف ال effect ممكن يعتبر بديل لل componentDidMount و componentDidUpdate و ال cleanup بديل لل componentWillUnmount.
