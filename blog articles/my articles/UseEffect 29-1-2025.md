@@ -108,9 +108,9 @@ useEffect(()=>{
 
 ال dependency array ده بيبقى array من القيم الي ال effect بيعتمد عليها بحيث ان لو حاجة منهم اتغيرت انا بحتاج اعمل re-run لل effect عشان يبقى in sync مع ال data الي اتغيرت دي.
   
-كل rerender بنقارن القيم الي موجودة ف ال dependency array بالقيم الي كانت موجودة ف ال render الي فات و لو لقينا واحد فيهم عالاقل مختلف هيشغل ال cleanup بتاع ال effect الي فات و بعدها يشغل ال effect تاني بالقيم الجديدة
+كل rerender بنقارن القيم الي موجودة ف ال dependency array بالقيم الي كانت موجودة ف ال render الي فات و لو لقينا واحد فيهم عالاقل مختلف هيشغل ال cleanup بتاع ال effect الي فات و بعدها يشغل ال effect تاني بالقيم الجديدة.
   
-طب ايه القيم الي ممكن تكون ف ال dependency array ؟  
+طب ايه القيم الي ممكن تكون ف ال dependency array ؟
   
 اي قيمة reactive يعني ممكن تتغير ما بين ال rerenders زي ال props او ال state مثلا  
 و كمان اي variable بياخد قيمته من props او state  
