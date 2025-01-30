@@ -54,21 +54,55 @@ export default function App({ roomId }){
 
 ال effect ده الحاجة الي انت عاوز تعملها و بيتنفذ اول لما ال component يظهر اول مرة او لو ال dependencies اتغيرت بعد اي rerender و ده غالبا بيبقى له تأثير على حاجة او بيستخدم حاجة من برا ال component و ليكن مثلا انك تعمل event listener او تعمل fetch لشوية data او تعمل set timeout.  
   
-ال clean up دي بتبقى حاجة عكس ال effect بالظبط و بتشتغل لما ال component يتشال من ال component tree او لو ال dependencies اتغيرت بعد اي rerender بس قبل ما يتم تنفيذ ال effect الجديد و دي موجودة عشان لما ال component يتشال ميسبش وراه اثر بحيث ال effects متدخلش ف بعض ما بين ال rerenders ف لازم ايا كان ال effect يبقى في حاجة بتعكسه او بتلغيه.
+ال clean up دي بتبقى حاجة عكس ال effect بالظبط و بتشتغل لما ال component يتشال من ال component tree او لو ال dependencies اتغيرت بعد اي rerender بس قبل ما يتم تنفيذ ال effect الجديد و دي موجودة عشان لما ال component يتشال ميسبش وراه اثر بحيث ال effects متدخلش ف بعض ما بين ال rerenders ف لازم ايا كان ال effect يبقى في حاجة بتعكسه او بتلغيه و لو كان حاجة ملهاش تأثير باقي يبقى مش محتاج تعمل clean up (مع العلم انه لو حاجة ملهاش تأثير ف هي غالبا مش effect و مش محتاج تحطها ف use effect)
   
-لو كان fetch ممكن تستعمل abort controller  
+لو كان fetch ممكن تستعمل abort controller
+``` ts
+useEffect(()=>{
+	const abortController = new AbortController();
+	async function fetchData(){
+		const response = await fetch(url, {
+			signal: abortController.signal,
+		})
+	}
+	
+	fetchData()
+	
+	return ()=>{
+		abortController.abort()
+	}
+}, []) 
+```
 
 لو كان set timeout او interval ممكن تستعمل clear timeout او clear interval 
+``` ts
+useEffect(()=>{
+	const timer = setTimeout(()=>{
+		console.log('1 second later')
+	}, 1000)
+
+	return ()=>{
+		clearTimeout(timer)
+	}
+}, []) 
+```
 
 لو كان add event listener ممكن تستعمل remove event listener  
+``` ts
+useEffect(()=>{
+	function handleMove(e){
+		console.log(`mouse at ${e.clientX}, ${e.clientY}`)
+	}
+	window.addEventListener("pointermove", handleMove)
 
+	return ()=>{
+		window.removeEventListener("pointermove", handleMove)
+	}
+}, []) 
+```  
 
-و لو كان حاجة ملهاش تأثير باقي يبقى مش محتاج تعمل clean up  
+و كمان على حسب الحاجة
 
-
-
-(مع العلم انه لو حاجة ملهاش تأثير ف هي غالبا مش effect و مش محتاج تحطها ف use effect)  
-  
 لو انت جاي من ايام ما كانت react بتستخدم ال class component ف ال effect ممكن يعتبر بديل لل componentDidMount و componentDidUpdate و ال cleanup بديل لل componentWillUnmount.
   
 ال dependencies دول بيبقو array من القيم الي ال effect بيعتمد عليها بحيث ان لو حاجة منهم اتغيرت انا بحتاج اعمل re-run لل effect عشان يبقى in sync مع ال data الي اتغيرت دي.
