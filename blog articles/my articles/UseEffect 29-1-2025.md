@@ -110,9 +110,7 @@ useEffect(()=>{
   
 كل rerender بنقارن القيم الي موجودة ف ال dependency array بالقيم الي كانت موجودة ف ال render الي فات و لو لقينا واحد فيهم عالاقل مختلف هيشغل ال cleanup بتاع ال effect الي فات و بعدها يشغل ال effect تاني بالقيم الجديدة.
   
-طب ايه القيم الي ممكن تكون ف ال dependency array ؟
-
-اي قيمة reactive يعني ممكن تتغير ما بين ال rerenders زي ال props او ال state مثلا  
+طب ايه القيم الي ممكن تكون ف ال dependency array ؟ اي قيمة reactive يعني ممكن تتغير ما بين ال rerenders زي ال props او ال state مثلا
 و كمان اي variable بياخد قيمته من props او state  
 و كمان اي function مكتوبة جوه ال component سواء بتستخدم قيم من ال state او ال props او لا (هنتكلم عن الموضوع ده اكتر ف البوست الجاي)  
   
