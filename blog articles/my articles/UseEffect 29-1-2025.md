@@ -172,7 +172,22 @@ export default function App({ url }){
 }
 ```
   
-و ال dependency array ده optional اصلا يعني ممكن تشيله و متحطهوش من اساسه و ده معناه انك عاوز ال use effect hook بتاعك يشتغل بعد كل rerender و ده استخدامه قليل عشان ممكن يأثر عال performance بتاع الويبسايت  
+و ال dependency array ده optional اصلا يعني ممكن تشيله و متحطهوش من اساسه و ده معناه انك عاوز ال use effect hook بتاعك يشتغل بعد كل rerender و ده استخدامه قليل عشان ممكن يأثر عال performance بتاع الويبسايت
+
+```ts
+// add highlightes to these parts
+import {useReducer, useEffect, useRef} from "react"
+
+export default function App({ url }){
+	const rerenderCount = useRef(0)
+	const rerender = useReducer()
+
+	// effect only runs once
+	useEffect(()=>{
+		rerenderCount.current += 1;
+	}) // no dependencies
+}
+```
   
   
 ف البوست الجاي باذن الله هنشرح اكتر ازاي ال useEffect hook بيقارن ال dependencies بتاعته و ايه الحجات الي ممكن تخلي ال useEffect يشتغل مع ان ال dependencies متغيرتش  
