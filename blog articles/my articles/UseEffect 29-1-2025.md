@@ -103,14 +103,33 @@ useEffect(()=>{
 
 و كمان على حسب ال effect تقدر تعمل ال cleanup المناسب.
 
+
+
+
+
 لو انت جاي من ايام ما كانت react بتستخدم ال class component ف ال effect ممكن يعتبر بديل لل componentDidMount و componentDidUpdate و ال cleanup بديل لل componentWillUnmount.
 ## ال dependency array
 
 ال dependency array ده بيبقى array من القيم الي ال effect بيعتمد عليها بحيث ان لو حاجة منهم اتغيرت انا بحتاج اعمل re-run لل effect عشان يبقى in sync مع ال data الي اتغيرت دي.
   
 كل rerender بنقارن القيم الي موجودة ف ال dependency array بالقيم الي كانت موجودة ف ال render الي فات و لو لقينا واحد فيهم عالاقل مختلف هيشغل ال cleanup بتاع ال effect الي فات و بعدها يشغل ال effect تاني بالقيم الجديدة.
-  
-طب ايه القيم الي ممكن تكون ف ال dependency array ؟ اي قيمة reactive يعني ممكن تتغير ما بين ال rerenders زي ال props او ال state مثلا و كمان اي variable بياخد قيمته من props او state و اي function مكتوبة جوه ال component سواء بتستخدم قيم من ال state او ال props او لا (بس دي فيها اعتبارات هنتكلم فيها كمان شوية) ولو انت بتستخدم linter زي eslint مثلا هتلاقيه بيقولك لو ال dependency array ناقصه حاجة.
+
+و عشان نبسط الموضوع اكتر ده ترتيب تشغيل اجزاء ال useEffect hook:
+
+``` ts
+// add a mermaid graph for these steps
+```
+
+1. ال component بيظهر لاول مرة (mount)
+2. ال effect بيشتغل لاول مرة
+3. بيحصل rerender
+4. لو في dependency array بنقارن ال dependencies من ال render القديم مع القيم الموجودة حاليا
+5. لو في اختلاف في ال dependencies بنشغل ال cleanup function (لو موجودة) بالقيم القديمة
+6. بنشغل ال effect بالقيم الجديدة
+7. ال component بيتشال (unmount)
+8. بنشغل ال cleanup function (لو موجودة) باخر قيم موجودة معانا
+
+ايه القيم الي ممكن تكون ف ال dependency array ؟ اي قيمة reactive يعني ممكن تتغير ما بين ال rerenders زي ال props او ال state مثلا و كمان اي variable بياخد قيمته من props او state و اي function مكتوبة جوه ال component سواء بتستخدم قيم من ال state او ال props او لا (بس دي فيها اعتبارات هنتكلم فيها كمان شوية) ولو انت بتستخدم linter زي eslint مثلا هتلاقيه بيقولك لو ال dependency array ناقصه حاجة.
 ``` ts
 // add highlightes to these parts
 import {useState, useEffect} from "react"
@@ -192,35 +211,49 @@ export default function App({ url }){
 }
 ```
 
- ال use effect hook لما يجي يقارن ال dependencies بيستخدم [Object.is](http://object.is/) يعني لازم القيمة تكون نفسها و ال reference يكون هو كمان نفسه  
-  
-ف لما تيجي تكتب function او object جوه ال component هتلاقيه بيحصله creation بعد كل rerender و بالتالي ال reference بتاعه هيتغير و بالنسبة لل use effect هيبقى قيمة مختلفة عن الي فاتت
+ اهم معلومة لازم تعرفها هنا ان ال use effect hook لما يجي يقارن ال dependencies القديمة بالجديدة بيستخدم [Object.is](http://object.is/) يعني لازم القيمة تكون نفسها و ال reference كمان يكون نفسه و لو لقى واحدة فيهم عالاقل مختلفة بيشغل ال cleanup القديمة و يشغل ال effect تاني.
+ ده مش مهم لو كانت ال dependencies بتاعتنا primitives زي ال strings او ال numbers بس هتعمل معانا مشاكل لو كانت reference types زي ال functions و ال objects و ال arrays عشان لما تيجي تكتب function او object جوه ال component هتلاقيه بيحصله creation بعد كل rerender و بالتالي ال reference بتاعه هيتغير و بالنسبة لل use effect هيبقى قيمة مختلفة عن الي فاتت و ال effect بتاعك هيشتغل مع ان مفيش حاجة اتغيرت.
 
+```ts
+import {useReducer, useEffect, useRef} from "react"
 
+export default function App(){
 
+	// this object is recreated on every rerender
+	// and its reference is not stable
+	const user = {name:"eyad", age:23}
 
+	// effect runs on every rerender
+	// even if user doesn't change
+	useEffect(()=>{
+		console.log(user)
+	}, [user]) 
+	
+}
+```
+  
+لكن لا تقلق فالحل بسيط، الحل انك متعتمدش على حاجة ال reference بتاعها بيتغير بعد كل rerender او انك تحاول تخلي ال reference بتاعها يتغير لما هي تتغير فعلا او لو هي قيمه ثابته يبقى تثبت ال reference انه ميتغيرش. طب تعمل حاجة زي دي ازاي ؟  
 
+### حلول مشاكل الاعتماد على ال reference types في ال dependency array
+  
+1. لو بتعتمد على حاجة ثابته يبقى اكتبها برا ال component بتاعك كده ال reference بتاعها هيفضل ثابت على طول
+```ts
 
-لا تنسو الدعاء لاخواننا في غزة  
-السلام عليكم ازيكو عاملين ايه النهاردة جايين نكمل كلام عن ال dependencies ف ال use effect hook  
-  
-كنا قلنا المرة الي فاتت ان ال dependencies دي عبارة عن array من القيم الي ال use effect hook بيعتمد عليها عشان يعرف هو محتاج يشتغل تاني امتى.  
-  
-و الي بيحصل بكل بساطة انه بعد كل rerender كل ال useEffect الموجودة ف ال component بتبدأ تقارن القيم الموجودة ف ال dependency array بالقيم القديمة باستخدام ()[Object.is](http://object.is/) و لو لقت واحدة فيهم عالاقل مختلفة بتشغل ال clean up function بالقيم القديمة و بعدها ال effect بالقيم الجديدة.  
-  
-و لان ()[Object.is](http://object.is/) بتقارن ال references مش ال value ف ممكن تلاقي ان ال effect بتاعك بيشتغل مع ان مفيش حاجة اتغيرت.  
-  
-ده بيحصل لو ال useEffect بتاعتك معتمدة على object او array او function مكتوبة جوا ال component او بتيجي من ال props  
-  
-ده لان خلال كل rerender الحجات دي بتشال و تتعمل من الاول و بالتالي ال reference بتاعها بيتغير  
-  
-طب تعمل ايه ف حالة زي دي ؟  
-  
-الحل بسيط، حلها انك متعتمدش على حاجة ال reference بتاعها بيتغير بعد كل rerender او انك تحاول تخلي ال reference بتاعها يتغير لما هي تتغير فعلا او لو هي قيمه ثابته يبقى تثبت ال reference انه ميتغيرش  
-  
-طب ازاي برضو ؟  
-  
-لو بتعتمد على حاجة ثابته يبقى اكتبها برا ال component بتاعك كده ال reference بتاعها هيفضل ثابت على طول  
+import {useReducer, useEffect, useRef} from "react"
+
+// this objects doesn't change.
+// and its reference is stable
+const user = {name:"eyad", age:23}
+
+export default function App(){
+
+	// user is not a dependency 
+	useEffect(()=>{
+		console.log(user)
+	}, []) 
+	
+}
+```
   
 لو بتعتمد على حاجة بتحتاج قيم من ال component عندك اكتر من حل  
   
