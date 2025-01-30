@@ -101,7 +101,7 @@ useEffect(()=>{
 }, []) 
 ```  
 
-و كمان على حسب الحاجة
+و كمان على حسب ال effect تقدر تعمل ال cleanup المناسب.
 
 لو انت جاي من ايام ما كانت react بتستخدم ال class component ف ال effect ممكن يعتبر بديل لل componentDidMount و componentDidUpdate و ال cleanup بديل لل componentWillUnmount.
   
