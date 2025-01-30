@@ -106,9 +106,9 @@ useEffect(()=>{
 لو انت جاي من ايام ما كانت react بتستخدم ال class component ف ال effect ممكن يعتبر بديل لل componentDidMount و componentDidUpdate و ال cleanup بديل لل componentWillUnmount.
 ## ال dependency array
 
-ال dependencies دول بيبقو array من القيم الي ال effect بيعتمد عليها بحيث ان لو حاجة منهم اتغيرت انا بحتاج اعمل re-run لل effect عشان يبقى in sync مع ال data الي اتغيرت دي.
+ال dependency array ده بيبقى array من القيم الي ال effect بيعتمد عليها بحيث ان لو حاجة منهم اتغيرت انا بحتاج اعمل re-run لل effect عشان يبقى in sync مع ال data الي اتغيرت دي.
   
-قلنا ان ال dependencies هي اي قيمة انا بستخدمها جوه ال use effect hook و بيعتمد عليها الuse effect hook بعد كل rerender بيقارن القيم الي موجودة ف ال dependency array بتاعه بالقيم الموجودة ف ال render الي فات و لو لقى واحد فيهم عالاقل مختلف هيشغل ال cleanup بتاع ال effect الي فات و بعدها يشغل ال effect تاني بالقيم الجديدة  
+كل rerender بيقارن القيم الي موجودة ف ال dependency array بتاعه بالقيم الموجودة ف ال render الي فات و لو لقى واحد فيهم عالاقل مختلف هيشغل ال cleanup بتاع ال effect الي فات و بعدها يشغل ال effect تاني بالقيم الجديدة  
   
 طب ايه القيم الي ممكن تكون ف ال dependency array ؟  
   
