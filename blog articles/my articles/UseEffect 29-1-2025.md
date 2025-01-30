@@ -180,29 +180,26 @@ import {useReducer, useEffect, useRef} from "react"
 
 export default function App({ url }){
 	const rerenderCount = useRef(0)
-	const rerender = useReducer()
+	// this forces the component to rerender
+	const rerender = useReducer(x => x+1, 0)[1]
 
-	// effect only runs once
+	// effect runs on every rerender
 	useEffect(()=>{
 		rerenderCount.current += 1;
-	}) // no dependencies
+	}) // no dependency array
+
+	return <button onClick={rerender}>rerendered {rerenderCount.current} times </button>
 }
 ```
-  
-  
-ف البوست الجاي باذن الله هنشرح اكتر ازاي ال useEffect hook بيقارن ال dependencies بتاعته و ايه الحجات الي ممكن تخلي ال useEffect يشتغل مع ان ال dependencies متغيرتش  
-  
-ف الكومنتات هتلاقي لينك البوست الي فات و البوست الجاي باذن الله  
-حط لايك و كومنت و اعملي فولو عشان توصلك البوستات الجاية  
-#Eyad_Alsherif  
-#about_frontend  
-  
-  
-  
-  
-ان ال use effect hook لما يجي يقارن ال dependencies بيستخدم [Object.is](http://object.is/) يعني لازم القيمة تكون نفسها و ال reference يكون هو كمان نفسه  
+
+ ال use effect hook لما يجي يقارن ال dependencies بيستخدم [Object.is](http://object.is/) يعني لازم القيمة تكون نفسها و ال reference يكون هو كمان نفسه  
   
 ف لما تيجي تكتب function او object جوه ال component هتلاقيه بيحصله creation بعد كل rerender و بالتالي ال reference بتاعه هيتغير و بالنسبة لل use effect هيبقى قيمة مختلفة عن الي فاتت
+
+
+
+
+
 
 لا تنسو الدعاء لاخواننا في غزة  
 السلام عليكم ازيكو عاملين ايه النهاردة جايين نكمل كلام عن ال dependencies ف ال use effect hook  
