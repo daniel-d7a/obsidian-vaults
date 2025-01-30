@@ -110,12 +110,29 @@ useEffect(()=>{
   
 كل rerender بنقارن القيم الي موجودة ف ال dependency array بالقيم الي كانت موجودة ف ال render الي فات و لو لقينا واحد فيهم عالاقل مختلف هيشغل ال cleanup بتاع ال effect الي فات و بعدها يشغل ال effect تاني بالقيم الجديدة.
   
-طب ايه القيم الي ممكن تكون ف ال dependency array ؟ اي قيمة reactive يعني ممكن تتغير ما بين ال rerenders زي ال props او ال state مثلا
-و كمان اي variable بياخد قيمته من props او state  
-و كمان اي function مكتوبة جوه ال component سواء بتستخدم قيم من ال state او ال props او لا (هنتكلم عن الموضوع ده اكتر ف البوست الجاي)  
-  
-ولو انت بتستخدم linter زي eslint مثلا هتلاقيه بيقولك لو ال dependency array ناقصه حاجة  
-  
+طب ايه القيم الي ممكن تكون ف ال dependency array ؟ اي قيمة reactive يعني ممكن تتغير ما بين ال rerenders زي ال props او ال state مثلا و كمان اي variable بياخد قيمته من props او state و اي function مكتوبة جوه ال component سواء بتستخدم قيم من ال state او ال props او لا (بس دي فيها اعتبارات هنتكلم فيها كمان شوية) ولو انت بتستخدم linter زي eslint مثلا هتلاقيه بيقولك لو ال dependency array ناقصه حاجة.
+``` ts
+// add highlightes to these parts
+import {useState, useEffect} from "react"
+
+// props are reactive
+export default function App({ roomId }){
+
+	// state is reactive
+	const [serverUrl, setServerUrl] = useState("https://localhost:5173")
+	useEffect(()=>{
+		const connection = createConnection(serverUrl, roomId)
+		connection.connect()
+		return ()=>{
+			connection.disconnect()
+		}
+		
+	}, [roomId, serverUrl]) // dependencies
+
+}
+```
+
+
 و ال dependency array ممكن يبقى فاضي و ده معناه ان ال effect بتاعك مش معتمد على قيم خارجية يبقى كده ال effect هيحصل مرة واحدة بس اول لما ال component يحصله mount و ال cleanup هيحصل مرة واحدة بس لما ال component يحصله unmount  
   
 و ال dependency array ده optional اصلا يعني ممكن تشيله و متحطهوش من اساسه و ده معناه انك عاوز ال use effect hook بتاعك يشتغل بعد كل rerender و ده استخدامه قليل عشان ممكن يأثر عال performance بتاع الويبسايت  
