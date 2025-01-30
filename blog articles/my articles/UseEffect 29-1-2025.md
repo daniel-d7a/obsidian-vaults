@@ -28,6 +28,7 @@
 - ال Dependencies.
 
 ``` ts
+// add highlightes to these parts
 import {useState, useEffect} from "react"
 
 export default function App({ roomId }){
@@ -51,31 +52,23 @@ export default function App({ roomId }){
   
 تعالى كده نفصل ف شرحهم على اكتر من مثال: -  
 
-ال effect ده الحاجة الي انت عاوز تعملها و بيتنفذ اول لما ال component يظهر اول مرة او لو ال dependencies اتغيرت بعد اي rerender و ده غالبا بيبقى له تأثير على حاجة او بيستخدم حاجة من برا ال component و ليكن مثلا انك تعمل event listener او تعمل fetch لشوية data او تعمل set timeout  
+ال effect ده الحاجة الي انت عاوز تعملها و بيتنفذ اول لما ال component يظهر اول مرة او لو ال dependencies اتغيرت بعد اي rerender و ده غالبا بيبقى له تأثير على حاجة او بيستخدم حاجة من برا ال component و ليكن مثلا انك تعمل event listener او تعمل fetch لشوية data او تعمل set timeout.  
   
-ال clean up دي بتبقى حاجة عكس ال effect بالظبط و بتشتغل لما ال component يتشال من ال component tree او لو ال dependencies اتغيرت بعد اي rerender بس قبل ما يتم تنفيذ ال effect الجديد و دي موجودة عشان لما ال component يتشال ميسبش وراه اثر بحيث ال effects متدخلش ف بعض ما بين ال rerenders ف لازم ايا كان ال effect يبقى في حاجة بتعكسه او بتلغيه  
+ال clean up دي بتبقى حاجة عكس ال effect بالظبط و بتشتغل لما ال component يتشال من ال component tree او لو ال dependencies اتغيرت بعد اي rerender بس قبل ما يتم تنفيذ ال effect الجديد و دي موجودة عشان لما ال component يتشال ميسبش وراه اثر بحيث ال effects متدخلش ف بعض ما بين ال rerenders ف لازم ايا كان ال effect يبقى في حاجة بتعكسه او بتلغيه.
   
-لو كان fetch ممكن تستعمل abort controller  
-لو كان set timeout او interval ممكن تستعمل clear timeout او clear interval  
-لو كان add event listener ممكن تستعمل remove event listener  
-و لو كان حاجة ملهاش تأثير باقي يبقى مش محتاج تعمل clean up  
+* لو كان fetch ممكن تستعمل abort controller  
+* لو كان set timeout او interval ممكن تستعمل clear timeout او clear interval 
+* لو كان add event listener ممكن تستعمل remove event listener  
+* و لو كان حاجة ملهاش تأثير باقي يبقى مش محتاج تعمل clean up  
 (مع العلم انه لو حاجة ملهاش تأثير ف هي غالبا مش effect و مش محتاج تحطها ف use effect)  
   
-لو انت جاي من ايام ما كانت react بتستخدم ال class component ف ال effect ممكن يعتبر بديل لل componentDidMount و componentDidUpdate  
-و ال cleanup بديل لل componentWillUnmount  
+لو انت جاي من ايام ما كانت react بتستخدم ال class component ف ال effect ممكن يعتبر بديل لل componentDidMount و componentDidUpdate و ال cleanup بديل لل componentWillUnmount.
   
-ال dependencies دول بيبقو array من القيم الي ال effect بيعتمد عليها بحيث ان لو حاجة منهم اتغيرت انا بحتاج اعمل re run لل effect عشان يبقى in sync مع ال data الي اتغيرت دي (و هيبقى له بوست لوحده باذن الله)  
-  
-  
-ف الكومنتات هتلاقي البوست الي فات و البوست الجاي
+ال dependencies دول بيبقو array من القيم الي ال effect بيعتمد عليها بحيث ان لو حاجة منهم اتغيرت انا بحتاج اعمل re-run لل effect عشان يبقى in sync مع ال data الي اتغيرت دي.
 
-لا تنسو الدعاء لاخواننا في غزة  
+## ال dependency array
   
-السلام عليكم ازيكو عاملين ايه  
-ف البوست ده هنتكلم عن ال dependencies ف ال use effect hook  
-  
-ف البوست الي فات قلنا ان ال dependencies هي اي قيمة انا بستخدمها جوه ال use effect hook و بيعتمد عليها  
-ال use effect hook بعد كل rerender بيقارن القيم الي موجودة ف ال dependency array بتاعه بالقيم الموجودة ف ال render الي فات و لو لقى واحد فيهم عالاقل مختلف هيشغل ال cleanup بتاع ال effect الي فات و بعدها يشغل ال effect تاني بالقيم الجديدة  
+قلنا ان ال dependencies هي اي قيمة انا بستخدمها جوه ال use effect hook و بيعتمد عليها الuse effect hook بعد كل rerender بيقارن القيم الي موجودة ف ال dependency array بتاعه بالقيم الموجودة ف ال render الي فات و لو لقى واحد فيهم عالاقل مختلف هيشغل ال cleanup بتاع ال effect الي فات و بعدها يشغل ال effect تاني بالقيم الجديدة  
   
 طب ايه القيم الي ممكن تكون ف ال dependency array ؟  
   
