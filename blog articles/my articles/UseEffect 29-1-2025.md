@@ -120,6 +120,7 @@ export default function App({ roomId }){
 
 	// state is reactive
 	const [serverUrl, setServerUrl] = useState("https://localhost:5173")
+	
 	useEffect(()=>{
 		const connection = createConnection(serverUrl, roomId)
 		connection.connect()
@@ -128,12 +129,48 @@ export default function App({ roomId }){
 		}
 		
 	}, [roomId, serverUrl]) // dependencies
-
 }
 ```
 
+```ts
+// add highlightes to these parts
+import {useState, useEffect} from "react"
 
-و ال dependency array ممكن يبقى فاضي و ده معناه ان ال effect بتاعك مش معتمد على قيم خارجية يبقى كده ال effect هيحصل مرة واحدة بس اول لما ال component يحصله mount و ال cleanup هيحصل مرة واحدة بس لما ال component يحصله unmount  
+export default function App(){
+	const [firstName, setFirstName] = useState("eyad")
+	const [lastName, setLastName] = useState("alsherif")
+
+	// name is reactive
+	const name = firstName + " " lastName
+	
+	useEffect(()=>{
+		console.log(name)
+	}, [name]) // dependencies
+}
+```
+
+و ال dependency array ممكن يبقى فاضي و ده معناه ان ال effect بتاعك مش معتمد على قيم خارجية يبقى كده ال effect هيحصل مرة واحدة بس اول لما ال component يحصله mount و ال cleanup هيحصل مرة واحدة بس لما ال component يحصله unmount.
+
+```ts
+// add highlightes to these parts
+import {useState, useEffect} from "react"
+
+export default function App({ url }){
+	const [data, setData] = useState(null)
+
+	// effect only runs once
+	useEffect(()=>{
+	
+		async function fetchData(){
+			const response = await fetch(url)
+			const jsonData = await response.json()
+			setData(jsonData);
+		}
+		
+		fetchData()
+	}, []) // no dependencies
+}
+```
   
 و ال dependency array ده optional اصلا يعني ممكن تشيله و متحطهوش من اساسه و ده معناه انك عاوز ال use effect hook بتاعك يشتغل بعد كل rerender و ده استخدامه قليل عشان ممكن يأثر عال performance بتاع الويبسايت  
   
