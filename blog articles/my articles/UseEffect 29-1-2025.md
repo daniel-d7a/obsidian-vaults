@@ -212,6 +212,7 @@ export default function App({ url }){
 ```
 
  اهم معلومة لازم تعرفها هنا ان ال use effect hook لما يجي يقارن ال dependencies القديمة بالجديدة بيستخدم [Object.is](http://object.is/) يعني لازم القيمة تكون نفسها و ال reference كمان يكون نفسه و لو لقى واحدة فيهم عالاقل مختلفة بيشغل ال cleanup القديمة و يشغل ال effect تاني.
+ 
  ده مش مهم لو كانت ال dependencies بتاعتنا primitives زي ال strings او ال numbers بس هتعمل معانا مشاكل لو كانت reference types زي ال functions و ال objects و ال arrays عشان لما تيجي تكتب function او object جوه ال component هتلاقيه بيحصله creation بعد كل rerender و بالتالي ال reference بتاعه هيتغير و بالنسبة لل use effect هيبقى قيمة مختلفة عن الي فاتت و ال effect بتاعك هيشتغل مع ان مفيش حاجة اتغيرت.
 
 ```ts
@@ -221,7 +222,7 @@ export default function App(){
 
 	// this object is recreated on every rerender
 	// and its reference is not stable
-	const user = {name:"eyad", age:23}
+	const user = { name:"eyad", age:23 }
 
 	// effect runs on every rerender
 	// even if user doesn't change
@@ -255,9 +256,27 @@ export default function App(){
 }
 ```
   
-لو بتعتمد على حاجة بتحتاج قيم من ال component عندك اكتر من حل  
+لو بتعتمد على حاجة بتحتاج قيم من ال component عندك اكتر من حل: - 
   
-ممكن تكتبها جوا ال useEffect كده هو مش هيعتبرها dependency اصلا بس كده مش هتقدر تشوفها برا ال effect  
+2. ممكن تكتبها جوا ال useEffect كده هو مش هيعتبرها dependency اصلا بس كده مش هتقدر تشوفها برا ال effect.
+
+```ts
+
+import {useReducer, useEffect, useRef} from "react"
+
+// this objects doesn't change.
+// and its reference is stable
+const user = {name:"eyad", age:23}
+
+export default function App(){
+
+	// user is not a dependency 
+	useEffect(()=>{
+		console.log(user)
+	}, []) 
+	
+}
+```
   
 لو محتاج تشوفها برا ال effect عندك حل تاني انك تحطها جوا state او useMemo لو هي object او array او تحطها جوا useCallback لو هي function بحيث ان ال reference بتاعهم يبقى ثابت معظم الوقت و يتغير بس لو الحاجة فعلا محتاجة تتغير.  
   
