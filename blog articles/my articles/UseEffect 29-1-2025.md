@@ -33,16 +33,18 @@ import {useState, useEffect} from "react"
 export default function App({ roomId }){
 
 	const [serverUrl, setServerUrl] = useState("https://localhost:5173")
-	
+
+	// effect
 	useEffect(()=>{
 		const connection = createConnection(serverUrl, roomId)
 		connection.connect()
-		
+
+		// clean up
 		return ()=>{
 			connection.disconnect()
 		}
 		
-	}, [roomId, serverUrl])
+	}, [roomId, serverUrl]) // dependencies
 
 }
 ```
