@@ -102,12 +102,7 @@ useEffect(()=>{
 ```  
 
 و كمان على حسب ال effect تقدر تعمل ال cleanup المناسب.
-
-
-
-
-
-لو انت جاي من ايام ما كانت react بتستخدم ال class component ف ال effect ممكن يعتبر بديل لل componentDidMount و componentDidUpdate و ال cleanup بديل لل componentWillUnmount.
+ولو انت جاي من ايام ما كانت react بتستخدم ال class component ف ال effect ممكن يعتبر بديل لل componentDidMount و componentDidUpdate و ال cleanup بديل لل componentWillUnmount.
 ## ال dependency array
 
 ال dependency array ده بيبقى array من القيم الي ال effect بيعتمد عليها بحيث ان لو حاجة منهم اتغيرت انا بحتاج اعمل re-run لل effect عشان يبقى in sync مع ال data الي اتغيرت دي.
@@ -159,7 +154,7 @@ export default function App(){
 	const [firstName, setFirstName] = useState("eyad")
 	const [lastName, setLastName] = useState("alsherif")
 
-	// name is reactive
+	// name is reactive because it is 
 	const name = firstName + " " lastName
 	
 	useEffect(()=>{
