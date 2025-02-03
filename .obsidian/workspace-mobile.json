@@ -151,12 +151,13 @@
   },
   "active": "600c4b90fe1464bb",
   "lastOpenFiles": [
+    "docs.com.md",
+    "blog articles/my articles/UseEffect 29-1-2025.md",
     "blog articles/my articles/use ref article 29-12-2024.md",
     "blog articles/my articles/blog article data template.md",
     "blog articles/my articles/Introduction to React.useState 28-12-2024.md",
     "/blog articles/my articles/use ref article 29-12-2024.md",
     "/blog articles/my articles/blog article data template.md",
-    "blog articles/my articles/UseEffect 29-1-2025.md",
     "/blog articles/my articles/Introduction to React.useState 28-12-2024.md",
     "blog articles/articles notes/tkdodo useState/5. useState vs useReducer.md",
     "blog articles/articles notes/tkdodo useState/4. useState for one-time initializations.md",
@@ -184,7 +185,6 @@
     "blog articles/Introduction to React.useState.md",
     "/blog articles/use ref article.md",
     "/blog articles/blog article data template.md",
-    "blog articles/blog article data template.md",
-    "/blog articles/Introduction to React.useState.md"
+    "blog articles/blog article data template.md"
   ]
 }
