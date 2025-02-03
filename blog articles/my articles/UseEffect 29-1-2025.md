@@ -216,7 +216,7 @@ export default function App({ url }){
  ده مش مهم لو كانت ال dependencies بتاعتنا primitives زي ال strings او ال numbers بس هتعمل معانا مشاكل لو كانت reference types زي ال functions و ال objects و ال arrays عشان لما تيجي تكتب function او object جوه ال component هتلاقيه بيحصله creation بعد كل rerender و بالتالي ال reference بتاعه هيتغير و بالنسبة لل use effect هيبقى قيمة مختلفة عن الي فاتت و ال effect بتاعك هيشتغل مع ان مفيش حاجة اتغيرت.
 
 ```ts
-import {useReducer, useEffect, useRef} from "react"
+import {useReducer, useEffect} from "react"
 
 export default function App(){
 
@@ -289,17 +289,9 @@ export default function App(){
   
 بس بعد كل ده ممكن برضو تلاقي ال effect بتاعك بيشتغل مع انك عامل كل الخطوات الي فوق دي طب ايه السبب ؟  
   
-هنعرف البوست الجاي ان شاء الله
-
-لا تنسوا الدعاء لاخواننا في فلسطين و السودان  
+### مشكلة الاعتماد على dependencies من خارج ال component  
   
-السلام عليكم ازيكو عاملين ايه  
-ف البوست الي فات اتكلمنا عن ال use effect dependencies و شفنا ازاي ممكن نتعامل معاهم لو كانو Objects او arrays او functions بحيث ان ال use effect يشتغل لما ال dependencies تتغير فعلا  
-  
-ف البوست ده هنشوف حالة مختلفة بتخلي ال use effect يشتغل حتى لو ال dependencies ثابته و كمان بتخلي ال component كله يحصله rerender  
-  
-الكلام ده بيحصل ف حالة ان component بيستقبل props نوعها object او function او array و ال props دي مكتوبة بشكل يخليها تتغير بعد كل rerender زي مثلا انها تبقى مكتوبة inline على ال component نفسه  
-(شوف اول صورة)  
+المشكلة دي بتحصل ف حالة ان ال component بيستقبل props نوعها object او function او array و ال props دي مكتوبة بشكل يخليها تتغير بعد كل rerender زي مثلا انها تبقى مكتوبة inline على ال component نفسه.
   
 و من اكتر الامثلة شيوعا على حاجة زي كده لما بكون عامل button component مثلا و بديله onClick handler (صورة ٢)  
 معظمنا بيكتب ال onClick بشكل inline و ده ف معظم الحالات بيكون عادي الا لو في effect معتمد عليها ساعتها هتخلي ال effect ده يشتغل اكتر من مرة  
@@ -316,7 +308,8 @@ export default function App(){
 لا تنسو الدعاء لاخواننا في فلسطين و السودان  
 السلام عليكم ازيكو عاملين ايه النهاردة جايين نكمل كلام عن ال useEffect hook و هنتكلم عن حاجة مهمة جدا  
   
-انت ممكن متحتاجش useEffect  
+ انت ممكن متحتاجش useEffect 
+
   
 ال useEffect هي طريقة اني اعمل حاجة (effect) اول لما ال component بتاعي يظهر ف الصفحة (mount) او يتشال منها (unmount) او يحصله تحديث (rerender) ، و كمان هو طريقة اني اعمل side effects بدون ما يكون في event بيشغلها زي ضغطة ماوس او كيبورد مثلا.  
   
