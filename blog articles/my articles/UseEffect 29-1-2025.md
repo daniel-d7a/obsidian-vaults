@@ -281,20 +281,20 @@ export default function App(){
   
 المشكلة دي بتحصل ف حالة ان ال component بيستقبل props نوعها object او function او array و ال props دي مكتوبة بشكل يخليها تتغير بعد كل rerender زي مثلا انها تبقى مكتوبة inline على ال component نفسه.
   
-و من اكتر الامثلة شيوعا على حاجة زي كده لما بكون عامل button component مثلا و بديله onClick handler (صورة ٢)  
+و من اكتر الامثلة شيوعا على حاجة زي كده لما بكون عامل button component مثلا و بديله onClick handler
 معظمنا بيكتب ال onClick بشكل inline و ده ف معظم الحالات بيكون عادي الا لو في effect معتمد عليها ساعتها هتخلي ال effect ده يشتغل اكتر من مرة  
+
+```ts
+Code here
+```
+
   
 ف الحالة دي بيحصل اكتر من حاجة  
-- لما ال parent يحصله rerender ال inline props او اي variable جواه بتتعمل من اول و جديد و ف حالة لو كانت object او function ال reference بتاعها بيتغير و ده بيخلي ال child component يحصله rerender حتى لو قيم ال props بتاعته متغيرتش  
-- كل مرة ال component يعمل rerender ال props بتاعته بتتغير و ده بيخلي ال effects المعتمدة على ال props تشتغل تاني مع ان قيمها متغيرتش برضو  
+- لما ال parent يحصله rerender ال inline props او اي variable جواه بتتعمل من اول و جديد و ف حالة لو كانت object او function ال reference بتاعها بيتغير و ده بيخلي ال child component يحصله rerender حتى لو قيم ال props بتاعته متغيرتش.  
+- كل مرة ال component يعمل rerender ال props بتاعته بتتغير و ده بيخلي ال effects المعتمدة على ال props تشتغل تاني مع ان قيمها متغيرتش برضو.
   
 طب ازاي نحل المشكلة دي ؟  
-نفس الحل الي اتكلمنا عنه البوست الي فات هنعمله هنا ف ال parent component  
-هنشوف ايه ال props الي بتكون arrays او objects او functions و نحطها ف use memo او use callback او نطلعها برا ال parent component عشان متتأثرش بال rerenders ال ف حالة ان قيمتها اتغيرت فعلا  
-ولو مش فاكر الطريقة هتلاقي لينك البوست الي فات ف اول كومنت
-
-لا تنسو الدعاء لاخواننا في فلسطين و السودان  
-السلام عليكم ازيكو عاملين ايه النهاردة جايين نكمل كلام عن ال useEffect hook و هنتكلم عن حاجة مهمة جدا  
+نفس الحل الي اتكلمنا عنه فوق هنعمله هنا ف ال parent component، هنشوف ايه ال props الي بتكون arrays او objects او functions و نحطها ف use memo او use callback او نطلعها برا ال parent component عشان متتأثرش بال rerenders الا في حالة ان قيمتها اتغيرت فعلا.
   
  انت ممكن متحتاجش useEffect 
 
