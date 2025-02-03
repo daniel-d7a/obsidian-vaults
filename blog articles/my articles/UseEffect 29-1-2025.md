@@ -154,7 +154,7 @@ export default function App(){
 	const [firstName, setFirstName] = useState("eyad")
 	const [lastName, setLastName] = useState("alsherif")
 
-	// name is reactive because it is 
+	// name is reactive because it is derived from state 
 	const name = firstName + " " lastName
 	
 	useEffect(()=>{
