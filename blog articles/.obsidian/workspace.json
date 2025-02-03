@@ -28,15 +28,27 @@
               "type": "markdown",
               "state": {
                 "file": "my articles/UseEffect 29-1-2025.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "UseEffect 29-1-2025"
             }
+          },
+          {
+            "id": "964facbe3b46fef1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.3"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df62d7b68765a03b",
+  "active": "964facbe3b46fef1",
   "lastOpenFiles": [
     "my articles/use ref article 29-12-2024.md",
     "my articles/Introduction to React.useState 28-12-2024.md",
