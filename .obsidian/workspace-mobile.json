@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stuff/Chat gpt video and article suggestions.md",
+                "file": "new article.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chat gpt video and article suggestions"
+              "title": "new article"
             }
           }
         ],
@@ -166,8 +166,9 @@
   },
   "active": "440228b1dde4488f",
   "lastOpenFiles": [
-    "blog articles/my articles/UseEffect 29-1-2025.md",
     "Stuff/Chat gpt video and article suggestions.md",
+    "new article.md",
+    "blog articles/my articles/UseEffect 29-1-2025.md",
     "Stuff",
     "docs.com.md",
     "blog articles/my articles/use ref article 29-12-2024.md",
@@ -200,7 +201,6 @@
     "/blog articles/articles notes",
     "/blog articles",
     "blog articles/Introduction to React.useState.md",
-    "/blog articles/use ref article.md",
-    "/blog articles/blog article data template.md"
+    "/blog articles/use ref article.md"
   ]
 }
