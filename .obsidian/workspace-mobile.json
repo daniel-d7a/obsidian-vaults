@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "UseEffect 29-1-2025"
             }
+          },
+          {
+            "id": "440228b1dde4488f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stuff/Chat gpt video and article suggestions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chat gpt video and article suggestions"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,10 +164,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "600c4b90fe1464bb",
+  "active": "440228b1dde4488f",
   "lastOpenFiles": [
-    "docs.com.md",
     "blog articles/my articles/UseEffect 29-1-2025.md",
+    "Stuff/Chat gpt video and article suggestions.md",
+    "Stuff",
+    "docs.com.md",
     "blog articles/my articles/use ref article 29-12-2024.md",
     "blog articles/my articles/blog article data template.md",
     "blog articles/my articles/Introduction to React.useState 28-12-2024.md",
@@ -184,7 +201,6 @@
     "/blog articles",
     "blog articles/Introduction to React.useState.md",
     "/blog articles/use ref article.md",
-    "/blog articles/blog article data template.md",
-    "blog articles/blog article data template.md"
+    "/blog articles/blog article data template.md"
   ]
 }
