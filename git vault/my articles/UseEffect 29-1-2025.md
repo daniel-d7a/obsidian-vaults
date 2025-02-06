@@ -623,14 +623,33 @@ function List({ items }) {
 
 	const [prevItems, setPrevItems] = useState(items)
 	if(items !== prevItems){
-		setSelection(null)
-		setPrevItems(items)
+		setSelection(null) // update the selected item
+		setPrevItems(items) // update the prevItems for next rerenders
 	}
 }
 ```
   
 لو الطريقة دي جديدة عليك متقلقش انت مش لوحدك ، و حتى ف ال docs بيحذرك من استخدامها كتير ، مع انها احسن من ال useEffect بس بتخلي ال debugging اصعب.  
 ف يفضل انك تشوف طريقة تانية انك تحفظ بيها ال state بتاعتك زي مثلا انك لو عندك items و عاوز تعرف ال selected الاحسن انك تحتفظ بال id بتاع ال selected item بحيث تجيبه من ال items كل مرة تتغير بحسبة بسيطة من غير اي state زيادة.  
+
+```ts
+import {useEffect, useState} from "react"
+
+function List({ items }) {
+
+	const [isReverse, setIsReverse] = useState(false);
+	
+	const [selection, setSelection] = useState(null);
+	const [prevItems, setPrevItems] = useState(items)
+	if(items !== prevItems){
+		setSelection(null) // update the selected item
+		setPrevItems(items) // update the prevItems for next rerenders
+	}
+	
+	const [selectedId, setSelectedId] = useState(null);
+	const selection = items.find(item => item.id === selectedId)
+}
+```
   
 ### ٣. التعامل مع ال user events:  
   
@@ -641,17 +660,61 @@ function List({ items }) {
 ف مثلا لو تشوف ال ٣ امثلة الجايين هتلاقي عندي فيهم useEffect صح لأن الغرض منها انها تشتغل لما ال component يظهر انما ال useEffect الغلط غلط لانها بتشتغل ردا على event من ال user.  
 
 ```ts
-Code here
+import {useEffect} from "react"
+
+function ProductPage({product, addToCart}){
+	// Bad: Event logic in an effect
+	useEffect(() => {
+		if(product.isInCart){
+			showNotification('product added to cart')
+		}
+	}, [product])
+
+	function handleBuyClick(){
+		addToCart(product);
+	}
+}
+
+function ProductPage({product, addToCart}){
+	// Good: Event logic in event handler
+	function handleBuyClick(){
+		addToCart(product);
+		showNotification('product added to cart')
+	}
+}
 ```
 
 
 ```ts
-Code here
+import {useEffect} from "react"
+
+function Form(){
+	// Good: logic related to component display or mount
+	// should be in an effect
+	useEffect(() => {
+		post('/analytics/event', {event: "visit_form"})
+	}, [])
+}
 ```
 
 
 ```ts
-Code here
+import {useEffect, useState} from "react"
+
+function Form(){
+	const [submitData, setSubmitData] = useState(null)
+
+	useEffect(() => {
+		if(submitData !== null){
+			post('/api/form_submit', {data: submitData})
+		}
+	}, [submitData])
+
+	function handleSubmit(e){
+		e.preventDefault();
+		setSubmitData({})
+	}
+}
 ```
   
 ### ٤. سلاسل ال effects:  
