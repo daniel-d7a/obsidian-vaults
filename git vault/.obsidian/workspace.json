@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "UseEffect 29-1-2025"
             }
+          },
+          {
+            "id": "e824a7e825203754",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +178,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "488f86b6375fbea5",
+  "active": "e824a7e825203754",
   "lastOpenFiles": [
     "eraasoft/hfooad book video scripts/intro.md",
     "eraasoft/hfooad book video scripts",
