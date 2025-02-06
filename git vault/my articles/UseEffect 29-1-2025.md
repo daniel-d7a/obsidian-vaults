@@ -684,6 +684,49 @@ function ProductPage({product, addToCart}){
 }
 ```
 
+```ts
+import {useEffect, useState} from "react"
+
+function Form(){
+	const [submitData, setSubmitData] = useState(null)
+
+	// Bad: event logic in an effect
+	useEffect(() => {
+		if(submitData !== null){
+			post('/api/form_submit', {data: submitData})
+		}
+	}, [submitData])
+
+	function handleSubmit(e){
+		e.preventDefault();
+		setSubmitData({name: "eyad", age: 23})
+	}	
+}
+```
+
+```ts
+import {useEffect, useState} from "react"
+
+function Form(){
+	const [submitData, setSubmitData] = useState(null)
+
+	// Bad: event logic in an effect
+	useEffect(() => {
+		if(submitData !== null){
+			post('/api/form_submit', {data: submitData})
+		}
+	}, [submitData])
+
+	// Good: event logic in event handler
+	function handleSubmit(e){
+		e.preventDefault();
+		setSubmitData({name: "eyad", age: 23})
+		post('/api/form_submit', {data: submitData})
+	}	
+}
+```
+
+مثال على الاستخدام الصحيح لل useEffect اننا نستخدمها لل effects الي بتحل اول لما ال component يظهر زي ال logging مثلا: 
 
 ```ts
 import {useEffect} from "react"
@@ -696,27 +739,6 @@ function Form(){
 	}, [])
 }
 ```
-
-
-```ts
-import {useEffect, useState} from "react"
-
-function Form(){
-	const [submitData, setSubmitData] = useState(null)
-
-	useEffect(() => {
-		if(submitData !== null){
-			post('/api/form_submit', {data: submitData})
-		}
-	}, [submitData])
-
-	function handleSubmit(e){
-		e.preventDefault();
-		setSubmitData({})
-	}
-}
-```
-  
 ### ٤. سلاسل ال effects:  
 
 لما تيجي تستخدم ال useEffect لازم تفكر ف كل useEffect عندك انه مستقل بذاته ، يعني مينفعش يبقى عندك اكتر من useEffect معتمدين على بعض لان كده هتكون بتعمل rerenders كتير ملهاش لازمة و بتوزع logic مرتبط ببعضه على اجزاء بعيده عن بعضها.  
