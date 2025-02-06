@@ -34,4 +34,4 @@
 
 ## احنا مين ؟
 
-انا اياد الشريف front end developer و programming instructor و صانع محتوى على اليوتيوب تقدر تشوف قناتي من هنا [test](the channel) 
+انا اياد الشريف front end developer و programming instructor و صانع محتوى على اليوتيوب تقدر تشوف قناتي من [هنا](https://www.youtube.com/@eyadalsherif) او مقالاتي من [هنا](https://eyad-alsherif-blog.vercel.app/) و تقدر تتابعني على تويتر من []()
