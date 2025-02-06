@@ -250,7 +250,7 @@ export default function App(){
 2. لو بتعتمد على حاجة ثابته يبقى اكتبها برا ال component بتاعك كده ال reference بتاعها هيفضل ثابت على طول
 ```ts
 
-import {useReducer, useEffect, useRef} from "react"
+import {useEffect} from "react"
 
 // this objects doesn't change.
 // and its reference is stable
@@ -271,28 +271,60 @@ export default function App(){
 3. ممكن تكتبها جوا ال useEffect كده هو مش هيعتبرها dependency اصلا بس كده مش هتقدر تشوفها برا ال effect.
 
 ```ts
+import {useEffect} from "react"
 
-import {useReducer, useEffect, useRef} from "react"
+export default function App({name, age}){
 
-// this objects doesn't change.
-// and its reference is stable
-const user = {name:"eyad", age:23}
-
-export default function App(){
-
-	// user is not a dependency 
 	useEffect(()=>{
-		console.log(user)
-	}, []) 
+		// user is not a dependency 
+		const user = {userName: name, userAge:age}
+		console.log(user) // {userName: "eyad", userAge: 23}
 	
+	}, [name, age]) 
+	// name and age are dependencies because they are reactive
+	// as they come from the props
+
+	console.log(user) // undefined
 }
 ```
-  
-4. لو محتاج تشوفها برا ال effect عندك حل تاني انك تحطها جوا state او useMemo لو هي object او array او تحطها جوا useCallback لو هي function بحيث ان ال reference بتاعهم يبقى ثابت معظم الوقت و يتغير بس لو الحاجة فعلا محتاجة تتغير.  
+
+```ts
+import {useEffect, useState} from "react"
+
+export default function App({name}){
+	const [user, setUser] = useState()
+
+	useEffect(()=>{
+
+		function fetchUserByName(){
+			return fetch(`https://myWebsite.com/users?name=${name}`)
+					.then(res => res.json())
+					.then(data => setUser(data))
+		}
+
+		fetchUserByName() // fetches the user
+	
+	}, [name]) 
+	// name is a dependency because it is reactive
+	// as it comes from the props
+
+	fetchUserByName() // the function is not defined here
+}
+```
+1. لو محتاج تشوفها برا ال effect عندك حل تاني انك تحطها جوا state او useMemo لو هي object او array او تحطها جوا useCallback لو هي function بحيث ان ال reference بتاعهم يبقى ثابت معظم الوقت و يتغير بس لو الحاجة فعلا محتاجة تتغير.  
 
 
 ```ts
-Code here
+import {useReducer, useEffect, useRef} from "react"
+
+export default function App({name, age}){
+
+	useEffect(()=>{
+		// user is not a dependency 
+		const user = {userName: name, userAge:age}
+		console.log(user)
+	}, [name, age]) 
+}
 ```
 
 
@@ -445,12 +477,12 @@ Code here
 بس ده بيوقعك ف نفس مشكلة رقم ٢ انك بتحتاج تعمل render مرتين ، مرة عشان تعمل update لل child و مرة لل parent ، ف حلها هيكون انك بتشوف ال قيمة بتاعة ال child بتتغير فين (ف اي event مثلا) و تحط معاها ال function الي بتغير قيمة ال parent عشان تغيرهم الاتنين مرة واحدة.  
   
 بس برضو ده عكس المتعارف عليه و الاحسن ان الداتا تمشي من ال parent لل child ف هنا هيبقى عندك حلين افضل من الي فات ده  
-5. ممكن تطلع ال state من ال child عن طريق انك تحطها في ال parent و تديها لل child ك props او تستخدمglobal state library زي zustand. 
+2. ممكن تطلع ال state من ال child عن طريق انك تحطها في ال parent و تديها لل child ك props او تستخدمglobal state library زي zustand. 
 
 ```ts
 Code here
 ```
-6. ممكن تستخدم pattern زي ال render props لو انت محتاج الداتا دي عشان ال render بس و مش عاوز تطلعها برا ال child.
+3. ممكن تستخدم pattern زي ال render props لو انت محتاج الداتا دي عشان ال render بس و مش عاوز تطلعها برا ال child.
 
 ```ts
 Code here

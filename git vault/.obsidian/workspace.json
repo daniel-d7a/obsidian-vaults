@@ -11,10 +11,14 @@
             "id": "488f86b6375fbea5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "my articles/UseEffect 29-1-2025.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "UseEffect 29-1-2025"
             }
           }
         ]
