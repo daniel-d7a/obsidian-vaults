@@ -535,11 +535,11 @@ function Parent({data}) {
 	// Bad: redundent state and effect
 	const [filteredData, setFilteredData] = useState([]);
 	useEffect(() => {
-		setFuttName(firstName + ' ' + lastName);
-	}, [firstName, lastName])
+		setFilteredData(data.filter(item => item.active))
+	}, [data])
 
 	// Good: calculated during render
-	const fullName = firstName + ' ' + lastName
+	const filteredData = data.filter(item => item.active)
 }
 ```
   
@@ -550,18 +550,83 @@ function Parent({data}) {
   
 لان بالنسبة ل react طالما ال key بتاع ال component اتغير ف ده معناه ان ال component اتغير و لازم اعمله mount من الاول تاني و ارجع اي state جواه لقيمتها الافتراضية.
 
-```ts
-Code here
+```tsx
+import {useEffect, useState} from "react"
+
+export default function ProfilePage({ userId }){
+	return <Profile userId={userId}  />
+}
+
+function Profile({userId}){
+	const [comment, setComment] = useState('')
+
+	// Bad: redundent effect
+	useEffect(() => {
+		setComment('');
+	}, [userId])
+
+	return <p> comment: {comment} </p>
+}
+
+```
+
+```tsx
+import {useEffect, useState} from "react"
+
+export default function ProfilePage({ userId }){
+	return <Profile userId={userId} key={userId}/>
+}
+
+function Profile({userId}){
+	// state will reset whenever the key changes
+	const [comment, setComment] = useState('')
+
+	useEffect(() => {
+		setComment('');
+	}, [userId])
+
+	return <p> comment: {comment} </p>
+}
 ```
   
 و هنتكلم بالتفصيل عن ال keys ف مقال قادم باذن الله.  
   
 طريقة ال key كويسة لو انا عاوز اعمل reset لل state الي عندي كلها ، لكن مش هتنفع لو انا عاوز اغير ف state معينة و اسيب الباقي.  
   
-في حل تاني هو اني احتفظ بالقيمة الي انا عاوز اعرف انها اتغيرت و كل مرة اشوف هل هي اتغيرت ولا لا و لو اتغيرت اقدر اعمل ال state updates الي انا عاوزها من غير use Effect و من غير ما اخلي ال component بتاعي يحصله render مرتين.  
+في حل تاني هو اني احتفظ بالقيمة الي انا عاوز اعرف انها اتغيرت و كل مرة اشوف هل هي اتغيرت ولا لا و لو اتغيرت اقدر اعمل ال state updates الي انا عاوزها من غير use Effect و من غير ما اخلي ال component بتاعي يحصله render مرتين. زي في المثال ده بنحاول نلغي القيمة المتحددة لما ال items تتغير مرة بنستخدم effect و مرة بنستخدم state زيادة عشان نشوف لو القيمة اتغيرت ولا لا.
 
 ```ts
-Code here
+import {useEffect, useState} from "react"
+
+function List({ items }) {
+
+	const [isReverse, setIsReverse] = useState(false);
+	const [selection, setSelection] = useState(null);
+
+	useEffect(() => {
+		setSelection(null)
+	}, [items])
+}
+```
+
+```ts
+import {useEffect, useState} from "react"
+
+function List({ items }) {
+
+	const [isReverse, setIsReverse] = useState(false);
+	const [selection, setSelection] = useState(null);
+
+	useEffect(() => {
+		setSelection(null)
+	}, [items])
+
+	const [prevItems, setPrevItems] = useState(items)
+	if(items !== prevItems){
+		setSelection(null)
+		setPrevItems(items)
+	}
+}
 ```
   
 لو الطريقة دي جديدة عليك متقلقش انت مش لوحدك ، و حتى ف ال docs بيحذرك من استخدامها كتير ، مع انها احسن من ال useEffect بس بتخلي ال debugging اصعب.  
