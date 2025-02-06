@@ -508,8 +508,23 @@ function Child2({myObj}){
   
 حاجة زي انك تجمع اكتر من state ف variable واحد او انك تحسب داتا من state موجودة عندك كل ده تقدر تعمله مباشرة من غير useEffect او state جديدة 
 
-```ts
+```tsx
+import {useEffect, useState} from "react"
 
+function Form() {
+
+	const [firstName, setFirstName] = useState('eyad');
+	const [lastName, setLastName] = useState('alsherif');
+
+	// Bad: redundent state and effect
+	const [fullName, setFullName] = useState('')
+	useEffect(() => {
+		setFuttName(firstName + ' ' + lastName);
+	}, [firstName, lastName])
+
+	// Good: calculated during render
+	const fullName = firstName + ' ' + lastName
+}
 ```
   
 ### ٢. اعادة قيمة ال state لقيمة default في حالة تغير ال props:
