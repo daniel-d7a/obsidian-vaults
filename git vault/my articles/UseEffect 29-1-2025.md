@@ -536,12 +536,7 @@ function Parent({data}) {
 	const [filteredData, setFilteredData] = useState([]);
 
 	const [fullName, setFullName] = useState('')
-	const [fullName, setFullName] = useState('')
-	const [fullName, setFullName] = useState('')
-	const [fullName, setFullName] = useState('')
-	const [fullName, setFullName] = useState('')
-	const [fullName, setFullName] = useState('')
-	const [fullName, setFullName] = useState('')
+
 	
 	useEffect(() => {
 		setFuttName(firstName + ' ' + lastName);
