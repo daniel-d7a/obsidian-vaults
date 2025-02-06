@@ -281,20 +281,18 @@ export default function App(){
 ```ts 
 import {useEffect} from "react"
 
-// this objects doesn't change.
+// this function doesn't change.
 // and its reference is stable
-function logData(){
+function logData(name, age){
 	console.log(`user name is ${name} and age is ${age}`)
 }
 
+export default function App({name, age}){
 
-
-export default function App(){
-
-	// user is not a dependency 
+	// logData is not a dependency 
 	useEffect(()=>{
-		console.log(user)
-	}, []) 
+		logData(name, age)
+	}, [name, age]) 
 	
 }
 ```
@@ -314,8 +312,6 @@ export default function App({name, age}){
 		console.log(user) // {userName: "eyad", userAge: 23}
 	
 	}, [name, age]) 
-	// name and age are dependencies because they are reactive
-	// as they come from the props
 
 	console.log(user) // undefined
 }
@@ -328,20 +324,16 @@ export default function App({name}){
 	const [user, setUser] = useState()
 
 	useEffect(()=>{
-
-		function fetchUserByName(){
-			return fetch(`https://myWebsite.com/users?name=${name}`)
-					.then(res => res.json())
-					.then(data => setUser(data))
+		// logData is not a dependency
+		function logData(name, age){
+			console.log(`user name is ${name} and age is ${age}`)
 		}
 
-		fetchUserByName() // fetches the user
+		logData(name, age) // user name is eyad and age is 23
 	
-	}, [name]) 
-	// name is a dependency because it is reactive
-	// as it comes from the props
+	}, [name, age]) 
 
-	fetchUserByName() // the function is not defined here
+	logData(name, age) // the function is not defined here
 }
 ```
 
@@ -349,21 +341,45 @@ export default function App({name}){
 
 
 ```ts
-import {useReducer, useEffect, useRef} from "react"
+import {useEffect, useState, useMemo} from "react"
 
 export default function App({name, age}){
 
+	const [user, setUser] = useState({userName: name, userAge:age})
+	// OR
+	const user = useMemo(()=> ({userName: name, userAge:age}), [name, age])
+	
+	// user is a dependency
+	// but it only changes when we call the setUser function
+	// OR it only changes when its dependencies change (useMemo)
+	// it will not run on every rerender
 	useEffect(()=>{
-		// user is not a dependency 
-		const user = {userName: name, userAge:age}
-		console.log(user)
-	}, [name, age]) 
+		console.log(user) // {userName: "eyad", userAge: 23}
+	}, [user]) 
+
+	console.log(user) // {userName: "eyad", userAge: 23}
 }
 ```
 
 
 ```ts
-Code here
+import {useEffect, useCallback} from "react"
+
+export default function App({name, age}){
+
+	const logData = useCallback(()=> {
+		console.log(`user name is ${name} and age is ${age}`)
+	}, [name, age])
+	
+	// logData is a dependency
+	// but it only changes when its dependencies change
+	// it will not run on every rerender
+	useEffect(()=>{
+		logData() // user name is eyad and age is 23
+	}, [user]) 
+
+	logData() // user name is eyad and age is 23
+}
 ```
   
 بس بعد كل ده ممكن برضو تلاقي ال effect بتاعك بيشتغل مع انك عامل كل الخطوات الي فوق دي طب ايه السبب ؟  
@@ -373,10 +389,52 @@ Code here
 المشكلة دي بتحصل ف حالة ان ال component بيستقبل props نوعها object او function او array و ال props دي مكتوبة بشكل يخليها تتغير بعد كل rerender زي مثلا انها تبقى مكتوبة inline على ال component نفسه.
   
 و من اكتر الامثلة شيوعا على حاجة زي كده لما بكون عامل button component مثلا و بديله onClick handler
-معظمنا بيكتب ال onClick بشكل inline و ده ف معظم الحالات بيكون عادي الا لو في effect معتمد عليها ساعتها هتخلي ال effect ده يشتغل اكتر من مرة  
+معظمنا بيكتب ال onClick بشكل inline و ده ف معظم الحالات بيكون عادي الا لو في effect معتمد عليها ساعتها هتخلي ال effect ده يشتغل اكتر من مرة.
 
-```ts
-Code here
+```tsx
+import {useEffect, useState} from "react"
+
+export default function Parent({name, age}){
+	const [count, setCount] = useState(0)
+
+	return (
+		<div>
+			<Child1 
+				count={count} 
+				increment={() => setCount(c => c+1)}
+			/>
+			<Child2
+				myObj={{
+					name: 'eyad',
+					age: 23
+				}}
+			/>
+		</div>
+	)
+}
+
+function Child1({count, increment}){
+	useEffect(()=>{
+		console.log('I ❤ the increment function')
+	}, [increment])
+
+	return (
+		<>
+			<p>{count}</p>
+			<button onClick={increment}>increment</button>
+	    </>
+
+	)
+}
+
+function Child2({myObj}){
+	useEffect(()=>{
+		console.log('I ❤ the user object')
+	}, [myObj])
+
+	return <p>my name is {myObj.name} and I am {myObj.age} years old</p>
+}
+
 ```
 
   
@@ -511,12 +569,12 @@ Code here
 بس ده بيوقعك ف نفس مشكلة رقم ٢ انك بتحتاج تعمل render مرتين ، مرة عشان تعمل update لل child و مرة لل parent ، ف حلها هيكون انك بتشوف ال قيمة بتاعة ال child بتتغير فين (ف اي event مثلا) و تحط معاها ال function الي بتغير قيمة ال parent عشان تغيرهم الاتنين مرة واحدة.  
   
 بس برضو ده عكس المتعارف عليه و الاحسن ان الداتا تمشي من ال parent لل child ف هنا هيبقى عندك حلين افضل من الي فات ده  
-4. ممكن تطلع ال state من ال child عن طريق انك تحطها في ال parent و تديها لل child ك props او تستخدمglobal state library زي zustand. 
+2. ممكن تطلع ال state من ال child عن طريق انك تحطها في ال parent و تديها لل child ك props او تستخدمglobal state library زي zustand. 
 
 ```ts
 Code here
 ```
-5. ممكن تستخدم pattern زي ال render props لو انت محتاج الداتا دي عشان ال render بس و مش عاوز تطلعها برا ال child.
+3. ممكن تستخدم pattern زي ال render props لو انت محتاج الداتا دي عشان ال render بس و مش عاوز تطلعها برا ال child.
 
 ```ts
 Code here
