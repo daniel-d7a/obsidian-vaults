@@ -506,7 +506,7 @@ function Child2({myObj}){
   
 ممكن تكون بتستخدم useEffect عشان تغير ف الـ state بناءً على state تانية أو props. في الحالة دي، ممكن تعمل التغيير بتاعك مباشرة من غير useEffect او من غير state جديدة.  
   
-حاجة زي انك تجمع اكتر من state ف variable واحد او انك تحسب داتا من state موجودة عندك كل ده تقدر تعمله مباشرة من غير useEffect او state جديدة 
+حاجة زي انك تجمع اكتر من state ف variable واحد او انك تحسب داتا من state موجودة عندك كل ده تقدر تعمله مباشرة من غير useEffect او state جديدة.
 
 ```tsx
 import {useEffect, useState} from "react"
@@ -518,6 +518,24 @@ function Form() {
 
 	// Bad: redundent state and effect
 		const [fullName, setFullName] = useState('')
+	useEffect(() => {
+		setFuttName(firstName + ' ' + lastName);
+	}, [firstName, lastName])
+
+	// Good: calculated during render
+	const fullName = firstName + ' ' + lastName
+}
+```
+
+```tsx
+import {useEffect, useState} from "react"
+
+function Parent({data}) {
+
+	// Bad: redundent state and effect
+	const [filteredData, setFilteredData] = useState([]);
+
+		- [ ] const [fullName, setFullName] = useState('')
 	useEffect(() => {
 		setFuttName(firstName + ' ' + lastName);
 	}, [firstName, lastName])
