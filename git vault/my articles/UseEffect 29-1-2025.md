@@ -226,19 +226,30 @@ export default function App({ url }){
  ده مش مهم لو كانت ال dependencies بتاعتنا primitives زي ال strings او ال numbers بس هتعمل معانا مشاكل لو كانت reference types زي ال functions و ال objects و ال arrays عشان لما تيجي تكتب function او object جوه ال component هتلاقيه بيحصله creation بعد كل rerender و بالتالي ال reference بتاعه هيتغير و بالنسبة لل use effect هيبقى قيمة مختلفة عن الي فاتت و ال effect بتاعك هيشتغل مع ان مفيش حاجة اتغيرت.
 
 ```ts
-import {useReducer, useEffect} from "react"
+import {useEffect} from "react"
 
-export default function App(){
+export default function App({name, age}){
 
 	// this object is recreated on every rerender
 	// and its reference is not stable
-	const user = { name:"eyad", age:23 }
+	const user = {userName: name, userAge:age}
 
 	// effect runs on every rerender
 	// even if user doesn't change
 	useEffect(()=>{
 		console.log(user)
 	}, [user]) 
+
+	// this function is recreated on every rerender
+	// and its reference is not stable
+	function logData(){
+		console.log(`user name is ${name} and age is ${age}`)
+	}
+
+	// effect runs on every rerender
+	useEffect(()=>{
+		logData()
+	}, [logData]) 
 	
 }
 ```
@@ -247,7 +258,8 @@ export default function App(){
 
 ### حلول مشاكل الاعتماد على ال reference types في ال dependency array
   
-2. لو بتعتمد على حاجة ثابته يبقى اكتبها برا ال component بتاعك كده ال reference بتاعها هيفضل ثابت على طول
+1. لو بتعتمد على حاجة ثابته يبقى اكتبها برا ال component بتاعك كده ال reference بتاعها هيفضل ثابت على طول
+
 ```ts
 
 import {useEffect} from "react"
@@ -265,10 +277,31 @@ export default function App(){
 	
 }
 ```
+
+```ts 
+import {useEffect} from "react"
+
+// this objects doesn't change.
+// and its reference is stable
+function logData(){
+	console.log(`user name is ${name} and age is ${age}`)
+}
+
+
+
+export default function App(){
+
+	// user is not a dependency 
+	useEffect(()=>{
+		console.log(user)
+	}, []) 
+	
+}
+```
   
 لو بتعتمد على حاجة بتحتاج قيم من ال component عندك اكتر من حل: - 
   
-3. ممكن تكتبها جوا ال useEffect كده هو مش هيعتبرها dependency اصلا بس كده مش هتقدر تشوفها برا ال effect.
+2. ممكن تكتبها جوا ال useEffect كده هو مش هيعتبرها dependency اصلا بس كده مش هتقدر تشوفها برا ال effect.
 
 ```ts
 import {useEffect} from "react"
@@ -311,7 +344,8 @@ export default function App({name}){
 	fetchUserByName() // the function is not defined here
 }
 ```
-1. لو محتاج تشوفها برا ال effect عندك حل تاني انك تحطها جوا state او useMemo لو هي object او array او تحطها جوا useCallback لو هي function بحيث ان ال reference بتاعهم يبقى ثابت معظم الوقت و يتغير بس لو الحاجة فعلا محتاجة تتغير.  
+
+3. لو محتاج تشوفها برا ال effect عندك حل تاني انك تحطها جوا state او useMemo لو هي object او array او تحطها جوا useCallback لو هي function بحيث ان ال reference بتاعهم يبقى ثابت معظم الوقت و يتغير بس لو الحاجة فعلا محتاجة تتغير.  
 
 
 ```ts
@@ -477,12 +511,12 @@ Code here
 بس ده بيوقعك ف نفس مشكلة رقم ٢ انك بتحتاج تعمل render مرتين ، مرة عشان تعمل update لل child و مرة لل parent ، ف حلها هيكون انك بتشوف ال قيمة بتاعة ال child بتتغير فين (ف اي event مثلا) و تحط معاها ال function الي بتغير قيمة ال parent عشان تغيرهم الاتنين مرة واحدة.  
   
 بس برضو ده عكس المتعارف عليه و الاحسن ان الداتا تمشي من ال parent لل child ف هنا هيبقى عندك حلين افضل من الي فات ده  
-2. ممكن تطلع ال state من ال child عن طريق انك تحطها في ال parent و تديها لل child ك props او تستخدمglobal state library زي zustand. 
+4. ممكن تطلع ال state من ال child عن طريق انك تحطها في ال parent و تديها لل child ك props او تستخدمglobal state library زي zustand. 
 
 ```ts
 Code here
 ```
-3. ممكن تستخدم pattern زي ال render props لو انت محتاج الداتا دي عشان ال render بس و مش عاوز تطلعها برا ال child.
+5. ممكن تستخدم pattern زي ال render props لو انت محتاج الداتا دي عشان ال render بس و مش عاوز تطلعها برا ال child.
 
 ```ts
 Code here
