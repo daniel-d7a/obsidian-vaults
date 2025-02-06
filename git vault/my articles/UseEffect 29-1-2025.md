@@ -517,7 +517,7 @@ function Form() {
 	const [lastName, setLastName] = useState('alsherif');
 
 	// Bad: redundent state and effect
-	const [fullName, setFullName] = useState('')
+		const [fullName, setFullName] = useState('')
 	useEffect(() => {
 		setFuttName(firstName + ' ' + lastName);
 	}, [firstName, lastName])
