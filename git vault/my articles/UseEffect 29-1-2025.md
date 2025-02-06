@@ -405,8 +405,8 @@ export default function Parent({name, age}){
 			/>
 			<Child2
 				myObj={{
-					name: 'eyad',
-					age: 23
+					userName: 'eyad',
+					userAge: 23
 				}}
 			/>
 		</div>
@@ -432,7 +432,7 @@ function Child2({myObj}){
 		console.log('I ❤ the user object')
 	}, [myObj])
 
-	return <p>my name is {myObj.name} and I am {myObj.age} years old</p>
+	return <p>my name is {myObj.userName} and I am {myObj.userAge} years old</p>
 }
 
 ```
@@ -446,14 +446,57 @@ function Child2({myObj}){
 نفس الحل الي اتكلمنا عنه فوق هنعمله هنا ف ال parent component، هنشوف ايه ال props الي بتكون arrays او objects او functions و نحطها ف use memo او use callback او نطلعها برا ال parent component عشان متتأثرش بال rerenders الا في حالة ان قيمتها اتغيرت فعلا.
 
 
-```ts
-Code here
+```tsx
+import {useEffect, useState, useCallback, useMemo} from "react"
+
+export default function Parent({name, age}){
+	const [count, setCount] = useState(0)
+	const increment = useCallback(() => setCount(c => c+1), [count])
+
+	const memoisedObj = useMemo(() => ({userName:name, userAge:age}), [name, age])
+
+	return (
+		<div>
+			<Child1 
+				count={count} 
+				increment={() => setCount(c => c+1)}
+				increment={increment}
+			/>
+			<Child2
+ 				myObj={{
+					userName: 'eyad',
+					userAge: 23
+				}}
+				myObj={memoisedObj}
+			/>
+		</div>
+	)
+}
+
+function Child1({count, increment}){
+	useEffect(()=>{
+		console.log('I ❤ the increment function')
+	}, [increment])
+
+	return (
+		<>
+			<p>{count}</p>
+			<button onClick={increment}>increment</button>
+	    </>
+
+	)
+}
+
+function Child2({myObj}){
+	useEffect(()=>{
+		console.log('I ❤ the user object')
+	}, [myObj])
+
+	return <p>my name is {myObj.userName} and I am {myObj.userAge} years old</p>
+}
+
 ```
 
-
-```ts
-Code here
-```
 
 ## انت مش محتاج useEffect
   
@@ -466,7 +509,7 @@ Code here
 حاجة زي انك تجمع اكتر من state ف variable واحد او انك تحسب داتا من state موجودة عندك كل ده تقدر تعمله مباشرة من غير useEffect او state جديدة 
 
 ```ts
-Code here
+
 ```
   
 ### ٢. اعادة قيمة ال state لقيمة default في حالة تغير ال props:
