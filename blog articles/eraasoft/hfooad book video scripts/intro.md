@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/cvza1f0x#w5d+n4aki/KiCmfDZmnG2qyQ2eorPWHrhhTaTGzquAc
+share_updated: 2025-02-06T16:38:25+02:00
+---
 
 ## مقدمة
 
