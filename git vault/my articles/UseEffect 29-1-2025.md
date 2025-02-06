@@ -535,7 +535,14 @@ function Parent({data}) {
 	// Bad: redundent state and effect
 	const [filteredData, setFilteredData] = useState([]);
 
-		- [ ] const [fullName, setFullName] = useState('')
+	const [fullName, setFullName] = useState('')
+	const [fullName, setFullName] = useState('')
+	const [fullName, setFullName] = useState('')
+	const [fullName, setFullName] = useState('')
+	const [fullName, setFullName] = useState('')
+	const [fullName, setFullName] = useState('')
+	const [fullName, setFullName] = useState('')
+	
 	useEffect(() => {
 		setFuttName(firstName + ' ' + lastName);
 	}, [firstName, lastName])
