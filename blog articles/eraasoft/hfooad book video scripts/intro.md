@@ -1,8 +1,7 @@
 ---
-share_link: https://share.note.sx/cvza1f0x#w5d+n4aki/KiCmfDZmnG2qyQ2eorPWHrhhTaTGzquAc
-share_updated: 2025-02-06T16:38:25+02:00
+share_link: https://share.note.sx/k7xr3n5h#T6gAgl1Dlhn5X3TNMxKk+AobdbfRKsINLQHvIWIEmaA
+share_updated: 2025-02-06T16:44:30+02:00
 ---
-
 ## مقدمة
 
 السلام عليكم ازيكو عاملين ايه
