@@ -226,19 +226,30 @@ export default function App({ url }){
  ده مش مهم لو كانت ال dependencies بتاعتنا primitives زي ال strings او ال numbers بس هتعمل معانا مشاكل لو كانت reference types زي ال functions و ال objects و ال arrays عشان لما تيجي تكتب function او object جوه ال component هتلاقيه بيحصله creation بعد كل rerender و بالتالي ال reference بتاعه هيتغير و بالنسبة لل use effect هيبقى قيمة مختلفة عن الي فاتت و ال effect بتاعك هيشتغل مع ان مفيش حاجة اتغيرت.
 
 ```ts
-import {useReducer, useEffect} from "react"
+import {useEffect} from "react"
 
-export default function App(){
+export default function App({name, age}){
 
 	// this object is recreated on every rerender
 	// and its reference is not stable
-	const user = { name:"eyad", age:23 }
+	const user = {userName: name, userAge:age}
 
 	// effect runs on every rerender
 	// even if user doesn't change
 	useEffect(()=>{
 		console.log(user)
 	}, [user]) 
+
+	// this function is recreated on every rerender
+	// and its reference is not stable
+	function logData(){
+		console.log(`user name is ${name} and age is ${age}`)
+	}
+
+	// effect runs on every rerender
+	useEffect(()=>{
+		logData()
+	}, [logData]) 
 	
 }
 ```
@@ -247,10 +258,11 @@ export default function App(){
 
 ### حلول مشاكل الاعتماد على ال reference types في ال dependency array
   
-2. لو بتعتمد على حاجة ثابته يبقى اكتبها برا ال component بتاعك كده ال reference بتاعها هيفضل ثابت على طول
+1. لو بتعتمد على حاجة ثابته يبقى اكتبها برا ال component بتاعك كده ال reference بتاعها هيفضل ثابت على طول
+
 ```ts
 
-import {useReducer, useEffect, useRef} from "react"
+import {useEffect} from "react"
 
 // this objects doesn't change.
 // and its reference is stable
@@ -262,42 +274,112 @@ export default function App(){
 	useEffect(()=>{
 		console.log(user)
 	}, []) 
+	
+}
+```
+
+```ts 
+import {useEffect} from "react"
+
+// this function doesn't change.
+// and its reference is stable
+function logData(name, age){
+	console.log(`user name is ${name} and age is ${age}`)
+}
+
+export default function App({name, age}){
+
+	// logData is not a dependency 
+	useEffect(()=>{
+		logData(name, age)
+	}, [name, age]) 
 	
 }
 ```
   
 لو بتعتمد على حاجة بتحتاج قيم من ال component عندك اكتر من حل: - 
   
-3. ممكن تكتبها جوا ال useEffect كده هو مش هيعتبرها dependency اصلا بس كده مش هتقدر تشوفها برا ال effect.
+2. ممكن تكتبها جوا ال useEffect كده هو مش هيعتبرها dependency اصلا بس كده مش هتقدر تشوفها برا ال effect.
 
 ```ts
+import {useEffect} from "react"
 
-import {useReducer, useEffect, useRef} from "react"
+export default function App({name, age}){
 
-// this objects doesn't change.
-// and its reference is stable
-const user = {name:"eyad", age:23}
-
-export default function App(){
-
-	// user is not a dependency 
 	useEffect(()=>{
-		console.log(user)
-	}, []) 
+		// user is not a dependency 
+		const user = {userName: name, userAge:age}
+		console.log(user) // {userName: "eyad", userAge: 23}
 	
+	}, [name, age]) 
+
+	console.log(user) // undefined
 }
 ```
-  
-4. لو محتاج تشوفها برا ال effect عندك حل تاني انك تحطها جوا state او useMemo لو هي object او array او تحطها جوا useCallback لو هي function بحيث ان ال reference بتاعهم يبقى ثابت معظم الوقت و يتغير بس لو الحاجة فعلا محتاجة تتغير.  
+
+```ts
+import {useEffect, useState} from "react"
+
+export default function App({name}){
+	const [user, setUser] = useState()
+
+	useEffect(()=>{
+		// logData is not a dependency
+		function logData(name, age){
+			console.log(`user name is ${name} and age is ${age}`)
+		}
+
+		logData(name, age) // user name is eyad and age is 23
+	
+	}, [name, age]) 
+
+	logData(name, age) // the function is not defined here
+}
+```
+
+3. لو محتاج تشوفها برا ال effect عندك حل تاني انك تحطها جوا state او useMemo لو هي object او array او تحطها جوا useCallback لو هي function بحيث ان ال reference بتاعهم يبقى ثابت معظم الوقت و يتغير بس لو الحاجة فعلا محتاجة تتغير.  
 
 
 ```ts
-Code here
+import {useEffect, useState, useMemo} from "react"
+
+export default function App({name, age}){
+
+	const [user, setUser] = useState({userName: name, userAge:age})
+	// OR
+	const user = useMemo(()=> ({userName: name, userAge:age}), [name, age])
+	
+	// user is a dependency
+	// but it only changes when we call the setUser function
+	// OR it only changes when its dependencies change (useMemo)
+	// it will not run on every rerender
+	useEffect(()=>{
+		console.log(user) // {userName: "eyad", userAge: 23}
+	}, [user]) 
+
+	console.log(user) // {userName: "eyad", userAge: 23}
+}
 ```
 
 
 ```ts
-Code here
+import {useEffect, useCallback} from "react"
+
+export default function App({name, age}){
+
+	const logData = useCallback(()=> {
+		console.log(`user name is ${name} and age is ${age}`)
+	}, [name, age])
+	
+	// logData is a dependency
+	// but it only changes when its dependencies change
+	// it will not run on every rerender
+	useEffect(()=>{
+		logData() // user name is eyad and age is 23
+	}, [user]) 
+
+	logData() // user name is eyad and age is 23
+}
 ```
   
 بس بعد كل ده ممكن برضو تلاقي ال effect بتاعك بيشتغل مع انك عامل كل الخطوات الي فوق دي طب ايه السبب ؟  
@@ -307,10 +389,52 @@ Code here
 المشكلة دي بتحصل ف حالة ان ال component بيستقبل props نوعها object او function او array و ال props دي مكتوبة بشكل يخليها تتغير بعد كل rerender زي مثلا انها تبقى مكتوبة inline على ال component نفسه.
   
 و من اكتر الامثلة شيوعا على حاجة زي كده لما بكون عامل button component مثلا و بديله onClick handler
-معظمنا بيكتب ال onClick بشكل inline و ده ف معظم الحالات بيكون عادي الا لو في effect معتمد عليها ساعتها هتخلي ال effect ده يشتغل اكتر من مرة  
+معظمنا بيكتب ال onClick بشكل inline و ده ف معظم الحالات بيكون عادي الا لو في effect معتمد عليها ساعتها هتخلي ال effect ده يشتغل اكتر من مرة.
 
-```ts
-Code here
+```tsx
+import {useEffect, useState} from "react"
+
+export default function Parent({name, age}){
+	const [count, setCount] = useState(0)
+
+	return (
+		<div>
+			<Child1 
+				count={count} 
+				increment={() => setCount(c => c+1)}
+			/>
+			<Child2
+				myObj={{
+					userName: 'eyad',
+					userAge: 23
+				}}
+			/>
+		</div>
+	)
+}
+
+function Child1({count, increment}){
+	useEffect(()=>{
+		console.log('I ❤ the increment function')
+	}, [increment])
+
+	return (
+		<>
+			<p>{count}</p>
+			<button onClick={increment}>increment</button>
+	    </>
+
+	)
+}
+
+function Child2({myObj}){
+	useEffect(()=>{
+		console.log('I ❤ the user object')
+	}, [myObj])
+
+	return <p>my name is {myObj.userName} and I am {myObj.userAge} years old</p>
+}
+
 ```
 
   
@@ -322,14 +446,57 @@ Code here
 نفس الحل الي اتكلمنا عنه فوق هنعمله هنا ف ال parent component، هنشوف ايه ال props الي بتكون arrays او objects او functions و نحطها ف use memo او use callback او نطلعها برا ال parent component عشان متتأثرش بال rerenders الا في حالة ان قيمتها اتغيرت فعلا.
 
 
-```ts
-Code here
+```tsx
+import {useEffect, useState, useCallback, useMemo} from "react"
+
+export default function Parent({name, age}){
+	const [count, setCount] = useState(0)
+	const increment = useCallback(() => setCount(c => c+1), [count])
+
+	const memoisedObj = useMemo(() => ({userName:name, userAge:age}), [name, age])
+
+	return (
+		<div>
+			<Child1 
+				count={count} 
+				increment={() => setCount(c => c+1)}
+				increment={increment}
+			/>
+			<Child2
+ 				myObj={{
+					userName: 'eyad',
+					userAge: 23
+				}}
+				myObj={memoisedObj}
+			/>
+		</div>
+	)
+}
+
+function Child1({count, increment}){
+	useEffect(()=>{
+		console.log('I ❤ the increment function')
+	}, [increment])
+
+	return (
+		<>
+			<p>{count}</p>
+			<button onClick={increment}>increment</button>
+	    </>
+
+	)
+}
+
+function Child2({myObj}){
+	useEffect(()=>{
+		console.log('I ❤ the user object')
+	}, [myObj])
+
+	return <p>my name is {myObj.userName} and I am {myObj.userAge} years old</p>
+}
+
 ```
 
-
-```ts
-Code here
-```
 
 ## انت مش محتاج useEffect
   
@@ -339,10 +506,41 @@ Code here
   
 ممكن تكون بتستخدم useEffect عشان تغير ف الـ state بناءً على state تانية أو props. في الحالة دي، ممكن تعمل التغيير بتاعك مباشرة من غير useEffect او من غير state جديدة.  
   
-حاجة زي انك تجمع اكتر من state ف variable واحد او انك تحسب داتا من state موجودة عندك كل ده تقدر تعمله مباشرة من غير useEffect او state جديدة 
+حاجة زي انك تجمع اكتر من state ف variable واحد او انك تحسب داتا من state موجودة عندك كل ده تقدر تعمله مباشرة من غير useEffect او state جديدة.
 
-```ts
-Code here
+```tsx
+import {useEffect, useState} from "react"
+
+function Form() {
+
+	const [firstName, setFirstName] = useState('eyad');
+	const [lastName, setLastName] = useState('alsherif');
+
+	// Bad: redundent state and effect
+		const [fullName, setFullName] = useState('')
+	useEffect(() => {
+		setFuttName(firstName + ' ' + lastName);
+	}, [firstName, lastName])
+
+	// Good: calculated during render
+	const fullName = firstName + ' ' + lastName
+}
+```
+
+```tsx
+import {useEffect, useState} from "react"
+
+function Parent({data}) {
+
+	// Bad: redundent state and effect
+	const [filteredData, setFilteredData] = useState([]);
+	useEffect(() => {
+		setFilteredData(data.filter(item => item.active))
+	}, [data])
+
+	// Good: calculated during render
+	const filteredData = data.filter(item => item.active)
+}
 ```
   
 ### ٢. اعادة قيمة ال state لقيمة default في حالة تغير ال props:
@@ -352,22 +550,106 @@ Code here
   
 لان بالنسبة ل react طالما ال key بتاع ال component اتغير ف ده معناه ان ال component اتغير و لازم اعمله mount من الاول تاني و ارجع اي state جواه لقيمتها الافتراضية.
 
-```ts
-Code here
+```tsx
+import {useEffect, useState} from "react"
+
+export default function ProfilePage({ userId }){
+	return <Profile userId={userId}  />
+}
+
+function Profile({userId}){
+	const [comment, setComment] = useState('')
+
+	// Bad: redundent effect
+	useEffect(() => {
+		setComment('');
+	}, [userId])
+
+	return <p> comment: {comment} </p>
+}
+
+```
+
+```tsx
+import {useEffect, useState} from "react"
+
+export default function ProfilePage({ userId }){
+	return <Profile userId={userId} key={userId}/>
+}
+
+function Profile({userId}){
+	// state will reset whenever the key changes
+	const [comment, setComment] = useState('')
+
+	useEffect(() => {
+		setComment('');
+	}, [userId])
+
+	return <p> comment: {comment} </p>
+}
 ```
   
 و هنتكلم بالتفصيل عن ال keys ف مقال قادم باذن الله.  
   
 طريقة ال key كويسة لو انا عاوز اعمل reset لل state الي عندي كلها ، لكن مش هتنفع لو انا عاوز اغير ف state معينة و اسيب الباقي.  
   
-في حل تاني هو اني احتفظ بالقيمة الي انا عاوز اعرف انها اتغيرت و كل مرة اشوف هل هي اتغيرت ولا لا و لو اتغيرت اقدر اعمل ال state updates الي انا عاوزها من غير use Effect و من غير ما اخلي ال component بتاعي يحصله render مرتين.  
+في حل تاني هو اني احتفظ بالقيمة الي انا عاوز اعرف انها اتغيرت و كل مرة اشوف هل هي اتغيرت ولا لا و لو اتغيرت اقدر اعمل ال state updates الي انا عاوزها من غير use Effect و من غير ما اخلي ال component بتاعي يحصله render مرتين. زي في المثال ده بنحاول نلغي القيمة المتحددة لما ال items تتغير مرة بنستخدم effect و مرة بنستخدم state زيادة عشان نشوف لو القيمة اتغيرت ولا لا.
 
 ```ts
-Code here
+import {useEffect, useState} from "react"
+
+function List({ items }) {
+
+	const [isReverse, setIsReverse] = useState(false);
+	const [selection, setSelection] = useState(null);
+
+	useEffect(() => {
+		setSelection(null)
+	}, [items])
+}
+```
+
+```ts
+import {useEffect, useState} from "react"
+
+function List({ items }) {
+
+	const [isReverse, setIsReverse] = useState(false);
+	const [selection, setSelection] = useState(null);
+
+	useEffect(() => {
+		setSelection(null)
+	}, [items])
+
+	const [prevItems, setPrevItems] = useState(items)
+	if(items !== prevItems){
+		setSelection(null) // update the selected item
+		setPrevItems(items) // update the prevItems for next rerenders
+	}
+}
 ```
   
 لو الطريقة دي جديدة عليك متقلقش انت مش لوحدك ، و حتى ف ال docs بيحذرك من استخدامها كتير ، مع انها احسن من ال useEffect بس بتخلي ال debugging اصعب.  
 ف يفضل انك تشوف طريقة تانية انك تحفظ بيها ال state بتاعتك زي مثلا انك لو عندك items و عاوز تعرف ال selected الاحسن انك تحتفظ بال id بتاع ال selected item بحيث تجيبه من ال items كل مرة تتغير بحسبة بسيطة من غير اي state زيادة.  
+
+```ts
+import {useEffect, useState} from "react"
+
+function List({ items }) {
+
+	const [isReverse, setIsReverse] = useState(false);
+	
+	const [selection, setSelection] = useState(null);
+	const [prevItems, setPrevItems] = useState(items)
+	if(items !== prevItems){
+		setSelection(null) // update the selected item
+		setPrevItems(items) // update the prevItems for next rerenders
+	}
+	
+	const [selectedId, setSelectedId] = useState(null);
+	const selection = items.find(item => item.id === selectedId)
+}
+```
   
 ### ٣. التعامل مع ال user events:  
   
@@ -378,24 +660,90 @@ Code here
 ف مثلا لو تشوف ال ٣ امثلة الجايين هتلاقي عندي فيهم useEffect صح لأن الغرض منها انها تشتغل لما ال component يظهر انما ال useEffect الغلط غلط لانها بتشتغل ردا على event من ال user.  
 
 ```ts
-Code here
-```
+import {useEffect} from "react"
 
+function ProductPage({product, addToCart}){
+	// Bad: Event logic in an effect
+	useEffect(() => {
+		if(product.isInCart){
+			showNotification('product added to cart')
+		}
+	}, [product])
+
+	function handleBuyClick(){
+		addToCart(product);
+	}
+}
+
+function ProductPage({product, addToCart}){
+	// Good: Event logic in event handler
+	function handleBuyClick(){
+		addToCart(product);
+		showNotification('product added to cart')
+	}
+}
+```
 
 ```ts
-Code here
-```
+import {useEffect, useState} from "react"
 
+function Form(){
+	const [submitData, setSubmitData] = useState(null)
+
+	// Bad: event logic in an effect
+	useEffect(() => {
+		if(submitData !== null){
+			post('/api/form_submit', {data: submitData})
+		}
+	}, [submitData])
+
+	function handleSubmit(e){
+		e.preventDefault();
+		setSubmitData({name: "eyad", age: 23})
+	}	
+}
+```
 
 ```ts
-Code here
+import {useEffect, useState} from "react"
+
+function Form(){
+	const [submitData, setSubmitData] = useState(null)
+
+	// Bad: event logic in an effect
+	useEffect(() => {
+		if(submitData !== null){
+			post('/api/form_submit', {data: submitData})
+		}
+	}, [submitData])
+
+	// Good: event logic in event handler
+	function handleSubmit(e){
+		e.preventDefault();
+		setSubmitData({name: "eyad", age: 23})
+		post('/api/form_submit', {data: submitData})
+	}	
+}
 ```
-  
+
+مثال على الاستخدام الصحيح لل useEffect اننا نستخدمها لل effects الي بتحل اول لما ال component يظهر زي ال logging مثلا: 
+
+```ts
+import {useEffect} from "react"
+
+function Form(){
+	// Good: logic related to component display or mount
+	// should be in an effect
+	useEffect(() => {
+		post('/analytics/event', {event: "visit_form"})
+	}, [])
+}
+```
 ### ٤. سلاسل ال effects:  
 
 لما تيجي تستخدم ال useEffect لازم تفكر ف كل useEffect عندك انه مستقل بذاته ، يعني مينفعش يبقى عندك اكتر من useEffect معتمدين على بعض لان كده هتكون بتعمل rerenders كتير ملهاش لازمة و بتوزع logic مرتبط ببعضه على اجزاء بعيده عن بعضها.  
   
-ف المثال الي معانا هنا ده انا ناقله من ال docs [add url here](docs.com) و تقدر تجربه بايدك من هنا [add url here](livecodes.io) و هنا بنحاول نعمل لعبة كروت بسيطة بس ال logic بتاعها متوزع على اكتر من useEffect ف لو شغلت الكود هتلاحظ انه بيعمل حاجة زي كده:  
+ف المثال الي معانا هنا ده انا ناقله من ال docs و تقدر تجربه بايدك من هنا و هنا بنحاول نعمل لعبة كروت بسيطة بس ال logic بتاعها متوزع على اكتر من useEffect ف لو شغلت الكود هتلاحظ انه بيعمل حاجة زي كده:  
 
 
 ```ts
@@ -445,12 +793,12 @@ Code here
 بس ده بيوقعك ف نفس مشكلة رقم ٢ انك بتحتاج تعمل render مرتين ، مرة عشان تعمل update لل child و مرة لل parent ، ف حلها هيكون انك بتشوف ال قيمة بتاعة ال child بتتغير فين (ف اي event مثلا) و تحط معاها ال function الي بتغير قيمة ال parent عشان تغيرهم الاتنين مرة واحدة.  
   
 بس برضو ده عكس المتعارف عليه و الاحسن ان الداتا تمشي من ال parent لل child ف هنا هيبقى عندك حلين افضل من الي فات ده  
-5. ممكن تطلع ال state من ال child عن طريق انك تحطها في ال parent و تديها لل child ك props او تستخدمglobal state library زي zustand. 
+2. ممكن تطلع ال state من ال child عن طريق انك تحطها في ال parent و تديها لل child ك props او تستخدمglobal state library زي zustand. 
 
 ```ts
 Code here
 ```
-6. ممكن تستخدم pattern زي ال render props لو انت محتاج الداتا دي عشان ال render بس و مش عاوز تطلعها برا ال child.
+3. ممكن تستخدم pattern زي ال render props لو انت محتاج الداتا دي عشان ال render بس و مش عاوز تطلعها برا ال child.
 
 ```ts
 Code here
