@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/How to take better notes.md",
+                "file": "Zettelkasten/permanent notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to take better notes"
+              "title": "permanent notes"
             }
           }
         ]
@@ -96,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Zettelkasten/How to take better notes.md",
+            "file": "Zettelkasten/permanent notes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -151,8 +151,10 @@
   },
   "active": "600c4b90fe1464bb",
   "lastOpenFiles": [
+    "Zettelkasten/fleeting notes.md",
+    "Zettelkasten/How to take better (book) notes.md",
     "git vault/my articles/useRef.md",
-    "Zettelkasten/How to take better notes.md",
+    "Zettelkasten/permanent notes.md",
     "Zettelkasten",
     "git vault/my articles/Article template.md",
     "git vault/my articles/blog article data template.md",
@@ -184,8 +186,6 @@
     "git vault/articles notes",
     "git vault",
     "/git vault/my articles",
-    "/git vault/eraasoft/hfooad book video scripts",
-    "blog articles/my articles/UseEffect 29-1-2025.md",
-    "new article.md"
+    "/git vault/eraasoft/hfooad book video scripts"
   ]
 }
