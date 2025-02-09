@@ -11,14 +11,10 @@
             "id": "600c4b90fe1464bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "git vault/my articles/Introduction to useState.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Introduction to useState"
+              "title": "New tab"
             }
           }
         ]
@@ -96,7 +92,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "blog articles/my articles/UseEffect 29-1-2025.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -151,6 +146,10 @@
   },
   "active": "600c4b90fe1464bb",
   "lastOpenFiles": [
+    "Untitled",
+    "git vault/my articles/Article template.md",
+    "git vault/my articles/blog article data template.md",
+    "git vault/my articles/Introduction to useState.md",
     "git vault/my articles/useRef.md",
     "git vault/my articles/useEffect.md",
     "git vault/articles notes/tkdodo useState/5. useState vs useReducer.md",
@@ -164,11 +163,9 @@
     "/git vault/articles notes/tkdodo useState/2. Putting props to useState.md",
     "/git vault/articles notes/tkdodo useState/1. Don't over useState.md",
     "git vault/eraasoft/hfooad book video scripts/intro.md",
-    "git vault/my articles/Introduction to useState.md",
     "/git vault/eraasoft/hfooad book video scripts/intro.md",
     "/git vault/my articles/UseEffect 29-1-2025.md",
     "/git vault/my articles/Introduction to React.useState 28-12-2024.md",
-    "git vault/my articles/blog article data template.md",
     "/git vault/my articles/use ref article 29-12-2024.md",
     "/git vault/my articles/blog article data template.md",
     "git vault/articles notes/tkodo react query/1. Practical React Query.md",
@@ -184,8 +181,6 @@
     "/git vault/eraasoft/hfooad book video scripts",
     "/git vault/eraasoft",
     "blog articles/my articles/UseEffect 29-1-2025.md",
-    "new article.md",
-    "Stuff/Chat gpt video and article suggestions.md",
-    "docs.com.md"
+    "new article.md"
   ]
 }

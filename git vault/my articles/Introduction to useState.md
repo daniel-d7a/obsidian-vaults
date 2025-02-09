@@ -4,18 +4,9 @@ pub_date: 28/12/2024
 date_started: 27/12/2024
 intro: تعالو نتعرف على ال useState hook و نشوف ازاي نقدر نستخدمه بشكل احسن
 author: Eyad
-tags:
+tags: 
+references: https://react.dev/learn/state-as-a-snapshot, https://react.dev/learn/queueing-a-series-of-state-updates
 ---
-
-
-
-
-tags: ["react", "hooks"]
-
-references: ["https://react.dev/learn/state-as-a-snapshot", "https://react.dev/learn/queueing-a-series-of-state-updates"]
-
----
-
 
 في المقالة دي هنتكلم عن شوية خصائص في ال use state hook و نفهم ازاي نقدر نستخدمه باحسن شكل ممكن. 
 
