@@ -48,7 +48,7 @@ const ref = useRef("eyad") // ref = {current: "eyad"}
 ليها استخدامين اساسيين اولهم حفظ ال data بين ال renders بس مش اي data و خلاص كده  
 لو ال data دي ليها علاقة بال UI زي مثلا اسم المستخدم او ال todos او اي حاجة متعلقة بال UI لازم تتحفظ ف state  ده لانها reactive data يعني تفاعليه بتتغير و لما تتغير لازم التغير ينعكس على ال UI انما ال ref بيستخدم عشان نحفظ فيه اي data غير متعلقة بال UI زي مثلا ال interval id او ال timeout id: -
 
-```ts showLineNumbers {11-14}
+```tsx showLineNumbers {11-14}
 import { useState, useRef } from "react";
 
 export default function App() {
@@ -88,7 +88,7 @@ export default function App() {
 
 و حاجة كمان مهمة جدا ف ال refs انه بيساعدك تتحكم في ال DOM nodes عن طريق ال DOM methods زي query selector او add event listener او غيرهم.  
 ده عن طريق انك تعمل ref و تديه لاي DOM node ف ال ref property بتاعتها و react تلقائيا هتخلي ال current بتاع ال ref عبارة عن ال DOM node دي: -
-``` ts showLineNumbers {19}
+``` tsx showLineNumbers {19}
 import { useRef } from "react";
 
 export default function App() {
@@ -130,7 +130,7 @@ export default function App() {
 في طريقة تخليك تتعامل مع عدد كبير و متغير من العناصر ب ref واحد بس و كتير من الناس متعرفهاش مع انها طريقة قوية جدا.  
   
 طريقة استخدام ال ref مع ال dom elements ف العادي انك بتعرف ref و بتديه لل ref property بتاعه ال element عشان react تحط ال dom node ف ال current بتاع ال ref زي كده: -
-```ts {7}
+```tsx {7}
 import { useRef } from "react";
 
 export default function App() {
@@ -148,7 +148,7 @@ export default function App() {
   
 هنعمل check بسيط على ال node انها لو موجودة ناخدها معانا او لو قيمتها ب null نشيلها  و كده بكل بساطة بقى معاك ref ال current بتاعه شايل اي عدد من الdom nodes انت تحتاجه حتى لو العدد ده زاد او نقص خلال ال run time.
 
-```ts
+```tsx
 import { useRef } from 'react';
 
 export function App() {
