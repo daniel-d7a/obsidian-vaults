@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/permanent notes.md",
+                "file": "Zettelkasten with obsidian/permanent notes.md",
                 "mode": "source",
                 "source": false
               },
@@ -96,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Zettelkasten/permanent notes.md",
+            "file": "Zettelkasten with obsidian/permanent notes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -149,13 +149,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "600c4b90fe1464bb",
+  "active": "ce2533ead8996710",
   "lastOpenFiles": [
-    "Zettelkasten/fleeting notes.md",
-    "Zettelkasten/How to take better (book) notes.md",
+    "Zettelkasten with obsidian/fleeting notes.md",
+    "Zettelkasten with obsidian/How to take better (book) notes.md",
     "git vault/my articles/useRef.md",
-    "Zettelkasten/permanent notes.md",
-    "Zettelkasten",
+    "Zettelkasten with obsidian/permanent notes.md",
+    "Zettelkasten with obsidian",
     "git vault/my articles/Article template.md",
     "git vault/my articles/blog article data template.md",
     "git vault/my articles/Introduction to useState.md",
