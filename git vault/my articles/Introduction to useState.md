@@ -1,10 +1,13 @@
-
 ---
 title: ايه هو ال updater function في useState?
+pub_date: 28/12/2024
+date_started: 27/12/2024
+intro: تعالى نتعرف على ال useRef hook و نشوف طرق استخدام ليه عمرك ما فكرت فيها قبل كده
+author: Eyad
+---
 
-pubDate: 2024-12-28
 
-intro: تعالو نشوف ميزة قوية جدا في ال useState hook و نشوف ازاي نقدر نستخدمها و بتفيدنا ف ايه
+
 
 tags: ["react", "hooks"]
 

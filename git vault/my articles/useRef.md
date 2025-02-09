@@ -1,16 +1,12 @@
+---
 title: ايه هو ال useRef hook و ازاي بنستخدمه ؟
-
-pubDate: 2024-12-29
-
-intro: تعالى نتعرف على ال useRef hook و نشوف طرق استخدام ليه عمرك ما فكرت فيها قبل كده.
-
-tags: ["react", "hooks"]
-
-author: eyad
-
-image: "@/assets/blogs/the story of ts.jpg"
-
-references: ["https://react.dev/reference/react/useRef", "https://react.dev/learn/manipulating-the-dom-with-refs"]
+pub_date: 29/12/2024
+date_started: 28/12/2024
+intro: تعالى نتعرف على ال useRef hook و نشوف طرق استخدام ليه عمرك ما فكرت فيها قبل كده
+tags: 
+author: Eyad
+references: https://react.dev/reference/react/useRef, https://react.dev/learn/manipulating-the-dom-with-refs
+---
 
 
 # ايه هو ال useRef hook و ازاي بنستخدمه ؟
