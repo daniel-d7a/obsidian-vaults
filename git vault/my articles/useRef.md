@@ -131,7 +131,7 @@ export default function App() {
   
 طريقة استخدام ال ref مع ال dom elements ف العادي انك بتعرف ref و بتديه لل ref property بتاعه ال element عشان react تحط ال dom node ف ال current بتاع ال ref زي كده: -
 
-```tsx {7}
+```tsx hl:7
 import { useRef } from "react";
 
 export default function App() {
