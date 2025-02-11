@@ -4,8 +4,7 @@ pub_date: 2024-12-28
 date_started: 2024-12-27
 intro: تعالى نتعرف على ال useRef hook و نشوف طرق استخدام ليه عمرك ما فكرت فيها قبل كده
 tags:
-  - react
-  - hooks
+  - react/hooks
 author: Eyad
 references:
   - https://react.dev/reference/react/useRef

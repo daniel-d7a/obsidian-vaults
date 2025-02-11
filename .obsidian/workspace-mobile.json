@@ -49,7 +49,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "tag:react",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -84,7 +84,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "565e2f752963c777",
@@ -149,7 +149,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "600c4b90fe1464bb",
+  "active": "5ec12e8c0ba599ae",
   "lastOpenFiles": [
     "2024-12-27.md",
     "git vault/my articles/useRef.md",
