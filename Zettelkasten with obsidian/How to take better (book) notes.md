@@ -10,6 +10,13 @@ We want to take atomic notes, notes that can stand on their own without context 
 
 Make index lists for stuff you read (articles, books, .. etc)
 
+Use indexes and block links inside long or dense notes.
+
+# hi
+
+![[hi#hello^8]]
+
+
 Use [[fleeting notes]] to capture quick thoughts and ideas.
 
 Use [[permanent notes]] to refactor fleeting notes useful notes you can use later.
