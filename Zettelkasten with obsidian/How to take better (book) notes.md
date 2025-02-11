@@ -6,6 +6,10 @@ refernce: https://obsidian.rocks/how-to-take-book-notes-in-obsidian/
 
 Start by actually taking notes.
 
+We want to take atomic notes, notes that can stand on their own without context and still be useful.
+
+Make index lists for stuff you read (articles, books, .. etc)
+
 Use [[fleeting notes]] to capture quick thoughts and ideas.
 
 Use [[permanent notes]] to refactor fleeting notes useful notes you can use later.
