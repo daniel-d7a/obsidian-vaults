@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten with obsidian/How to take better (book) notes.md",
+                "file": "git vault/my articles/useRef.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to take better (book) notes"
+              "title": "useRef"
             }
           }
         ]
@@ -151,16 +151,18 @@
   },
   "active": "600c4b90fe1464bb",
   "lastOpenFiles": [
-    "hi.md",
+    "2024-12-27.md",
+    "git vault/my articles/useRef.md",
+    "Invalid date.md",
+    "git vault/my articles/useEffect.md",
     "Zettelkasten with obsidian/How to take better (book) notes.md",
+    "hi.md",
     "Zettelkasten with obsidian/permanent notes.md",
     "Zettelkasten with obsidian/fleeting notes.md",
-    "git vault/my articles/useRef.md",
     "Zettelkasten with obsidian",
     "git vault/my articles/Article template.md",
     "git vault/my articles/blog article data template.md",
     "git vault/my articles/Introduction to useState.md",
-    "git vault/my articles/useEffect.md",
     "git vault/articles notes/tkdodo useState/5. useState vs useReducer.md",
     "git vault/articles notes/tkdodo useState/3. Things to know about useState.md",
     "git vault/articles notes/tkdodo useState/4. useState for one-time initializations.md",
@@ -176,8 +178,6 @@
     "/git vault/my articles/UseEffect 29-1-2025.md",
     "/git vault/my articles/Introduction to React.useState 28-12-2024.md",
     "/git vault/my articles/use ref article 29-12-2024.md",
-    "/git vault/my articles/blog article data template.md",
-    "git vault/articles notes/tkodo react query/1. Practical React Query.md",
     "git vault/eraasoft/hfooad book video scripts",
     "git vault/articles notes/tkodo react query",
     "git vault/articles notes/tkdodo useState",
