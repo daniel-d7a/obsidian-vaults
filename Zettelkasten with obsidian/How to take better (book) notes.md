@@ -12,9 +12,6 @@ Make index lists for stuff you read (articles, books, .. etc)
 
 Use indexes and block links inside long or dense notes.
 
-# hi
-
-![[hi#hello^8]]
 
 
 Use [[fleeting notes]] to capture quick thoughts and ideas.

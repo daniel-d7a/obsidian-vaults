@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git vault/my articles/useRef.md",
+                "file": "Zettelkasten with obsidian/How to take better (book) notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "useRef"
+              "title": "How to take better (book) notes"
             }
           }
         ]
@@ -51,9 +51,9 @@
           "state": {
             "query": "tag:react",
             "matchingCase": false,
-            "explainSearch": false,
+            "explainSearch": true,
             "collapseAll": false,
-            "extraContext": false,
+            "extraContext": true,
             "sortOrder": "alphabetical"
           },
           "icon": "lucide-search",
@@ -84,7 +84,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "565e2f752963c777",
@@ -149,10 +149,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ec12e8c0ba599ae",
+  "active": "600c4b90fe1464bb",
   "lastOpenFiles": [
-    "2024-12-27.md",
     "git vault/my articles/useRef.md",
+    "2024-12-27.md",
     "Invalid date.md",
     "git vault/my articles/useEffect.md",
     "Zettelkasten with obsidian/How to take better (book) notes.md",
