@@ -1,0 +1,1 @@
+We can use the graph view to review notes that we might have forgotten, and also allows us to 
