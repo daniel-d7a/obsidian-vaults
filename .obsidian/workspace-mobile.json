@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten with obsidian/How to take better (book) notes.md",
+                "file": "How to rediscover old notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to take better (book) notes"
+              "title": "How to rediscover old notes"
             }
           }
         ]
@@ -151,11 +151,13 @@
   },
   "active": "600c4b90fe1464bb",
   "lastOpenFiles": [
+    "Zettelkasten with obsidian/Index.md",
+    "How to rediscover old notes.md",
+    "Zettelkasten with obsidian/How to take better (book) notes.md",
     "git vault/my articles/useRef.md",
     "2024-12-27.md",
     "Invalid date.md",
     "git vault/my articles/useEffect.md",
-    "Zettelkasten with obsidian/How to take better (book) notes.md",
     "hi.md",
     "Zettelkasten with obsidian/permanent notes.md",
     "Zettelkasten with obsidian/fleeting notes.md",
@@ -176,8 +178,6 @@
     "git vault/eraasoft/hfooad book video scripts/intro.md",
     "/git vault/eraasoft/hfooad book video scripts/intro.md",
     "/git vault/my articles/UseEffect 29-1-2025.md",
-    "/git vault/my articles/Introduction to React.useState 28-12-2024.md",
-    "/git vault/my articles/use ref article 29-12-2024.md",
     "git vault/eraasoft/hfooad book video scripts",
     "git vault/articles notes/tkodo react query",
     "git vault/articles notes/tkdodo useState",
