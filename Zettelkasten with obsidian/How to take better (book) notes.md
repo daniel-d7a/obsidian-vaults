@@ -12,7 +12,7 @@ Make index lists for stuff you read (articles, books, .. etc)
 
 Use indexes and block links inside long or dense notes.
 
-
+We want notes that can be reused multiple times, small enough to be reused but big enough to hold information.
 
 Use [[fleeting notes]] to capture quick thoughts and ideas.
 
