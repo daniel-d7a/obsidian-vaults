@@ -31,7 +31,7 @@ FROM "Projects" AND (#project/active OR #project/soon)
 ```
 
 Other things we can use in dataview include:
-- sorting with the `SORT` keyword.
+- sorting with the `SORT` keyword either `ASC` or `DESC`.
 - filtering with a `WHERE` clause.
 - grouping with a `GROUP BY`.
 - using many of the built in functions described in the[[#^docs | docs]].

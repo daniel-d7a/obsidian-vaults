@@ -3,18 +3,18 @@
   "mobileToolbarCommands": [
     "editor:undo",
     "editor:insert-wikilink",
-    "editor:set-heading",
+    "editor:toggle-code",
+    "editor:toggle-blockquote",
     "editor:insert-codeblock",
+    "editor:insert-link",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:set-heading",
     "editor:toggle-bold",
     "editor:toggle-italics",
     "editor:toggle-strikethrough",
     "editor:insert-callout",
     "editor:toggle-highlight",
-    "editor:toggle-code",
-    "editor:toggle-blockquote",
-    "editor:insert-link",
-    "editor:toggle-bullet-list",
-    "editor:toggle-numbered-list",
     "editor:toggle-checklist-status",
     "editor:insert-embed",
     "editor:insert-tag",
@@ -25,5 +25,6 @@
     "editor:configure-toolbar"
   ],
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./Assets"
 }

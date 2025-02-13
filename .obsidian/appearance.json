@@ -1,5 +1,6 @@
 {
   "cssTheme": "Atom",
   "accentColor": "",
-  "baseFontSize": 18
+  "baseFontSize": 18,
+  "interfaceFontFamily": "Cambria"
 }
