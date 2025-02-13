@@ -4,6 +4,6 @@ Using graph view has the disadvantage of viewing all notes, even ones that we do
 
 Maps of contents and index notes help a lot here.
 
-We can use the [[dataview]] extension, which seemingly allows us to make queries on our vaults, but I haven't tried it yet.
+We can use the[[Glossary#dataview | dataview]] extension, which seemingly allows us to make queries on our vaults, but I haven't tried it yet.
 
 With dataview, we can query for notes older than a certain date, or notes with a specific tag, or even just random notes.

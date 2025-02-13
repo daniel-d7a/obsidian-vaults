@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten with obsidian/How to take better (book) notes.md",
-                "mode": "source",
+                "file": "Zettelkasten with obsidian/dataview.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to take better (book) notes"
+              "title": "dataview"
             }
           },
           {
@@ -63,7 +63,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:react",
+            "query": "",
             "matchingCase": false,
             "explainSearch": true,
             "collapseAll": false,
@@ -166,10 +166,10 @@
   "active": "1a0dce4042fd17b1",
   "lastOpenFiles": [
     "Zettelkasten with obsidian/Glossary.md",
+    "Zettelkasten with obsidian/dataview.md",
+    "Zettelkasten with obsidian/How to rediscover old notes.md",
     "Zettelkasten with obsidian/How to take better (book) notes.md",
     "Zettelkasten with obsidian/fleeting notes.md",
-    "Zettelkasten with obsidian/How to rediscover old notes.md",
-    "Zettelkasten with obsidian/dataview.md",
     "Zettelkasten with obsidian/_Index.md",
     "git vault/my articles/useRef.md",
     "2024-12-27.md",
