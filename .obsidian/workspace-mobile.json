@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten with obsidian/Glossary.md",
+                "file": "Zettelkasten with obsidian/How to use dataview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Glossary"
+              "title": "How to use dataview"
             }
           }
         ],
@@ -111,7 +111,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Zettelkasten with obsidian/Glossary.md",
+            "file": "Zettelkasten with obsidian/How to use dataview.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -166,8 +166,8 @@
   },
   "active": "dc336350c6ac4b55",
   "lastOpenFiles": [
-    "Zettelkasten with obsidian/How to use dataview.md",
     "Zettelkasten with obsidian/Glossary.md",
+    "Zettelkasten with obsidian/How to use dataview.md",
     "Zettelkasten with obsidian/How to rediscover old notes.md",
     "Zettelkasten with obsidian/How to take better (book) notes.md",
     "Zettelkasten with obsidian/fleeting notes.md",

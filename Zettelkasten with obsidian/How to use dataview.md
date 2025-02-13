@@ -30,6 +30,8 @@ LIST
 FROM "Projects" AND (#project/active OR #project/soon) 
 ```
 
-
+Other things we can use in dataview include:
+- sorting with the `SORT` keyword.
+- filtering with a `WHERE` clause.
 ## references 
 - [Dataview in Obsidian: A Beginner’s Guide (article)](https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/)
