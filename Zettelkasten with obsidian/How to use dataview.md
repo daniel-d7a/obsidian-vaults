@@ -30,6 +30,14 @@ LIST
 FROM "Projects" AND (#project/active OR #project/soon) 
 ```
 
+With dataview, files now have a lot of metadata available on the global `file` variable, such as:
+- creation and modification date and time.
+- tags
+- lists and tasks
+- any properties and inline dataview properties 
+- file name, path and extension.
+- in and outgoing links
+
 Other things we can use in dataview include:
 - sorting with the `SORT` keyword either `ASC` or `DESC`.
 - filtering with a `WHERE` clause.
