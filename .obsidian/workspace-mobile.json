@@ -35,8 +35,7 @@
               "title": "Glossary"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Zettelkasten with obsidian/Glossary.md",
+            "file": "Zettelkasten with obsidian/How to take better (book) notes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -164,10 +163,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dc336350c6ac4b55",
+  "active": "1a0dce4042fd17b1",
   "lastOpenFiles": [
-    "Zettelkasten with obsidian/How to take better (book) notes.md",
     "Zettelkasten with obsidian/Glossary.md",
+    "Zettelkasten with obsidian/How to take better (book) notes.md",
     "Zettelkasten with obsidian/fleeting notes.md",
     "Zettelkasten with obsidian/How to rediscover old notes.md",
     "Zettelkasten with obsidian/dataview.md",
