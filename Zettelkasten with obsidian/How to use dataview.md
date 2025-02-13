@@ -48,7 +48,7 @@ We can add inline DQL to our notes
 
 We can access the current file using `this` or another file using `[[link_to_file]]`
 
-
+We can write js in dataview using dataviewjs blocks which expose the `dv` variable, or write it inline 
 
 Other things we can use in dataview include:
 - sorting with the `SORT` keyword either `ASC` or `DESC`.
