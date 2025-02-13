@@ -5,4 +5,4 @@ Actually useful notes that we can use without context that are connected to othe
 Temporary notes that we take every day, when we write something down, or take a note of something.
 
 # dataview
-A community plugin that allows us to aggregate data from our vaults using SQL like syntax, check [[dataview]] 
+A community plugin that allows us to aggregate data from our vaults using SQL like syntax, check [[How to use dataview]] 
