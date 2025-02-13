@@ -42,7 +42,7 @@ With dataview, files now have a lot of metadata available on the global `file` v
 - file name, path and extension.
 - in and outgoing links
 
-Lists and tasks are not very important to me I guess.
+There is some special treatment to lists and tasks
 
 We can add inline DQL to our notes
 
