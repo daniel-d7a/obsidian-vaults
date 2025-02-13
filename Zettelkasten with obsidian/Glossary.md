@@ -1,1 +1,4 @@
+# permanent notes 
+
+# fleeting notes 
 Temporary notes that we take every day, when we write something down, or take a note of something.

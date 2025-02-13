@@ -18,9 +18,9 @@ We want notes that can be reused multiple times, small enough to be reused but b
     - smaller notes about big ideas with links to other notes
         -   small ideas
 
-Use [[fleeting notes]] to capture quick thoughts and ideas.
+Use [[Glossary#fleeting notes | fleeting notes]] to capture quick thoughts and ideas.
 
-Use [[permanent notes]] to refactor fleeting notes useful notes you can use later.
+Use [[Glossary#permanent notes | permanent notes]] to refactor fleeting notes useful notes you can use later.
 
 Use links to create a web of notes that reference each other.
 
