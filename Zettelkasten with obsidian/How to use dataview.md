@@ -1,3 +1,7 @@
+---
+fleeting: true
+---
+
 We can query and view the data in 4 ways:
 - list
 - table
@@ -37,6 +41,14 @@ With dataview, files now have a lot of metadata available on the global `file` v
 - any properties and inline dataview properties 
 - file name, path and extension.
 - in and outgoing links
+
+Lists and tasks are not very important to me I guess.
+
+We can add inline DQL to our notes
+
+We can access the current file using `this` or another file using `[[link_to_file]]`
+
+
 
 Other things we can use in dataview include:
 - sorting with the `SORT` keyword either `ASC` or `DESC`.

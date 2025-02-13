@@ -6,6 +6,7 @@
     "references": "multitext",
     "date_started": "date",
     "pub_date": "date",
-    "published": "checkbox"
+    "published": "checkbox",
+    "fleeting": "checkbox"
   }
 }
