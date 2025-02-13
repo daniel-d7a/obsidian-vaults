@@ -166,8 +166,9 @@
   },
   "active": "dc336350c6ac4b55",
   "lastOpenFiles": [
-    "Zettelkasten with obsidian/Glossary.md",
+    "^docs.md",
     "Zettelkasten with obsidian/How to use dataview.md",
+    "Zettelkasten with obsidian/Glossary.md",
     "Zettelkasten with obsidian/How to rediscover old notes.md",
     "Zettelkasten with obsidian/How to take better (book) notes.md",
     "Zettelkasten with obsidian/fleeting notes.md",
@@ -192,7 +193,6 @@
     "/git vault/articles notes/tkdodo useState/4. useState for one-time initializations.md",
     "/git vault/articles notes/tkdodo useState/2. Putting props to useState.md",
     "/git vault/articles notes/tkdodo useState/1. Don't over useState.md",
-    "git vault/eraasoft/hfooad book video scripts/intro.md",
     "git vault/eraasoft/hfooad book video scripts",
     "git vault/articles notes/tkodo react query",
     "git vault/articles notes/tkdodo useState",

@@ -34,7 +34,7 @@ Other things we can use in dataview include:
 - sorting with the `SORT` keyword.
 - filtering with a `WHERE` clause.
 - grouping with a `GROUP BY`.
-- using many of the built in functions described in the docs
+- using many of the built in functions described in the[[#^docs | docs]].
 ## references 
-- [dataview docs](https://blacksmithgu.github.io/obsidian-dataview/)
+- [dataview docs](https://blacksmithgu.github.io/obsidian-dataview/) ^docs
 - [Dataview in Obsidian: A Beginner’s Guide (article)](https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/)
