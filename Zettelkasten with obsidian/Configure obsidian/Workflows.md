@@ -1,8 +1,14 @@
 ## Templates 
 - Create templates for:
 	- New articles.
+		- day started
+		- tags
+		- day posted
+		- references
 	- YouTube scripts.
+		- refernces
 	- Read articles.
+		- article link
 	- Books.
 - Create MOCs.
 - Create a journal like the one I had in the army.
