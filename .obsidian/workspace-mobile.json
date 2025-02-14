@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten with obsidian/_Index.md",
+                "file": "Zettelkasten with obsidian/How to organize notes with MOCs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Index"
+              "title": "How to organize notes with MOCs"
             }
           }
         ]
@@ -96,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Zettelkasten with obsidian/_Index.md",
+            "file": "Zettelkasten with obsidian/How to organize notes with MOCs.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -151,11 +151,11 @@
   },
   "active": "20c21843297f1bb2",
   "lastOpenFiles": [
+    "Zettelkasten with obsidian/Glossary.md",
     "Zettelkasten with obsidian/How to organize notes with MOCs.md",
     "Zettelkasten with obsidian/_Index.md",
     "Zettelkasten with obsidian/Configure obsidian/Extensions to check out.md",
     "Zettelkasten with obsidian/Configure obsidian/Workflows.md",
-    "Zettelkasten with obsidian/Glossary.md",
     "Zettelkasten with obsidian/Untitled.md",
     "Untitled 1",
     "Zettelkasten with obsidian/Configure obsidian",
