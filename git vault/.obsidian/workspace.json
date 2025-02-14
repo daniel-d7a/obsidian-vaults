@@ -15,7 +15,7 @@
               "state": {
                 "file": "eraasoft/pre prog videos.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "pre prog videos"
@@ -165,7 +165,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "63001b0f368e2442",
+  "active": "488f86b6375fbea5",
   "lastOpenFiles": [
     "articles notes/tkdodo useState/4. useState for one-time initializations.md",
     "eraasoft/hfooad book video scripts/intro.md",
