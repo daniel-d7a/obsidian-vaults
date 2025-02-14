@@ -1,0 +1,1 @@
+Use this [[Glossary#dataview|dataview]]query in an index note to list all notes referring to it, and in any note related to the  
