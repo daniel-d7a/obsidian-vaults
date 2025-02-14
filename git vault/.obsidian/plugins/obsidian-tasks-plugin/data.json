@@ -45,6 +45,20 @@
         "nextStatusSymbol": " ",
         "availableAsCommand": true,
         "type": "CANCELLED"
+      },
+      {
+        "symbol": "!",
+        "name": "Important",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "*",
+        "name": "Star",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
       }
     ]
   },
