@@ -12,6 +12,7 @@ use AI to ask follow up question about topics I am working on.
 
 > use AI to pull stuff out of me rather than do the work for, the seed of the idea is coming from me and the AI is only augmenting it.
 
+there is also lex, which does auto-complete in an environment similar to google docs (but is limited on the free plan).
 ## analytics
 
 I can give it any data such as my YouTube data, and make AI analyze it for me and give me suggestions based on it, maybe videos to make, ideas, video titles, topics, and more.
