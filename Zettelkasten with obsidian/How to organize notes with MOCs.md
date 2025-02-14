@@ -8,4 +8,6 @@ list from [[]] and !outgoing([[]])
 
 This creates a list of all notes referring to the current - aka the index - note.
 
-We can further refine our index by dividing it into topics using a subheader and a more specific query.
+*There are still something I don't understand about this query.*
+
+We can further refine our index by dividing it into topics using subheaders and more specific queries.
