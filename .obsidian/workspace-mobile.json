@@ -166,6 +166,9 @@
   },
   "active": "dc336350c6ac4b55",
   "lastOpenFiles": [
+    "/git vault/Untitled.md",
+    "git vault/Untitled.md",
+    "/git vault",
     "^docs.md",
     "Zettelkasten with obsidian/How to use dataview.md",
     "Zettelkasten with obsidian/Glossary.md",
@@ -191,8 +194,6 @@
     "/git vault/articles notes/tkdodo useState/5. useState vs useReducer.md",
     "/git vault/articles notes/tkdodo useState/3. Things to know about useState.md",
     "/git vault/articles notes/tkdodo useState/4. useState for one-time initializations.md",
-    "/git vault/articles notes/tkdodo useState/2. Putting props to useState.md",
-    "/git vault/articles notes/tkdodo useState/1. Don't over useState.md",
     "git vault/eraasoft/hfooad book video scripts",
     "git vault/articles notes/tkodo react query",
     "git vault/articles notes/tkdodo useState",
@@ -200,7 +201,6 @@
     "git vault/eraasoft",
     "git vault/articles notes",
     "git vault",
-    "/git vault/my articles",
-    "/git vault/eraasoft/hfooad book video scripts"
+    "/git vault/my articles"
   ]
 }
