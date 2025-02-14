@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my articles/UseEffect 29-1-2025.md",
+                "file": "eraasoft/hfooad book video scripts/intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UseEffect 29-1-2025"
+              "title": "intro"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 235.5,
+    "collapsed": true
   },
   "right": {
     "id": "cef926da4cb06577",
@@ -167,11 +168,11 @@
   },
   "active": "488f86b6375fbea5",
   "lastOpenFiles": [
+    "my articles/UseEffect 29-1-2025.md",
     "eraasoft/hfooad book video scripts/intro.md",
     "eraasoft/hfooad book video scripts",
     "eraasoft",
     "my articles/use ref article 29-12-2024.md",
-    "my articles/UseEffect 29-1-2025.md",
     "my articles/Introduction to React.useState 28-12-2024.md",
     "articles notes/tkodo react query/1. Practical React Query.md",
     "articles notes/tkdodo useState/5. useState vs useReducer.md",
