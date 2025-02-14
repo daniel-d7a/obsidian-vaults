@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTime",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -165,10 +165,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "488f86b6375fbea5",
+  "active": "63001b0f368e2442",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Untitled.canvas",
     "eraasoft/pre prog videos.md",
+    "Untitled.md",
     "eraasoft/hfooad book video scripts/intro.md",
     "my articles/useRef.md",
     "my articles/useEffect.md",
