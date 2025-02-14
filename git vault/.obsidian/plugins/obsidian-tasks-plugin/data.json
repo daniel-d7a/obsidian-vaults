@@ -19,7 +19,7 @@
       {
         "symbol": " ",
         "name": "Todo",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "/",
         "availableAsCommand": true,
         "type": "TODO"
       },
@@ -45,6 +45,13 @@
         "nextStatusSymbol": " ",
         "availableAsCommand": true,
         "type": "CANCELLED"
+      },
+      {
+        "symbol": " ",
+        "name": "in progress",
+        "nextStatusSymbol": "/",
+        "availableAsCommand": false,
+        "type": "IN_PROGRESS"
       }
     ]
   },

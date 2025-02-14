@@ -1,4 +1,7 @@
 {
   "showRibbon": true,
-  "cssTheme": "Atom"
+  "cssTheme": "Atom",
+  "enabledCssSnippets": [
+    "SlRvb_custom_checkboxes"
+  ]
 }
