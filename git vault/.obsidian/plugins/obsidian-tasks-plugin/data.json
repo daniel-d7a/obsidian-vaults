@@ -45,13 +45,6 @@
         "nextStatusSymbol": " ",
         "availableAsCommand": true,
         "type": "CANCELLED"
-      },
-      {
-        "symbol": " ",
-        "name": "in progress",
-        "nextStatusSymbol": "/",
-        "availableAsCommand": false,
-        "type": "IN_PROGRESS"
       }
     ]
   },
