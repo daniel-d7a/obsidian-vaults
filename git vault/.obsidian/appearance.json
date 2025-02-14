@@ -3,5 +3,6 @@
   "cssTheme": "Atom",
   "enabledCssSnippets": [
     "SlRvb_custom_checkboxes"
-  ]
+  ],
+  "textFontFamily": ""
 }
