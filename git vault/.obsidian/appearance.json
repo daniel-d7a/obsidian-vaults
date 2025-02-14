@@ -1,3 +1,4 @@
 {
-  "showRibbon": false
+  "showRibbon": true,
+  "cssTheme": "Blue Topaz"
 }
