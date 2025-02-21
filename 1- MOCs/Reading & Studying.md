@@ -8,9 +8,9 @@ SORT file.cday DESC
 ```dataview
 TABLE WITHOUT ID
   file.link as "Article",
-  file.etags,
-  filter(file.etags, (t) => startswith(t, "sources/articles/")) as Source
+  filter(file.tags, (t) => startswith(t, "#sources/articles/"))[0] as Source,
+  filter(file.etags, (t) => !startswith(t, "#sources/articles/")) as Topics
 FROM [[]] 
-GROUP BY filter(file.etags, (t) => startswith(t, "sources/articles/"))[0] as Source
+GROUP BY   filter(file.etags, (t) => !startswith(t, "#sources/articles/"))[0]
 SORT Source asc
 ```
