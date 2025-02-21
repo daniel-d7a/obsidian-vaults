@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "5- Projects/eraasoft/pre prog videos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "pre prog videos"
             }
           }
         ],
@@ -201,12 +201,12 @@
   },
   "active": "3e36d50b75b2aa4e",
   "lastOpenFiles": [
+    "Home.md",
     "Untitled.md",
     "_/_Templates/Article template.md",
     "hello.md",
     "hello world.md",
     "new react hook.md",
-    "Home.md",
     "5- Projects/eraasoft/hfooad book video scripts/intro.md",
     "_/_Templates/useRef 1.md",
     "5- Projects/Articles/useRef.md",
