@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Templates/Article template.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Article template"
+              "title": "Home"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "_/_Templates/Article template.md",
+            "file": "Home.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "_/_Templates/Article template.md",
+            "file": "Home.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -145,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_/_Templates/Article template.md",
+            "file": "Home.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -170,6 +170,8 @@
   },
   "active": "de6adef64d09fb52",
   "lastOpenFiles": [
+    "git vault/my articles/useRef.md",
+    "_/_Templates/Article template.md",
     "git vault/youtube video notes/How Ai helps with writing, analytics, and personal life..md",
     "git vault/youtube video notes/cross context learning.md",
     "/git vault/youtube video notes/How Ai helps with writing, analytics, and personal life..md",
@@ -181,8 +183,6 @@
     "git vault/youtube video notes",
     "/git vault",
     "conflict-files-obsidian-git.md",
-    "_/_Templates/Article template.md",
-    "git vault/my articles/useRef.md",
     "5- Projects/Articles/Some useState properties.md",
     "1- MOCs/My articles.md",
     "Invalid date.md",
