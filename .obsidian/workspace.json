@@ -6,24 +6,29 @@
       {
         "id": "9a99c92d9350454e",
         "type": "tabs",
-        "dimension": 47.13831478537361,
         "children": [
           {
-            "id": "b39aca912d182c0f",
+            "id": "02b0d3ca99f8f9d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/Practical React Query.md",
+                "file": "1- MOCs/Reading & Studying.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practical React Query"
+              "title": "Reading & Studying"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "f0d8249952a21b6e",
+        "type": "tabs",
+        "children": [
           {
-            "id": "ea1aa5c2922a51ad",
+            "id": "60f7b558e3e12738",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,27 +40,19 @@
               "icon": "lucide-file",
               "title": "Reading & Studying"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "439f70fd39d19b66",
-        "type": "tabs",
-        "dimension": 52.861685214626384,
-        "children": [
+          },
           {
-            "id": "306a74c7e0ac8879",
+            "id": "b65d94c520e3f365",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- MOCs/Reading & Studying.md",
+                "file": "test note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reading & Studying"
+              "title": "test note"
             }
           }
         ]
@@ -222,13 +219,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ea1aa5c2922a51ad",
+  "active": "60f7b558e3e12738",
   "lastOpenFiles": [
-    "3- Permanent/Don't over useState.md",
+    "test note.md",
     "1- MOCs/Reading & Studying.md",
+    "test.md",
+    "Home.md",
+    "_/_Inbox/Practical React Query.md",
+    "3- Permanent/Don't over useState.md",
     "_Assets/Pasted image 20250221234436.png",
     "_Assets",
-    "_/_Inbox/Practical React Query.md",
     "_/_Inbox/2. Putting props to useState.md",
     "_/_Inbox/3. Things to know about useState.md",
     "_/_Inbox/4. useState for one-time initializations.md",
@@ -246,10 +246,8 @@
     "1- MOCs/My articles.md",
     "1- MOCs/Thinking, studying, how our brains work..md",
     "_/_Templates/Article template.md",
-    "Home.md",
     "conflict-files-obsidian-git.md",
     "5- Projects/eraasoft/pre prog videos.md",
-    "Untitled.md",
     "hello.md",
     "4- Journals",
     "2- Fleeting"
