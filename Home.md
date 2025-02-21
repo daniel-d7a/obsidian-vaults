@@ -5,7 +5,7 @@ FROM "1- MOCs"
 ```
 
 How many notes do I have?
-we have `=length(rows)`
+we have `=COUNT FROM ""`
 
 How many notes need my attention?
 Incomplete: `=length(link(""))`
