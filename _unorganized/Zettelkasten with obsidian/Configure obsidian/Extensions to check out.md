@@ -1,3 +1,5 @@
+#obsidian/extensions
+
 - **dataview**: allows querying over meta data in the vault.
 - **linter**: lints markdown.
 - **tasks**: introduces more checkbox types to better manage tasks, and allows us to add more data to tasks such as priorities and due dates.
@@ -8,4 +10,5 @@
 - **natural language dates**: allows us to use natural language dates then converts then to correct dates.
 - **note refactor**: eases refactoring large notes into smaller linked notes. 
 
-
+## references
+- [[mocs/]]
