@@ -170,6 +170,8 @@
   },
   "active": "de6adef64d09fb52",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "_/_Templates/Article template.md",
     "_/_unorganized/git vault/my articles/useRef.md",
     "5- Projects/Articles/Some useState properties.md",
     "1- MOCs/My articles.md",
@@ -203,8 +205,6 @@
     "_/_unorganized",
     "_/_Inbox/Best full stack projects for cv.md",
     "Zettelkasten with obsidian/Untitled.md",
-    "Zettelkasten with obsidian/How to use dataview.md",
-    "/git vault/Untitled.md",
-    "^docs.md"
+    "Zettelkasten with obsidian/How to use dataview.md"
   ]
 }
