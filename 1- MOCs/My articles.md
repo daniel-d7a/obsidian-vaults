@@ -1,5 +1,5 @@
 ```dataview
 LIST
-FROM [[]] AND !'_/_templates'
+FROM [[]] AND !"'_/_Templates'"
 SORT file.cday DESC
 ```
