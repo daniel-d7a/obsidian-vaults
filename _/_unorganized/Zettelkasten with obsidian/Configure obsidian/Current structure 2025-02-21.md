@@ -1,13 +1,14 @@
 
-
 ## Folder structure 
-- **\_**: holds miscellaneous files, such as *templates*, *inbox* for newly created notes, *unorganized* for migrating notes across structures
+- **\_:** holds miscellaneous files, such as *templates*, *inbox* for newly created notes, *unorganized* for migrating notes across structures.
+- **MOCs**
+- **Permanent notes** 
+- **Fleeting notes**
+- **Journal:** for daily notes and notes about my life in genera.
+- **Think box:** for thinking about new projects.
 
-## note structure 
-
-
-
-Use tags to categorize notes by topic and folders to categorize by type.
-
-Use metadata and templates to further customize notes in a single group and MOCs with nested headings to group them based on tags and meta data.
+## Note structure 
+- use tags to separate notes by topics
+- use nested tags to split the notes further by subtopics and states.
+- use templates with unified metadata to group together special notes such as my articles
 
