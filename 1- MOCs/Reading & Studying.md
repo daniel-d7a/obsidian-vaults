@@ -19,9 +19,13 @@ SORT Source asc
 dv.table(
 	['article', 'source', 'topics'], 
 	dv.pages('')
+	.filter(p=>)
 	.map(
 		p=>[
 			p.file.link,
-			p.file.etags.filter(t=>t.startsWith('#sources/articles/'))))
+			p.file.etags.filter(t=>t.startsWith('#sources/articles/')),
 			p.file.etags.filter(t=>!t.startsWith('#sources/articles/'))
+		]
+	)
+)
 ```
