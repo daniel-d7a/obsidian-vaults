@@ -2,5 +2,8 @@
   "obsidian-git",
   "obsidian-style-settings",
   "code-styler",
-  "settings-search"
+  "settings-search",
+  "dataview",
+  "templater-obsidian",
+  "obsidian-tasks-plugin"
 ]
