@@ -1,4 +1,5 @@
 ```dataview
 LIST
-where [[]] and !outlink([[]])
+FROM [[]] AND !'_/_templates'
+SORT file.cday DESC
 ```
