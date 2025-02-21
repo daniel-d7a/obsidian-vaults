@@ -8,13 +8,12 @@ FROM "1- MOCs"
 we have `$=dv.pages("").length` notes
 
 ## How many notes need my attention?
-Incomplete: `$=dv.pages('"_/_inbox"').length`
-Unorganized: `$=dv.pages('"2- fleeting"').length`
-
+Incomplete: `$=dv.pages('"_/_Inbox"').length`
+Unorganized: `$=dv.pages('"2- Fleeting"').length`
 ## Some random topics
 ```dataview
-TABLE file.mtime as "Last Modified"
+TABLE file.mday as "Last Modified"
 FROM ""
-SORT rand()
-LIMIT 10
+SORT hash(dateformat(date(today), "YYYY-MM-DD HH:mm"), file.name)
+LIMIT 5
 ```
