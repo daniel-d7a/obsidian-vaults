@@ -5,10 +5,10 @@ FROM "1- MOCs"
 ```
 
 How many notes do I have?
-we have `=list length(file.name)`
+we have `=length(rows)`
 
 How many notes need my attention?
-Incomplete: `get number of fleeting notes`
+Incomplete: `=length(link(""))`
 Unorganized: `get number of inbox notes`
 
 Some random topics
