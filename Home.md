@@ -7,7 +7,7 @@ FROM "1- MOCs"
 How many notes do I have?
 we have 
 ``` dataview
-list typeof(link(""))
+list link("")
 limit 1
 ```
 
