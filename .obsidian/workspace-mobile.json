@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_unorganized/git vault/my articles/useRef.md",
+                "file": "_/_Templates/Article template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "useRef"
+              "title": "Article template"
             }
           }
         ]
@@ -84,6 +84,20 @@
           "icon": "lucide-bookmark",
           "title": "Bookmarks"
         }
+      },
+      {
+        "id": "b9b202c65b1956c2",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
       }
     ],
     "currentTab": 0
@@ -98,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "_/_unorganized/git vault/my articles/useRef.md",
+            "file": "_/_Templates/Article template.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +131,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "_/_unorganized/git vault/my articles/useRef.md",
+            "file": "_/_Templates/Article template.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -131,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_/_unorganized/git vault/my articles/useRef.md",
+            "file": "_/_Templates/Article template.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -156,6 +170,7 @@
   },
   "active": "de6adef64d09fb52",
   "lastOpenFiles": [
+    "_/_unorganized/git vault/my articles/useRef.md",
     "5- Projects/Articles/Some useState properties.md",
     "1- MOCs/My articles.md",
     "Invalid date.md",
@@ -190,7 +205,6 @@
     "Zettelkasten with obsidian/Untitled.md",
     "Zettelkasten with obsidian/How to use dataview.md",
     "/git vault/Untitled.md",
-    "^docs.md",
-    "Zettelkasten with obsidian/fleeting notes.md"
+    "^docs.md"
   ]
 }
