@@ -1,5 +1,8 @@
 What topics do I have?
-`list all topics`
+```dataview
+LIST
+FROM "1- MOCs"
+```
 
 How many notes do I have?
 `get number of notes`
