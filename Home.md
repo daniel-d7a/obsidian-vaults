@@ -5,7 +5,7 @@ FROM "1- MOCs"
 ```
 
 How many notes do I have?
-we have `= list length(file.name)`
+we have `=list length(file.name)`
 
 How many notes need my attention?
 Incomplete: `get number of fleeting notes`

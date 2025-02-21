@@ -2,13 +2,15 @@
   "obsidian-git",
   "obsidian-style-settings",
   "code-styler",
-  "settings-search",
   "dataview",
-  "obsidian-tasks-plugin",
   "homepage",
-  "tag-wrangler",
   "nldates-obsidian",
+<<<<<<< HEAD
   "url-into-selection",
   "various-complements",
+=======
+  "settings-search",
+  "tag-wrangler",
+>>>>>>> origin/main
   "obsidian-linter"
 ]
