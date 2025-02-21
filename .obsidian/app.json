@@ -25,6 +25,7 @@
     "editor:configure-toolbar"
   ],
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current",
-  "attachmentFolderPath": "./Assets"
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "_Assets",
+  "newFileFolderPath": "_Inbox"
 }

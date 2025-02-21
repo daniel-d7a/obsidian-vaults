@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "1- MOCs/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Untitled"
             }
           }
         ],
@@ -192,11 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ce2533ead8996710",
+  "active": "823a25b0841dc2f7",
   "lastOpenFiles": [
+    "Home.md",
+    "1- MOCs/Untitled.md",
     "4- Journal",
     "_unorganized/Zettelkasten with obsidian/Configure obsidian/File structure.md",
-    "Home.md",
     "_Inbox/Customizable E-Commerce Platform.md",
     "3- Permanent",
     "2- fleeting",
@@ -228,7 +229,6 @@
     "2024-12-27.md",
     "Invalid date.md",
     "_unorganized/git vault/my articles/useEffect.md",
-    "hi.md",
-    "_unorganized/Zettelkasten with obsidian"
+    "hi.md"
   ]
 }
