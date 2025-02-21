@@ -15,13 +15,19 @@ FROM [[]]
 SORT Source asc
 ```
 
+
+```dataviewjs
+dv.list(dv.page('').file.inlinks)
+```
+
+
 ```dataviewjs
 dv.table(
 	['article', 'source', 'topics'], 
 	dv.current().file.inlinks
 	.map(
 		p=>[
-			p.file.link,
+			p.file.name,
 			p.file.etags.filter(t=>t.startsWith('#sources/articles/')),
 			p.file.etags.filter(t=>!t.startsWith('#sources/articles/'))
 		]
