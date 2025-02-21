@@ -12,3 +12,5 @@
 - use nested tags to split the notes further by subtopics and states.
 - use templates with unified metadata to group together special notes such as my articles
 
+## Ideas
+- use scripts to migrate notes structure.
