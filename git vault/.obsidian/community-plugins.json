@@ -2,5 +2,10 @@
   "obsidian-git",
   "url-into-selection",
   "share-note",
-  "obsidian-editor-shortcuts"
+  "obsidian-editor-shortcuts",
+  "dataview",
+  "file-explorer-note-count",
+  "obsidian-style-settings",
+  "code-styler",
+  "obsidian-tasks-plugin"
 ]
