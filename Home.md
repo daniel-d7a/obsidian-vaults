@@ -1,6 +1,6 @@
 ## What topics do I have?
 ```dataview
-TABLE length(file.inlinks) as "connections"
+TABLE  WITHOUT ID file.link as "Note", length(file.inlinks) as "connections"
 FROM "1- MOCs"
 ```
 
@@ -12,7 +12,7 @@ Incomplete: `$=dv.pages('"_/_Inbox"').length`
 Unorganized: `$=dv.pages('"2- Fleeting"').length`
 ## Some random topics
 ```dataview
-TABLE file.mday as "Last Modified"
+TABLE WITHOUT ID file.link as "Note", file.mday as "Last Modified"
 FROM ""
 SORT hash(dateformat(date(today), "YYYY-MM-DD HH:mm"), file.name)
 LIMIT 5
