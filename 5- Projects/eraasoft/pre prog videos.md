@@ -34,8 +34,8 @@
 - [/] 19- ايه الفرق ما بين ال client side و ال server side
 - [/] 20- يعني ايه api
 - [ ] فيديوهات المجالات
-	- [ ] 21- front end
-	- [ ] 22- back end
+	- [x] 21- front end ✅ 2025-02-21
+	- [x] 22- back end ✅ 2025-02-21
 	- [ ] 23- mobile 
 	- [ ] 24- AI 
 	- [ ] 25- cyber security
