@@ -55,16 +55,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- MOCs/Untitled.md",
+                "file": "1- MOCs/How to take better Notes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "How to take better Notes"
+            }
+          },
+          {
+            "id": "de6adef64d09fb52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1- MOCs/Thinking, studying, how our brains work..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Thinking, studying, how our brains work."
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -139,13 +154,13 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Zettelkasten with obsidian/Configure obsidian/Workflows.md",
+            "file": "1- MOCs/Thinking, studying, how our brains work..md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
             "showSearch": false,
             "searchQuery": "",
-            "backlinkCollapsed": false,
+            "backlinkCollapsed": true,
             "unlinkedCollapsed": true
           },
           "icon": "links-coming-in",
@@ -158,7 +173,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "blog articles/bolg articles/testing a new article.md",
+            "file": "1- MOCs/Thinking, studying, how our brains work..md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -172,14 +187,17 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "blog articles/bolg articles/testing a new article.md"
+            "file": "1- MOCs/Thinking, studying, how our brains work..md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-list",
           "title": "Outline"
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,10 +210,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "823a25b0841dc2f7",
+  "active": "de6adef64d09fb52",
   "lastOpenFiles": [
+    "_unorganized/Zettelkasten with obsidian/_Index.md",
+    "1- MOCs/Thinking, studying, how our brains work..md",
+    "_unorganized/Zettelkasten with obsidian/Glossary.md",
+    "3- Permanent/How do we get more knowledge and experience.md",
+    "1- MOCs/How to take better Notes.md",
+    "3- Permanent/How to rediscover old notes.md",
+    "3- Permanent/How to organize notes with MOCs.md",
+    "3- Permanent/How to take better (book) notes.md",
     "Home.md",
-    "1- MOCs/Untitled.md",
     "4- Journal",
     "_unorganized/Zettelkasten with obsidian/Configure obsidian/File structure.md",
     "_Inbox/Customizable E-Commerce Platform.md",
@@ -208,11 +233,7 @@
     "_unorganized/Zettelkasten with obsidian/Configure obsidian/Final refinement for now.md",
     "_Inbox",
     "_unorganized/Zettelkasten with obsidian/Configure obsidian/Workflows.md",
-    "_unorganized/Zettelkasten with obsidian/Our brains, studying and remembering stuff.md",
     "Our brains and study",
-    "_unorganized/Zettelkasten with obsidian/How to organize notes with MOCs.md",
-    "_unorganized/Zettelkasten with obsidian/Glossary.md",
-    "_unorganized/Zettelkasten with obsidian/_Index.md",
     "_unorganized/Zettelkasten with obsidian/Configure obsidian/Extensions to check out.md",
     "Zettelkasten with obsidian/Untitled.md",
     "Untitled 1",
@@ -222,13 +243,10 @@
     "_unorganized/git vault/Untitled.md",
     "/git vault",
     "^docs.md",
-    "_unorganized/Zettelkasten with obsidian/How to rediscover old notes.md",
-    "_unorganized/Zettelkasten with obsidian/How to take better (book) notes.md",
     "Zettelkasten with obsidian/fleeting notes.md",
     "_unorganized/git vault/my articles/useRef.md",
     "2024-12-27.md",
     "Invalid date.md",
-    "_unorganized/git vault/my articles/useEffect.md",
-    "hi.md"
+    "_unorganized/git vault/my articles/useEffect.md"
   ]
 }
