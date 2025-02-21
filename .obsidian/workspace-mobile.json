@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- MOCs/Figuring out obsidian.md",
+                "file": "_/_unorganized/git vault/my articles/useRef.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Figuring out obsidian"
+              "title": "useRef"
             }
           }
         ]
@@ -49,7 +49,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Obsi",
+            "query": "tag:#my_articles",
             "matchingCase": false,
             "explainSearch": true,
             "collapseAll": true,
@@ -67,7 +67,9 @@
           "type": "tag",
           "state": {
             "sortOrder": "frequency",
-            "useHierarchy": true
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-tags",
           "title": "Tags"
@@ -84,7 +86,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "565e2f752963c777",
@@ -96,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "1- MOCs/Figuring out obsidian.md",
+            "file": "_/_unorganized/git vault/my articles/useRef.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +117,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "1- MOCs/Figuring out obsidian.md",
+            "file": "_/_unorganized/git vault/my articles/useRef.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -129,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "1- MOCs/Figuring out obsidian.md",
+            "file": "_/_unorganized/git vault/my articles/useRef.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -152,15 +154,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ec12e8c0ba599ae",
+  "active": "de6adef64d09fb52",
   "lastOpenFiles": [
+    "5- Projects/Articles/Some useState properties.md",
+    "1- MOCs/My articles.md",
+    "Invalid date.md",
+    "_/_Inbox/Obsidian folder structure for zettlekasten.md",
+    "5- Projects/Articles",
+    "5- Projects",
     "3- Permanent/Current structure 2025-02-21.md",
+    "1- MOCs/Figuring out obsidian.md",
     "_/_unorganized/git vault/Untitled.md",
     "_/_unorganized/Zettelkasten with obsidian/Configure obsidian/Workflows.md",
     "Home.md",
     "_/_Templates",
     "_",
-    "1- MOCs/Figuring out obsidian.md",
     "3- Permanent/Plugins to check out.md",
     "_unorganized/Zettelkasten with obsidian/Configure obsidian/File structure.md",
     "5- Think box",
@@ -179,15 +187,10 @@
     "1- MOCs",
     "_/_unorganized",
     "_/_Inbox/Best full stack projects for cv.md",
-    "_/_Inbox/Obsidian folder structure for zettlekasten.md",
-    "_/_Inbox",
-    "Our brains and study",
     "Zettelkasten with obsidian/Untitled.md",
     "Zettelkasten with obsidian/How to use dataview.md",
     "/git vault/Untitled.md",
     "^docs.md",
-    "Zettelkasten with obsidian/fleeting notes.md",
-    "_/_unorganized/git vault/my articles/useRef.md",
-    "2024-12-27.md"
+    "Zettelkasten with obsidian/fleeting notes.md"
   ]
 }

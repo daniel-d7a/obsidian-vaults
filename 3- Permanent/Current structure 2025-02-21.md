@@ -4,6 +4,7 @@
 - **Fleeting notes**
 - **Permanent notes** 
 - **Journal:** for daily notes and notes about my life in genera.
+- **Projects:** to cover project notes such as scripts, articles, work related work, ...etc.
 - a home note as a starting point.
 ## Note structure 
 - use tags to separate notes by topics
