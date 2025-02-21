@@ -17,11 +17,11 @@ SORT Source asc
 
 ```dataviewjs
 
-
+dv.list(dv.current().file.inlinks)
 
 ```
 
-```dataviewjs
+```
 const inlinks = dv.current().file.inlinks
 
 dv.table(['article', 'source', 'topics'], inlinks)

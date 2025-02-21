@@ -1,16 +1,7 @@
 [
-  "obsidian-git",
-  "obsidian-style-settings",
   "code-styler",
   "dataview",
+  "obsidian-git",
   "homepage",
-  "nldates-obsidian",
-<<<<<<< HEAD
-  "url-into-selection",
-  "various-complements",
-=======
-  "settings-search",
-  "tag-wrangler",
->>>>>>> origin/main
   "obsidian-linter"
 ]

@@ -215,18 +215,16 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "homepage:Open homepage": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "ea1aa5c2922a51ad",
+  "active": "306a74c7e0ac8879",
   "lastOpenFiles": [
+    "3- Permanent/Don't over useState.md",
+    "1- MOCs/Reading & Studying.md",
     "_Assets/Pasted image 20250221234436.png",
     "_Assets",
     "_/_Inbox/Practical React Query.md",
-    "1- MOCs/Reading & Studying.md",
-    "3- Permanent/Don't over useState.md",
     "_/_Inbox/2. Putting props to useState.md",
     "_/_Inbox/3. Things to know about useState.md",
     "_/_Inbox/4. useState for one-time initializations.md",
