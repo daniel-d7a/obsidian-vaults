@@ -11,6 +11,8 @@ TABLE WITHOUT ID
   filter(file.tags, (t) => startswith(t, "#sources/articles/"))[0] as Source,
   filter(file.etags, (t) => !startswith(t, "#sources/articles/")) as Topics
 FROM [[]] 
-GROUP BY   filter(file.etags, (t) => !startswith(t, "#sources/articles/"))[0]
 SORT Source asc
+```
+```dataviewjs
+dv.table(dv.pages(''))
 ```
