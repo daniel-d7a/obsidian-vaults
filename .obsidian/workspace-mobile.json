@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/Extensions to check out.md",
+                "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Extensions to check out"
+              "title": "Current structure"
             }
           }
         ],
@@ -154,7 +154,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/Extensions to check out.md",
+            "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/Extensions to check out.md",
+            "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -187,7 +187,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/Extensions to check out.md",
+            "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -212,7 +212,9 @@
   },
   "active": "de6adef64d09fb52",
   "lastOpenFiles": [
-    "_unorganized/Zettelkasten with obsidian/Configure obsidian/Final refinement for now.md",
+    "1- MOCs/Figuring out obsidian.md",
+    "3- Permanent/Plugins to check out.md",
+    "_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
     "_unorganized/Zettelkasten with obsidian/Configure obsidian/File structure.md",
     "_unorganized/Zettelkasten with obsidian/Configure obsidian/Workflows.md",
     "5- Think box",
@@ -235,7 +237,6 @@
     "_Inbox/Obsidian folder structure for zettlekasten.md",
     "_Inbox",
     "Our brains and study",
-    "_unorganized/Zettelkasten with obsidian/Configure obsidian/Extensions to check out.md",
     "Zettelkasten with obsidian/Untitled.md",
     "Untitled 1",
     "_unorganized/Zettelkasten with obsidian/Configure obsidian",
