@@ -1,10 +1,11 @@
+## Articles
 
-## articles
 ```dataview
 TABLE WITHOUT ID file.link as Name, file.etags as tags
 FROM [[]] AND -"_/_Templates"
 SORT file.cday DESC
 ```
+
 ```dataview
 TABLE WITHOUT ID
   file.link as "Article",
@@ -13,6 +14,14 @@ TABLE WITHOUT ID
 FROM [[]] 
 SORT Source asc
 ```
+
 ```dataviewjs
-dv.table(dv.pages(''))
+dv.table(
+	['article', 'source', 'topics'], 
+	dv.pages('')
+	.map(
+		p=>[
+			p.file.link,
+			p.file.etags.filter(t=>t.startsWith('#sources/articles/'))))
+			p.file.etags.filter(t=>!t.startsWith('#sources/articles/'))
 ```

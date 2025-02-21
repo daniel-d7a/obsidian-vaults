@@ -29,7 +29,7 @@
               "state": {
                 "file": "1- MOCs/Reading & Studying.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Reading & Studying"
