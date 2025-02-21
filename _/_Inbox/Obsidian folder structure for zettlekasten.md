@@ -14,7 +14,6 @@ Folder Structure (Minimal Nesting)
 
 /Inbox/ (Optional) → Temporary holding area for unsorted notes.
 
-
 Best Practices
 
 Use tags (#programming, #CS, #AI) for categorization.
@@ -25,6 +24,4 @@ Create MOCs for key topics instead of deep folder nesting.
 
 Periodically refine fleeting notes into permanent notes.
 
-
 Would you like any refinements to this setup?
-

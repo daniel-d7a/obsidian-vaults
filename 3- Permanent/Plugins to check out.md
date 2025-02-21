@@ -8,7 +8,8 @@
 - **outliner**: allows us to outline notes.
 - **obsidian footnotes**: eases the creation of footnotes.
 - **natural language dates**: allows us to use natural language dates then converts then to correct dates.
-- **note refactor**: eases refactoring large notes into smaller linked notes. 
+- **note refactor**: eases refactoring large notes into smaller linked notes.
 
-## references
+## References
+
 - [[Figuring out obsidian]]

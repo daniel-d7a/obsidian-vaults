@@ -1,7 +1,7 @@
-
 ## Features
 
 ### MVP (Essential Features)
+
 - Multi-Tenant System (Each merchant has a store)
 - Storefront Customization (Logo, colors, basic themes)
 - User Authentication (Email/password, JWT)
@@ -16,6 +16,7 @@
 - Deployment (Backend, frontend, database)
 
 ### Extra Features (Enhancements)
+
 - Drag-and-Drop Page Builder
 - Custom Domains for Stores
 - Multi-Language & Multi-Currency Support
@@ -31,6 +32,7 @@
 - Google Analytics & Facebook Pixel Integration
 
 ### Competitive Features (Scaling & Competing)
+
 - Multi-Vendor Marketplace Mode (Like Etsy)
 - AI-Powered Product Recommendations
 - Smart Search & Auto-Tagging
@@ -40,6 +42,7 @@
 - CDN & Caching for Performance
 
 ### Monetization & Deployment
+
 - SaaS Model (Charge merchants monthly)
 - White-Label Licensing
 - Marketplace Commissions
@@ -52,25 +55,28 @@
 ## Roadmap
 
 ### Phase 1: MVP (2-3 Months)
+
 1. **Week 1-2:** Backend & frontend setup, authentication, admin dashboard
 2. **Week 3-5:** Store & product management
 3. **Week 6-7:** Shopping cart, checkout, payments
 4. **Week 8-10:** Order processing, email notifications, deployment
 
 ### Phase 2: Enhancements (2-4 Months)
+
 - Store customization features
 - Shopping experience improvements
 - Advanced payment & shipping options
 - Analytics & marketing integrations
 
 ### Phase 3: Competitive Features (Ongoing)
+
 - Multi-vendor support
 - AI-powered recommendations & search
 - Subscription-based sales & B2B pricing
 - Performance optimizations
 
 ### Phase 4: Monetization (Ongoing)
+
 - SaaS & licensing
 - Marketing & growth strategies
 - Expansion to mobile (PWA support)
-
