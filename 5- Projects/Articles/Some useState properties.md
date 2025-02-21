@@ -3,8 +3,12 @@ title: ايه هو ال updater function في useState?
 pub_date: 2024-12-27
 date_started: 2024-12-28
 intro: تعالو نتعرف على ال useState hook و نشوف ازاي نقدر نستخدمه بشكل احسن
+published: true
+tags:
+  - react/hooks
+  - my_articles
 ---
-#react/hooks #my_articles
+
 في المقالة دي هنتكلم عن شوية خصائص في ال use state hook و نفهم ازاي نقدر نستخدمه باحسن شكل ممكن. 
 
 ## ال updater function.
@@ -121,3 +125,4 @@ fucntion App(){
 ## References 
 - https://react.dev/learn/state-as-a-snapshot
 - https://react.dev/learn/queueing-a-series-of-state-updates
+- [[My articles]]

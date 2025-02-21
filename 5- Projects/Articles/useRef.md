@@ -5,15 +5,10 @@ date_started: 2024-12-27
 intro: تعالى نتعرف على ال useRef hook و نشوف طرق استخدام ليه عمرك ما فكرت فيها قبل كده
 tags:
   - react/hooks
-author: Eyad
-references:
-  - https://react.dev/reference/react/useRef
-  - https://react.dev/learn/manipulating-the-dom-with-refs
+  - my_articles
 published: true
 ---
 
-https://react.dev/reference/react/useRef 
-https://react.dev/learn/manipulating-the-dom-with-refs
 # ايه هو ال useRef hook و ازاي بنستخدمه ؟
 
 السلام عليكم ازيكو عاملين ايه ؟ في مقالة النهاردة جايين نتعرف على ال use ref hook بشوية تفصيل. 
@@ -191,3 +186,8 @@ export function App() {
 اخر معلومة نختم بيها ال post ده هي ان ال use ref يعتبر escape hatch يعني موجود عشان نطلع برا سيستم react زي انك تتحكم بال DOM بشكل مباشر او تتعامل مع library مش مكتوبة ل react فلازم قبل ما تستخدم ref تتأكد انك محتاجه الاول و بعدها تستخدمه بحذر مش عمال على بطال لانه غالبا هيؤدي لنتايج عكس ما انت متوقع.
 
 لو عجبك المقال متنساش تنشره مع اصحابك و على مواقع التواصل الاجتماعي و اهم حاجة متنساش تبص عالمصادر تحت 👇🏼
+
+## References
+- https://react.dev/learn/manipulating-the-dom-with-refs
+- https://react.dev/reference/react/useRef
+- [[My articles]]

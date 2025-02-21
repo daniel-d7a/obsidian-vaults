@@ -1,5 +1,12 @@
 ---
 date_started: 29/1/2025
+pub_date: 
+published: 
+intro: لو سألت 10 اشخاص عن useEffect كل واحد هيديك اجابة مختلفة, تعالى نعرف سوا ايه هو ال useEffect فعلا
+title: ايه هو ال useEffect و بيتكون من ايه؟
+tags:
+  - react/hooks
+  - my_articles
 ---
 
 ف المقال ده هنتكلم عن ال use effect hook من جميع الجوانب هنفهم وظيفته في react
@@ -814,3 +821,8 @@ Code here
 ممكن تكون مستغرب ، او متعود انك بتعمل fetch للداتا بتاعتك على طول ف ال useEffect ، و هو ينفع لكنه مش افضل حل لان الطريقة دي مش بتتعامل مع حجات كتير زي ال loading state, error state, race condition و حجات غيرهم كتير لدرجة ان ال documentation بتاع react ذات نفسه بيرشحلك انك تستخدم فريمورك زي nextjs او data fetching library زي react query عشان تقدر ت fetch الداتا بشكل اسهل و افضل.  
   
 هسيبلك تحت ف المصادر لينك مقال بيتكلم عن ليه احنا محتاجين react query بدل ما نستخدم ال useEffect و باذن الله هنتكلم عن react query بصفتها احد افضل الحلول لمشكلة ال data fetching في react في سلسلة مقالات زي دي قريبا ان شاء الله.
+
+## الخاتمة
+
+## refernces
+- [[My articles]]
