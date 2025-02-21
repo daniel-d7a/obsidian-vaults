@@ -15,13 +15,17 @@ FROM [[]]
 SORT Source asc
 ```
 
-
 ```dataviewjs
-dv.list(dv.page('').file.inlinks)
+
+
+
 ```
 
-
 ```dataviewjs
+const inlinks = dv.current().file.inlinks
+
+dv.table(['article', 'source', 'topics'], inlinks)
+
 dv.table(
 	['article', 'source', 'topics'], 
 	dv.current().file.inlinks
