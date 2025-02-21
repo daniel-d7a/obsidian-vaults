@@ -2,8 +2,8 @@
 ## Folder structure 
 - **\_:** holds miscellaneous files, such as *templates*, *inbox* for newly created notes, *unorganized* for migrating notes across structures.
 - **MOCs**
-- **Permanent notes** 
 - **Fleeting notes**
+- **Permanent notes** 
 - **Journal:** for daily notes and notes about my life in genera.
 - **Think box:** for thinking about new projects.
 
