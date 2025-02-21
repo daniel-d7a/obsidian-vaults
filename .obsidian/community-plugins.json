@@ -2,12 +2,10 @@
   "obsidian-git",
   "obsidian-style-settings",
   "code-styler",
-  "settings-search",
   "dataview",
-  "obsidian-tasks-plugin",
   "homepage",
-  "tag-wrangler",
   "nldates-obsidian",
-  "url-into-selection",
-  "various-complements"
+  "settings-search",
+  "tag-wrangler",
+  "obsidian-linter"
 ]
