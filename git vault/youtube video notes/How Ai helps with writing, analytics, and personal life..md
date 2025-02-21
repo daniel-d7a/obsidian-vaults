@@ -19,7 +19,7 @@ it works as a tour guide, and can organize tours for you.
 it can suggest presents.
 
 ## references
-- [6 AI Tools I Use to Boost My Productivity](https://www.youtube.com/watch?v=WoNZUlRu168
+- [6 AI Tools I Use to Boost My Productivity](https://www.youtube.com/watch?v=WoNZUlRu168)
 - [How I use AI to save 10+ hours per week](https://youtu.be/Qc6pdR8BhFA?si=8uqY-b0wWOmDd7lF)
 - [[cross context learning]]
 - [[Thinking, studying, how our brains work.]]
