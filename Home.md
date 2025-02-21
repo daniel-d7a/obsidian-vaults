@@ -5,7 +5,11 @@ FROM "1- MOCs"
 ```
 
 How many notes do I have?
-we have `=COUNT FROM ""`
+we have 
+``` dataview
+list typeof(link(""))
+limit 1
+```
 
 How many notes need my attention?
 Incomplete: `=length(link(""))`
