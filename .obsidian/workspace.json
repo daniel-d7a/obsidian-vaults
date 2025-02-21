@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "git vault/youtube video notes/cross context learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "cross context learning"
             }
           }
         ],
@@ -215,8 +215,8 @@
   },
   "active": "076c59f0aee60f7d",
   "lastOpenFiles": [
-    "git vault/youtube video notes/How Ai helps with writing, analytics, and personal life..md",
     "Home.md",
+    "git vault/youtube video notes/How Ai helps with writing, analytics, and personal life..md",
     "conflict-files-obsidian-git.md",
     "5- Projects/eraasoft/pre prog videos.md",
     "Untitled.md",
