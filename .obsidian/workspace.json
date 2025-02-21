@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5- Projects/eraasoft/pre prog videos.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pre prog videos"
+              "title": "Home"
             }
           }
         ],
@@ -201,8 +201,9 @@
   },
   "active": "3e36d50b75b2aa4e",
   "lastOpenFiles": [
-    "Home.md",
+    "5- Projects/eraasoft/pre prog videos.md",
     "Untitled.md",
+    "Home.md",
     "_/_Templates/Article template.md",
     "hello.md",
     "hello world.md",
@@ -213,7 +214,6 @@
     "5- Projects/Articles/Some useState properties.md",
     "5- Projects/Articles/useEffect.md",
     "1- MOCs/My articles.md",
-    "5- Projects/eraasoft/pre prog videos.md",
     "4- Journals",
     "2- Fleeting"
   ]

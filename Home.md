@@ -1,11 +1,11 @@
 What topics do I have?
 ```dataview
-LIST
+TABLE length(file.inlinks) as "connections"
 FROM "1- MOCs"
 ```
 
 How many notes do I have?
-`get number of notes`
+we have `= list length(file.name)`
 
 How many notes need my attention?
 Incomplete: `get number of fleeting notes`
