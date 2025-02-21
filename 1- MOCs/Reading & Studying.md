@@ -6,8 +6,11 @@ FROM [[]] AND -"_/_Templates"
 SORT file.cday DESC
 ```
 ```dataview
-TABLE file.link as name, file.tags as tags
-FROM [[]] AND -"_/_Templates"
-SORT file.cday DESC
-GROUP BY filter(file.etags, (tag)=> tag != #sources/articles/tk_dodo )
+TABLE WITHOUT ID
+  file.link as "Article",
+  file.etags,
+  filter(file.etags, (t) => startswith(t, "sources/articles/")) as Source
+FROM [[]] 
+GROUP BY filter(file.etags, (t) => startswith(t, "sources/articles/"))[0] as Source
+SORT Source asc
 ```
