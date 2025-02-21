@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Inbox/Customizable E-Commerce Platform.md",
+                "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/File structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Customizable E-Commerce Platform"
+              "title": "File structure"
+            }
+          },
+          {
+            "id": "823a25b0841dc2f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -178,43 +192,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d642fa97f12ed3a4",
+  "active": "823a25b0841dc2f7",
   "lastOpenFiles": [
-    "_Inbox/Best full stack projects for cv.md",
+    "_unorganized/Zettelkasten with obsidian/Configure obsidian/File structure.md",
+    "Home.md",
     "_Inbox/Customizable E-Commerce Platform.md",
+    "3- Permanent",
+    "2- fleeting",
+    "1- MOCs",
+    "_unorganized",
+    "_Inbox/Best full stack projects for cv.md",
     "_Inbox/Obsidian folder structure for zettlekasten.md",
-    "Zettelkasten with obsidian/Configure obsidian/Final refinement for now.md",
+    "_unorganized/Zettelkasten with obsidian/Configure obsidian/Final refinement for now.md",
     "_Inbox",
-    "Zettelkasten with obsidian/Configure obsidian/Workflows.md",
-    "Zettelkasten with obsidian/Our brains, studying and remembering stuff.md",
-    "Zettelkasten with obsidian/Configure obsidian/File structure.md",
+    "_unorganized/Zettelkasten with obsidian/Configure obsidian/Workflows.md",
+    "_unorganized/Zettelkasten with obsidian/Our brains, studying and remembering stuff.md",
     "Our brains and study",
-    "Zettelkasten with obsidian/How to organize notes with MOCs.md",
-    "Zettelkasten with obsidian/Glossary.md",
-    "Zettelkasten with obsidian/_Index.md",
-    "Zettelkasten with obsidian/Configure obsidian/Extensions to check out.md",
+    "_unorganized/Zettelkasten with obsidian/How to organize notes with MOCs.md",
+    "_unorganized/Zettelkasten with obsidian/Glossary.md",
+    "_unorganized/Zettelkasten with obsidian/_Index.md",
+    "_unorganized/Zettelkasten with obsidian/Configure obsidian/Extensions to check out.md",
     "Zettelkasten with obsidian/Untitled.md",
     "Untitled 1",
-    "Zettelkasten with obsidian/Configure obsidian",
+    "_unorganized/Zettelkasten with obsidian/Configure obsidian",
     "Zettelkasten with obsidian/How to use dataview.md",
     "/git vault/Untitled.md",
-    "git vault/Untitled.md",
+    "_unorganized/git vault/Untitled.md",
     "/git vault",
     "^docs.md",
-    "Zettelkasten with obsidian/How to rediscover old notes.md",
-    "Zettelkasten with obsidian/How to take better (book) notes.md",
+    "_unorganized/Zettelkasten with obsidian/How to rediscover old notes.md",
+    "_unorganized/Zettelkasten with obsidian/How to take better (book) notes.md",
     "Zettelkasten with obsidian/fleeting notes.md",
-    "git vault/my articles/useRef.md",
+    "_unorganized/git vault/my articles/useRef.md",
     "2024-12-27.md",
     "Invalid date.md",
-    "git vault/my articles/useEffect.md",
+    "_unorganized/git vault/my articles/useEffect.md",
     "hi.md",
     "Zettelkasten with obsidian/permanent notes.md",
-    "Zettelkasten with obsidian",
-    "git vault/my articles/Article template.md",
-    "git vault/eraasoft/hfooad book video scripts",
-    "git vault/articles notes/tkodo react query",
-    "git vault/articles notes/tkdodo useState",
-    "git vault/my articles"
+    "_unorganized/Zettelkasten with obsidian"
   ]
 }
