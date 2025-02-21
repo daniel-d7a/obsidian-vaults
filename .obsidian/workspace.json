@@ -6,6 +6,7 @@
       {
         "id": "9a99c92d9350454e",
         "type": "tabs",
+        "dimension": 47.13831478537361,
         "children": [
           {
             "id": "b39aca912d182c0f",
@@ -41,6 +42,7 @@
       {
         "id": "439f70fd39d19b66",
         "type": "tabs",
+        "dimension": 52.861685214626384,
         "children": [
           {
             "id": "306a74c7e0ac8879",
@@ -215,10 +217,12 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "306a74c7e0ac8879",
+  "active": "ea1aa5c2922a51ad",
   "lastOpenFiles": [
     "3- Permanent/Don't over useState.md",
     "1- MOCs/Reading & Studying.md",

@@ -17,7 +17,46 @@ SORT Source asc
 
 ```dataviewjs
 
-dv.list(dv.current().file.inlinks)
+const inlinks = dv.current().file.inlinks
+dv.list(inlinks)
+
+
+const inlinkPages = inlinks.map(i=>dv.page(i.path))
+const sourceSet = new Set();
+
+inlinkPages.forEach(i => {
+	i.file.etags
+		.filter(e=>e.startsWith('#sources'))
+		.forEach(e=>sourceSet.add(e))
+})
+
+dv.list(sourceSet)
+
+sourceSet.forEach(source=>{
+	dv.header(2, source.split('/')[0].slice(1))
+
+	// get data with {source}
+	// group into {topics}
+	// display into a table sorted by {topic}
+
+	const data = inlinkPages.filter(i => i.file.etags.includes(source))
+
+	const topicGroups = data.array().reduce((acc,curr)=>{
+		const tagsWithoutSource = curr.file.etags.filter(e=>e !== source)
+
+		if(acc[tagsWithoutSource]){
+			acc[tagsWithoutSource].push(curr.file.link)
+		}else{
+			acc[tagsWithoutSource] = [curr.file.link]
+		}
+		return acc;
+	, {})
+
+
+	dv.table(topicGroups)
+
+	dv.table(['Name', 'Topic'])
+})
 
 ```
 
