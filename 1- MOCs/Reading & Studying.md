@@ -18,8 +18,7 @@ SORT Source asc
 ```dataviewjs
 dv.table(
 	['article', 'source', 'topics'], 
-	dv.pages('')
-	.filter(p=>)
+	dv.current().file.inlinks
 	.map(
 		p=>[
 			p.file.link,
