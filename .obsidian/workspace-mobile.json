@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Inbox/Customizable E-Commerce Platform.md",
+                "file": "_/_Inbox/Customizable E-Commerce Platform.md",
                 "mode": "source",
                 "source": false
               },
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
+                "file": "_/_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
                 "mode": "source",
                 "source": true
               },
@@ -154,7 +154,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
+            "file": "_/_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
+            "file": "_/_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -187,7 +187,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
+            "file": "_/_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -210,13 +210,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "de6adef64d09fb52",
+  "active": "ce2533ead8996710",
   "lastOpenFiles": [
+    "_/_Templates",
+    "_",
     "1- MOCs/Figuring out obsidian.md",
     "3- Permanent/Plugins to check out.md",
-    "_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
+    "_/_unorganized/Zettelkasten with obsidian/Configure obsidian/Current structure.md",
     "_unorganized/Zettelkasten with obsidian/Configure obsidian/File structure.md",
-    "_unorganized/Zettelkasten with obsidian/Configure obsidian/Workflows.md",
+    "_/_unorganized/Zettelkasten with obsidian/Configure obsidian/Workflows.md",
     "5- Think box",
     "1- MOCs/How to take better Notes.md",
     "1- MOCs/Thinking, studying, how our brains work..md",
@@ -228,25 +230,23 @@
     "3- Permanent/How to take better (book) notes.md",
     "Home.md",
     "4- Journal",
-    "_Inbox/Customizable E-Commerce Platform.md",
+    "_/_Inbox/Customizable E-Commerce Platform.md",
     "3- Permanent",
     "2- fleeting",
     "1- MOCs",
-    "_unorganized",
-    "_Inbox/Best full stack projects for cv.md",
-    "_Inbox/Obsidian folder structure for zettlekasten.md",
-    "_Inbox",
+    "_/_unorganized",
+    "_/_Inbox/Best full stack projects for cv.md",
+    "_/_Inbox/Obsidian folder structure for zettlekasten.md",
+    "_/_Inbox",
     "Our brains and study",
     "Zettelkasten with obsidian/Untitled.md",
     "Untitled 1",
-    "_unorganized/Zettelkasten with obsidian/Configure obsidian",
     "Zettelkasten with obsidian/How to use dataview.md",
     "/git vault/Untitled.md",
-    "_unorganized/git vault/Untitled.md",
+    "_/_unorganized/git vault/Untitled.md",
     "^docs.md",
     "Zettelkasten with obsidian/fleeting notes.md",
-    "_unorganized/git vault/my articles/useRef.md",
-    "2024-12-27.md",
-    "Invalid date.md"
+    "_/_unorganized/git vault/my articles/useRef.md",
+    "2024-12-27.md"
   ]
 }

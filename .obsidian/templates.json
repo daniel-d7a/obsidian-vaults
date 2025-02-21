@@ -1,3 +1,5 @@
 {
-  "dateFormat": "Y/MM"
+  "dateFormat": "Y/MM/D",
+  "timeFormat": "",
+  "folder": "_Templates"
 }
