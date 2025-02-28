@@ -13,7 +13,7 @@ we have `$=dv.pages("").length` notes
 
 Incomplete: `$=dv.pages('"_/_Inbox"').length`
 
-Unorganized: `$=dv.pages('"2Fleeting"').length`
+Unorganized: `$=dv.pages('"2- Fleeting"').length`
 
 ## Some random topics
 

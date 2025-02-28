@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "_/_Inbox/hfooad book notes/chapter-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "chapter-2"
             }
           }
         ]
@@ -187,19 +187,19 @@
   },
   "active": "5407f7bc1ecf434c",
   "lastOpenFiles": [
-    "_/_Inbox/hfooad book notes/chapter-1.md",
     "5- Projects/eraasoft/hfooad book video scripts/hfooad chapter 1 script.md",
+    "5- Projects/eraasoft/hfooad book video scripts/intro.md",
+    "Home.md",
+    "test note.md",
+    "_/_Inbox/hfooad book notes/chapter-1.md",
     "_/_Inbox/hfooad book notes/chapter-2.md",
     "_/_Inbox/hfooad book notes/appendix-1.md",
     "_/_Inbox/hfooad book notes/_notes.md",
-    "Home.md",
     "_/_Inbox/hfooad book notes/chapter-5.md",
     "_/_Inbox/hfooad book notes/chapter-4.md",
     "_/_Inbox/hfooad book notes/chapter-3.md",
     "_/_Inbox/hfooad book notes",
-    "5- Projects/eraasoft/hfooad book video scripts/intro.md",
     "1- MOCs/Reading & Studying.md",
-    "test note.md",
     "test.md",
     "_/_Inbox/Practical React Query.md",
     "3- Permanent/Don't over useState.md",
