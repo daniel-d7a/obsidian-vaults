@@ -6,8 +6,8 @@ in this chapter (and few of the upcoming ones) we will use an automatic dog door
 
 we build an initial verison of the door that looks <<like this>>, and while it seems fine, the users find many problems with it as soon as they used it, and we need to figure out why.
 
-## requirements
 
+## requirements
 
 
 requirement: a specific thing the system has to do to work properly.
