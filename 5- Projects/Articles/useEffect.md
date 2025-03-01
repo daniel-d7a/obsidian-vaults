@@ -920,11 +920,11 @@ function chatRoom({roomId, serverUrl}){
 
 ```mermaid
 graph TD
-    A[Parent Component] -->|Props| B[Child Component]
-    B -->|Callback Function (props)| A
-    A -->|Context API / Redux / Zustand| C[Global State]
-    C -->|State Update| A
-    C -->|State Update| B
+    A[Parent Component] -->|Props (Data & Functions)| B[Child Component]
+    B -- Calls Function from Props --> A
+    A -- Updates Global State --> C[Global State (Redux/Zustand/Context)]
+    C -- Provides State --> A
+    C -- Provides State --> B
 
 ```
 
