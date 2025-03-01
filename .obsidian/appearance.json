@@ -2,5 +2,10 @@
   "cssTheme": "Atom",
   "accentColor": "",
   "baseFontSize": 18,
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "enabledCssSnippets": [
+    "my_styles"
+  ],
+  "showRibbon": false,
+  "showViewHeader": true
 }
