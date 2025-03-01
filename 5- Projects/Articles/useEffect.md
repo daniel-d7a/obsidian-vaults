@@ -41,8 +41,7 @@ tags:
 - ال Clean up.
 - ال Dependencies.
 
-``` ts
-// add highlightes to these parts
+``` ts hl:9-10,13-15,17
 import {useState, useEffect} from "react"
 
 export default function App({ roomId }){
@@ -159,8 +158,7 @@ graph TD;
 
 ايه القيم الي ممكن تكون ف ال dependency array ؟ اي قيمة reactive يعني ممكن تتغير ما بين ال rerenders زي ال props او ال state مثلا و كمان اي variable بياخد قيمته من props او state و اي function مكتوبة جوه ال component سواء بتستخدم قيم من ال state او ال props او لا (بس دي فيها اعتبارات هنتكلم فيها كمان شوية) ولو انت بتستخدم linter زي eslint مثلا هتلاقيه بيقولك لو ال dependency array ناقصه حاجة.
 
-``` ts
-// add highlightes to these parts
+``` ts hl:4,7
 import {useState, useEffect} from "react"
 
 // props are reactive
