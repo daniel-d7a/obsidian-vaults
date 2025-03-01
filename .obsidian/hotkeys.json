@@ -24,5 +24,24 @@
       ],
       "key": "B"
     }
+  ],
+  "obsidian-editor-shortcuts:insertLineBelow": [],
+  "editor:delete-paragraph": [],
+  "editor:toggle-checklist-status": [],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
   ]
 }
