@@ -918,8 +918,14 @@ function chatRoom({roomId, serverUrl}){
 
 ف react المفروض التعامل و حركة الداتا ف معظم الاوقات بتكون من فوق من عند ال parent ل تحت عند ال child ، لكن ف بعض الاوقات بيبقى عندك state ف ال child ال parent مهتم بيها و محتاج يعرف لما تتغير ، زي مثلا انك تكون بتعمل data fetching ف ال child و محتاج الداتا ف ال parent.  
 
-```ts
-Mermaid graphs here
+```mermaid
+graph TD
+    A[Parent Component] -->|Props| B[Child Component]
+    B -->|Callback Function (props)| A
+    A -->|Context API / Redux / Zustand| C[Global State]
+    C -->|State Update| A
+    C -->|State Update| B
+
 ```
 
 احد الطرق انك تعمل كده انك تبعت لل child بتاعك function ينفذها لما القيمة تتغير ، بس هتعرف ازاي ان القيمة اتغيرت ؟ عن طريق انك تعمل useEffect و تحط القيمة الي انت عاوزها ف ال dependency array عشان لما تتغير تشغل ال function الي جاية من ال parent.  
