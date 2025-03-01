@@ -920,33 +920,150 @@ function chatRoom({roomId, serverUrl}){
 
 ```mermaid
 graph TD
-    A[Parent Component] -->|Props (Data & Functions)| B[Child Component]
+    A[Parent Component] --> |Props Data & Functions| B[Child Component]
     B -- Calls Function from Props --> A
-    A -- Updates Global State --> C[Global State (Redux/Zustand/Context)]
-    C -- Provides State --> A
-    C -- Provides State --> B
 
 ```
 
 احد الطرق انك تعمل كده انك تبعت لل child بتاعك function ينفذها لما القيمة تتغير ، بس هتعرف ازاي ان القيمة اتغيرت ؟ عن طريق انك تعمل useEffect و تحط القيمة الي انت عاوزها ف ال dependency array عشان لما تتغير تشغل ال function الي جاية من ال parent.  
 
-```ts
-Code here
+```tsx info:12-14
+import {useEffect, useState} from "react"
+
+function Parent(){
+	const [data, setData] = useState(false);
+	return <Toggle onChange={setData} />
+}
+
+function Toggle({onChange}){
+	const [isOn, setIsOn] = useState(false)
+
+	// Avoid: effect runs too late
+	useEffect(()=>{
+		onChange(isOn)
+	}, [isOn, onChange])
+
+	function handleClick(){
+		setIsOn(!isOn)
+	}
+}
 ```
 
 بس ده بيوقعك ف نفس مشكلة رقم ٢ انك بتحتاج تعمل render مرتين ، مرة عشان تعمل update لل child و مرة لل parent ، ف حلها هيكون انك بتشوف ال قيمة بتاعة ال child بتتغير فين (ف اي event مثلا) و تحط معاها ال function الي بتغير قيمة ال parent عشان تغيرهم الاتنين مرة واحدة.  
 
-بس برضو ده عكس المتعارف عليه و الاحسن ان الداتا تمشي من ال parent لل child ف هنا هيبقى عندك حلين افضل من الي فات ده  
-2. ممكن تطلع ال state من ال child عن طريق انك تحطها في ال parent و تديها لل child ك props او تستخدمglobal state library زي zustand.
+```tsx rm:12-14 hl:19
+import {useEffect, useState} from "react"
 
-```ts
-Code here
+function Parent(){
+	const [data, setData] = useState(false);
+	return <Toggle onChange={setData} />
+}
+
+function Toggle({onChange}){
+	const [isOn, setIsOn] = useState(false)
+
+	// Avoid: effect runs too late
+	useEffect(()=>{
+		onChange(isOn)
+	}, [isOn, onChange])
+
+	// good: perform updates in the event handler 
+	function handleClick(){
+		setIsOn(!isOn)
+		onChange(!isOn)
+	}
+}
+```
+
+بس برضو ده عكس المتعارف عليه و الاحسن ان الداتا تمشي من ال parent لل child ف هنا هيبقى عندك حلين افضل من الي فات ده  
+1. ممكن تطلع ال state من ال child عن طريق انك تحطها في ال parent و تديها لل child ك props او تستخدمglobal state library زي zustand زي ف المثال ده 
+   
+   مثال ان ال child يكون بي fetch بيانات معينة انت محتاجها كمان ف ال parent ف بدل ما تعمل ال fetch في ال child و تبعت البيانات لل parent هنعمل العكس هنعمل ال fetch في ال parent و نبعت البيانات لل child من خلال ال props:
+
+```tsx info:11-15
+import {useEffect, useState} from "react"
+
+function Parent(){
+	const [data, setData] = useState();
+	return <Child onFetched={setData} />
+}
+
+function Child({onFetched}){
+
+	// Avoid: passing data from child to parent 
+	useEffect(async ()=>{
+		const data = await someApi()
+		onFetched(data);
+		
+	},[onFetched])
+}
+```
+
+```tsx hl:7-10,12
+import {useEffect, useState} from "react"
+
+function Parent(){
+	const [data, setData] = useState();
+
+	// Better: fetch in the parent and pass to child as props
+	useEffect(async ()=>{
+		const data = await someApi()
+		setData(data);
+	},[])
+
+	return <Child data={data} />
+}
+
+function Child({data}){
+	// …
+}
+```
+
+2. ممكن تخلي ال child component يبقى fully controlled من ال parent بحيث يكون ال parent المصدر الاساسي للبيانات.
+
+
+```tsx info:4,5
+import {useState} from "react"
+
+function Parent(){
+	const [isOn, setIsOn] = useState(false)
+	return <Toggle isOn={isOn} setIsOn={setIsOn}/>
+}
+
+function Toggle({isOn, setIsOn}){
+
+	// good: the child is fully controlled by the parent 
+	function handleClick(){
+		setIsOn(!isOn)
+	}
+}
 ```
 
 3. ممكن تستخدم pattern زي ال render props لو انت محتاج الداتا دي عشان ال render بس و مش عاوز تطلعها برا ال child.
 
 ```ts
-Code here
+import {useState} from "react"
+
+function Parent(){
+
+	return(
+	 <Toggle>
+		 {(isOn, handleClick) => (
+			 <p onClick={handleClick}>{isOn?"ON":"OFF"}</p>
+		 )}
+	 </Toggle>
+	);
+}
+
+// Also good: using the render props pattern 
+function Toggle({children}){
+	const [isOn, setIsOn] = useState(false)
+
+	function handleClick(){
+		setIsOn(!isOn)
+	}
+	return children(isOn, handleClick)
+}
 ```
 
 و اخيرا و ليس اخرا  
@@ -958,7 +1075,10 @@ Code here
 هسيبلك تحت ف المصادر لينك مقال بيتكلم عن ليه احنا محتاجين react query بدل ما نستخدم ال useEffect و باذن الله هنتكلم عن react query بصفتها احد افضل الحلول لمشكلة ال data fetching في react في سلسلة مقالات زي دي قريبا ان شاء الله.
 
 ## الخاتمة
+ده كان
 
-## Refernces
+## References
+- https://react.dev/learn/synchronizing-with-effects
+- https://react.dev/learn/you-might-not-need-an-effect
 
 - [[My articles]]
