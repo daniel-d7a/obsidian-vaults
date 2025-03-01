@@ -976,8 +976,9 @@ function Toggle({onChange}){
 ```
 
 بس برضو ده عكس المتعارف عليه و الاحسن ان الداتا تمشي من ال parent لل child ف هنا هيبقى عندك حلين افضل من الي فات ده  
-1. ممكن تطلع ال state من ال child عن طريق انك تحطها في ال parent و تديها لل child ك props او تستخدمglobal state library زي zustand زي ف المثال ده 
-   
+
+1. ممكن تطلع ال state من ال child عن طريق انك تحطها في ال parent و تديها لل child ك props او تستخدمglobal state library زي zustand زي ف المثال ده
+
    مثال ان ال child يكون بي fetch بيانات معينة انت محتاجها كمان ف ال parent ف بدل ما تعمل ال fetch في ال child و تبعت البيانات لل parent هنعمل العكس هنعمل ال fetch في ال parent و نبعت البيانات لل child من خلال ال props:
 
 ```tsx info:11-15
@@ -1020,7 +1021,6 @@ function Child({data}){
 ```
 
 2. ممكن تخلي ال child component يبقى fully controlled من ال parent بحيث يكون ال parent المصدر الاساسي للبيانات.
-
 
 ```tsx info:4,5
 import {useState} from "react"
@@ -1074,10 +1074,8 @@ function Toggle({children}){
 
 هسيبلك تحت ف المصادر لينك مقال بيتكلم عن ليه احنا محتاجين react query بدل ما نستخدم ال useEffect و باذن الله هنتكلم عن react query بصفتها احد افضل الحلول لمشكلة ال data fetching في react في سلسلة مقالات زي دي قريبا ان شاء الله.
 
-## الخاتمة
-ده كان
-
 ## References
+
 - https://react.dev/learn/synchronizing-with-effects
 - https://react.dev/learn/you-might-not-need-an-effect
 
