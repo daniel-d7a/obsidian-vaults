@@ -35,8 +35,7 @@
               "title": "Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,12 +198,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e3713d3c15a81664",
+  "active": "9bed4277054c6f98",
   "lastOpenFiles": [
+    "Home.md",
     "5- Projects/eraasoft/hfooad book video scripts/hfooad chapter 1 script.md",
     "5- Projects/eraasoft/hfooad book video scripts/hfooad chapter 2 script.md",
     "5- Projects/eraasoft/hfooad book video scripts/hfooad script chapter 3.md",
-    "Home.md",
     "_/_Inbox/multi tenant e-commerce saas/questions.md",
     "_/_Inbox/multi tenant e-commerce saas/Customizable E-Commerce Platform.md",
     "_/_Inbox/multi tenant e-commerce saas/notes.md",
