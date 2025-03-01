@@ -15,7 +15,6 @@ Incomplete: `$=dv.pages('"_/_Inbox"').length`
 
 Unorganized: `$=dv.pages('"2- Fleeting"').length`
 
-Yolo
 ## Some random topics
 
 ```dataview
