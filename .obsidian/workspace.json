@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "39489aa88da5903b",
+        "id": "92521b5de20875f0",
         "type": "tabs",
         "children": [
           {
-            "id": "5407f7bc1ecf434c",
+            "id": "9bed4277054c6f98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5- Projects/eraasoft/hfooad book video scripts/hfooad chapter 1 script.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hfooad chapter 1 script"
+              "title": "Home"
             }
           },
           {
-            "id": "b52b4d3d9ec42945",
+            "id": "3eab4bcb61f2fe03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/multi tenant e-commerce saas/questions.md",
+                "file": "hfooad script chapter 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "questions"
+              "title": "hfooad script chapter 3"
             }
           }
         ],
@@ -199,10 +199,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b52b4d3d9ec42945",
+  "active": "3eab4bcb61f2fe03",
   "lastOpenFiles": [
-    "_/_Inbox/multi tenant e-commerce saas/Customizable E-Commerce Platform.md",
+    "Home.md",
+    "hfooad script chapter 3.md",
     "_/_Inbox/multi tenant e-commerce saas/questions.md",
+    "_/_Inbox/multi tenant e-commerce saas/Customizable E-Commerce Platform.md",
     "_/_Inbox/multi tenant e-commerce saas/notes.md",
     "_/_Inbox/multi tenant e-commerce saas/mvp path.md",
     "_/_Inbox/multi tenant e-commerce saas/idea.md",
@@ -213,7 +215,6 @@
     "5- Projects/eraasoft/hfooad book video scripts/hfooad chapter 1 script.md",
     "_/_Inbox/hfooad book notes/chapter-2.md",
     "5- Projects/eraasoft/hfooad book video scripts/intro.md",
-    "Home.md",
     "test note.md",
     "_/_Inbox/hfooad book notes/chapter-1.md",
     "_/_Inbox/hfooad book notes/appendix-1.md",
@@ -230,7 +231,6 @@
     "_Assets",
     "_/_Inbox/2. Putting props to useState.md",
     "_/_Inbox/3. Things to know about useState.md",
-    "_/_Inbox/4. useState for one-time initializations.md",
     "4- Journals",
     "2- Fleeting"
   ]
