@@ -768,6 +768,7 @@ function Form(){
 لما تيجي تستخدم ال useEffect لازم تفكر ف كل useEffect عندك انه مستقل بذاته ، يعني مينفعش يبقى عندك اكتر من useEffect معتمدين على بعض لان كده هتكون بتعمل rerenders كتير ملهاش لازمة و بتوزع logic مرتبط ببعضه على اجزاء بعيده عن بعضها.  
 
 ف المثال الي معانا هنا ده انا ناقله من ال docs و تقدر تشوفه بنفسك من [هنا](https://react.dev/learn/you-might-not-need-an-effect#chains-of-computations) و هنا بنحاول نعمل لعبة كروت بسيطة بس ال logic بتاعها متوزع على اكتر من useEffect.
+
 ```ts
 import {useEffect, useState} from "react"
 
@@ -830,8 +831,6 @@ graph TD
 
 ```
 
-
-
 هتلاقي ٣ renders موجودين بلا هدف في حين ان لو كان ال logic كله ف useEffect واحد زي الصورة الي بعدها هتلاقي عندك render واحد فقط.  
 
 ```ts hl:10,13-29
@@ -876,11 +875,44 @@ function Game() {
 
 ف المثال الي عندنا انا عاوز اعمل log visit كل مرة user جديد يدخل room جديدة بغض النظر هو بيستعمل اي serverUrl ، بس برضو لما الserverUrl او ال roomId يتغير بحتاج اعمل connection جديد .  
 
-```ts
-Code here
+```ts info:6
+import {useEffect} from "react"
+
+function chatRoom({roomId, serverUrl}){
+	useEffect(()=>{
+		// runs even if the roomId is the smae
+		logVisit(roomId)
+
+		const connection = createConnection(serverUrl, roomId)
+		connection.connect()
+	
+		return () => connection.disconnect()
+
+	}, [roomId, serverUrl])
+}
 ```
 
-لو حطيت ال logic كله ف useEffect هتلاقي ان log visit بتشتغل لما ال serverUrl مع ان الداتا المرتبطة بيها متغيرتش بس لازم ال effect كله يشتغل ، ف هنا حل افضل اننا نفصلهم عن بعض.  
+لما حطيت ال logic كله ف useEffect هتلاقي ان log visit بتشتغل لما ال serverUrl مع ان الداتا المرتبطة بيها متغيرتش بس لازم ال effect كله يشتغل ، ف هنا حل افضل اننا نفصلهم عن بعض.  
+
+```ts
+import {useEffect} from "react"
+
+function chatRoom({roomId, serverUrl}){
+
+	// better: separate effects for separate actions 
+	useEffect(()=>{
+		logVisit(roomId)
+	}, [roomId])
+	
+	useEffect(()=>{
+		const connection = createConnection(serverUrl, roomId)
+		connection.connect()
+	
+		return () => connection.disconnect()
+
+	}, [roomId, serverUrl])
+}
+```
 
 ### ٥. التواصل من ال child لل parent:
 
