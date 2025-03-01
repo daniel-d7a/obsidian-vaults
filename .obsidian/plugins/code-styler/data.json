@@ -386,7 +386,8 @@
           "activeEditorLineColour": "--color-base-20",
           "defaultColour": "#3CFF4A42",
           "alternativeHighlights": {
-            "rm": "#FF000047"
+            "rm": "#FF000047",
+            "info": "#FA0202FF"
           }
         },
         "inline": {
@@ -431,7 +432,8 @@
           "activeEditorLineColour": "--color-base-20",
           "defaultColour": "#3CFF4A42",
           "alternativeHighlights": {
-            "rm": "#FF000047"
+            "rm": "#FF000047",
+            "info": "#7A7A7A52"
           }
         },
         "inline": {
@@ -449,8 +451,8 @@
   },
   "newTheme": "",
   "newHighlight": "",
-  "exampleCodeblockParameters": "python title:foo hl:1 rm:2",
-  "exampleCodeblockContent": "print(\"This line is very long and should be used as an example for how the plugin deals with wrapping and unwrapping very long lines given the choice of codeblock parameters and settings.\")\nprint(\"This line is highlighted.\")",
+  "exampleCodeblockParameters": "python title:foo hl:1 rm:2 info:3",
+  "exampleCodeblockContent": "print(\"This line is very long and should be used as an example for how the plugin deals with wrapping and unwrapping very long lines given the choice of codeblock parameters and settings.\")\nprint(\"This line is highlighted.\")\nprint(\"This line is info\")",
   "exampleInlineCode": "{python icon title:foo} print(\"This is inline code\")",
   "decoratePrint": false,
   "excludedLanguages": "ad-*, reference",

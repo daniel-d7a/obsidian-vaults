@@ -41,7 +41,7 @@ tags:
 - ال Clean up.
 - ال Dependencies.
 
-``` ts hl:9-10,13-15,17
+``` ts info:9-10,13-15,17
 import {useState, useEffect} from "react"
 
 export default function App({ roomId }){
@@ -158,7 +158,7 @@ graph TD;
 
 ايه القيم الي ممكن تكون ف ال dependency array ؟ اي قيمة reactive يعني ممكن تتغير ما بين ال rerenders زي ال props او ال state مثلا و كمان اي variable بياخد قيمته من props او state و اي function مكتوبة جوه ال component سواء بتستخدم قيم من ال state او ال props او لا (بس دي فيها اعتبارات هنتكلم فيها كمان شوية) ولو انت بتستخدم linter زي eslint مثلا هتلاقيه بيقولك لو ال dependency array ناقصه حاجة.
 
-``` ts hl:4,7
+``` ts info:4,7,16
 import {useState, useEffect} from "react"
 
 // props are reactive
@@ -178,8 +178,7 @@ export default function App({ roomId }){
 }
 ```
 
-```ts
-// add highlightes to these parts
+```ts info:8,12
 import {useState, useEffect} from "react"
 
 export default function App(){
@@ -197,8 +196,7 @@ export default function App(){
 
 و ال dependency array ممكن يبقى فاضي و ده معناه ان ال effect بتاعك مش معتمد على قيم خارجية يبقى كده ال effect هيحصل مرة واحدة بس اول لما ال component يحصله mount و ال cleanup هيحصل مرة واحدة بس لما ال component يحصله unmount.
 
-```ts
-// add highlightes to these parts
+```ts info:16
 import {useState, useEffect} from "react"
 
 export default function App({ url }){
@@ -214,14 +212,13 @@ export default function App({ url }){
 		}
 		
 		fetchData()
-	}, []) // no dependencies
+	}, []) // empty dependency array
 }
 ```
 
 و ال dependency array ده optional اصلا يعني ممكن تشيله و متحطهوش من اساسه و ده معناه انك عاوز ال use effect hook بتاعك يشتغل بعد كل rerender و ده استخدامه قليل عشان ممكن يأثر عال performance بتاع الويبسايت
 
-```ts
-// add highlightes to these parts
+```ts info:11
 import {useReducer, useEffect, useRef} from "react"
 
 export default function App({ url }){
@@ -242,7 +239,7 @@ export default function App({ url }){
 
  ده مش مهم لو كانت ال dependencies بتاعتنا primitives زي ال strings او ال numbers بس هتعمل معانا مشاكل لو كانت reference types زي ال functions و ال objects و ال arrays عشان لما تيجي تكتب function او object جوه ال component هتلاقيه بيحصله creation بعد كل rerender و بالتالي ال reference بتاعه هيتغير و بالنسبة لل use effect هيبقى قيمة مختلفة عن الي فاتت و ال effect بتاعك هيشتغل مع ان مفيش حاجة اتغيرت.
 
-```ts
+```ts info:7,17-19
 import {useEffect} from "react"
 
 export default function App({name, age}){
@@ -277,8 +274,7 @@ export default function App({name, age}){
 
 1. لو بتعتمد على حاجة ثابته يبقى اكتبها برا ال component بتاعك كده ال reference بتاعها هيفضل ثابت على طول
 
-```ts
-
+```ts hl:5,12
 import {useEffect} from "react"
 
 // this objects doesn't change.
@@ -295,7 +291,7 @@ export default function App(){
 }
 ```
 
-```ts 
+```ts hl:5-7,14
 import {useEffect} from "react"
 
 // this function doesn't change.
@@ -318,7 +314,7 @@ export default function App({name, age}){
 
 2. ممكن تكتبها جوا ال useEffect كده هو مش هيعتبرها dependency اصلا بس كده مش هتقدر تشوفها برا ال effect.
 
-```ts
+```ts hl:7,10
 import {useEffect} from "react"
 
 export default function App({name, age}){
@@ -334,7 +330,7 @@ export default function App({name, age}){
 }
 ```
 
-```ts
+```ts hl:8-10,14
 import {useEffect, useState} from "react"
 
 export default function App({name}){
@@ -356,7 +352,7 @@ export default function App({name}){
 
 3. لو محتاج تشوفها برا ال effect عندك حل تاني انك تحطها جوا state او useMemo لو هي object او array او تحطها جوا useCallback لو هي function بحيث ان ال reference بتاعهم يبقى ثابت معظم الوقت و يتغير بس لو الحاجة فعلا محتاجة تتغير.  
 
-```ts
+```ts hl:5,7,15
 import {useEffect, useState, useMemo} from "react"
 
 export default function App({name, age}){
@@ -377,7 +373,7 @@ export default function App({name, age}){
 }
 ```
 
-```ts
+```ts hl:5-7,14
 import {useEffect, useCallback} from "react"
 
 export default function App({name, age}){
@@ -391,7 +387,7 @@ export default function App({name, age}){
 	// it will not run on every rerender
 	useEffect(()=>{
 		logData() // user name is eyad and age is 23
-	}, [user]) 
+	}, [logData]) 
 
 	logData() // user name is eyad and age is 23
 }
@@ -407,7 +403,7 @@ export default function App({name, age}){
 
 معظمنا بيكتب ال onClick بشكل inline و ده ف معظم الحالات بيكون عادي الا لو في effect معتمد عليها ساعتها هتخلي ال effect ده يشتغل اكتر من مرة.
 
-```tsx
+```tsx info:10,13-16,25,39
 import {useEffect, useState} from "react"
 
 export default function Parent({name, age}){
@@ -461,7 +457,7 @@ function Child2({myObj}){
 طب ازاي نحل المشكلة دي ؟  
 نفس الحل الي اتكلمنا عنه فوق هنعمله هنا ف ال parent component، هنشوف ايه ال props الي بتكون arrays او objects او functions و نحطها ف use memo او use callback او نطلعها برا ال parent component عشان متتأثرش بال rerenders الا في حالة ان قيمتها اتغيرت فعلا.
 
-```tsx
+```tsx rm:13,17-20 hl:5,7,14,21
 import {useEffect, useState, useCallback, useMemo} from "react"
 
 export default function Parent({name, age}){
@@ -522,7 +518,7 @@ function Child2({myObj}){
 
 حاجة زي انك تجمع اكتر من state ف variable واحد او انك تحسب داتا من state موجودة عندك كل ده تقدر تعمله مباشرة من غير useEffect او state جديدة.
 
-```tsx
+```tsx rm:9-12 hl:16
 import {useEffect, useState} from "react"
 
 function Form() {
@@ -531,17 +527,18 @@ function Form() {
 	const [lastName, setLastName] = useState('alsherif');
 
 	// Bad: redundent state and effect
-		const [fullName, setFullName] = useState('')
+	const [fullName, setFullName] = useState('')
 	useEffect(() => {
-		setFuttName(firstName + ' ' + lastName);
+		setFullName(firstName + ' ' + lastName);
 	}, [firstName, lastName])
+
 
 	// Good: calculated during render
 	const fullName = firstName + ' ' + lastName
 }
 ```
 
-```tsx
+```tsx rm:6-9 hl:12
 import {useEffect, useState} from "react"
 
 function Parent({data}) {
@@ -565,7 +562,7 @@ function Parent({data}) {
 
 لان بالنسبة ل react طالما ال key بتاع ال component اتغير ف ده معناه ان ال component اتغير و لازم اعمله mount من الاول تاني و ارجع اي state جواه لقيمتها الافتراضية.
 
-```tsx
+```tsx info:11-13
 import {useEffect, useState} from "react"
 
 export default function ProfilePage({ userId }){
@@ -585,7 +582,7 @@ function Profile({userId}){
 
 ```
 
-```tsx
+```tsx rm:11-13 hl:4
 import {useEffect, useState} from "react"
 
 export default function ProfilePage({ userId }){
@@ -610,7 +607,7 @@ function Profile({userId}){
 
 في حل تاني هو اني احتفظ بالقيمة الي انا عاوز اعرف انها اتغيرت و كل مرة اشوف هل هي اتغيرت ولا لا و لو اتغيرت اقدر اعمل ال state updates الي انا عاوزها من غير use Effect و من غير ما اخلي ال component بتاعي يحصله render مرتين. زي في المثال ده بنحاول نلغي القيمة المتحددة لما ال items تتغير مرة بنستخدم effect و مرة بنستخدم state زيادة عشان نشوف لو القيمة اتغيرت ولا لا.
 
-```ts
+```ts info:6,8-10
 import {useEffect, useState} from "react"
 
 function List({ items }) {
@@ -624,7 +621,7 @@ function List({ items }) {
 }
 ```
 
-```ts
+```ts hl:12-16 rm:6,8-10
 import {useEffect, useState} from "react"
 
 function List({ items }) {
@@ -647,7 +644,7 @@ function List({ items }) {
 لو الطريقة دي جديدة عليك متقلقش انت مش لوحدك ، و حتى ف ال docs بيحذرك من استخدامها كتير ، مع انها احسن من ال useEffect بس بتخلي ال debugging اصعب.  
 ف يفضل انك تشوف طريقة تانية انك تحفظ بيها ال state بتاعتك زي مثلا انك لو عندك items و عاوز تعرف ال selected الاحسن انك تحتفظ بال id بتاع ال selected item بحيث تجيبه من ال items كل مرة تتغير بحسبة بسيطة من غير اي state زيادة.  
 
-```ts
+```ts hl:14-15 rm:7-12
 import {useEffect, useState} from "react"
 
 function List({ items }) {
@@ -674,7 +671,7 @@ function List({ items }) {
 
 ف مثلا لو تشوف ال ٣ امثلة الجايين هتلاقي عندي فيهم useEffect صح لأن الغرض منها انها تشتغل لما ال component يظهر انما ال useEffect الغلط غلط لانها بتشتغل ردا على event من ال user.  
 
-```ts
+```ts info:5-9
 import {useEffect} from "react"
 
 function ProductPage({product, addToCart}){
@@ -689,8 +686,19 @@ function ProductPage({product, addToCart}){
 		addToCart(product);
 	}
 }
+```
+
+```ts rm:5-9 hl:12-15
+import {useEffect} from "react"
 
 function ProductPage({product, addToCart}){
+
+	useEffect(() => {
+		if(product.isInCart){
+			showNotification('product added to cart')
+		}
+	}, [product])
+
 	// Good: Event logic in event handler
 	function handleBuyClick(){
 		addToCart(product);
@@ -699,7 +707,7 @@ function ProductPage({product, addToCart}){
 }
 ```
 
-```ts
+```ts info:7-11
 import {useEffect, useState} from "react"
 
 function Form(){
@@ -719,7 +727,7 @@ function Form(){
 }
 ```
 
-```ts
+```ts rm:7-11 hl:14-18
 import {useEffect, useState} from "react"
 
 function Form(){
@@ -743,7 +751,7 @@ function Form(){
 
 مثال على الاستخدام الصحيح لل useEffect اننا نستخدمها لل effects الي بتحل اول لما ال component يظهر زي ال logging مثلا:
 
-```ts
+```ts hl:7
 import {useEffect} from "react"
 
 function Form(){
