@@ -767,95 +767,107 @@ function Form(){
 
 لما تيجي تستخدم ال useEffect لازم تفكر ف كل useEffect عندك انه مستقل بذاته ، يعني مينفعش يبقى عندك اكتر من useEffect معتمدين على بعض لان كده هتكون بتعمل rerenders كتير ملهاش لازمة و بتوزع logic مرتبط ببعضه على اجزاء بعيده عن بعضها.  
 
-ف المثال الي معانا هنا ده انا ناقله من ال docs و تقدر تشوفه بنفسك من [هنا](https://react.dev/learn/you-might-not-need-an-effect#chains-of-computations) و هنا بنحاول نعمل لعبة كروت بسيطة بس ال logic بتاعها متوزع على اكتر من useEffect ف لو شغلت الكود هتلاحظ انه بيعمل حاجة زي كده:  
-
+ف المثال الي معانا هنا ده انا ناقله من ال docs و تقدر تشوفه بنفسك من [هنا](https://react.dev/learn/you-might-not-need-an-effect#chains-of-computations) و هنا بنحاول نعمل لعبة كروت بسيطة بس ال logic بتاعها متوزع على اكتر من useEffect.
 ```ts
 import {useEffect, useState} from "react"
 
 function Game() {  
 
-const [card, setCard] = useState(null);  
-const [goldCardCount, setGoldCardCount] = useState(0);  
-const [round, setRound] = useState(1);  
-const [isGameOver, setIsGameOver] = useState(false);  
-
-// 🔴 Avoid: Chains of Effects that adjust the state solely to trigger each other  
-
-useEffect(() => {  
-
-if (card !== null && card.gold) {  
-
-setGoldCardCount(c => c + 1);  
-
-}  
-
-}, [card]);  
-
-  
-
-useEffect(() => {  
-
-if (goldCardCount > 3) {  
-
-setRound(r => r + 1)  
-
-setGoldCardCount(0);  
-
-}  
-
-}, [goldCardCount]);  
-
-  
-
-useEffect(() => {  
-
-if (round > 5) {  
-
-setIsGameOver(true);  
-
-}  
-
-}, [round]);  
-
-  
-
-useEffect(() => {  
-
-alert('Good game!');  
-
-}, [isGameOver]);  
-
-  
-
-function handlePlaceCard(nextCard) {  
-
-if (isGameOver) {  
-
-throw Error('Game already ended.');  
-
-} else {  
-
-setCard(nextCard);  
-
-}  
-
-}  
-
-  
-
+	const [card, setCard] = useState(null);  
+	const [goldCardCount, setGoldCardCount] = useState(0);  
+	const [round, setRound] = useState(1);  
+	const [isGameOver, setIsGameOver] = useState(false);  
+	
+	useEffect(() => {  
+		if (card !== null && card.gold) {  
+			setGoldCardCount(c => c + 1);  
+		}
+	
+	}, [card]);  
+	
+	useEffect(() => {  
+		if (goldCardCount > 3) {  
+			setRound(r => r + 1)  
+			setGoldCardCount(0);  
+		}  
+	
+	}, [goldCardCount]);  
+	
+	useEffect(() => {  
+		if (round > 5) {  
+			setIsGameOver(true);  
+		}  
+	
+	}, [round]);  
+	
+	useEffect(() => {  
+		alert('Good game!');  
+	}, [isGameOver]);  
+	
+	  
+	
+	function handlePlaceCard(nextCard) {  
+		if (isGameOver) {  
+			throw Error('Game already ended.');  
+		} else {  
+			setCard(nextCard);  
+		}  
+	}  
+	
 // …
 ```
 
-```ts
-Mermaid graph here
+ لو شغلت الكود هتلاحظ انه بيعمل حاجة زي كده:  
+
+```mermaid
+graph TD
+    A[setCard] --> B[render]
+    B --> C[setGoldCardCount]
+    C -->|Redundant Call| B
+    B --> D[setRound]
+    D --> E[setIsGameOver]
+    E -->|Redundant Call| B
+
 ```
 
-setCard > render > setGoldCardCount > render > setRound > setIsGameOver > render  
+
 
 هتلاقي ٣ renders موجودين بلا هدف في حين ان لو كان ال logic كله ف useEffect واحد زي الصورة الي بعدها هتلاقي عندك render واحد فقط.  
 
-```ts
-Code here
+```ts hl:10,13-29
+import {useEffect, useState} from "react"
+
+function Game() {  
+
+	const [card, setCard] = useState(null);  
+	const [goldCardCount, setGoldCardCount] = useState(0);  
+	const [round, setRound] = useState(1);  
+
+	// Calculate what you can during rendering  
+	const isGameOver = round > 5;
+	// Calculate all the next state in the event handler  
+	
+	function handlePlaceCard(nextCard) {  
+		if (isGameOver) {  
+			throw Error('Game already ended.');  
+		}
+		
+		setCard(nextCard);  
+		if (nextCard.gold) {  
+			if (goldCardCount <= 3) {  
+				setGoldCardCount(goldCardCount + 1);  
+			} else {  
+				setGoldCardCount(0); 
+				setRound(round + 1); 
+				if (round === 5) {  
+					alert('Good game!');  
+			}
+		}  
+	}  
+
+}
+	
+// …
 ```
 
 وغير كده لما اجمع ال logic المرتبط ببعضه ف مكان واحد ده بيخلي الكود اوضح و بيسهل الاضافة و التعديل عليه.  
