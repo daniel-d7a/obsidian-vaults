@@ -767,10 +767,83 @@ function Form(){
 
 لما تيجي تستخدم ال useEffect لازم تفكر ف كل useEffect عندك انه مستقل بذاته ، يعني مينفعش يبقى عندك اكتر من useEffect معتمدين على بعض لان كده هتكون بتعمل rerenders كتير ملهاش لازمة و بتوزع logic مرتبط ببعضه على اجزاء بعيده عن بعضها.  
 
-ف المثال الي معانا هنا ده انا ناقله من ال docs و تقدر تجربه بايدك من هنا و هنا بنحاول نعمل لعبة كروت بسيطة بس ال logic بتاعها متوزع على اكتر من useEffect ف لو شغلت الكود هتلاحظ انه بيعمل حاجة زي كده:  
+ف المثال الي معانا هنا ده انا ناقله من ال docs و تقدر تشوفه بنفسك من [هنا](https://react.dev/learn/you-might-not-need-an-effect#chains-of-computations) و هنا بنحاول نعمل لعبة كروت بسيطة بس ال logic بتاعها متوزع على اكتر من useEffect ف لو شغلت الكود هتلاحظ انه بيعمل حاجة زي كده:  
 
 ```ts
-Code here
+import {useEffect, useState} from "react"
+
+function Game() {  
+
+const [card, setCard] = useState(null);  
+const [goldCardCount, setGoldCardCount] = useState(0);  
+const [round, setRound] = useState(1);  
+const [isGameOver, setIsGameOver] = useState(false);  
+
+// 🔴 Avoid: Chains of Effects that adjust the state solely to trigger each other  
+
+useEffect(() => {  
+
+if (card !== null && card.gold) {  
+
+setGoldCardCount(c => c + 1);  
+
+}  
+
+}, [card]);  
+
+  
+
+useEffect(() => {  
+
+if (goldCardCount > 3) {  
+
+setRound(r => r + 1)  
+
+setGoldCardCount(0);  
+
+}  
+
+}, [goldCardCount]);  
+
+  
+
+useEffect(() => {  
+
+if (round > 5) {  
+
+setIsGameOver(true);  
+
+}  
+
+}, [round]);  
+
+  
+
+useEffect(() => {  
+
+alert('Good game!');  
+
+}, [isGameOver]);  
+
+  
+
+function handlePlaceCard(nextCard) {  
+
+if (isGameOver) {  
+
+throw Error('Game already ended.');  
+
+} else {  
+
+setCard(nextCard);  
+
+}  
+
+}  
+
+  
+
+// …
 ```
 
 ```ts
