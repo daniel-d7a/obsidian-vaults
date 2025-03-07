@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- MOCs/Eraasoft.md",
+                "file": "5- Projects/Books Notes/Head First OOAD/hfooad ch3 book notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Eraasoft"
+              "title": "hfooad ch3 book notes"
             }
           }
         ],
@@ -127,7 +127,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "1- MOCs/Eraasoft.md",
+            "file": "5- Projects/Books Notes/Head First OOAD/hfooad ch3 book notes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -182,27 +182,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d55266decbf965a9",
+  "active": "b9ce69f018306196",
   "lastOpenFiles": [
+    "1- MOCs/Eraasoft.md",
     "5- Projects/hfooad chapter 1 script.md",
     "5- Projects/hfooad chapter 2 script.md",
     "5- Projects/hfooad chapter 3 script.md",
     "5- Projects/hfooad intro script.md",
     "5- Projects/Pre programming video list.md",
-    "1- MOCs/Eraasoft.md",
     "1- MOCs/Eraasoft test.md",
     "Home.md",
     "1- MOCs/Books.md",
     "3- Permanent/Don't over useState.md",
     "1- MOCs/Readings & Studying.md",
     "3- Permanent/How to organize notes with MOCs.md",
-    "5- Projects/Books Notes/Head First OOAD/chapter-2.md",
-    "5- Projects/Books Notes/Head First OOAD/chapter-5.md",
-    "5- Projects/Books Notes/Head First OOAD/chapter-4.md",
-    "5- Projects/Books Notes/Head First OOAD/chapter-3.md",
-    "5- Projects/Books Notes/Head First OOAD/chapter-1.md",
-    "5- Projects/Books Notes/Head First OOAD/appendix-1.md",
-    "5- Projects/Books Notes/Head First OOAD/_notes.md",
+    "5- Projects/Books Notes/Head First OOAD/hfooad ch2 book notes.md",
+    "5- Projects/Books Notes/Head First OOAD/hfooad ch5 book notes.md",
+    "5- Projects/Books Notes/Head First OOAD/hfooad ch4 book notes.md",
+    "5- Projects/Books Notes/Head First OOAD/hfooad ch3 book notes.md",
+    "5- Projects/Books Notes/Head First OOAD/hfooad ch1 book notes.md",
+    "5- Projects/Books Notes/Head First OOAD/hfooad appendix 1 book notes.md",
+    "5- Projects/Books Notes/Head First OOAD/hfooad book notes notes.md",
     "/5- Projects/Books Notes/Head First OOAD/chapter-2.md",
     "/1- MOCs/Readings & Studying.md",
     "/5- Projects/Books Notes/Head First OOAD/chapter-5.md",
