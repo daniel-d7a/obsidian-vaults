@@ -4,15 +4,16 @@
 const inlinks = dv.current().file.inlinks
 
 const inlinkPages = inlinks.map(i=>dv.page(i.path))
-const sourceSet = new Set();
+const projectsSet = new Set();
 
 inlinkPages.forEach(i => {
 	i.file.etags
-		.filter(e=>e.startsWith('#sources'))
-		.forEach(e=>sourceSet.add(e))
+		.filter(e=>e.startsWith('#eraasoft'))
+		.map(e=>e.split('/')[1])
+		.forEach(e=>projectsSet.add(e))
 })
 
-sourceSet.forEach(source=>{
+projectsSet.forEach(source=>{
 const sourceName = source.split('/')[1]
 	dv.header(2, sourceName[0].toUpperCase().concat(sourceName.slice(1)))
 
