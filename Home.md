@@ -5,7 +5,7 @@
 - [ ] 1 article
 - [ ] type out my saas idea into obsidian
 - [ ] play some games
-- [ ] get the books
+- [x] get the books
 - [ ] get the courses
 - [x] get some more games
 - [ ] organize obsidian some more
