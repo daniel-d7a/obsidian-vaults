@@ -8,3 +8,9 @@ SORT file.cday DESC
 > _divide them based on folder, as each folder is a different project_
 > Don't do that, divide them based on tags and links to the moc, file paths don't matter
 
+
+
+
+```js
+
+```
