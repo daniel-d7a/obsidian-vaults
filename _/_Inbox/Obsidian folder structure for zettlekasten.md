@@ -23,5 +23,3 @@ Connect notes using internal links ([[Related Note]]).
 Create MOCs for key topics instead of deep folder nesting.
 
 Periodically refine fleeting notes into permanent notes.
-
-Would you like any refinements to this setup?
