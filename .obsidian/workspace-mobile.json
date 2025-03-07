@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a54da43acb4499cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1- MOCs/Eraasoft.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Eraasoft"
-            }
-          },
-          {
             "id": "d55266decbf965a9",
             "type": "leaf",
             "state": {
@@ -29,14 +15,13 @@
               "state": {
                 "file": "1- MOCs/Books.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Books"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,25 +169,25 @@
   },
   "active": "d55266decbf965a9",
   "lastOpenFiles": [
+    "5- Projects/hfooad ch2 book notes.md",
+    "1- MOCs/Books.md",
+    "5- Projects/hfooad chapter 1 script.md",
+    "5- Projects/hfooad appendix 1 book notes.md",
+    "5- Projects/hfooad book notes notes.md",
+    "1- MOCs/Eraasoft.md",
     "5- Projects/Articles/Some useState properties article.md",
     "5- Projects/Articles/useEffect article.md",
     "5- Projects/Articles/useRef article.md",
-    "5- Projects/hfooad appendix 1 book notes.md",
-    "5- Projects/hfooad book notes notes.md",
     "5- Projects/hfooad ch5 book notes.md",
     "5- Projects/hfooad ch4 book notes.md",
     "5- Projects/hfooad ch3 book notes.md",
-    "5- Projects/hfooad ch2 book notes.md",
     "5- Projects/hfooad ch1 book notes.md",
-    "1- MOCs/Eraasoft.md",
-    "5- Projects/hfooad chapter 1 script.md",
     "5- Projects/hfooad chapter 2 script.md",
     "5- Projects/hfooad chapter 3 script.md",
     "5- Projects/hfooad intro script.md",
     "5- Projects/Pre programming video list.md",
     "1- MOCs/Eraasoft test.md",
     "Home.md",
-    "1- MOCs/Books.md",
     "3- Permanent/Don't over useState.md",
     "1- MOCs/Readings & Studying.md",
     "3- Permanent/How to organize notes with MOCs.md",

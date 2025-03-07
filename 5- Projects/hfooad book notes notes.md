@@ -1,5 +1,6 @@
 #books/programming/hfooad 
 
+
 add the examples in the book to the notes markdown.
 
 i started adding examples and <<>> from chapter 5 
