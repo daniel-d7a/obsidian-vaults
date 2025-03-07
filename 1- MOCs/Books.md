@@ -1,5 +1,7 @@
-> get all books from the books notes folder
+Get all notes with the books tag
+Spli
 
-> each one will be a link to the book's MOC
 
+```dataviewjs
 
+```
