@@ -10,6 +10,7 @@
 - [x] get some more games
 - [ ] organize obsidian some more
 - [ ] quran for today
+- [x] surat al-kahf
 - [ ] work on my blog some more
 - [ ] start the saas monorepo
 - [ ] draw the database diagram
