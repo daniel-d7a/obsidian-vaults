@@ -2,7 +2,7 @@
 
 - [[Eraasoft]]
 
-#eraasoft/pre_programming
+#project/pre_programming
 
 ## Task list
 

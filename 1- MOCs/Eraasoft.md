@@ -1,9 +1,3 @@
-```dataview
-LIST
-FROM [[]] AND -"_/_Templates"
-SORT file.cday DESC
-```
-
 
 ```dataviewjs
 
@@ -14,56 +8,20 @@ const projectsSet = new Set();
 
 inlinkPages.forEach(i => {
 	i.file.etags
-		.filter(e=>e.startsWith('#eraasoft'))
-		.map(e=>e.split('/')[1])
+		.filter(e=>e.startsWith('#project'))
 		.forEach(e=>projectsSet.add(e))
 })
 
 projectsSet.forEach(source=>{
-	dv.header(2, source.toUpperCase().concat(sourceName.slice(1)))
+const projectName = source.split('/')[1]
+const displayName = projectName[0].toUpperCase().concat(projectName.slice(1)).replace('_',' ')
+	dv.header(2, displayName)
 
-	// get data with {source}
-	// group into {topics}
-	// display into a table sorted by {topic}
 
 	const data = inlinkPages.filter(i => i.file.etags.includes(source))
+	.map(f=>f.file.link)
 
-	const topicGroups = data.array().reduce((acc,curr)=>{
-		const tagsWithoutSource = curr.file.etags.filter(e=>e !== source)
-
-		tagsWithoutSource.forEach(t=>{
-			if(acc[t]){
-				acc[t].push(curr.file.link)
-			}else{
-			acc[t] = [curr.file.link]
-			}
-		})
-
-
-		return acc;
-		}, {})
-
-	dv.table(['Topic', 'Name'], Object.entries(topicGroups).map(([key, value])=>[key, value]))
+	dv.list(data)
 })
-
-```
-
-
-
-
-
-
-
-
-
-> Code that gets the topics by the tag #eraasoft/<topic> and displays the [[notes]]
-
- divide them based on folder, as each folder is a different project
-Don't do that, divide them based on tags and links to the moc, file paths don't matter
-
-
-
-
-```js
 
 ```

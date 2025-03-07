@@ -29,7 +29,7 @@
               "state": {
                 "file": "1- MOCs/Eraasoft.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Eraasoft"
@@ -184,18 +184,18 @@
   },
   "active": "d55266decbf965a9",
   "lastOpenFiles": [
-    "1- MOCs/Eraasoft test.md",
+    "5- Projects/hfooad chapter 1 script.md",
+    "5- Projects/hfooad chapter 2 script.md",
+    "5- Projects/hfooad chapter 3 script.md",
+    "5- Projects/hfooad intro script.md",
+    "5- Projects/Pre programming video list.md",
     "1- MOCs/Eraasoft.md",
+    "1- MOCs/Eraasoft test.md",
     "Home.md",
     "1- MOCs/Books.md",
     "3- Permanent/Don't over useState.md",
     "1- MOCs/Readings & Studying.md",
     "3- Permanent/How to organize notes with MOCs.md",
-    "5- Projects/hfooad chapter 3 script.md",
-    "5- Projects/hfooad intro script.md",
-    "5- Projects/Pre programming video list.md",
-    "5- Projects/hfooad chapter 2 script.md",
-    "5- Projects/hfooad chapter 1 script.md",
     "5- Projects/Books Notes/Head First OOAD/chapter-2.md",
     "5- Projects/Books Notes/Head First OOAD/chapter-5.md",
     "5- Projects/Books Notes/Head First OOAD/chapter-4.md",
