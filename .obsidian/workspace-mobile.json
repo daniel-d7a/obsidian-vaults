@@ -13,29 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5- Projects/Pre programming video list.md",
+                "file": "5- Projects/hfooad chapter 3 script.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Pre programming video list"
+              "title": "hfooad chapter 3 script"
             }
           },
           {
-            "id": "2cce161f390634f3",
+            "id": "0849129250fcb29a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "1- MOCs/Eraasoft test.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Eraasoft test"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,17 +182,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9ce69f018306196",
+  "active": "0849129250fcb29a",
   "lastOpenFiles": [
     "5- Projects/hfooad chapter 3 script.md",
+    "5- Projects/hfooad intro script.md",
+    "5- Projects/Pre programming video list.md",
+    "1- MOCs/Eraasoft test.md",
+    "1- MOCs/Readings & Studying.md",
+    "1- MOCs/Eraasoft.md",
     "5- Projects/hfooad chapter 2 script.md",
     "5- Projects/hfooad chapter 1 script.md",
-    "5- Projects/Pre programming video list.md",
-    "5- Projects/hfooad intro script.md",
-    "1- MOCs/Eraasoft.md",
     "Home.md",
     "5- Projects/Books Notes/Head First OOAD/chapter-2.md",
-    "1- MOCs/Readings & Studying.md",
     "5- Projects/Books Notes/Head First OOAD/chapter-5.md",
     "5- Projects/Books Notes/Head First OOAD/chapter-4.md",
     "5- Projects/Books Notes/Head First OOAD/chapter-3.md",
@@ -208,7 +210,6 @@
     "/5- Projects/Books Notes/Head First OOAD/_notes.md",
     "_/_Inbox/useState for one-time initializations.md",
     "3- Permanent/When to useState vs useReducer.md",
-    "3- Permanent/Current structure 2025-03-07.md",
     "/5- Projects/eraasoft/hfooad book video scripts",
     "5- Projects/eraasoft/Pre programming",
     "5- Projects/Books Notes/Head First OOAD",
