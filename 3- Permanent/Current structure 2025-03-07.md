@@ -1,10 +1,15 @@
 #obsidian/structure
+
+## References
+
+- [[Figuring out obsidian]]
+
 ## Folder structure
 
 - **\_:** holds miscellaneous files, such as *templates*, *inbox* for newly created notes, *unorganized* for migrating notes across structures.
 - **MOCs**
 - **Fleeting notes**
-- **Permanent notes**
+- **Permanent notes:** for notes from reading or videos.
 - **Journal:** for daily notes and notes about my life in genera.
 - **Projects:** to cover project notes such as scripts, articles, work related work, …etc.
 - a home note as a starting point.
@@ -18,7 +23,3 @@
 ## Ideas
 
 - use scripts to migrate notes structure.
-
-## References
-
-- [[Figuring out obsidian]]

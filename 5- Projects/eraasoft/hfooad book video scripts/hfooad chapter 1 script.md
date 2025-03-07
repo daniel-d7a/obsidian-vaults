@@ -3,6 +3,9 @@ cssclasses: []
 ---
 
 #video_script/hfooad/ch1
+## References
+
+- [[Eraasoft]]
 
 اول شابتر ف الكتاب بيكلمنا عن السوفتوير الكويس و بيبدأ بمثال صغير
 

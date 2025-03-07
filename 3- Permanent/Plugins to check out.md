@@ -1,4 +1,7 @@
 #obsidian/plugins
+## References
+
+- [[Figuring out obsidian]]
 
 - **dataview**: allows querying over meta data in the vault.
 - **linter**: lints markdown.
@@ -10,6 +13,3 @@
 - **natural language dates**: allows us to use natural language dates then converts then to correct dates.
 - **note refactor**: eases refactoring large notes into smaller linked notes.
 
-## References
-
-- [[Figuring out obsidian]]
