@@ -7,7 +7,7 @@
 - [ ] play some games
 - [ ] get the books
 - [ ] get the courses
-- [ ] get some more games
+- [x] get some more games
 - [ ] organize obsidian some more
 - [ ] quran for today
 - [ ] work on my blog some more
