@@ -1,4 +1,7 @@
 #notes
+## References
+
+- [[How to take better Notes]]
 
 We can use the graph view to review notes that we might have forgotten, and also allows us to spot notes with little or no links.
 
@@ -10,6 +13,3 @@ We can use the dataview extension, which seemingly allows us to make queries on 
 
 With dataview, we can query for notes older than a certain date, or notes with a specific tag, or even just random notes.
 
-## References
-
-- [[How to take better Notes]]

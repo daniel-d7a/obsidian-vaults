@@ -3,4 +3,4 @@
 test note
 
 ## references
-- [[Reading & Studying]]
+- [[Readings & Studying]]

@@ -1,4 +1,7 @@
 #obsidian/structure
+## References
+
+- [[Figuring out obsidian]]
 ## Folder structure
 
 - **\_:** holds miscellaneous files, such as *templates*, *inbox* for newly created notes, *unorganized* for migrating notes across structures.
@@ -19,6 +22,3 @@
 
 - use scripts to migrate notes structure.
 
-## References
-
-- [[Figuring out obsidian]]
