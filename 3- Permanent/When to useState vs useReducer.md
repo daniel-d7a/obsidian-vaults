@@ -1,4 +1,7 @@
-[link](https://tkdodo.eu/blog/use-state-vs-use-reducer)
+#sources/articles/tk_dodo #react/hooks 
+## refernces
+- [article link](https://tkdodo.eu/blog/use-state-vs-use-reducer)
+- [[Readings & Studying]]
 
 If we have separately changing state it should be stored separately.  
 
@@ -22,7 +25,7 @@ Storing state together is better for batching state updates, especially in async
 
 ## useReducer  
 
-Can be used to trigger force updates before useSyncExternalStore, toggling boolean values, and updating state the is dependant on each other.  
+Could be used to trigger force updates before useSyncExternalStore was a thing, toggling boolean values, and updating state the is dependant on each other.  
 
 Keep all the logic inside the reducer by modeling actions as events instead of setters  
 

@@ -1,4 +1,7 @@
-[link](https://tkdodo.eu/blog/use-state-for-one-time-initializations)
+#sources/articles/tk_dodo #react/hooks 
+## references
+- [article link](https://tkdodo.eu/blog/use-state-for-one-time-initializations)
+- [[Readings & Studying]]
 
 Suppose you have a resource that you only want to initialize once per life-time of your app. The recommended pattern is usually to create the instance outside of the component.  
 
