@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "1- MOCs/Eraasoft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Eraasoft"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,33 +181,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2cce161f390634f3",
+  "active": "a54da43acb4499cc",
   "lastOpenFiles": [
-    "/Home.md",
-    "conflict-files-obsidian-git.md",
     "Home.md",
-    "_/_Inbox/hfooad book notes/chapter-3.md",
-    "_/_Templates/Article template.md",
-    "_/_Inbox/multi tenant e-commerce saas/questions.md",
-    "_/_Inbox/multi tenant e-commerce saas/notes.md",
-    "_/_Inbox/multi tenant e-commerce saas/mvp path.md",
-    "_/_Inbox/multi tenant e-commerce saas/idea.md",
-    "_/_Inbox/multi tenant e-commerce saas/experimintal.md",
-    "_/_Inbox/multi tenant e-commerce saas/database schema.md",
-    "_/_Inbox/multi tenant e-commerce saas/Customizable E-Commerce Platform.md",
-    "_/_Inbox/hfooad book notes/chapter-5.md",
-    "_/_Inbox/hfooad book notes/chapter-4.md",
-    "_/_Inbox/hfooad book notes/chapter-2.md",
-    "_/_Inbox/hfooad book notes/chapter-1.md",
-    "_/_Inbox/hfooad book notes/appendix-1.md",
-    "_/_Inbox/hfooad book notes/_notes.md",
-    "_/_Inbox/Practical React Query.md",
-    "_/_Inbox/Obsidian folder structure for zettlekasten.md",
-    "_/_Inbox/Best full stack projects for cv.md",
-    "_/_Inbox/5. useState vs useReducer.md",
-    "_/_Inbox/4. useState for one-time initializations.md",
-    "_/_Inbox/3. Things to know about useState.md",
-    "_/_Inbox/2. Putting props to useState.md",
-    "5- Projects/eraasoft/pre prog videos.md"
+    "5- Projects/Books Notes/Head First OOAD/chapter-2.md",
+    "1- MOCs/Readings & Studying.md",
+    "5- Projects/Books Notes/Head First OOAD/chapter-5.md",
+    "5- Projects/Books Notes/Head First OOAD/chapter-4.md",
+    "5- Projects/Books Notes/Head First OOAD/chapter-3.md",
+    "5- Projects/Books Notes/Head First OOAD/chapter-1.md",
+    "5- Projects/Books Notes/Head First OOAD/appendix-1.md",
+    "5- Projects/Books Notes/Head First OOAD/_notes.md",
+    "/5- Projects/Books Notes/Head First OOAD/chapter-2.md",
+    "/1- MOCs/Readings & Studying.md",
+    "/5- Projects/Books Notes/Head First OOAD/chapter-5.md",
+    "/5- Projects/Books Notes/Head First OOAD/chapter-4.md",
+    "/5- Projects/Books Notes/Head First OOAD/chapter-3.md",
+    "/5- Projects/Books Notes/Head First OOAD/chapter-1.md",
+    "/5- Projects/Books Notes/Head First OOAD/appendix-1.md",
+    "/5- Projects/Books Notes/Head First OOAD/_notes.md",
+    "_/_Inbox/useState for one-time initializations.md",
+    "5- Projects/eraasoft/Pre programming/video list.md",
+    "3- Permanent/When to useState vs useReducer.md",
+    "3- Permanent/Current structure 2025-03-07.md",
+    "2- fleeting/Obsidian folder structure for zettlekasten.md",
+    "1- MOCs/Eraasoft.md",
+    "1- MOCs/Books.md",
+    "/Home.md",
+    "/_/_Inbox/useState for one-time initializations.md",
+    "/5- Projects/eraasoft/hfooad book video scripts",
+    "5- Projects/eraasoft/Pre programming",
+    "5- Projects/Books Notes/Head First OOAD",
+    "5- Projects/Books Notes",
+    "/5- Projects/eraasoft/Pre programming",
+    "/5- Projects/Books Notes/Head First OOAD",
+    "/5- Projects/Books Notes",
+    "/2- Fleeting",
+    "/_/_Inbox/hfooad book notes",
+    "/_/_Inbox"
   ]
 }
