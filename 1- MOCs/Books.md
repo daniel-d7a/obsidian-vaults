@@ -10,8 +10,6 @@ const pages = dv.pages('#books')
 
 const bookTypes = new Set() 
 
-pages.forEach(p=> {p.map(p=>p.file.etags)})
-
 dv.list(bookTypes)
 ```
 
