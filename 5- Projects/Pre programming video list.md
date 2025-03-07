@@ -2,6 +2,8 @@
 
 - [[Eraasoft]]
 
+#eraasoft/pre_programming
+
 ## Task list
 
 - [ ] البداية و التعريف بالكورس
