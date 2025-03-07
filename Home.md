@@ -1,3 +1,19 @@
+## My to-do list for now
+
+- [ ] 3 hfooad videos at least
+- [ ] 2 typescript videos
+- [ ] 1 article
+- [ ] type out my saas idea into obsidian
+- [ ] play some games
+- [ ] get the books
+- [ ] get the courses
+- [ ] get some more games
+- [ ] organize obsidian some more
+- [ ] quran for today
+- [ ] work on my blog some more
+- [ ] start the saas monorepo
+- [ ] draw the database diagram
+
 ## What topics do I have?
 
 ```dataview
@@ -14,8 +30,6 @@ we have `$=dv.pages("").length` notes
 Incomplete: `$=dv.pages('"_/_Inbox"').length`
 
 Unorganized: `$=dv.pages('"2Fleeting"').length`
-
-eyad is trying to make this work again
 
 ## Some random topics
 
