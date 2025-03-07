@@ -1,3 +1,7 @@
+## References
+
+- [[Eraasoft]]
+
 ## Task list
 
 - [ ] البداية و التعريف بالكورس
@@ -37,9 +41,9 @@
 - [ ] فيديوهات المجالات
 	- [x] 21front end ✅ 2025-02-21
 	- [x] 22back end ✅ 2025-02-21
-	- [ ] 23mobile
-	- [ ] 24AI
-	- [ ] 25cyber security
-	- [ ] 26testing
-	- [ ] 27UI and UX
-	- [ ] 28game dev
+	- [x] 23mobile ✅ 2025-03-07
+	- [x] 24AI ✅ 2025-03-07
+	- [x] 25cyber security ✅ 2025-03-07
+	- [x] 26testing ✅ 2025-03-07
+	- [x] 27UI and UX ✅ 2025-03-07
+	- [x] 28game dev ✅ 2025-03-07
