@@ -20,6 +20,7 @@
               "icon": "lucide-file",
               "title": "Books"
             }
+<<<<<<< HEAD
           },
           {
             "id": "19b5ab17c095869f",
@@ -37,6 +38,10 @@
           }
         ],
         "currentTab": 1
+=======
+          }
+        ]
+>>>>>>> 0a7e537 (manual commit)
       }
     ],
     "direction": "vertical"
@@ -182,7 +187,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
+<<<<<<< HEAD
   "active": "19b5ab17c095869f",
+=======
+  "active": "d55266decbf965a9",
+>>>>>>> 0a7e537 (manual commit)
   "lastOpenFiles": [
     "Home.md",
     "1- MOCs/Books.md",

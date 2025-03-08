@@ -3,6 +3,7 @@
 - split to get the book name and make a lvl3 heading
 - display all book related notes
 
+<<<<<<< HEAD
 ```dataviewjs
 const pages = dv.pages('#books')
 
@@ -11,6 +12,16 @@ const pages = dv.pages('#books')
 const bookTypes = new Set() 
 
 dv.list(bookTypes)
+=======
+
+
+```dataviewjs
+const pages = dv.pages('#books')
+
+const bookTypes = new Set() 
+
+dv.list(pages)
+>>>>>>> 0a7e537 (manual commit)
 ```
 
 ```dataviewjs
