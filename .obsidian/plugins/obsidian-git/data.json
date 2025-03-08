@@ -4,7 +4,11 @@
   "autoSaveInterval": 1,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
+<<<<<<< HEAD
   "autoPullOnBoot": true,
+=======
+  "autoPullOnBoot": false,
+>>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
@@ -14,7 +18,11 @@
   "updateSubmodules": false,
   "syncMethod": "rebase",
   "customMessageOnAutoBackup": false,
+<<<<<<< HEAD
   "autoBackupAfterFileChange": true,
+=======
+  "autoBackupAfterFileChange": false,
+>>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
   "treeStructure": false,
   "refreshSourceControl": false,
   "basePath": "",

@@ -78,8 +78,12 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 293.5116500854492,
     "collapsed": true
+=======
+    "width": 293.5116500854492
+>>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
   },
   "right": {
     "id": "375113069dbe75d6",
@@ -187,10 +191,18 @@
   },
   "active": "eed85e4fec557ff3",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "5- Projects/hfooad book notes notes.md",
     "1- MOCs/Books.md",
     "1- MOCs/Readings & Studying.md",
     "Home.md",
+=======
+    "conflict-files-obsidian-git.md",
+    "Home.md",
+    "5- Projects/hfooad book notes notes.md",
+    "1- MOCs/Books.md",
+    "1- MOCs/Readings & Studying.md",
+>>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
     "_/_Inbox/useState for one-time initializations.md",
     "3- Permanent/When to useState vs useReducer.md",
     "_/_Inbox/Untitled.md",
@@ -214,7 +226,10 @@
     "3- Permanent/How do we get more knowledge and experience.md",
     "3- Permanent/How Ai helps with writing, analytics, and personal life..md",
     "3- Permanent/Don't over useState.md",
+<<<<<<< HEAD
     "3- Permanent/cross context learning.md",
+=======
+>>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
     "_Assets/Pasted image 20250221234436.png",
     "_/_Inbox/multi tenant e-commerce saas",
     "5- Projects/Books Notes/Head First OOAD",

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ```dataviewjs
 const pages = dv.pages('#books')
@@ -26,6 +27,32 @@ books.forEach((bookNames, bookType)=>{
 	})
 })
 
+=======
+- Get all notes with the books tag
+- split to get the book type and make a lvl2 heading
+- split to get the book name and make a lvl3 heading
+- display all book related notes
+
+<<<<<<< HEAD
+```dataviewjs
+const pages = dv.pages('#books')
+
+
+
+const bookTypes = new Set() 
+
+dv.list(bookTypes)
+=======
+
+
+```dataviewjs
+const pages = dv.pages('#books')
+
+const bookTypes = new Set() 
+
+dv.list(pages)
+>>>>>>> 0a7e537 (manual commit)
+>>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
 ```
 
 ```dataviewjs
@@ -53,4 +80,8 @@ const displayName = projectName[0].toUpperCase().concat(projectName.slice(1)).re
 	dv.list(data)
 })
 
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
