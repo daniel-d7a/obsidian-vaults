@@ -8,21 +8,47 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7303b6e409c7b8d7",
+            "id": "199db78bb4798d3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "1- MOCs/Books.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Books"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ef4d3ee3bb933b66",
+        "type": "tabs",
+        "children": [
           {
-            "id": "199db78bb4798d3b",
+            "id": "102b1a1118880357",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1- MOCs/Readings & Studying.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Readings & Studying"
+            }
+          }
+        ]
+      },
+      {
+        "id": "4ea2d429def93dac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5d458f094a4010f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +61,7 @@
               "title": "Books"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5116500854492
+    "width": 293.5116500854492,
+    "collapsed": true
   },
   "right": {
     "id": "375113069dbe75d6",
@@ -201,10 +227,10 @@
   },
   "active": "199db78bb4798d3b",
   "lastOpenFiles": [
-    "Home.md",
-    "1- MOCs/Books.md",
-    "_/_Inbox/useState for one-time initializations.md",
     "1- MOCs/Readings & Studying.md",
+    "1- MOCs/Books.md",
+    "Home.md",
+    "_/_Inbox/useState for one-time initializations.md",
     "3- Permanent/When to useState vs useReducer.md",
     "_/_Inbox/Untitled.md",
     "_/_Inbox/Best full stack projects for cv.md",

@@ -5,13 +5,25 @@
 
 ```dataviewjs
 const pages = dv.pages('#books')
-
 const bookTypes = new Set() 
 
-dv.list(pages.map(p=>p.file.link))
-```
+pages.flatMap(p=>p.file.etags).filter(e=>e.startsWith('#books')).map(e=>e.split('/')[1]).forEach(e=>bookTypes.add(e))
 
-what is happening
+bookTypes.forEach(t=>{
+	const bookType = t[0].toUpperCase().concat(t.slice(1))
+	dv.header(2, bookType)
+
+	const booksNotes = pages.filter(p=>p.file.tags.includes(`#books/${t}`)).map(p=>p.file.link)
+
+	const bookNames = new Set()
+	 
+
+
+
+	dv.list(bookNotes)
+})
+
+```
 
 ```dataviewjs
 
