@@ -1,14 +1,10 @@
 {
   "commitMessage": "vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 0,
-  "autoPushInterval": 0,
+  "autoSaveInterval": 1,
+  "autoPushInterval": 5,
   "autoPullInterval": 0,
-<<<<<<< HEAD
-  "autoPullOnBoot": false,
-=======
   "autoPullOnBoot": true,
->>>>>>> origin/main
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
@@ -18,15 +14,11 @@
   "updateSubmodules": false,
   "syncMethod": "merge",
   "customMessageOnAutoBackup": false,
-<<<<<<< HEAD
-  "autoBackupAfterFileChange": false,
-=======
   "autoBackupAfterFileChange": true,
->>>>>>> origin/main
   "treeStructure": false,
   "refreshSourceControl": true,
   "basePath": "",
-  "differentIntervalCommitAndPush": false,
+  "differentIntervalCommitAndPush": true,
   "changedFilesInStatusBar": false,
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000,
@@ -58,7 +50,8 @@
     },
     "textColorCss": "var(--text-muted)",
     "ignoreWhitespace": false,
-    "gutterSpacingFallbackLength": 5
-  },
-  "autoCommitMessage": "vault backup: {{date}}"
+    "gutterSpacingFallbackLength": 5,
+    "lastShownAuthorDisplay": "initials",
+    "lastShownDateTimeFormatOptions": "date"
+  }
 }
