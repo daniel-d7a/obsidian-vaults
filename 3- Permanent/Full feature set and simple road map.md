@@ -9,8 +9,6 @@
 - Inventory Management
 - Shopping Cart & Checkout
 - Order Management (Pending, completed, canceled)
-- Payment Integration (Stripe, PayPal)
-- Email Notifications (Order confirmation, shipping updates)
 - Admin Dashboard (Manage users, stores, orders)
 - Basic Sales Reports
 - Deployment (Backend, frontend, database)
@@ -30,6 +28,9 @@
 - Bulk Import/Export of Products
 - Advanced Analytics Dashboard
 - Google Analytics & Facebook Pixel Integration
+- B2B Features
+- Payment Integration (Stripe, PayPal)
+- Email Notifications (Order confirmation, shipping updates)
 
 ### Competitive Features (Scaling & Competing)
 
@@ -40,6 +41,7 @@
 - Wholesale Pricing & B2B Support
 - PWA Support (Mobile-friendly stores)
 - CDN & Caching for Performance
+- Mobile App
 
 ### Monetization & Deployment
 
@@ -80,3 +82,5 @@
 - SaaS & licensing
 - Marketing & growth strategies
 - Expansion to mobile (PWA support)
+
+[[multi-tenant saas e-commerce platform]]

@@ -3,21 +3,17 @@
 - [ ] 3 hfooad videos at least
 - [ ] 2 typescript videos
 - [ ] 1 article
-- [ ] type out my saas idea into obsidian
+- [x] type out my saas idea into obsidian
 - [ ] play some games
-<<<<<<< HEAD
 - [x] get the books
-=======
-- [ ] get the books
->>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
-- [ ] get the courses
+- [x] get the courses
 - [x] get some more games
-- [ ] organize obsidian some more
+- [x] organize obsidian some more
 - [ ] quran for today
 - [x] surat al-kahf
 - [ ] work on my blog some more
 - [ ] start the saas monorepo
-- [ ] draw the database diagram
+- [x] draw the database diagram
 
 ## What topics do I have?
 

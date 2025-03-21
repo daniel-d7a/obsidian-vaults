@@ -1,30 +1,22 @@
 {
   "commitMessage": "vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 1,
+  "autoSaveInterval": 0,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
-<<<<<<< HEAD
-  "autoPullOnBoot": true,
-=======
   "autoPullOnBoot": false,
->>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
-  "disablePopupsForNoChanges": true,
+  "disablePopupsForNoChanges": false,
   "listChangedFilesInMessageBody": false,
   "showStatusBar": true,
   "updateSubmodules": false,
-  "syncMethod": "rebase",
+  "syncMethod": "merge",
   "customMessageOnAutoBackup": false,
-<<<<<<< HEAD
-  "autoBackupAfterFileChange": true,
-=======
   "autoBackupAfterFileChange": false,
->>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
   "treeStructure": false,
-  "refreshSourceControl": false,
+  "refreshSourceControl": true,
   "basePath": "",
   "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
@@ -58,9 +50,7 @@
     },
     "textColorCss": "var(--text-muted)",
     "ignoreWhitespace": false,
-    "gutterSpacingFallbackLength": 5,
-    "lastShownAuthorDisplay": "initials",
-    "lastShownDateTimeFormatOptions": "date"
+    "gutterSpacingFallbackLength": 5
   },
   "autoCommitMessage": "vault backup: {{date}}"
 }

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d61f1e027f5a3af9",
+        "id": "25b454b77290aca7",
         "type": "tabs",
         "children": [
           {
-            "id": "eed85e4fec557ff3",
+            "id": "cb72146c0cf04baa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "1- MOCs/Eraasoft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Eraasoft"
             }
           }
         ]
@@ -78,12 +78,8 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
     "width": 293.5116500854492,
     "collapsed": true
-=======
-    "width": 293.5116500854492
->>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
   },
   "right": {
     "id": "375113069dbe75d6",
@@ -189,47 +185,38 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "eed85e4fec557ff3",
+  "active": "cb72146c0cf04baa",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "5- Projects/hfooad book notes notes.md",
-    "1- MOCs/Books.md",
-    "1- MOCs/Readings & Studying.md",
-    "Home.md",
-=======
-    "conflict-files-obsidian-git.md",
-    "Home.md",
-    "5- Projects/hfooad book notes notes.md",
-    "1- MOCs/Books.md",
-    "1- MOCs/Readings & Studying.md",
->>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
-    "_/_Inbox/useState for one-time initializations.md",
-    "3- Permanent/When to useState vs useReducer.md",
-    "_/_Inbox/Untitled.md",
-    "_/_Inbox/Best full stack projects for cv.md",
-    "2- Fleeting/Obsidian folder structure for zettlekasten.md",
-    "3- Permanent/Current structure 2025-03-07.md",
-    "5- Projects/Books Notes",
-    "1- MOCs/Figuring out obsidian.md",
+    "_/_Inbox/react course teaching tips.md",
     "1- MOCs/Eraasoft.md",
-    "5- Projects/Eraasoft/hfooad book video scripts/hfooad chapter 1 script.md",
-    "5- Projects/Eraasoft/hfooad book video scripts/hfooad chapter 2 script.md",
-    "5- Projects/Eraasoft/hfooad book video scripts/hfooad chapter 3 script.md",
-    "5- Projects/Eraasoft/hfooad book video scripts/intro.md",
-    "5- Projects/Eraasoft/Pre programming/video list.md",
+    "_/_Inbox/react course outline.md",
+    "Home.md",
+    "3- Permanent/hfooad chapter 6.md",
+    "3- Permanent/quick notes.md",
+    "1- MOCs/multi-tenant saas e-commerce platform.md",
+    "3- Permanent/hfooad chapter 5 part 2 script.md",
+    "useSyncExternalStore article.md",
+    "3- Permanent/hfooad chapter 5 part 1 script.md",
+    "4- Journal/2025-03-14 some thoughts about my project.md",
+    "3- Permanent/3. Things to know about useState.md",
+    "_/_Inbox/Best full stack projects for cv.md",
+    "3- Permanent/2. Putting props to useState.md",
+    "3- Permanent/useState for one-time initializations.md",
+    "1- MOCs/Readings & Studying.md",
+    "_/_Inbox/Practical React Query.md",
+    "2- fleeting/Obsidian folder structure for zettlekasten.md",
+    "3- Permanent/idea.md",
+    "4- Journal/2025-03-08 another miserable army weekend.md",
+    "3- Permanent/hfooad chapter 4 script.md",
+    "3- Permanent/hfooad ch4 book notes.md",
+    "2- fleeting/this ramadan.md",
+    "3- Permanent/hfooad chapter 3 script.md",
+    "1- MOCs/Thinking, studying, how our brains work..md",
+    "1- MOCs/My articles.md",
+    "4- Journal",
+    "5- Projects/multi-tenant saas e-commerce platform",
+    "5- Projects/Books Notes",
     "5- Projects/Eraasoft/Pre programming",
-    "1- MOCs/How to take better Notes.md",
-    "3- Permanent/Plugins to check out.md",
-    "3- Permanent/How to take better (book) notes.md",
-    "3- Permanent/How to rediscover old notes.md",
-    "3- Permanent/How to organize notes with MOCs.md",
-    "3- Permanent/How do we get more knowledge and experience.md",
-    "3- Permanent/How Ai helps with writing, analytics, and personal life..md",
-    "3- Permanent/Don't over useState.md",
-<<<<<<< HEAD
-    "3- Permanent/cross context learning.md",
-=======
->>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
     "_Assets/Pasted image 20250221234436.png",
     "_/_Inbox/multi tenant e-commerce saas",
     "5- Projects/Books Notes/Head First OOAD",

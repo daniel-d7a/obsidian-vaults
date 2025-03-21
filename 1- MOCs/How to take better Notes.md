@@ -1,3 +1,4 @@
+#moc 
 ## The note taking process
 
 ```dataview
