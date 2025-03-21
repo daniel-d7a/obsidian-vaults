@@ -1,3 +1,4 @@
+[[Books]]
 #books/programming/hfooad
 # CH-2 give them what they want: gathering requirements
 

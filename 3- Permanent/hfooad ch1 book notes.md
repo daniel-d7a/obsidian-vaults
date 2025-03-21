@@ -1,3 +1,4 @@
+[[Books]]
 #books/programming/hfooad
 
 # CH-1 great software begins here: well-designed apps rock

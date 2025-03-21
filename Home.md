@@ -1,19 +1,13 @@
 ## My to-do list for now
 
-- [ ] 3 hfooad videos at least
-- [ ] 2 typescript videos
-- [ ] 1 article
-- [x] type out my saas idea into obsidian
+- [ ] last 4 hfooad videos at least
+- [ ] work on 2 typescript videos
+- [ ] work on 1 article
 - [ ] play some games
-- [x] get the books
-- [x] get the courses
-- [x] get some more games
-- [x] organize obsidian some more
+- [ ] get the backend roadmap for Mazen
 - [ ] quran for today
-- [x] surat al-kahf
-- [ ] work on my blog some more
-- [ ] start the saas monorepo
-- [x] draw the database diagram
+- [ ] surat al-kahf
+---
 
 ## What topics do I have?
 
@@ -22,15 +16,17 @@ TABLE  WITHOUT ID file.link as "Note", length(file.inlinks) as "connections"
 FROM "1- MOCs"
 ```
 
-## How many notes do I have?
+---
 
-we have `$=dv.pages("").length` notes
+## How many notes do I have? `$=dv.pages("").length`
 
 ## How many notes need my attention?
 
-Incomplete: `$=dv.pages('"_/_Inbox"').length`
+## Incomplete: `$=dv.pages('"_/_Inbox"').length`
 
-Unorganized: `$=dv.pages('"2Fleeting"').length`
+## Unorganized: `$=dv.pages('"2Fleeting"').length`
+
+---
 
 ## Some random topics
 

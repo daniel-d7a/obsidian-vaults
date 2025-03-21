@@ -1,3 +1,4 @@
+[[Books]]
 #books/programming/hfooad
 # CH-3 I Love You, You’re Perfect...Now Change: requirements change
 

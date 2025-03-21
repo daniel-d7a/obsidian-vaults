@@ -9,7 +9,6 @@ const [, bookType, bookName] = e.split('/');
 return {bookType, bookName};
  }).forEach(({bookType, bookName})=>{
 	if(books.has(bookType)){
-
 		books.set(bookType, books.get(bookType).add(bookName))
 	}else{
 		books.set(bookType, (new Set()).add(bookName))

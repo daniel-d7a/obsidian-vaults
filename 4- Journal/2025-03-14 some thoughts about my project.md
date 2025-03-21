@@ -1,3 +1,5 @@
+[[Journal]]
+
 one thing that hit me today was that there are many local (or at least in the MENA region) competitors to my SaaS idea, many that are better, cheaper, offer more features, and overall make my idea worthless.
 
 competitors include: -
