@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- MOCs/Eraasoft.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Eraasoft"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5116500854492,
-    "collapsed": true
+    "width": 293.5116500854492
   },
   "right": {
     "id": "375113069dbe75d6",
@@ -187,15 +186,17 @@
   },
   "active": "cb72146c0cf04baa",
   "lastOpenFiles": [
-    "_/_Inbox/react course teaching tips.md",
+    "1- MOCs/Books.md",
+    "conflict-files-obsidian-git.md",
+    "_/_Inbox/useSyncExternalStore article.md",
     "1- MOCs/Eraasoft.md",
-    "_/_Inbox/react course outline.md",
     "Home.md",
+    "_/_Inbox/react course teaching tips.md",
+    "_/_Inbox/react course outline.md",
     "3- Permanent/hfooad chapter 6.md",
     "3- Permanent/quick notes.md",
     "1- MOCs/multi-tenant saas e-commerce platform.md",
     "3- Permanent/hfooad chapter 5 part 2 script.md",
-    "useSyncExternalStore article.md",
     "3- Permanent/hfooad chapter 5 part 1 script.md",
     "4- Journal/2025-03-14 some thoughts about my project.md",
     "3- Permanent/3. Things to know about useState.md",
@@ -211,8 +212,6 @@
     "3- Permanent/hfooad ch4 book notes.md",
     "2- fleeting/this ramadan.md",
     "3- Permanent/hfooad chapter 3 script.md",
-    "1- MOCs/Thinking, studying, how our brains work..md",
-    "1- MOCs/My articles.md",
     "4- Journal",
     "5- Projects/multi-tenant saas e-commerce platform",
     "5- Projects/Books Notes",

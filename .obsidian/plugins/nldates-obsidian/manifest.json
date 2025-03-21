@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 {
   "id": "nldates-obsidian",
   "name": "Natural Language Dates",
@@ -11,19 +8,3 @@
   "isDesktopOnly": false,
   "minAppVersion": "1.0.0"
 }
-=======
->>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
-{
-  "id": "nldates-obsidian",
-  "name": "Natural Language Dates",
-  "description": "Create date-links based on natural language",
-  "version": "0.6.2",
-  "author": "Argentina Ortega Sainz",
-  "authorUrl": "https://argentinaos.com/",
-  "isDesktopOnly": false,
-  "minAppVersion": "1.0.0"
-}
-<<<<<<< HEAD
-=======
->>>>>>> 0a7e537 (manual commit)
->>>>>>> cd710d32145c9086a53770347881e501c4c9b4e5
