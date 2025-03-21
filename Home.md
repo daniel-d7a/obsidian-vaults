@@ -1,5 +1,5 @@
 
-testing out auto commit
+testing out auto commit test from android
 ## My to-do list for now
 
 - [ ] last 4 hfooad videos at least
