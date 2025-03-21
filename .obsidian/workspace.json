@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home with a quick test.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home with a quick test"
+              "title": "Home"
             }
           },
           {
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home with a quick test.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home with a quick test"
+              "title": "Backlinks for Home"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home with a quick test.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Home with a quick test"
+              "title": "Outgoing links from Home"
             }
           },
           {
@@ -207,7 +207,7 @@
     "1- MOCs/Books.md",
     "1- MOCs/Eraasoft.md",
     "3- Permanent/Plugins to check out.md",
-    "Home with a quick test.md",
+    "Home.md",
     "4- Journal/2025-03-14 some thoughts about my project.md",
     "3- Permanent/hfooad appendix 1 book notes.md",
     "3- Permanent/hfooad ch5 book notes.md",
