@@ -1,14 +1,13 @@
-
-pc test
 ## My to-do list for now
 
-- [ ] last 4 hfooad videos at least
-- [ ] work on 2 typescript videos
-- [ ] work on 1 article
-- [ ] play some games
-- [ ] get the backend roadmap for Mazen
-- [ ] quran for today
 - [ ] surat al-kahf
+- [ ] play games
+- [ ] skate
+- [ ] eat
+- [ ] write some of the react course
+- [ ] download peaky blinders last 2 seasons
+- [ ] talk to someone
+
 ---
 
 ## What topics do I have?
@@ -24,9 +23,9 @@ FROM "1- MOCs"
 
 ## How many notes need my attention?
 
-## Incomplete: `$=dv.pages('"_/_Inbox"').length`
+### Incomplete: `$=dv.pages('"_/_Inbox"').length`
 
-## Unorganized: `$=dv.pages('"2Fleeting"').length`
+### Unorganized: `$=dv.pages('"2- Fleeting"').length`
 
 ---
 
