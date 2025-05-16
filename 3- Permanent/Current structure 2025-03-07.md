@@ -11,8 +11,6 @@
 - **Fleeting notes**
 - **Permanent notes:** for notes from reading or videos.
 - **Journal:** for daily notes and notes about my life in genera.
-- **Projects:** to cover project notes such as scripts, articles, work related work, …etc.
-- a home note as a starting point.
 
 ## Note structure
 

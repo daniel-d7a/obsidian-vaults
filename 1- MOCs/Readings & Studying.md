@@ -1,4 +1,4 @@
-
+#moc 
 ```dataviewjs
 
 const inlinks = dv.current().file.inlinks
