@@ -114,3 +114,12 @@ To https://github.com/daniel-d7a/obsidian-vaults.git
 ----- 2025-05-23 18:16:57.87 ----- 
 Pulling latest changes... 
 Already up to date.
+warning: LF will be replaced by CRLF in git_sync.log.
+The file will have its original line endings in your working directory
+[main 5a49e6b] Auto-sync from PC
+ 1 file changed, 9 insertions(+)
+To https://github.com/daniel-d7a/obsidian-vaults.git
+   34bcc40..5a49e6b  main -> main
+----- 2025-05-23 18:19:25.94 ----- 
+Pulling latest changes... 
+Already up to date.
