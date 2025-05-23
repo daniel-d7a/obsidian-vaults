@@ -28,3 +28,13 @@ Git sync completed successfully.
 Pulling latest changes... 
 Already up to date.
 Pushing local changes... 
+warning: LF will be replaced by CRLF in git_sync.log.
+The file will have its original line endings in your working directory
+[main 0f18582] Auto-sync from PC
+ 1 file changed, 13 insertions(+)
+To https://github.com/daniel-d7a/obsidian-vaults.git
+   6aca0ca..0f18582  main -> main
+----- 2025-05-23 18:06:02.49 ----- 
+Pulling latest changes... 
+Already up to date.
+Pushing local changes... 
