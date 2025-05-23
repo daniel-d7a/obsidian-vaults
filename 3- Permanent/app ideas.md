@@ -16,3 +16,9 @@
 
 ## a pair programming app
 - only shares the code not the whole screen
+
+## a sql driver for whatever 
+
+## an orm similar to drizzle
+
+## obsidian widget for pc/mobile
