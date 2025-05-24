@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1082ce3874d385d7",
+        "id": "bc59f917a08d5558",
         "type": "tabs",
         "children": [
           {
-            "id": "52fffd271c519a15",
+            "id": "9b617c9a7694170c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/Immediate todo.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Immediate todo"
+              "title": "Home"
+            }
+          },
+          {
+            "id": "157d6e0b3d546425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_/_Inbox/My Blog.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "My Blog"
             }
           }
         ]
@@ -78,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5116500854492
+    "width": 406.5
   },
   "right": {
     "id": "375113069dbe75d6",
@@ -183,11 +197,20 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "52fffd271c519a15",
+  "active": "9b617c9a7694170c",
   "lastOpenFiles": [
-    "git_sync.log",
+    "_/_Inbox/My Blog.md",
     "Home.md",
+    "3- Permanent/Immediate todo.md",
     "_/_Inbox/Quotes.md",
+    "_/_Inbox/react course outline.md",
+    "_/_Inbox/Self hosting.md",
+    "1- MOCs/Notes.md",
+    "_/_Inbox/Inertia blog features.md",
+    "1- MOCs/Stuff to do.md",
+    "3- Permanent/technical cleanup.md",
+    "3- Permanent/Untitled",
+    "git_sync.log",
     "3- Permanent/apps to get.md",
     "3- Permanent/new gear.md",
     "3- Permanent/app ideas.md",
@@ -197,8 +220,6 @@
     "3- Permanent/useState for one-time initializations.md",
     "3- Permanent/Best full stack projects for cv.md",
     "1- MOCs/Teaching programming.md",
-    "3- Permanent/technical cleanup.md",
-    "1- MOCs/Stuff to do.md",
     "_/_Inbox/multi tenant e-commerce saas/mvp path.md",
     "_/_Inbox/2. Putting props to useState.md",
     "_/_Inbox/3. Things to know about useState.md",
@@ -206,11 +227,6 @@
     "1- MOCs/Fleeting thoughts.md",
     "1- MOCs/Readings & Studying.md",
     "_/_Inbox/useState for one-time initializations.md",
-    "_/_Inbox/Practical React Query.md",
-    "_/_Inbox/useSyncExternalStore article.md",
-    "1- MOCs/for later.md",
-    "3- Permanent/book to read about bussiness.md",
-    "4- Journal/2025-05-15 talking to chatGPT.md",
     "4- Journal",
     "_/_Inbox/multi tenant e-commerce saas",
     "5- Projects/eraasoft/Pre programming",
@@ -219,8 +235,6 @@
     "5- Projects/eraasoft",
     "5- Projects/Books Notes",
     "5- Projects/Articles",
-    "5- Projects",
-    "2- Fleeting",
     "_Assets/Pasted image 20250221234436.png"
   ]
 }

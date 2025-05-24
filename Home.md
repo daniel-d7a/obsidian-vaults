@@ -1,12 +1,22 @@
 ## My to-do list for now
 
-- [ ] surat al-kahf
-- [ ] play games
-- [ ] skate
-- [ ] eat
-- [ ] write some of the react course
-- [ ] download peaky blinders last 2 seasons
-- [ ] talk to someone
+- [x] eat
+- [x] finish rage 2
+- [ ] plan what I am going to do (major minor style)
+- [ ] get money from Vodafone cash
+- [ ] do laundry
+- [ ] pray
+
+## Major
+
+- [ ] redesign the UI for the Laravel-inertia app
+- [ ] Work on my Blog
+
+## Minor
+
+- [ ] write a blog post
+- [ ] plan some content
+- [ ] work on the react course
 
 ---
 
@@ -25,7 +35,7 @@ FROM "1- MOCs"
 
 ### Incomplete: `$=dv.pages('"_/_Inbox"').length`
 
-### Unorganized: `$=dv.pages('"2- Fleeting"').length`
+### Unorganized: `$=dv.pages('"2Fleeting"').length`
 
 ---
 

@@ -1,0 +1,1 @@
+- [ ] get the notes from the HDD to obsidian
