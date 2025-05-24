@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/Immediate todo.md",
+                "file": "_/_Inbox/My Blog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Immediate todo"
+              "title": "My Blog"
             }
           },
           {
@@ -92,7 +92,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "\"To do\"",
+            "query": "Idea",
             "matchingCase": false,
             "explainSearch": true,
             "collapseAll": true,
@@ -213,10 +213,14 @@
   },
   "active": "b37340d5ddfd4aed",
   "lastOpenFiles": [
+    "_/_Inbox/Money making ideas.md",
+    "3- Permanent/idea.md",
+    "_/_Inbox/How writing made me a millionaire.md",
+    "_/_Inbox/leinf.md",
+    "Home.md",
     "1- MOCs/Stuff to do.md",
     "_/_Inbox/Immediate todo.md",
     "3- Permanent/app ideas.md",
-    "Home.md",
     "_/_Inbox/Games ideas.md",
     "Untitled",
     "_/_Inbox/Self hosting.md",
@@ -238,10 +242,6 @@
     "/_/_Templates",
     "/_",
     "/Untitled.md",
-    "/Home.md",
-    "5- Projects/eraasoft/hfooad book video scripts/intro.md",
-    "/5- Projects/Articles/useRef.md",
-    "/5- Projects/Articles/useEffect.md",
     "/5- Projects/Articles",
     "5- Projects/eraasoft/hfooad book video scripts",
     "/5- Projects/eraasoft/hfooad book video scripts",

@@ -28,3 +28,5 @@
 - [ ] add table of content for posts
 - [ ] add reading progress bar
 - [ ] add edit on github button to content
+- [ ] add post series with links to other posts and next and previous buttons
+- [ ] add next and previous buttons to book summary chapters
