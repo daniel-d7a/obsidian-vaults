@@ -22,3 +22,13 @@
 ## an orm similar to drizzle
 
 ## obsidian widget for pc/mobile
+- like the one for keep notes
+
+## monthly product subscription 
+- home made food with plans for different diets
+- skin care 
+- shaving products
+
+## accountability partner app
+- either an AI partner or a real one 
+- has groups

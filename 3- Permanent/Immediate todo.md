@@ -4,12 +4,19 @@
 
 ## House cleanup
 
-- vacuum
-- clean balcony
-- clean my room and wardrobe
-- clean fridge and kitchen
-- clean freezer and get food out of it
-- wipe dust of floors, and other things
+- [ ] vacuum hall
+- [ ] vacuum alley
+- [ ] clean room balcony 
+- [ ] clean hall balcony 
+- [ ] organize wardrobe 
+- [ ] change bed sheets
+- [ ] put stuff in the sun
+- [ ] clean fridge
+- [ ] get food out of freezer and close by
+- [ ] clean kitchen 
+- [ ] clean stove
+- [ ] clean bathroom 
+- [ ] wipe dust
 
 ## Get food
 

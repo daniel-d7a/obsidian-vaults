@@ -2,13 +2,14 @@
 
 - [x] eat
 - [x] finish rage 2
-- [ ] plan what I am going to do (major minor style)
-- [ ] get money from Vodafone cash
+- [x] plan what I am going to do (major minor style)
+- [x] get money from Vodafone cash
 - [ ] do laundry
-- [ ] pray
+- [x] pray
 
 ## Major
 
+- [ ] work on react course
 - [ ] redesign the UI for the Laravel-inertia app
 - [ ] Work on my Blog
 
