@@ -1,21 +1,19 @@
 [[Stuff to do]]
 
-## Prepare army items
-
 ## House cleanup
 
 - [ ] vacuum hall
 - [ ] vacuum alley
-- [ ] clean room balcony 
-- [ ] clean hall balcony 
-- [ ] organize wardrobe 
+- [ ] clean room balcony
+- [ ] clean hall balcony
+- [ ] organize wardrobe
 - [ ] change bed sheets
 - [ ] put stuff in the sun
 - [ ] clean fridge
 - [ ] get food out of freezer and close by
-- [ ] clean kitchen 
+- [ ] clean kitchen
 - [ ] clean stove
-- [ ] clean bathroom 
+- [ ] clean bathroom
 - [ ] wipe dust
 
 ## Get food
@@ -50,3 +48,9 @@
 - digital cleanup
 - paper scans
 - …etc
+
+## Setup VScode
+
+- [x] copilot
+- [x] extensions
+- [x] code rabbit AI

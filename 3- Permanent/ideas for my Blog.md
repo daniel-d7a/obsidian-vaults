@@ -1,3 +1,5 @@
+#project/my_blog 
+[[ideas]]
 ## Features
 
 - [x] about me page

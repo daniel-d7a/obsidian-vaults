@@ -1,4 +1,4 @@
-[[Fleeting thoughts]]
+[[ideas]]
 ## Bookmark manager
 
 - similar to omnivore

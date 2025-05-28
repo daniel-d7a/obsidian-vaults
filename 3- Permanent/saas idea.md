@@ -1,3 +1,5 @@
+#project/saas_ecommerce
+[[ideas]]
 # Multi-tenant e-commerce saas platform
 
 ## Landing page

@@ -1,11 +1,20 @@
 ## My to-do list for now
 
-- [x] eat
-- [x] finish rage 2
-- [x] plan what I am going to do (major minor style)
-- [x] get money from Vodafone cash
-- [ ] do laundry
-- [x] pray
+- [ ] learn and explain scratch (important)
+- [ ] get nice UI for the blog
+- [ ] revamp the UI of the blog
+- [ ] clean wardrobe
+- [x] change YT channel image and banner
+- [ ] change Whatsapp image
+- [x] send book to htlr
+- [ ] go to aunt for lunch
+- [x] check the session with menna
+- [x] reply to omar
+- [ ] check if I have a meeting on friday
+- [ ] write a blog post
+- [ ] write a video script
+- [ ] watch the stuff GPT told you about content and take notes
+- [ ] game
 
 ## Major
 

@@ -16,7 +16,7 @@ Folder Structure (Minimal Nesting)
 
 Best Practices
 
-Use tags (#programming, #CS, #AI) for categorization.
+Use tags (#programming, # CS, # AI) for categorization.
 
 Connect notes using internal links ([[Related Note]]).
 
