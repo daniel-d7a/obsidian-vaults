@@ -6,3 +6,4 @@
 - [x] try Wuilt and see if I can use it for clients
     - [ ] try it for a client for free
 - [ ] try contributing to open source software
+- [ ] get something to prop up my legs on at the desk, like that desk hammock 

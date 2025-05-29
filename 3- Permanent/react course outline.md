@@ -30,6 +30,7 @@ share_updated: 2025-03-20T17:38:10+02:00
 - تجهيز vite
 - تجهيز git
 - تجهيز prettier و ال linter
+- الملفات الموجودة في مشروع react
 
 ## مراجعة سريعة على بعض اجزاء ال javascript
 
@@ -44,6 +45,7 @@ share_updated: 2025-03-20T17:38:10+02:00
 
 - JSX
 - components
+- virtual dom 
 - props
 - state
 - component life cycle
