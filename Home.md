@@ -1,20 +1,15 @@
 ## My to-do list for now
 
-- [ ] learn and explain scratch (important)
+- [ ] 
+- [ ] work on react course
 - [ ] get nice UI for the blog
 - [ ] revamp the UI of the blog
 - [ ] clean wardrobe
-- [x] change YT channel image and banner
 - [ ] change Whatsapp image
-- [x] send book to htlr
 - [ ] go to aunt for lunch
-- [x] check the session with menna
-- [x] reply to omar
-- [ ] check if I have a meeting on friday
+- [ ] call eraasoft to check for a friday meeting and discuss pay
 - [ ] write a blog post
 - [ ] write a video script
-- [ ] watch the stuff GPT told you about content and take notes
-- [ ] game
 
 ## Major
 
@@ -35,6 +30,7 @@
 ```dataview
 TABLE  WITHOUT ID file.link as "Note", length(file.inlinks) as "connections"
 FROM "1- MOCs"
+SORT length(file.inlinks) DESC
 ```
 
 ---

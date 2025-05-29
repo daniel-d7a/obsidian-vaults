@@ -1,4 +1,5 @@
 [[ideas]]
+
 ## Bookmark manager
 
 - similar to omnivore
@@ -8,27 +9,35 @@
 - ask chatGPT about more features
 - local and offline view
 
-## obsidian\vscode extension
-## a react\vue cli that is based around bulletproof structure
+## obsidian\vscode Extension
 
-## a static site generator
+## A react\vue cli that is based around bulletproof structure
+
+## A static site generator
+
 - add features simila to astro
 
-## a pair programming app
+## A pair programming app
+
 - only shares the code not the whole screen
 
-## a sql driver for whatever 
+## A sql driver for whatever
 
-## an orm similar to drizzle
+## An orm similar to drizzle
 
-## obsidian widget for pc/mobile
+## Obsidian widget for pc/mobile
+
 - like the one for keep notes
 
-## monthly product subscription 
+## Monthly product subscription
+
 - home made food with plans for different diets
-- skin care 
+- skin care
 - shaving products
 
-## accountability partner app
-- either an AI partner or a real one 
+## Accountability partner app
+
+- either an AI partner or a real one
 - has groups
+
+## A video editor based on manim engine

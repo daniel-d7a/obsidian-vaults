@@ -1,5 +1,4 @@
 #chatgpt_response #learning/content_creation
-
 [[YouTube]]
 
 wow most of these links don't work, I don't know what did I expect from chatGPT
