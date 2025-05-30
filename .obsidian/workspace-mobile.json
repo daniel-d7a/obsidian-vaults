@@ -49,8 +49,7 @@
               "title": "more books to read"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +173,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "3- Permanent/react course outline.md",
+            "file": "_/_Inbox/Part 1. ايه و ليه و ازاي ؟.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -197,8 +196,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ea7e582cf33f7f5b",
+  "active": "1da195fcda5c69f4",
   "lastOpenFiles": [
+    "3- Permanent/react course outline.md",
     "_/_Inbox/Part 1. ايه و ليه و ازاي ؟.md",
     "_/_Inbox/more books to read.md",
     "1- MOCs/for later.md",
@@ -207,7 +207,6 @@
     "3- Permanent/Content ideas.md",
     "1- MOCs/Notes.md",
     "3- Permanent/Games for later.md",
-    "3- Permanent/react course outline.md",
     "Home.md",
     "_/_Inbox/Games for later.md",
     "_/_Inbox/Games ideas.md",
