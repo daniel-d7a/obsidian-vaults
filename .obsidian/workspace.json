@@ -6,6 +6,7 @@
       {
         "id": "085c174fd786bdc8",
         "type": "tabs",
+        "dimension": 80.55555555555556,
         "children": [
           {
             "id": "c741d9624ceca345",
@@ -35,12 +36,12 @@
               "title": "Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "188317f319dc5e9e",
         "type": "tabs",
+        "dimension": 19.444444444444446,
         "children": [
           {
             "id": "2e32a0c0cc3aa81c",
@@ -233,13 +234,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "a8aee80314445ec7",
+  "active": "c741d9624ceca345",
   "lastOpenFiles": [
+    "Home.md",
     "_/_Inbox/Part 1. ايه و ليه و ازاي ؟.md",
     "3- Permanent/react course outline.md",
     "_/_Inbox/useSyncExternalStore article.md",
     "1- MOCs/Eraasoft.md",
-    "Home.md",
     "_/_Inbox/How to start a youtube channel,.md",
     "1- MOCs/YouTube.md",
     "_/_Inbox/better YouTube channel.md",
