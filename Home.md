@@ -1,19 +1,19 @@
-## My to-do list for now
+## Today's plan
 
-- [ ] 
-- [ ] work on react course
-- [ ] get nice UI for the blog
-- [ ] revamp the UI of the blog
-- [ ] clean wardrobe
-- [ ] change Whatsapp image
-- [ ] go to aunt for lunch
-- [ ] call eraasoft to check for a friday meeting and discuss pay
-- [ ] write a blog post
-- [ ] write a video script
+| Time block | Activity                           | Done |
+| ---------- | ---------------------------------- | ---- |
+| Now        | Finish SE4 mission 2               | ✅    |
+| 3:00       | Bath and pray                      |      |
+| 3:30       | Find good blog UI                  |      |
+| 4:00       | Work on blog UI                    |      |
+| 6:00       | Work on react course               |      |
+| 7:00       | Go to waled for dinner             |      |
+| 8:00       | Write a video script for TS course |      |
+| 9:00       | Clean wardrobe                     |      |
+| 11:00      | Write a blog post                  |      |
 
 ## Major
 
-- [ ] work on react course
 - [ ] redesign the UI for the Laravel-inertia app
 - [ ] Work on my Blog
 
