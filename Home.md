@@ -3,13 +3,13 @@
 | Time block | Activity                           | Done |
 | ---------- | ---------------------------------- | ---- |
 | Now        | Finish SE4 mission 2               | ✅    |
-| 3:00       | Bath and pray                      |      |
+| 3:00       | Bath and pray                      | ✅    |
 | 3:30       | Find good blog UI                  |      |
 | 4:00       | Work on blog UI                    |      |
 | 6:00       | Work on react course               |      |
 | 7:00       | Go to waled for dinner             |      |
 | 8:00       | Write a video script for TS course |      |
-| 9:00       | Clean wardrobe                     |      |
+| 9:00       | Clean wardrobe                     | ✅    |
 | 11:00      | Write a blog post                  |      |
 
 ## Major
