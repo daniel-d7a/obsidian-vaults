@@ -6,22 +6,7 @@
       {
         "id": "085c174fd786bdc8",
         "type": "tabs",
-        "dimension": 80.55555555555556,
         "children": [
-          {
-            "id": "c741d9624ceca345",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/Part 1. ايه و ليه و ازاي ؟.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Part 1. ايه و ليه و ازاي ؟"
-            }
-          },
           {
             "id": "a8aee80314445ec7",
             "type": "leaf",
@@ -35,29 +20,37 @@
               "icon": "lucide-file",
               "title": "Home"
             }
-          }
-        ]
-      },
-      {
-        "id": "188317f319dc5e9e",
-        "type": "tabs",
-        "dimension": 19.444444444444446,
-        "children": [
+          },
           {
-            "id": "2e32a0c0cc3aa81c",
+            "id": "40b9679b72bf4fe8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3- Permanent/react course outline.md",
+                "file": "_/_Inbox/How to get view on youtube.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "react course outline"
+              "title": "How to get view on youtube"
+            }
+          },
+          {
+            "id": "b1e450c8e741d62d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_/_Inbox/ideas for inertia blog.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ideas for inertia blog"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -234,11 +227,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c741d9624ceca345",
+  "active": "b1e450c8e741d62d",
   "lastOpenFiles": [
     "Home.md",
-    "_/_Inbox/Part 1. ايه و ليه و ازاي ؟.md",
+    "_/_Inbox/How to get view on youtube.md",
+    "_/_Inbox/ideas for inertia blog.md",
     "3- Permanent/react course outline.md",
+    "_/_Inbox/Part 1. ايه و ليه و ازاي ؟.md",
     "_/_Inbox/useSyncExternalStore article.md",
     "1- MOCs/Eraasoft.md",
     "_/_Inbox/How to start a youtube channel,.md",
@@ -260,8 +255,6 @@
     "1- MOCs/multi-tenant saas e-commerce platform.md",
     "1- MOCs/Figuring out obsidian.md",
     "1- MOCs/How to take better Notes.md",
-    "1- MOCs/My articles.md",
-    "1- MOCs/Readings & Studying.md",
     "3- Permanent/Untitled",
     "git_sync.log",
     "4- Journal",

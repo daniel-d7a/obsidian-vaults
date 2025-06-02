@@ -1,16 +1,14 @@
-## Today's plan
+## Today's plan ✅
 
-| Time block | Activity                           | Done |
-| ---------- | ---------------------------------- | ---- |
-| Now        | Finish SE4 mission 2               | ✅    |
-| 3:00       | Bath and pray                      | ✅    |
-| 3:30       | Find good blog UI                  |      |
-| 4:00       | Work on blog UI                    |      |
-| 6:00       | Work on react course               |      |
-| 7:00       | Go to waled for dinner             |      |
-| 8:00       | Write a video script for TS course |      |
-| 9:00       | Clean wardrobe                     | ✅    |
-| 11:00      | Write a blog post                  |      |
+| Time block | Activity                                   | Done |
+| ---------- | ------------------------------------------ | ---- |
+| Now        | clean room                                 |      |
+| 3:00       | work on blog UI (make docker work)         |      |
+| 12:00      | game                                       |      |
+| 7:30 pm    | go to aunt for dinner                      |      |
+|            | spend an hour (read, Quran, )              |      |
+|            | start Dutch course                         |      |
+|            | write the [[useSyncExternalStore article]] |      |
 
 ## Major
 
@@ -22,6 +20,18 @@
 - [ ] write a blog post
 - [ ] plan some content
 - [ ] work on the react course
+
+## All things I want to do daily
+
+- [ ] write code
+- [ ] write non-code
+- [ ] read
+- [ ] game
+- [ ] Quran
+- [ ] clean physical space
+- [ ] clean digital space
+- [ ] tweet
+- [ ] learning Dutch
 
 ---
 
