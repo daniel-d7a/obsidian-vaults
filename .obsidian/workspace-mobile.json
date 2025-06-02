@@ -35,8 +35,7 @@
               "title": "useSyncExternalStore article"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,8 +182,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f9993997720a68aa",
+  "active": "8d227992ae1ba996",
   "lastOpenFiles": [
+    "_/_Inbox/useSyncExternalStore article.md",
     "Home.md",
     "1- MOCs/Quotes.md",
     "1- MOCs/Notes.md",
@@ -210,7 +210,6 @@
     "3- Permanent/Immediate todo.md",
     "1- MOCs/Stuff to do.md",
     "_/_Inbox/When you don't know what to do.md",
-    "_/_Inbox/My Blog.md",
     "Untitled",
     "/_/_Templates",
     "/_",
