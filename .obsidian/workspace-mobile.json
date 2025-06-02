@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "_/_Inbox/useSyncExternalStore article.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "useSyncExternalStore article"
             }
           },
           {
@@ -184,8 +184,8 @@
   },
   "active": "8d227992ae1ba996",
   "lastOpenFiles": [
-    "_/_Inbox/useSyncExternalStore article.md",
     "Home.md",
+    "_/_Inbox/useSyncExternalStore article.md",
     "1- MOCs/Quotes.md",
     "1- MOCs/Notes.md",
     "_/_Inbox/_more books to read.md",
