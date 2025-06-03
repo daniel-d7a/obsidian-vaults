@@ -1,4 +1,5 @@
 [[YouTube]]
+#learning/content_creation 
 
 ## Referring to this video[^1]
 

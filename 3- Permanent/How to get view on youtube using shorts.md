@@ -1,6 +1,6 @@
 [[YouTube]]
-#learning/content_creation 
 
+#learning/content_creation
 
 ## Using shorts [^1]
 

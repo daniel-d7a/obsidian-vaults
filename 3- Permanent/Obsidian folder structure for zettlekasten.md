@@ -1,5 +1,9 @@
 #chatgpt_response
 
+#obsidian/structure
+
+[[Figuring out obsidian]]
+
 Here’s a refined structure based on your preferences:
 
 Folder Structure (Minimal Nesting)

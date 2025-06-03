@@ -23,6 +23,8 @@ published: false
 - عن طريق state و effect و نخلي ال hook يعمل force rerender
 - امثلة عمليه عليه زي مثلا في zustand و redux 
 
+
+
 ## References
 
 - [[My articles]]

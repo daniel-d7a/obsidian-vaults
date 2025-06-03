@@ -1,4 +1,4 @@
-#learning/content_creation
+#learning/content_creation/writing 
 
 ## Notes from james clear article[^1]
 
