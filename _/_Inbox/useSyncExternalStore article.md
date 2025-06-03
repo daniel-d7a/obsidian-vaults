@@ -28,4 +28,5 @@ published: false
 - [[My articles]]
 - [helper article 1](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api)
 - [helper article 2](https://blog.saeloun.com/2021/12/30/react-18-usesyncexternalstore-api/)
+- [helper article 3](https://jser.dev/2023-08-02-usesyncexternalstore/)
 - [react docs](https://react.dev/reference/react/useSyncExternalStore)

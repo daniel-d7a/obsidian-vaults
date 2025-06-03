@@ -4,7 +4,7 @@
 | ---------- | ------------------------------------------ | ---- |
 | Now        | clean room                                 | ✅    |
 | 3:00       | work on blog UI (make docker work)         |      |
-| 12:00      | game                                       |      |
+| 12:00      | game                                       | ✅    |
 | 7:30 pm    | go to aunt for dinner                      | ✅    |
 |            | spend an hour (read, Quran, )              |      |
 |            | start Dutch course                         |      |
