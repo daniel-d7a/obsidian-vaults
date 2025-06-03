@@ -2,13 +2,14 @@
 
 | Time block | Activity                                   | Done |
 | ---------- | ------------------------------------------ | ---- |
-| Now        | clean room                                 | ✅    |
-| 3:00       | work on blog UI (make docker work)         |      |
-| 12:00      | game                                       | ✅    |
-| 7:30 pm    | go to aunt for dinner                      | ✅    |
+| 12:00 pm   | session with Tarek                         | ✅    |
+| 3:00pm     | game                                       | ✅    |
+| 5:00pm     | work on blog UI (make docker work)         | ✅    |
+|            | clean hall                                 |      |
 |            | spend an hour (read, Quran, )              |      |
 |            | start Dutch course                         |      |
 |            | write the [[useSyncExternalStore article]] |      |
+|            | tweet about docker within wsl              |      |
 
 ## Major
 
@@ -23,14 +24,14 @@
 
 ## All things I want to do daily
 
-- [ ] write code
+- [x] write code
 - [ ] write non-code
 - [ ] read
-- [ ] game
+- [x] game
 - [ ] Quran
 - [ ] clean physical space
-- [ ] clean digital space
-- [ ] tweet
+- [x] clean digital space
+- [x] tweet
 - [ ] learning Dutch
 
 ---
