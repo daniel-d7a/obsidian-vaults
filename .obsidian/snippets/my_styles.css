@@ -1,0 +1,11 @@
+.markdown-rendered table, .markdown-preview-view table {
+    border-collapse: collapse;
+    width: auto;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    table-layout: auto;
+}
+
+.markdown-rendered td, .markdown-rendered th , .markdown-preview-view td, .markdown-preview-view th {
+    white-space: nowrap !important; 
+}

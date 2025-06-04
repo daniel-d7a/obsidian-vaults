@@ -28,5 +28,7 @@
   "newFileLocation": "folder",
   "attachmentFolderPath": "_/_Assets",
   "newFileFolderPath": "_/_Inbox",
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "readableLineLength": true,
+  "rightToLeft": false
 }

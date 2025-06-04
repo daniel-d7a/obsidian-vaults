@@ -4,7 +4,9 @@
   "baseFontSize": 18,
   "interfaceFontFamily": "",
   "enabledCssSnippets": [
-    "my_styles"
+    "my_styles",
+    "MCL Wide Views",
+    "MCL Multi Column"
   ],
   "showRibbon": false,
   "showViewHeader": true

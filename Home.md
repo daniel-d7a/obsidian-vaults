@@ -1,15 +1,17 @@
 ## Today's plan ✅
 
-| Time block | Activity                                   | Done |
-| ---------- | ------------------------------------------ | ---- |
-| 12:00 pm   | session with Tarek                         | ✅    |
-| 3:00pm     | game                                       | ✅    |
-| 5:00pm     | work on blog UI (make docker work)         | ✅    |
-|            | clean hall                                 |      |
-|            | spend an hour (read, Quran, )              |      |
-|            | start Dutch course                         |      |
-|            | write the [[useSyncExternalStore article]] |      |
-|            | tweet about docker within wsl              |      |
+| Time block | Activity                 | Done |
+| ---------- | ------------------------ | ---- |
+|            | game                     | ✅    |
+|            | clean hall               | ✅    |
+|            | continue blog            |      |
+|            | write in the journal     |      |
+|            | quran                    | ✅    |
+|            | read                     |      |
+|            | start duetch course      |      |
+|            | clean some digital space |      |
+|            | watch silicon valley     |      |
+|            | watch useful stuff on yt |      |
 
 ## Major
 
@@ -24,14 +26,14 @@
 
 ## All things I want to do daily
 
-- [x] write code
+- [ ] write code
 - [ ] write non-code
 - [ ] read
-- [x] game
+- [ ] game
 - [ ] Quran
 - [ ] clean physical space
-- [x] clean digital space
-- [x] tweet
+- [ ] clean digital space
+- [ ] tweet
 - [ ] learning Dutch
 
 ---
