@@ -11,6 +11,7 @@ published: false
 هنتكلم عن ايه
 
 - ايه هو ده
+- بيتكون من ايه
 - ايه استخدامه
 	- عشان اربط رياكت بحاجة برا رياكت
 		- حجات زي ال global state
@@ -24,6 +25,63 @@ published: false
 - امثلة عمليه عليه زي مثلا في zustand و redux 
 
 
+هنتكلم النهاردة عن ال useSyncExternalStore hook و ده hook جديد نسبيا ظهر مع react 18 عشان يدعم ال concurrent features الجديدة بتاعتها
+
+فكرة ال hook جايه من اسمه هو انه بيسمحلنا اننا نعمل sync ما بين react و اي external store و تحديدا عشان اقدر ا subscribe على تغييرات خارجية و اخلي ال components بتاعتي تقدر تتعامل معاها
+
+بيتكون من ايه 
+
+بيتكون من حاجتين اساسيين الي هما ال subscribe fn و دي العقد الي ما بينك و بين ال external store الي بتقوله فيه امتى يحصل rerender لل components عندك
+
+و دي شبيهة شوية بال effect fn بتاعة use effect من حيث انك بتعمل ال subscription و بترجع clean up function 
+
+الحاجة التانية هي ال get snapshot fn و دي بنستخدمها لما يحصل rerender عشان نجيب اخر قيمة من ال external store
+
+في حجات زيادة زي ال get server snapshot و دي بنستخدمها لما يكون في فرق ما بين الطريقة الي اقدر اجيب بيها البيانات من ال external store على ال client و ال server و لو مديتهالوش تلقائيا بيستخدم get snapshot على ال client و ال server 
+
+و في package من react اسمها us sync external store with selector بتديك نفس ال hook بالاضافة ل اضافتين زيادة هما ال selector عشان تقدر تختار اجزاء معينة بس من ال state و equality fn عشان تحدد بنفسك لو ال state القديمة زي الجديدة (و بالتالي ميحصلش rerender ) او لا
+
+
+امتى بستخدمه ؟
+
+في امثلة كتير على مصادر بيانات خارجية انا ممكن ابقى حابب ا subscribe عليها زي مثلا ال window فيها حجات كتير زي مثلا
+- ال online status من ال navigator 
+- ال scroll position 
+- ال intervals
+- ال local storag
+- و عامة اي حاجة ليها event انا احب ا subscribe عليها
+
+
+و في مصادر تانية غير ال window كذلك زي اني اكون بتعامل مع global state management solution مش مخصص ل react زي redux (مش react redux) او اني حتى اكون بعمل ال state management solution بتاعي 
+
+
+امثلة بالكود
+
+لو بصيت كده هتلاحظ ان حجات كتير من دي ممكن ال use effect يعملها و كنا بالفعل بنعملها بيه لكن ال hook ده افضل من ال us effect في جزئية ال subscriptions لاكتر من سبب
+
+اولا انه بيشتغل اثناء ال render مش بعده زي ال useEffect ف ده بيخليه يضمن ان كل ال components الي بتستخدمه عندها نفس الداتا في حين لو استخدمنا ال us effect مع مصدر بيانات بيتغير بسرعة ممكن يحصل ما يعرف ب ال tearing الي معناه اني عندي اكتر من نسخة من نفس ال component لكن في ما بينهم اختلاف ف البيانات 
+
+المشكلة دي ظهرت مع react 18 مع ال concurrent apis الجديدة زي start transition عشان دي بتسمح ل react انها توقف ال render ف نصه ف ممكن تؤدي لحدوث ال tearing 
+
+و تقدر تجرب ده بنفسك من هنا code pen 
+
+كمان use sync external store بيدعم ال ssr و ال hydration لانه من ال hooks القليلة الي ممكن تشتغل على السيرفر على عكس ال use effect الي مش بيشتغل غير على ال client
+
+و كمان هو ف الاخر معمول عشان يتعامل مع ال subscriptions ف بيديك api سهل لو حاولت تقلده باستخدام use effect هتكتب كود اكتر و هتاخد اداء اقل
+
+
+مثال
+
+
+
+
+
+
+
+
+مقال تاني 
+
+ازاي استخدم use sync external store عشان اتعامل مع ال over returning values
 
 ## References
 
