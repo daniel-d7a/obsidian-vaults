@@ -1,17 +1,13 @@
 ## Today's plan ✅
 
-| Time block | Activity                 | Done |
-| ---------- | ------------------------ | ---- |
-|            | game                     | ✅    |
-|            | clean hall               | ✅    |
-|            | continue blog            |      |
-|            | write in the journal     |      |
-|            | quran                    | ✅    |
-|            | read                     |      |
-|            | start duetch course      |      |
-|            | clean some digital space |      |
-|            | watch silicon valley     |      |
-|            | watch useful stuff on yt |      |
+- [x] working on my blog
+- [ ] quran
+- [ ] make jello with bananas
+- [ ] clean kitchen and fridge
+- [ ] learn german
+- [ ] read from my book
+- [ ] write some about the post
+- [ ] game
 
 ## Major
 
