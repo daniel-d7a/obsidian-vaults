@@ -1,3 +1,5 @@
+[[Journal]]
+
 I have been fighting with docker desktop for the past 3 or 4 days trying to set it up with php, apache, vite (for vue), mysql, and php my admin, and no matter what I tried it was crap.
 
 docker desktop is a sluggish piece of shit, ok then connect it to wsl?, it refuses to connect no matter how many hacks I tried, and working from windows without wsl is very slow and painful to use, which defeats the whole idea of using it.
