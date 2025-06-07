@@ -1,16 +1,14 @@
 ## Today's plan ✅
 
-- [x] working on my blog
-- [x] quran
-- [x] make jello with bananas
-- [x] clean kitchen and fridge
-- [ ] learn german
-- [ ] read from my book
-- [ ] write some about the post
-- [x] game
-- [x] watch a silicone valley episode 
-- [x] iron the gallabya
-- [x] take a bath
+- [ ] game
+- [ ] visit aunt
+- [ ] watch an episode of silicone valley 
+- [ ] german
+- [ ] read 
+- [ ] write the [[useSyncExternalStore article]]
+- [ ] quran
+- [ ] clean the digital space
+
 
 ## Major
 

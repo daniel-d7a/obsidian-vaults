@@ -14,7 +14,8 @@ cssclasses:
 | day + journal                       | coding | reading | quran | digital cleanup | gaming | Duetch | sharing | writing | move and go out |
 | ----------------------------------- | ------ | ------- | ----- | --------------- | ------ | ------ | ------- | ------- | --------------- |
 | [[2025-06-04 fighting with docker]] | ✅      | ✅       | ✅     | ✅               | ✅      | ✅      | ✅       |         |                 |
-| [[2025-06-05 The Eid's eve]]        | ✅      |         | ✅     | ✅               | ✅      |        |         |         |                 |
+| [[2025-06-05 The Eid's eve]]        | ✅      | ✅       | ✅     | ✅               | ✅      | ✅      |         |         |                 |
+|                                     |        |         |       | ✅               |        |        |         |         |                 |
 
 ## Insights about my habits
 
