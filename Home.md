@@ -1,13 +1,16 @@
 ## Today's plan ✅
 
 - [ ] game
-- [ ] visit aunt
+- [ ] get meat from Nosa
 - [ ] watch an episode of silicone valley 
 - [ ] german
 - [ ] read 
 - [ ] write the [[useSyncExternalStore article]]
 - [ ] quran
 - [ ] clean the digital space
+- [ ] clean the bathroom
+- [ ] film the interview task
+- [ ] work on inertia blog 
 
 
 ## Major
