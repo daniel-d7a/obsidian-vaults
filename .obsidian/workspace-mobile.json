@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "3- Permanent/Games for later.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Games for later"
             }
           }
         ],
@@ -186,8 +186,8 @@
   },
   "active": "5e8c89b0b2cfd949",
   "lastOpenFiles": [
-    "1- MOCs/Habit tracker.md",
     "Home.md",
+    "1- MOCs/Habit tracker.md",
     "_/_Inbox/useSyncExternalStore article.md",
     "_/_Inbox/2025-06-04 fighting with docker.md",
     "_/_Inbox/2025-06-05 The Eid's eve.md",
