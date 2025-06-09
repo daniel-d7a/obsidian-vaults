@@ -2,3 +2,4 @@ Talking to chatGPT is nice, and seems like a very good idea when I am in the arm
 
 I really need to start doing stuff with my hand I am so done with thinking and planning I should start implementing.
 
+[[Journal]]

@@ -11,11 +11,14 @@ cssclasses:
 
 ## ❌Missed The day
 
-| day + journal                       | coding | reading | quran | digital cleanup | gaming | Duetch | sharing | writing | move and go out |
-| ----------------------------------- | ------ | ------- | ----- | --------------- | ------ | ------ | ------- | ------- | --------------- |
-| [[2025-06-04 fighting with docker]] | ✅      | ✅       | ✅     | ✅               | ✅      | ✅      | ✅       |         |                 |
-| [[2025-06-05 The Eid's eve]]        | ✅      | ✅       | ✅     | ✅               | ✅      | ✅      |         |         |                 |
-|                                     |        |         |       | ✅               |        |        |         |         |                 |
+| day + journal                              | coding | reading | quran | digital cleanup | gaming | Duetch | sharing | writing | move and go out |
+| ------------------------------------------ | ------ | ------- | ----- | --------------- | ------ | ------ | ------- | ------- | --------------- |
+| [[2025-06-04 fighting with docker]]        | ✅      | ✅       | ✅     | ✅               | ✅      | ✅      | ✅       |         |                 |
+| [[2025-06-05 The Eid's eve]]               | ✅      | ✅       | ✅     | ✅               | ✅      | ✅      |         |         |                 |
+| 2025-06-06 the day of Eid                  |        |         |       | ✅               |        |        |         |         |                 |
+| 2025-06-07 a day in alex with a new friend |        |         | ✅     |                 |        |        |         |         |                 |
+| [[2025-06-08 what I actually have to do]]  |        |         |       |                 |        | ✅      |         |         |                 |
+
 
 ## Insights about my habits
 

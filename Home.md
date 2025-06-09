@@ -1,6 +1,6 @@
 ## Today's plan ✅
 
-- [ ] game
+- [x] game
 - [ ] get meat from Nosa
 - [ ] watch an episode of silicone valley 
 - [ ] german
@@ -9,7 +9,7 @@
 - [ ] quran
 - [ ] clean the digital space
 - [ ] clean the bathroom
-- [ ] film the interview task
+- [x] film the interview task
 - [ ] work on inertia blog 
 
 
