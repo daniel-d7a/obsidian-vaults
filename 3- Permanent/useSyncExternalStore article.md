@@ -1,11 +1,11 @@
 ---
 title: ايه هو ال useSyncExternalStore و ازاي هو مستخدم حوالينا
-pub_date: ""
+pub_date: 2025-06-08
 date_started: 14/03/2025
 intro: واحد من ال hooks الي الكلام عنها قليل مع انه من اهم ال hooks الي مخليه react تكون reactive من الاساس تعالى نتعرف عليه و نشوف بيشتغل ازاي
-published: false
+published: true
 ---
-
+[[My articles]]
 #status/in_progress #react/hooks #my_articles
 
 

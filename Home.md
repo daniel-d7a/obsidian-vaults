@@ -1,18 +1,5 @@
 ## Today's plan ✅
 
-- [x] game
-- [ ] get meat from Nosa
-- [ ] watch an episode of silicone valley 
-- [ ] german
-- [ ] read 
-- [ ] write the [[useSyncExternalStore article]]
-- [ ] quran
-- [ ] clean the digital space
-- [ ] clean the bathroom
-- [x] film the interview task
-- [ ] work on inertia blog 
-
-
 ## Major
 
 - [ ] redesign the UI for the Laravel-inertia app
@@ -24,17 +11,6 @@
 - [ ] plan some content
 - [ ] work on the react course
 
-## All things I want to do daily
-
-- [ ] write code
-- [ ] write non-code
-- [ ] read
-- [ ] game
-- [ ] Quran
-- [ ] clean physical space
-- [ ] clean digital space
-- [ ] tweet
-- [ ] learning Dutch
 
 ---
 

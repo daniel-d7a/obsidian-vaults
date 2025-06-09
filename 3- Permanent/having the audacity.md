@@ -1,3 +1,8 @@
+[[Thinking, studying, how our brains work.]]
+
+#just_do_stuff
+
+
 defined as being bold, daring, often with disregard to conventional rules.
 
 you can just do stuff:

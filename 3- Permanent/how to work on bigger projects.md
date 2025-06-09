@@ -1,3 +1,5 @@
+[[Thinking, studying, how our brains work.]]
+
 ## The Series
 
 - try making a series or a collection of items that fit into a theme
