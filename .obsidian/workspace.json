@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Habit tracker"
             }
-          },
-          {
-            "id": "2890730cd936de0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/intro to ts 4 - types and interfaces.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "intro to ts 4 - types and interfaces"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 357.5,
+    "collapsed": true
   },
   "right": {
     "id": "375113069dbe75d6",
@@ -213,8 +199,9 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "2890730cd936de0b",
+  "active": "6b445f9c34698faf",
   "lastOpenFiles": [
+    "_/_Inbox/intro to ts 4 - types and interfaces.md",
     "Home.md",
     "1- MOCs/Habit tracker.md",
     "3- Permanent/sessions with Tarek.md",
@@ -222,7 +209,6 @@
     "4- Journal/2025-06-09 getting out of Eid.md",
     "4- Journal/2025-06-07 a day in alex with a new friend.md",
     "_/_Inbox/Untitled.md",
-    "_/_Inbox/intro to ts 4 - types and interfaces.md",
     "_/_Inbox/how to setup docker with php, inertia, and mysql.md",
     "1- MOCs/Teaching programming.md",
     "_/_Inbox/Related Note.md",
