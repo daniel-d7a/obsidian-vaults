@@ -1,16 +1,20 @@
-## Today's plan ✅
+[[Habit tracker]]
 
-## Major
+## Tasks
 
-- [ ] redesign the UI for the Laravel-inertia app
-- [ ] Work on my Blog
-
-## Minor
-
-- [ ] write a blog post
-- [ ] plan some content
-- [ ] work on the react course
-
+**Most important:** work on inertia blog.
+**Second most:** 
+- write a TS video and shoot it.
+- write the docker video.
+**Low energy tasks:** 
+- watching stuff.
+- German.
+- reading.
+- Quran.
+**Chores:** 
+- buy a mic splitter or a USB card.
+- get the meat out and plan a meal.
+- meeting with hash plus.
 
 ---
 

@@ -23,3 +23,6 @@
 - both support optionals
 - both support 2 function ways
 - interface extends is faster than type intersection
+
+
+## script
