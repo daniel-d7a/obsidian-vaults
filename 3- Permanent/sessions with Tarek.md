@@ -13,3 +13,17 @@
 	- use state
 	- use reducer
 	- use effect
+
+## Session 2
+
+- a quick look at the env, node, package.json, vite, scripts
+- what is a bundler?
+- linter
+- prettier
+- setting up a new react app with vite.
+
+- use context hook
+- rules of hooks
+- how to make custom hooks (example with sue context)
+
+- routing with react router (and a glimpse at tanstack router)

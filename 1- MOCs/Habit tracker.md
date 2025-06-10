@@ -18,7 +18,7 @@ cssclasses:
 | [[2025-06-06 the day of Eid]]                  | ❌      | ❌       | ❌     | ✅               | ❌      | ❌      | ❌       | ❌       | ✅               | ❌        |
 | [[2025-06-07 a day in alex with a new friend]] | ❌      | ❌       | ✅     | ❌               | ❌      | ❌      | ❌       | ❌       | ✅               | ❌        |
 | [[2025-06-08 what I actually have to do]]      | ❌      | ❌       | ❌     | ✅               | ✅      | ❌      | ❌       | ✅       | ❌               | ❌        |
-| [[2025-06-09 getting out of Eid]]              |        |         |       | ✅               | ✅      | ✅      | ✅       |         |                 | ✅        |
+| [[2025-06-09 getting out of Eid]]              | ✅      | ➰       | ✅     | ✅               | ✅      | ✅      | ✅       | ➰       | ✅               | ✅        |
 
 
 ## Insights about my habits
