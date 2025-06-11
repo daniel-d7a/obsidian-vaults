@@ -19,7 +19,8 @@ cssclasses:
 | [[2025-06-07 a day in alex with a new friend]]               | ❌      | ❌       | ✅     | ❌               | ❌      | ❌       | ❌       | ❌       | ✅               | ❌        |
 | [[2025-06-08 what I actually have to do]]                    | ❌      | ❌       | ❌     | ✅               | ✅      | ❌       | ❌       | ✅       | ❌               | ❌        |
 | [[2025-06-09 getting out of Eid]]                            | ✅      | ➰       | ✅     | ✅               | ✅      | ✅       | ✅       | ➰       | ✅               | ✅        |
-| [[2025-06-10 making food for the first time in a long time]] |        | ✅       | ✅     |                 | ✅      | ✅       |         | ✅       | ✅               |          |
+| [[2025-06-10 making food for the first time in a long time]] | ❌      | ✅       | ✅     | ✅               | ✅      | ✅       | ✅       | ✅       | ✅               | ❌        |
+| [[2025-06-11 ]]                                              | ✅      |         |       |                 |        |         |         |         |                 |          |
 
 
 ## Insights about my habits

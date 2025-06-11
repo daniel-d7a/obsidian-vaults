@@ -4,17 +4,19 @@
 
 **Most important:** work on inertia blog.
 **Second most:**
-- write a TS video and shoot it.
 - write the docker video.
+- shoot docker video.
+- start a series on twitter (the blog vlog) make a post with keynotes and attach the video in the coments
+- write a section of the react course (on the phone)
 **Low energy tasks:**
-- watching stuff. ✅
+- watching stuff.
 - German.
-- reading. ✅
-- Quran. ✅
+- reading.
+- Quran.
 **Chores:**
-- buy a mic splitter or a USB card. ✅
-- get the meat out and plan a meal. ✅
-- meeting with hash plus. ❌
+- go to aunt
+- plan a meeting with hash plus
+- clean the kitchen
 ---
 
 ## This week in tasks
