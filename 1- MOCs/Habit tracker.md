@@ -20,7 +20,8 @@ cssclasses:
 | [[2025-06-08 what I actually have to do]]                    | ❌      | ❌       | ❌     | ✅               | ✅      | ❌       | ❌       | ✅       | ❌               | ❌        |
 | [[2025-06-09 getting out of Eid]]                            | ✅      | ➰       | ✅     | ✅               | ✅      | ✅       | ✅       | ➰       | ✅               | ✅        |
 | [[2025-06-10 making food for the first time in a long time]] | ❌      | ✅       | ✅     | ✅               | ✅      | ✅       | ✅       | ✅       | ✅               | ❌        |
-| [[2025-06-11 ]]                                              | ✅      |         |       |                 |        |         |         |         |                 |          |
+| [[2025-06-11 getting into the rat race]]                     | ✅      | ❌       | ✅     | ➰               | ❌      | ✅       | ✅       | ❌       | ✅               | ✅        |
+| [[2025-06-12 reaching for my network]]                       | ✅      |         | ✅     |                 |        | ✅       | ✅       | ✅       | ✅               | ✅        |
 
 
 ## Insights about my habits
