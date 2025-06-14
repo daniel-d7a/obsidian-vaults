@@ -21,7 +21,8 @@ cssclasses:
 | [[2025-06-09 getting out of Eid]]                            | ✅      | ➰       | ✅     | ✅               | ✅      | ✅       | ✅       | ➰       | ✅               | ✅        |
 | [[2025-06-10 making food for the first time in a long time]] | ❌      | ✅       | ✅     | ✅               | ✅      | ✅       | ✅       | ✅       | ✅               | ❌        |
 | [[2025-06-11 getting into the rat race]]                     | ✅      | ❌       | ✅     | ➰               | ❌      | ✅       | ✅       | ❌       | ✅               | ✅        |
-| [[2025-06-12 reaching for my network]]                       | ✅      |         | ✅     |                 |        | ✅       | ✅       | ✅       | ✅               | ✅        |
+| [[2025-06-12 reaching for my network]]                       | ✅      | ❌       | ✅     | ❌               | ❌      | ✅       | ✅       | ✅       | ✅               | ✅        |
+| [[2025-06-13 meeting the gang in zamalek]]                   |        |         |       |                 |        |         |         |         |                 |          |
 
 
 ## Insights about my habits
