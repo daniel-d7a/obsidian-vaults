@@ -22,32 +22,38 @@
 ## This week in tasks
 
 **Gaming**
-- finish sniper elite 4 and delete it
-- start ghost of tsushima dlc
+- test survial mode in sniper elite 4 and delete it ➰
+- start ghost of tsushima dlc 
+
+**Work**
+- finish HTML videos
+- start CSS videos
+- move videos to drive
+
 
  **YouTube**
-- docker video
-- typescript video 4 - types and interfaces
+- docker video 
+- typescript video 5 - wide and narrow types
+- start the blog vlog
 
  **React course**
-- write 2 more sections
+- write 2 sections
 
  **Deutsch**
-- up to video no. 9
+- up to video no. 15 
 
  **Reading**
-- (seven languages in seven weeks) finish chapter 3 and start chapter 4
+- (seven languages in seven weeks) finish chapter 3 and ½ chapter 4 
 
  **Coding**
-- finish the comments section of the blog
+- finish the comments section of the blog 
+- add images
 
  **House**
-- clean bathroom
-- clean kitchen
-- clean balcony
+- clean balcony 
 
  **Online yapping**
-- tweet 3 times
+- tweet everyday
 
 ---
 
