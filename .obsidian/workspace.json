@@ -35,7 +35,8 @@
               "title": "Home"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,10 +210,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "06c130d138548406",
+  "active": "1204351492d22516",
   "lastOpenFiles": [
-    "Home.md",
     "_/_Inbox/hash plus - html plan.md",
+    "Home.md",
     "_/_Inbox/test new note.md",
     "1- MOCs/hash plus.md",
     "1- MOCs/Habit tracker.md",
