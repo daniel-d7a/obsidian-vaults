@@ -46,3 +46,10 @@
 - Project zomboid
 - mr prepper
 - ratropolis
+- wizard of legends
+- despot's game
+- oblivion override
+- curse of the dead gods
+- one step from eden
+- noita
+- scourge bringer

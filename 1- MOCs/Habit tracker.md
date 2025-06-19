@@ -23,6 +23,11 @@ cssclasses:
 | [[2025-06-11 getting into the rat race]]                     | ✅      | ❌       | ✅     | ➰               | ❌      | ✅       | ✅       | ❌       | ✅               | ✅        |
 | [[2025-06-12 reaching for my network]]                       | ✅      | ❌       | ✅     | ❌               | ❌      | ✅       | ✅       | ✅       | ✅               | ✅        |
 | [[2025-06-13 meeting the gang in zamalek]]                   |        |         |       |                 |        |         |         |         |                 |          |
+| [[2025-06-14 grilling at my sister's]]                       |        |         |       |                 |        |         |         |         |                 |          |
+| [[2025-06-15 what's an erp?]]                                |        |         |       |                 |        |         |         |         |                 |          |
+| [[2025-06-16 having my friends over]]                        |        |         |       |                 |        |         |         |         |                 |          |
+| [[2025-06-17 yesterday continued]]                           |        |         |       |                 |        |         |         |         |                 |          |
+| [[2025-06-18]]                                               |        |         | ✅     |                 |        |         |         |         |                 |          |
 
 
 ## Insights about my habits
