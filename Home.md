@@ -1,7 +1,7 @@
-[[Habit tracker]]
-[[Mega Todo list]]
+- [[Habit tracker]]
+- [[Mega Todo list]]
+- [[Week Plan]]
 
-## 
 ## What topics do I have?
 
 ```dataview

@@ -1,7 +1,3 @@
-
-
----
-
 ## This week in tasks
 
 **Gaming**
@@ -36,5 +32,8 @@
 
  **Online yapping**
 - tweet everyday
+
+**Misc**
+- make a react course plan for ersaa.
 
 ---
