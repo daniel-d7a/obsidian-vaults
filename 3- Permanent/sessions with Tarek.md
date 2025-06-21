@@ -16,6 +16,12 @@
 
 ## Session 2
 
+- use context hook
+- custom hooks for fetching data
+- rules of hooks
+- tan stack query
+- react hook form forms 
+
 - a quick look at the env, node, package.json, vite, scripts
 - what is a bundler?
 - linter
@@ -27,3 +33,4 @@
 - how to make custom hooks (example with sue context)
 
 - routing with react router (and a glimpse at tanstack router)
+
