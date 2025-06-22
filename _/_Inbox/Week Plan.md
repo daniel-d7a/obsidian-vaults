@@ -6,17 +6,11 @@ kanban-plugin: board
 
 ## Saturday
 
-- [ ] meeting with ersaa at 6pm
-- [ ] head first design patterns chapter 1
-- [ ] film TS video wide and narrow types
-- [ ] start the API and deploy for f5
-- [ ] start CSS videos
-- [ ] film docker video for blog vlog
-- [ ] study deutsch
-- [ ] return to inertia blog
-- [ ] read before bed
-- [ ] no social media today, replace with reading articles, writing, or journaling
-- [ ] no youtube or gaming untill I do work
+- [ ] ❌meeting with ersaa at 6pm(Got cancelled)
+- [ ] ✅no social media today, replace with reading articles, writing, or journaling
+- [ ] ✅no youtube or gaming untill I do work
+- [ ] ✅read before bed
+- [ ] ✅head first design patterns chapter 1
 - [ ] ✅receive the games
 - [ ] ✅eng. tarek session
 - [ ] ✅ make the frontend course plan for ersaa
@@ -26,6 +20,16 @@ kanban-plugin: board
 
 ## Sunday
 
+- [ ] start the API and deploy for f5
+- [ ] start CSS videos
+- [ ] study deutsch
+- [ ] film TS video wide and narrow types
+- [ ] ➰film docker video for blog vlog (filmed half of it and the mic was acting up)
+- [ ] return to inertia blog
+- [ ] Play games
+- [ ] Make food
+- [ ] Edit front end plan
+- [ ] Talk to ahmed eldeeb
 
 
 ## Monday
