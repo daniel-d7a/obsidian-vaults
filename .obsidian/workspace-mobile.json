@@ -44,9 +44,57 @@
               "icon": "lucide-file",
               "title": "Mega Todo list"
             }
+          },
+          {
+            "id": "e02eb968052a3ca0",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "_/_Inbox/Week Plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Week Plan"
+            }
+          },
+          {
+            "id": "b873f127c95ad5e4",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "_/_Inbox/Week Plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Week Plan"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -195,7 +243,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "7a70564b46b302d2",
+  "active": "b873f127c95ad5e4",
   "lastOpenFiles": [
     "Home.md",
     "_/_Inbox/Week Plan.md",

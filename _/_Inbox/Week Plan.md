@@ -20,20 +20,20 @@ kanban-plugin: board
 
 ## Sunday
 
-- [ ] start the API and deploy for f5
-- [ ] start CSS videos
-- [ ] study deutsch
-- [ ] film TS video wide and narrow types
-- [ ] ➰film docker video for blog vlog (filmed half of it and the mic was acting up)
-- [ ] return to inertia blog
-- [ ] Play games
-- [ ] Make food
-- [ ] Edit front end plan
-- [ ] Talk to ahmed eldeeb
+- [ ] Make food✅
+- [ ] ✅start the API and deploy for f5
+- [ ] ✅Play games
+- [ ] ✅Talk to ahmed eldeeb
 
 
 ## Monday
 
+- [ ] Edit front end plan
+- [ ] ➰film docker video for blog vlog (filmed half of it and the mic was acting up)
+- [ ] study deutsch
+- [ ] return to inertia blog
+- [ ] film TS video wide and narrow types
+- [ ] start CSS videos
 
 
 ## Tuesday
