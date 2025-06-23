@@ -44,9 +44,33 @@
               "icon": "lucide-file",
               "title": "Head first design patterns - intro + chapter 1"
             }
+          },
+          {
+            "id": "ad4457bda3a4a3d5",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "_/_Inbox/Week Plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Week Plan"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -221,11 +245,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "b046eb679da3b432",
+  "active": "ad4457bda3a4a3d5",
   "lastOpenFiles": [
-    "_/_Inbox/Week Plan.md",
-    "_/_Inbox/Head first design patterns - intro + chapter 1.md",
     "Home.md",
+    "_/_Inbox/Head first design patterns - intro + chapter 1.md",
+    "_/_Inbox/Week Plan.md",
     "3- Permanent/sessions with Tarek.md",
     "_/_Inbox/front end course for ersaa.md",
     "3- Permanent/react course outline.md",
