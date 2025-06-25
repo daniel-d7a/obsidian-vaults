@@ -2,6 +2,7 @@
 share_link: https://share.note.sx/9qgtc1nz#iPcAKVtLd0XzWlqYXv9MPMmzEvG6TPdYHwVqqPk7nok
 share_updated: 2025-06-21T11:58:47+03:00
 ---
+[[ersaa]]
 ## **Course Breakdown**
 
 **Duration:** ~14 weeks (assuming 3 sessions per week, 2 hours per session).

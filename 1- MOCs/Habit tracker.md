@@ -3,7 +3,6 @@ cssclasses:
   - wide-table
 ---
 
-#moc
 
 ## ✅Done Well
 
@@ -11,23 +10,29 @@ cssclasses:
 
 ## ❌Missed The day
 
-| day + journal                                                | coding | reading | quran | digital cleanup | gaming | Deutsch | sharing | writing | move and go out | cleaning |
-| ------------------------------------------------------------ | ------ | ------- | ----- | --------------- | ------ | ------- | ------- | ------- | --------------- | -------- |
-| [[2025-06-04 fighting with docker]]                          | ✅      | ✅       | ✅     | ✅               | ✅      | ✅       | ✅       | ❌       | ❌               | ✅        |
-| [[2025-06-05 The Eid's eve]]                                 | ✅      | ✅       | ✅     | ✅               | ✅      | ✅       | ❌       | ❌       | ❌               | ✅        |
-| [[2025-06-06 the day of Eid]]                                | ❌      | ❌       | ❌     | ✅               | ❌      | ❌       | ❌       | ❌       | ✅               | ❌        |
-| [[2025-06-07 a day in alex with a new friend]]               | ❌      | ❌       | ✅     | ❌               | ❌      | ❌       | ❌       | ❌       | ✅               | ❌        |
-| [[2025-06-08 what I actually have to do]]                    | ❌      | ❌       | ❌     | ✅               | ✅      | ❌       | ❌       | ✅       | ❌               | ❌        |
-| [[2025-06-09 getting out of Eid]]                            | ✅      | ➰       | ✅     | ✅               | ✅      | ✅       | ✅       | ➰       | ✅               | ✅        |
-| [[2025-06-10 making food for the first time in a long time]] | ❌      | ✅       | ✅     | ✅               | ✅      | ✅       | ✅       | ✅       | ✅               | ❌        |
-| [[2025-06-11 getting into the rat race]]                     | ✅      | ❌       | ✅     | ➰               | ❌      | ✅       | ✅       | ❌       | ✅               | ✅        |
-| [[2025-06-12 reaching for my network]]                       | ✅      | ❌       | ✅     | ❌               | ❌      | ✅       | ✅       | ✅       | ✅               | ✅        |
-| [[2025-06-13 meeting the gang in zamalek]]                   |        |         |       |                 |        |         |         |         |                 |          |
-| [[2025-06-14 grilling at my sister's]]                       |        |         |       |                 |        |         |         |         |                 |          |
-| [[2025-06-15 what's an erp?]]                                |        |         |       |                 |        |         |         |         |                 |          |
-| [[2025-06-16 having my friends over]]                        |        |         |       |                 |        |         |         |         |                 |          |
-| [[2025-06-17 yesterday continued]]                           |        |         |       |                 |        |         |         |         |                 |          |
-| [[2025-06-18]]                                               |        |         | ✅     |                 |        |         |         |         |                 |          |
+| day + journal                                                | coding | reading | quran | Deutsch | writing + filming | digital cleanup | gaming | sharing | move and go out | cleaning |
+| ------------------------------------------------------------ | ------ | ------- | ----- | ------- | ----------------- | --------------- | ------ | ------- | --------------- | -------- |
+| [[2025-06-04 fighting with docker]]                          | ✅      | ✅       | ✅     | ✅       | ❌                 | ✅               | ✅      | ✅       | ❌               | ✅        |
+| [[2025-06-05 The Eid's eve]]                                 | ✅      | ✅       | ✅     | ✅       | ❌                 | ✅               | ✅      | ❌       | ❌               | ✅        |
+| [[2025-06-06 the day of Eid]]                                | ❌      | ❌       | ❌     | ❌       | ❌                 | ✅               | ❌      | ❌       | ✅               | ❌        |
+| [[2025-06-07 a day in alex with a new friend]]               | ❌      | ❌       | ✅     | ❌       | ❌                 | ❌               | ❌      | ❌       | ✅               | ❌        |
+| [[2025-06-08 what I actually have to do]]                    | ❌      | ❌       | ❌     | ❌       | ✅                 | ✅               | ✅      | ❌       | ❌               | ❌        |
+| [[2025-06-09 getting out of Eid]]                            | ✅      | ➰       | ✅     | ✅       | ➰                 | ✅               | ✅      | ✅       | ✅               | ✅        |
+| [[2025-06-10 making food for the first time in a long time]] | ❌      | ✅       | ✅     | ✅       | ✅                 | ✅               | ✅      | ✅       | ✅               | ❌        |
+| [[2025-06-11 getting into the rat race]]                     | ✅      | ❌       | ✅     | ✅       | ❌                 | ➰               | ❌      | ✅       | ✅               | ✅        |
+| [[2025-06-12 reaching for my network]]                       | ✅      | ❌       | ✅     | ✅       | ✅                 | ❌               | ❌      | ✅       | ✅               | ✅        |
+| [[2025-06-13 meeting the gang in zamalek]]                   |        |         |       |         |                   |                 |        |         |                 |          |
+| [[2025-06-14 grilling at my sister's]]                       |        |         |       |         |                   |                 |        |         | ✅               |          |
+| [[2025-06-15 what's an erp?]]                                |        |         |       |         |                   |                 |        |         |                 |          |
+| [[2025-06-16 having my friends over]]                        |        |         |       |         |                   |                 |        |         | ✅               | ✅        |
+| [[2025-06-17 yesterday continued]]                           |        |         |       |         |                   |                 |        |         | ✅               |          |
+| [[2025-06-18 let's get a credit card]]                       |        |         | ✅     |         |                   |                 |        |         |                 |          |
+| [[Thu 2025-06-19]]                                           |        |         | ✅     |         |                   |                 |        |         |                 |          |
+| [[Fri 2025-06-20]]                                           |        |         | ✅     |         | ✅                 |                 | ✅      |         | ✅               |          |
+| [[Sat 2025-06-21]]                                           | ❌      | ✅       | ✅     | ❌       | ✅                 | ➰               | ✅      | ✅       |                 |          |
+| [[Sun 2025-06-22 I found a job]]                             | ✅      | ➰       | ✅     | ❌       | ✅                 | ✅               | ✅      | ✅       |                 | ✅        |
+| [[Mon 2025-06-23 a big vibe coding moment]]                  | ✅      | ✅       | ✅     | ✅       | ✅                 | ➰               | ✅      |         | ✅               | ✅        |
+| [[Tue 2025-06-24 a great-ish day]]                           | ✅      | ✅       | ✅     | ✅       | ✅                 | ➰               | ✅      |         | ❌               | ❌        |
 
 
 ## Insights about my habits
