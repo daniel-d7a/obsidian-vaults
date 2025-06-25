@@ -92,9 +92,33 @@
               "icon": "lucide-trello",
               "title": "Week Plan"
             }
+          },
+          {
+            "id": "75d06c3745483b57",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "_/_Inbox/Week Plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Week Plan"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -243,7 +267,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b873f127c95ad5e4",
+  "active": "75d06c3745483b57",
   "lastOpenFiles": [
     "Home.md",
     "_/_Inbox/Week Plan.md",
