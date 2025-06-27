@@ -33,6 +33,9 @@ cssclasses:
 | [[Sun 2025-06-22 I found a job]]                             | ✅      | ➰       | ✅     | ❌       | ✅                 | ✅               | ✅      | ✅       |                 | ✅        |
 | [[Mon 2025-06-23 a big vibe coding moment]]                  | ✅      | ✅       | ✅     | ✅       | ✅                 | ➰               | ✅      |         | ✅               | ✅        |
 | [[Tue 2025-06-24 a great-ish day]]                           | ✅      | ✅       | ✅     | ✅       | ✅                 | ➰               | ✅      |         | ❌               | ❌        |
+| [[Wed 2025-06-25 I met Bahaa in Alex]]                       | ✅      | ✅       | ✅     |         |                   |                 |        | ✅       |                 |          |
+| [[Thu 2025-06-26 I slept through the whole day]]             |        |         |       |         |                   |                 |        |         |                 |          |
+| [[Fri 2025-06-27]]                                           |        |         |       |         |                   |                 |        |         |                 |          |
 
 
 ## Insights about my habits

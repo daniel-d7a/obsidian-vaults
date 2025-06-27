@@ -50,23 +50,26 @@ kanban-plugin: board
 
 ## Wednesday
 
+- [ ] meet Bahaa in Alex
 - [ ] film TS video wide and narrow types
 - [ ] plan chapter 2 hfdp
 - [ ] film 2 css chapters
-- [ ] check power i tech code
-- [ ] prepare clothes to go out
-- [ ] add a few tables to f5 api
 - [ ] add images to posts in inertia blog
 - [ ] deutsch
 - [ ] learn some card shuffles
+- [ ] ✅check power i tech code
+- [ ] ✅prepare clothes to go out
+- [ ] ✅add a few tables to f5 api
 
 
 ## Thursday
 
+- [ ] I slept the whole day, doing nothing.
 
 
 ## Friday
 
+- [ ] add new tables and data in f5 api
 
 
 

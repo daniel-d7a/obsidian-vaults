@@ -8,35 +8,59 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c2fad132d9ff2e7",
+            "id": "380977308a8760ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "_/_Inbox/wer sind Sie - who are you.md",
-                "mode": "source",
-                "source": false
+                "file": "Week Plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "wer sind Sie - who are you"
+              "icon": "lucide-trello",
+              "title": "Week Plan"
             }
           },
           {
-            "id": "89c6df98705e0b48",
+            "id": "adf0c5b81bebf60a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3- Permanent/_more books to read.md",
+                "file": "1- MOCs/Habit tracker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_more books to read"
+              "title": "Habit tracker"
+            }
+          },
+          {
+            "id": "33f65651def2efc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_/_Inbox/Thu 2025-06-26 I slept through the whole day.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Thu 2025-06-26 I slept through the whole day"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -211,22 +235,24 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "89c6df98705e0b48",
+  "active": "33f65651def2efc4",
   "lastOpenFiles": [
+    "_/_Inbox/Thu 2025-06-26 I slept through the whole day.md",
+    "1- MOCs/Habit tracker.md",
+    "Home.md",
+    "Week Plan.md",
+    "3- Permanent/_more books to read.md",
     "1- MOCs/for later.md",
     "1- MOCs/Books.md",
     "3- Permanent/deutsch glossary.md",
     "_/_Inbox/wer sind Sie - who are you.md",
     "3- Permanent/Die Zahlen - Numbers.md",
     "3- Permanent/Personal pronomen & verb sein - personal pronouns & verb to be.md",
-    "Week Plan.md",
-    "1- MOCs/Habit tracker.md",
     "_/_Inbox/Tue 2025-06-24 a great-ish day.md",
     "_/_Inbox/Sat 2025-06-21.md",
     "_/_Inbox/Mon 2025-06-23 a big vibe coding moment.md",
     "_/_Inbox/Sun 2025-06-22 I found a job.md",
     "_/_Inbox/2025-06-18 let's get a credit card.md",
-    "Home.md",
     "3- Permanent/Konjugation der Verben - verb conjugation.md",
     "1- MOCs/Leaning german.md",
     "3- Permanent/sich vorstellen- introduce your self.md",
@@ -237,8 +263,6 @@
     "_/_Inbox/Kent C. Dods next transition of the web.md",
     "3- Permanent/intro to ts 4 - types and interfaces.md",
     "3- Permanent/How writing made me a millionaire.md",
-    "3- Permanent/Head first design patterns - intro + chapter 1.md",
-    "_/_Inbox/how to setup docker with php, inertia, and mysql.md",
     "3- Permanent/Untitled",
     "git_sync.log",
     "4- Journal",
