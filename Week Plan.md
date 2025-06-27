@@ -50,13 +50,13 @@ kanban-plugin: board
 
 ## Wednesday
 
-- [ ] meet Bahaa in Alex
 - [ ] film TS video wide and narrow types
 - [ ] plan chapter 2 hfdp
 - [ ] film 2 css chapters
 - [ ] add images to posts in inertia blog
 - [ ] deutsch
 - [ ] learn some card shuffles
+- [ ] ✅meet Bahaa in Alex
 - [ ] ✅check power i tech code
 - [ ] ✅prepare clothes to go out
 - [ ] ✅add a few tables to f5 api
