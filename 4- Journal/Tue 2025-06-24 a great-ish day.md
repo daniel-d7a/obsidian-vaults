@@ -1,3 +1,5 @@
+[[Journal]]
+
 today went great-ish, I have time to meet bahaa tomorrow in Alexandria as I am on top of my work.
 
 I filmed 4 chapters of CSS for hash plus, filmed my own docker video for the blog vlog, and the mic worked well enough through it all, I still gonna get another though when I have money.
