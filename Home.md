@@ -1,6 +1,7 @@
 - [[Habit tracker]]
 - [[Mega Todo list]]
 - [[Week Plan]]
+- [[Work Board]]
 
 ## What topics do I have?
 

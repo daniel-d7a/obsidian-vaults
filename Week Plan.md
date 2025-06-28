@@ -70,6 +70,7 @@ kanban-plugin: board
 ## Friday
 
 - [ ] add new tables and data in f5 api
+- [ ] ✅ finish vuexy docks
 
 
 
