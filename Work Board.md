@@ -6,8 +6,9 @@ kanban-plugin: board
 
 ## F5-Logistics
 
-- [ ] Add new tables and data
+- [ ] add harder password rules
 - [ ] create basic calculations
+- [ ] Add new tables and data
 
 
 ## Power I Tech
@@ -19,7 +20,7 @@ kanban-plugin: board
 ## Eraasoft
 
 - [ ] [[Head First design pattern - chapter 2]]
-- [ ] Session with Tarek 28-06-2025
+- [ ] ✅Session with Tarek 28-06-2025
 
 
 ## Hash plus
@@ -29,7 +30,8 @@ kanban-plugin: board
 
 ## Ersaa
 
-- [ ] Talk to Mr. Yasser
+- [ ] session 2025-06-30 08:00 with menna
+- [ ] ✅Talk to Mr. Yasser
 
 
 ## Inertia blog

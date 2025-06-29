@@ -69,11 +69,11 @@ share_updated: 2025-03-20T17:38:10+02:00
 ## Typescript
 
 - مراجعة سريعة على typescript
-	- basic types
-	- function types
-	- object types
-	- unions and intersections
-	- generics
+- basic types
+- function types
+- object types
+- unions and intersections
+- generics
 - how to setup react with typescript
 - props
 - children
