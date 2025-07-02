@@ -8,7 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2f997a40a308d4e",
+            "id": "6011fbe37df3a5ed",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "3- Permanent/Week 27 Plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Week 27 Plan"
+            }
+          },
+          {
+            "id": "af955b2e83d7e03a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +40,33 @@
               "icon": "lucide-file",
               "title": "Head First design pattern - chapter 2"
             }
+          },
+          {
+            "id": "318737035c03a618",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Work Board.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Work Board"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,9 +215,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c2f997a40a308d4e",
+  "active": "af955b2e83d7e03a",
   "lastOpenFiles": [
     "Home.md",
+    "3- Permanent/Week 27 Plan.md",
+    "_/_Inbox/Fri 2025-06-27.md",
+    "week plan.md",
+    "Week 26 Plan.md",
+    "Work Board.md",
+    "_/_Inbox/Head First design pattern - chapter 2.md",
     "1- MOCs/Leaning german.md",
     "3- Permanent/Personal pronomen & verb sein - personal pronouns & verb to be.md",
     "3- Permanent/deutsch glossary.md",
@@ -192,12 +243,6 @@
     "_/_Inbox/2025-06-16 having my friends over.md",
     "_/_Inbox/test new note.md",
     "_/_Inbox/hash plus - html plan.md",
-    "1- MOCs/hash plus.md",
-    "4- Journal/2025-06-09 getting out of Eid.md",
-    "_/_Inbox/intro to ts 4 - types and interfaces.md",
-    "_/_Inbox/useSyncExternalStore article.md",
-    "_/_Inbox/2025-06-04 fighting with docker.md",
-    "_/_Inbox/2025-06-05 The Eid's eve.md",
     "Untitled",
     "/_/_Templates",
     "/_",
