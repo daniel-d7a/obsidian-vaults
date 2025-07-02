@@ -25,12 +25,14 @@ kanban-plugin: board
 
 ## Hash plus
 
-- [ ] Film 3 css chapters
+- [ ] film chapters 7 - 8 CSS
+- [ ] film chapters 9 -10 CSS
+- [ ] ✅Film 2 css chapters
 
 
 ## Ersaa
 
-- [ ] session 2025-06-30 08:00 with menna
+- [ ] session 2025-06-29 07:00 with menna
 - [ ] ✅Talk to Mr. Yasser
 
 

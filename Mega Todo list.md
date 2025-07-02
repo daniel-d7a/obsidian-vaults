@@ -1,39 +1,39 @@
 ## This week in tasks
 
 **Gaming**
-- start a small game
+- play a little everyday
 
 **Filming**
-- finish CSS Videos
-- ts - narrow wide types
+- finish CSS Videos { deadline monday}
 - ts unknown and never
-- chapter 1 & 2 head first design patterns 
-- vlog blog docker video
+- chapter 2 head first design patterns
+- vlog blog video 3
 
 **Work**
-- create api & database 
-- start importing data
-- deploy to free service
-
- **React course**
-- write 2 sections
+- {F5} start importing data
+- {F5} start working on dashboard endpoints
+- {power i tech} start working
 
  **Deutsch**
-- up to video no. 15
+- up to video no. 17
 
  **Reading**
-- (seven languages in seven weeks) finish chapter 3 and ½ chapter 4 
-- get back to head first design patterns 
+- head first design patterns state pattern
 
- **Coding**
-- finish the comments section of the blog 
-- add images
-- add MD support 
+ **Inertia blog**
+- add banner images to posts
+- add share buttons
 
  **Online yapping**
-- tweet everyday
+- share thoughts and quote others more
 
-**Misc**
-- make a react course plan for ersaa.
+ **Home**
+ - vacuum the house
+ - clean kitchen
+ - clean 2nd bed
+
+ **Misc**
+ - start slowly on Bahaa's 3D website
+ - start slowly planning a better portfolio & personal website
 
 ---
