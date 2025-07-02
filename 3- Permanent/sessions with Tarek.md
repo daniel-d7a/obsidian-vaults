@@ -65,3 +65,6 @@
 - advanced usage
 - navigation blocking using useBlocker, if user is inserting data, …etc
 - file based routing (e.g. tanstack router)
+## session 4
+
+- i18n
