@@ -37,6 +37,11 @@ cssclasses:
 | [[Thu 2025-06-26 I slept through the whole day]]             |        |         |       |         |                   |        |                 |         |                 |          |
 | [[Fri 2025-06-27 Slept through most of this one as well]]    | ✅      |         | ✅     |         | ➰                 | ✅      |                 | ✅       |                 |          |
 |                                                              |        |         |       |         |                   |        |                 |         |                 |          |
+|                                                              |        |         |       |         |                   |        |                 |         |                 |          |
+|                                                              |        |         |       |         |                   |        |                 |         |                 |          |
+|                                                              |        |         |       |         |                   |        |                 |         |                 |          |
+| [[Wed 2025-07-02 a productive day alright]]                  |        |         |       |         |                   |        |                 |         |                 |          |
+|                                                              |        |         |       |         |                   |        |                 |         |                 |          |
 
 
 ## Insights about my habits
