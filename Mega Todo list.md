@@ -4,18 +4,18 @@
 - play a little everyday
 
 **Filming**
-- finish CSS Videos { deadline monday}
-- ts unknown and never
-- chapter 2 head first design patterns
-- vlog blog video 3
+- JS course
+- chapter 3 Head first design patterns
+- Vlog blog video 3
 
 **Work**
-- {F5} start importing data
-- {F5} start working on dashboard endpoints
-- {power i tech} start working
+- (F5) meeting with Ahmed to understand dashboard
+- (F5) finish most controllers
+- (Power I Tech) meeting with Zyad (the new hire) to explain the business
+- (Power I Tech) Start working on tasks
 
  **Deutsch**
-- up to video no. 17
+- 1-2 video every day
 
  **Reading**
 - head first design patterns state pattern
@@ -24,16 +24,12 @@
 - add banner images to posts
 - add share buttons
 
- **Online yapping**
-- share thoughts and quote others more
-
- **Home**
- - vacuum the house
- - clean kitchen
- - clean 2nd bed
-
  **Misc**
  - start slowly on Bahaa's 3D website
  - start slowly planning a better portfolio & personal website
+ - find a marketing agency
+ - go skate
+ - plan an outing
+ - get a new desk
 
 ---

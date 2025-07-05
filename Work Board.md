@@ -6,46 +6,44 @@ kanban-plugin: board
 
 ## F5-Logistics
 
-
-- [ ] ✅Add new tables and data
-- [ ] ✅create basic calculations
+- [ ] meeting with ahmed to ask some questions about data and calculations
+- [ ] create basic calculations
+- [ ] Send finished data and ask for feedback
 - [ ] Finish employee
 - [ ] Finish seeders
-- [ ] Make more controllers
-- [ ] Send finished data and ask for feedback
-- [ ] add harder password rules
-- [ ] create basic calculations
-- [ ] Add new tables and data
+- [ ] ✅Add new tables and data
+- [ ] ✅create basic calculations
+- [ ] ✅Make more controllers
+- [ ] ✅add harder password rules
+- [ ] ✅Add new tables and data
 
 
 ## Power I Tech
 
+- [ ] meeting 2025-07-05 10:00 with ahmed and zyad
 - [ ] ✅Check vuexy docs
 - [ ] ✅Start simple [[Power I tech - Junior frontend engineer on boarding document]]
-- [ ] Check postman collection
+- [ ] ✅Check postman collection
 - [ ] Run project
 
 
 ## Eraasoft
 
-- [ ] [[Head First design pattern - chapter 2]]
-- [ ] ✅Session with Tarek 28-06-2025
 - [ ] [[Head First design pattern - chapter 3]]
+- [ ] ✅[[Head First design pattern - chapter 2]]
+- [ ] ✅Session with Tarek 28-06-2025
 
 
 ## Hash plus
 
-
-- [ ] film chapters 7 - 8 CSS
-- [ ] film chapters 9 -10 CSS
+- [ ] Start js course
+- [ ] ✅film chapters 7 - 8 CSS
+- [ ] ✅film chapters 9 -10 CSS
 - [ ] ✅Film 2 css chapters
 - [ ] ✅Film 3 css chapters
-- [ ] Start js course
-
 
 
 ## Ersaa
-
 
 - [ ] ✅ session 2025-06-30 08:00 with menna
 - [ ] ✅Talk to Mr. Yasser

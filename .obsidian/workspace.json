@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cc16e0fad0c6565e",
+        "id": "9338d991bf355a35",
         "type": "tabs",
         "children": [
           {
-            "id": "42b28a2acc838816",
+            "id": "305697c9cc66d401",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/Power I tech erp.md",
+                "file": "_/_Inbox/intro to ts 5 - wide and narrow types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Power I tech erp"
-            }
-          },
-          {
-            "id": "0e00ea970d559c77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Home"
+              "title": "intro to ts 5 - wide and narrow types"
             }
           }
         ]
@@ -210,34 +196,34 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "42b28a2acc838816",
+  "active": "305697c9cc66d401",
   "lastOpenFiles": [
-    "1- MOCs/Power I Tech.md",
-    "_/_Inbox/Power I tech erp.md",
+    "_/_Inbox/test.md",
+    "_/_Inbox/intro to ts 5 - wide and narrow types.md",
+    "3- Permanent/intro to ts 4 - types and interfaces.md",
+    "3- Permanent/Week 28 Plan.md",
+    "Mega Todo list.md",
+    "Week Plan.md",
+    "3- Permanent/Week 26 Plan.md",
+    "Work Board.md",
+    "Habit tracker.md",
     "Home.md",
-    "_/_Inbox/Head First design pattern - chapter 2.md",
+    "_/_Inbox/Power I tech - Junior frontend engineer on boarding document.md",
+    "3- Permanent/Power I tech erp.md",
+    "_/_Inbox/Kent C. Dods next transition of the web.md",
+    "4- Journal/Wed 2025-07-02 a productive day alright.md",
+    "3- Permanent/Head First design pattern - chapter 2.md",
+    "_/_Inbox/Fri 2025-06-27.md",
+    "3- Permanent/Ersaa scratch course plan.md",
+    "3- Permanent/Week 27 Plan.md",
+    "1- MOCs/Power I Tech.md",
     "_/_Inbox/timings.md",
     "_/_Inbox/Untitled 1.md",
-    "Work Board.md",
-    "Mega Todo list.md",
     "1- MOCs/Leaning german.md",
     "3- Permanent/woher kommen sie - where do you come from.md",
     "3- Permanent/deutsch glossary.md",
     "3- Permanent/sessions with Tarek.md",
     "3- Permanent/react course outline.md",
-    "_/_Inbox/Power I tech - Junior frontend engineer on boarding document.md",
-    "1- MOCs/Habit tracker.md",
-    "_/_Inbox/Work board.md",
-    "4- Journal/Fri 2025-06-27 Slept through most of this one as well.md",
-    "Week Plan.md",
-    "_/_Inbox/Fri 2025-06-27.md",
-    "4- Journal/2025-06-18 let's get a credit card.md",
-    "_/_Inbox/Kent C. Dods next transition of the web.md",
-    "3- Permanent/Mon 2025-06-23 a big vibe coding moment.md",
-    "3- Permanent/movies for later.md",
-    "4- Journal/Sun 2025-06-22 I found a job.md",
-    "4- Journal/Thu 2025-06-26 I slept through the whole day.md",
-    "4- Journal/Sat 2025-06-21.md",
     "Untitled.canvas",
     "3- Permanent/Untitled",
     "git_sync.log",

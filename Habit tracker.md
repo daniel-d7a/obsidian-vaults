@@ -42,6 +42,7 @@ cssclasses:
 |                                                              |        |         |       |         |                   |        |                 |         |                 |          |
 | [[Wed 2025-07-02 a productive day alright]]                  |        |         |       |         |                   |        |                 |         |                 |          |
 |                                                              |        |         |       |         |                   |        |                 |         |                 |          |
+| [[Fri 2025-07-04 cleaning the house with waled]]             |        |         | ✅     |         |                   | ✅      |                 |         |                 |          |
 
 
 ## Insights about my habits
