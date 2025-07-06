@@ -20,8 +20,33 @@
               "icon": "lucide-file",
               "title": "intro to ts 5 - wide and narrow types"
             }
+          },
+          {
+            "id": "299d128f3180d863",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "3- Permanent/Week 28 Plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Week 28 Plan"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,18 +221,18 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "305697c9cc66d401",
+  "active": "299d128f3180d863",
   "lastOpenFiles": [
-    "_/_Inbox/test.md",
+    "Week Plan.md",
+    "Home.md",
     "_/_Inbox/intro to ts 5 - wide and narrow types.md",
+    "_/_Inbox/test.md",
     "3- Permanent/intro to ts 4 - types and interfaces.md",
     "3- Permanent/Week 28 Plan.md",
     "Mega Todo list.md",
-    "Week Plan.md",
     "3- Permanent/Week 26 Plan.md",
     "Work Board.md",
     "Habit tracker.md",
-    "Home.md",
     "_/_Inbox/Power I tech - Junior frontend engineer on boarding document.md",
     "3- Permanent/Power I tech erp.md",
     "_/_Inbox/Kent C. Dods next transition of the web.md",
