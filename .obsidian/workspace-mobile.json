@@ -126,9 +126,33 @@
               "icon": "lucide-trello",
               "title": "Week 28 Plan"
             }
+          },
+          {
+            "id": "5f8ccd56c7dec331",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "3- Permanent/Week 28 Plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Week 28 Plan"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -277,7 +301,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ab6f6f9b7c2c5b7e",
+  "active": "5f8ccd56c7dec331",
   "lastOpenFiles": [
     "Week Plan.md",
     "Home.md",
