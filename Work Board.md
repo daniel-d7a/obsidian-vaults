@@ -20,11 +20,43 @@ kanban-plugin: board
 
 ## Power I Tech
 
+- [ ] continue the docs
 - [ ] meeting 2025-07-05 10:00 with ahmed and zyad
-- [ ] ✅Check vuexy docs
+- [ ] ✅Run project
 - [ ] ✅Start simple [[Power I tech - Junior frontend engineer on boarding document]]
+- [ ] ✅Check vuexy docs
 - [ ] ✅Check postman collection
-- [ ] Run project
+
+
+## Hash plus
+
+- [ ] Start js course make 2 chapters
+- [ ] js chapters from 9-10
+- [ ] js chapters from 7-8
+- [ ] js chapters from 4-6
+- [ ] ✅film chapters 9 -10 CSS
+- [ ] ✅film chapters 7 - 8 CSS
+- [ ] ✅Film 3 css chapters
+- [ ] ✅Film 2 css chapters
+
+
+## Ersaa
+
+- [ ] session on sunday at 9
+- [ ] plan sunday session
+- [ ] plan monday session
+- [ ] ✅Talk to Mr. Yasser
+- [ ] ✅ session 2025-06-30 08:00 with menna
+
+
+## Inertia blog
+
+- [ ] add images to posts
+- [ ] add some tasks here from the todo file
+- [ ] add user made lists
+- [ ] add Seo and OG tags for posts
+- [ ] add user profile
+- [ ] add user follow user
 
 
 ## Eraasoft
@@ -32,26 +64,6 @@ kanban-plugin: board
 - [ ] [[Head First design pattern - chapter 3]]
 - [ ] ✅[[Head First design pattern - chapter 2]]
 - [ ] ✅Session with Tarek 28-06-2025
-
-
-## Hash plus
-
-- [ ] Start js course
-- [ ] ✅film chapters 7 - 8 CSS
-- [ ] ✅film chapters 9 -10 CSS
-- [ ] ✅Film 2 css chapters
-- [ ] ✅Film 3 css chapters
-
-
-## Ersaa
-
-- [ ] ✅ session 2025-06-30 08:00 with menna
-- [ ] ✅Talk to Mr. Yasser
-
-
-## Inertia blog
-
-- [ ] add images to posts
 
 
 ## Youtube
