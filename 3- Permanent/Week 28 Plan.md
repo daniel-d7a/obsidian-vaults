@@ -39,6 +39,18 @@ kanban-plugin: board
 
 ## Thursday
 
+- [ ] Journal
+- [ ] Make tyam go give the girl the package
+- [ ] Breakfast
+- [ ] Frontend meeting
+- [ ] Company meeting
+- [ ] Finish some of f5 work (employee crud, plus 2 more pages display only)
+- [ ] 2 more js chapters
+- [ ] Ask about hash plus money
+- [ ] Ersaa session, prepare and attend, and send what the people wanted
+- [ ] Talk to Mahmoud hegazy about marketing
+- [ ] Hfdp chapter 3
+- [ ] Talk to malek again about session times
 
 
 ## Friday
