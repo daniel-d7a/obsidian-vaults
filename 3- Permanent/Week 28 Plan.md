@@ -23,10 +23,25 @@ kanban-plugin: board
 
 ## Sunday
 
+- [ ] ✅ finish js course
+- [ ] ✅ power i tech fix search input
+- [ ] ✅ Hash plus Make promo video
+- [ ] ✅ Power i tech fix filters
 
 
 ## Monday
 
+- [ ] Hfdp chapter 3
+- [ ] Ts video
+- [ ] Power i tech tasks
+- [ ] Ersaa session, prepare and show up
+- [ ] Ersaa meeting
+- [ ] F5 meeting
+- [ ] Continue F5 api
+- [ ] Read
+- [ ] Quran
+- [ ] Deutsch revision on paper
+- [ ] Inertia blog
 
 
 ## Tuesday
