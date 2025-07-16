@@ -6,7 +6,7 @@ kanban-plugin: board
 
 ## saturday
 
-- [ ] update accountability group
+- [ ] ✅update accountability group
 - [ ] start chapter 3 hfdp
 - [ ] skate
 - [ ] reading
@@ -14,8 +14,6 @@ kanban-plugin: board
 - [ ] make a new youtube video ts -7
 - [ ] make a blog vlog
 - [ ] german practice and memorization
-- [ ] follow up on the frontend road map
-- [ ] finish js course hash plus
 - [ ] ✅upload fe455 session
 - [ ] ✅power i tech work
 - [ ] ✅hash plus meeting
@@ -24,18 +22,37 @@ kanban-plugin: board
 
 ## sunday
 
+- [ ] ✅finish js course hash plus
 
 
 ## monday
 
+- [ ] ✅follow up on the frontend road map
 
 
 ## tuesday
 
+- [ ] ✅ quran
+- [ ] ✅read
+- [ ] ✅ ersaa session on behalf of shahd
+- [ ] ✅add to web road map
+- [ ] ✅finalize infinite scrolling
+- [ ] ✅power i tech tasks
+- [ ] ✅sign hash plus papers, and make plan
 
 
 ## wednesday
 
+- [ ] go to the bank
+- [ ] film chapter 3 hfdp
+- [ ] film a ts video
+- [ ] session wiht seif, prepare and attend
+- [ ] finish tasks for f5 api
+- [ ] meeting with zyad for work
+- [ ] quran
+- [ ] read
+- [ ] deutsch
+- [ ] talk to bebo
 
 
 ## thursday
