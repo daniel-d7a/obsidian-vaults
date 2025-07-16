@@ -188,9 +188,22 @@
               "icon": "lucide-trello",
               "title": "Week 28 Plan"
             }
+          },
+          {
+            "id": "3f525a8907fe1a24",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "3- Permanent/Week 28 Plan.md",
+                "kanbanViewState": {}
+              },
+              "icon": "lucide-trello",
+              "title": "Week 28 Plan"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -339,14 +352,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e6b1dd5c024c44d2",
+  "active": "3f525a8907fe1a24",
   "lastOpenFiles": [
     "Week Plan.md",
     "Home.md",
+    "3- Permanent/Week 28 Plan.md",
     "3- Permanent/On site session ideas.md",
     "1- MOCs/Teaching programming.md",
     "3- Permanent/Teaching activities.md",
-    "3- Permanent/Week 28 Plan.md",
     "1- MOCs/ersaa.md",
     "_/_Inbox/Ersaa scratch course plan.md",
     "_/_Inbox/Wed 2025-07-02 a productive day alright.md",

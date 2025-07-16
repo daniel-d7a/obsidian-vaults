@@ -114,4 +114,5 @@
 | französisch        | fransozish               | french                |
 | russisch           | rosish                   | russian               |
 | sprechen           | shpreshen                | speak                 |
+| ingenieur          |                          | engineer              |
 ä, ö, ü, ß

@@ -6,11 +6,8 @@ kanban-plugin: board
 
 ## Saturday
 
-- [ ] start js course
-- [ ] try planning an outing with salma
-- [ ] deutsch
-- [ ] Read
-- [ ] Check some portfolio inspo
+- [ ] ❌deutsch
+- [ ] ❌Read
 - [ ] ✅plan TS video
 - [ ] ✅Film TS video
 - [ ] ❌meeting with ahmed and zyad at 10 am (missed it because it was very later than discussed)
@@ -23,14 +20,30 @@ kanban-plugin: board
 
 ## Sunday
 
+<<<<<<< HEAD
 - [ ] ✅ finish js course
 - [ ] ✅ power i tech fix search input
 - [ ] ✅ Hash plus Make promo video
 - [ ] ✅ Power i tech fix filters
+=======
+- [ ] ✅learn three.js (found some resources to start)
+- [ ] ✅try planning an outing with salma
+- [ ] ✅quran
+- [ ] read
+- [ ] ✅deutsch
+- [ ] ✅session on behalf of menna at from 9 to 10:30
+	js dom
+- [ ] ✅session on behalf of menna at from 7 to 8
+	flex and links css
+- [ ] ✅plan for ersaa session
+- [ ] ✅meeting with power I tech
+- [ ] ✅meeting with ahmed f5
+>>>>>>> decf0fa384c04ed5c7f19713c1237c06a83a5fcc
 
 
 ## Monday
 
+<<<<<<< HEAD
 - [ ] Hfdp chapter 3
 - [ ] Ts video
 - [ ] Power i tech tasks
@@ -42,6 +55,25 @@ kanban-plugin: board
 - [ ] Quran
 - [ ] Deutsch revision on paper
 - [ ] Inertia blog
+=======
+- [ ] start the 11 hour nuxt course
+- [ ] Check some portfolio inspo
+- [ ] start js course, make 3 chapters
+- [ ] get an access point and setup myself downstairs
+- [ ] ✅meeting with hash plus 
+	@ 03:00
+- [ ] ✅check how to optimize power i tech task code
+- [ ] inertia blog
+- [ ] ✅sessions with ersaa
+	@ 6:00
+	@ 9:00
+- [ ] read
+- [ ] deutsch
+- [ ] ✅call the bank about the credit card
+- [ ] ✅meeting with ahmed aldeeb at 9
+- [ ] ✅a frontend task by power I tech
+- [ ] ✅quran
+>>>>>>> decf0fa384c04ed5c7f19713c1237c06a83a5fcc
 
 
 ## Tuesday

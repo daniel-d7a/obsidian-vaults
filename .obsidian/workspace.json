@@ -4,45 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "9338d991bf355a35",
+        "id": "a7dedf13a8659cf2",
         "type": "tabs",
         "children": [
           {
-            "id": "305697c9cc66d401",
+            "id": "295fda8d06f9d8dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/intro to ts 5 - wide and narrow types.md",
+                "file": "Mega Todo list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "intro to ts 5 - wide and narrow types"
+              "title": "Mega Todo list"
             }
           },
           {
-            "id": "299d128f3180d863",
+            "id": "4233b1323409a094",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "3- Permanent/Week 28 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "3- Permanent/react course outline.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Week 28 Plan"
+              "icon": "lucide-file",
+              "title": "react course outline"
             }
           }
         ],
@@ -221,34 +211,34 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "299d128f3180d863",
+  "active": "4233b1323409a094",
   "lastOpenFiles": [
-    "Week Plan.md",
     "Home.md",
-    "_/_Inbox/intro to ts 5 - wide and narrow types.md",
-    "_/_Inbox/test.md",
-    "3- Permanent/intro to ts 4 - types and interfaces.md",
-    "3- Permanent/Week 28 Plan.md",
     "Mega Todo list.md",
-    "3- Permanent/Week 26 Plan.md",
+    "3- Permanent/Week 28 Plan.md",
+    "1- MOCs/Notes.md",
+    "_/_Inbox/Week 29 Plan.md",
+    "Week Plan.md",
+    "_/_Inbox/der beruf - the profession.md",
+    "3- Permanent/deutsch glossary.md",
+    "3- Permanent/Week 27 Plan.md",
+    "_/_Inbox/test.md",
+    "3- Permanent/Power I tech erp.md",
+    "1- MOCs/Power I Tech.md",
+    "3- Permanent/Money making ideas.md",
+    "1- MOCs/ideas.md",
+    "3- Permanent/ideas for inertia blog.md",
     "Work Board.md",
+    "_/_Inbox/intro to ts 5 - wide and narrow types.md",
+    "3- Permanent/intro to ts 4 - types and interfaces.md",
+    "3- Permanent/Week 26 Plan.md",
     "Habit tracker.md",
     "_/_Inbox/Power I tech - Junior frontend engineer on boarding document.md",
-    "3- Permanent/Power I tech erp.md",
     "_/_Inbox/Kent C. Dods next transition of the web.md",
     "4- Journal/Wed 2025-07-02 a productive day alright.md",
     "3- Permanent/Head First design pattern - chapter 2.md",
     "_/_Inbox/Fri 2025-06-27.md",
     "3- Permanent/Ersaa scratch course plan.md",
-    "3- Permanent/Week 27 Plan.md",
-    "1- MOCs/Power I Tech.md",
-    "_/_Inbox/timings.md",
-    "_/_Inbox/Untitled 1.md",
-    "1- MOCs/Leaning german.md",
-    "3- Permanent/woher kommen sie - where do you come from.md",
-    "3- Permanent/deutsch glossary.md",
-    "3- Permanent/sessions with Tarek.md",
-    "3- Permanent/react course outline.md",
     "Untitled.canvas",
     "3- Permanent/Untitled",
     "git_sync.log",
