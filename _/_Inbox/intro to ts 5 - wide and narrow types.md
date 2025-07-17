@@ -39,6 +39,8 @@
 - anything can be assigned to unknown
 - can be assigned to nothing
 - represents somethings that we don't know like fetching from an api
+- can be used for input agnostic functions such as type guards 
+- can be used as a fall back
 
 - never is the narrowest type in ts
 - can be assigned to anything
