@@ -240,9 +240,33 @@
               "icon": "lucide-file",
               "title": "intro to ts 5 - wide and narrow types"
             }
+          },
+          {
+            "id": "35dbabe1c89ce46b",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "_/_Inbox/Week 29 Plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Week 29 Plan"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -391,12 +415,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f4590939f937129c",
+  "active": "35dbabe1c89ce46b",
   "lastOpenFiles": [
+    "Week Plan.md",
     "Home.md",
+    "_/_Inbox/intro to ts 5 - wide and narrow types.md",
     "_/_Inbox/Head First design pattern - chapter 3.md",
     "3- Permanent/Week 28 Plan.md",
-    "Week Plan.md",
     "3- Permanent/On site session ideas.md",
     "1- MOCs/Teaching programming.md",
     "3- Permanent/Teaching activities.md",
@@ -418,7 +443,6 @@
     "_/_Inbox/wer sind Sie - who are you.md",
     "_/_Inbox/Kent C. Dods next transition of the web.md",
     "_/_Inbox/Week Plan.md",
-    "_/_Inbox/Mega Todo list.md",
     "Untitled",
     "/_/_Templates",
     "/_",
