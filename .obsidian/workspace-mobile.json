@@ -8,265 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6011fbe37df3a5ed",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "3- Permanent/Week 27 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Week 27 Plan"
-            }
-          },
-          {
-            "id": "af955b2e83d7e03a",
+            "id": "bf31fec4adc31185",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/Head First design pattern - chapter 2.md",
+                "file": "_/_Inbox/web session 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Head First design pattern - chapter 2"
+              "title": "web session 1"
             }
           },
           {
-            "id": "318737035c03a618",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Work Board.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Work Board"
-            }
-          },
-          {
-            "id": "a536f32654c19e63",
+            "id": "aac039c0b9d0fe54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/Wed 2025-07-02 a productive day alright.md",
+                "file": "_/_Inbox/web session 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wed 2025-07-02 a productive day alright"
+              "title": "web session 1"
             }
           },
           {
-            "id": "4dbdf991876957c1",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "3- Permanent/Week 28 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Week 28 Plan"
-            }
-          },
-          {
-            "id": "ab6f6f9b7c2c5b7e",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "3- Permanent/Week 28 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Week 28 Plan"
-            }
-          },
-          {
-            "id": "5f8ccd56c7dec331",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "3- Permanent/Week 28 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Week 28 Plan"
-            }
-          },
-          {
-            "id": "727e0bb4073987f0",
+            "id": "f1b720a89928b52c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3- Permanent/On site session ideas.md",
+                "file": "_/_Inbox/web session 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "On site session ideas"
+              "title": "web session 1"
             }
           },
           {
-            "id": "e6b1dd5c024c44d2",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "3- Permanent/Week 28 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Week 28 Plan"
-            }
-          },
-          {
-            "id": "3f525a8907fe1a24",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "3- Permanent/Week 28 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Week 28 Plan"
-            }
-          },
-          {
-            "id": "8bb2efec3606eacc",
+            "id": "a10eab2a9ba60c71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/Head First design pattern - chapter 3.md",
+                "file": "_/_Inbox/web session 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Head First design pattern - chapter 3"
-            }
-          },
-          {
-            "id": "f4590939f937129c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/intro to ts 5 - wide and narrow types.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "intro to ts 5 - wide and narrow types"
-            }
-          },
-          {
-            "id": "35dbabe1c89ce46b",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "_/_Inbox/Week 29 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Week 29 Plan"
+              "title": "web session 1"
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -390,7 +188,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_/_Inbox/Head First design pattern - chapter 3.md",
+            "file": "_/_Inbox/web session 1.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -415,10 +213,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "35dbabe1c89ce46b",
+  "active": "a10eab2a9ba60c71",
   "lastOpenFiles": [
-    "Week Plan.md",
     "Home.md",
+    "_/_Inbox/web session 1.md",
+    "_/_Inbox/Week 29 Plan.md",
+    "Week Plan.md",
     "_/_Inbox/intro to ts 5 - wide and narrow types.md",
     "_/_Inbox/Head First design pattern - chapter 3.md",
     "3- Permanent/Week 28 Plan.md",
@@ -441,8 +241,6 @@
     "3- Permanent/Personal pronomen & verb sein - personal pronouns & verb to be.md",
     "3- Permanent/deutsch glossary.md",
     "_/_Inbox/wer sind Sie - who are you.md",
-    "_/_Inbox/Kent C. Dods next transition of the web.md",
-    "_/_Inbox/Week Plan.md",
     "Untitled",
     "/_/_Templates",
     "/_",

@@ -1,0 +1,38 @@
+[[Eraasoft]]
+#teaching/frontend 
+
+- How the web works
+    - internet is a lot of computers on a network 
+    - web is a part of the internet where we share mainly pages connected via links 
+    - pages are made with html
+    - request a url > go do dns > get ip > make request to ip > get html > parse and show html.
+- html page structure 
+    - document 
+    - head 
+    - body
+- Seo
+- html elements
+     - headings✅
+     - p✅
+     - a ✅
+     - img✅
+     - div ✅
+     - span ✅
+     - video ✅
+     - audio✅
+     - form
+        - form
+        - input
+        - checkbox
+        - radio
+        - text area
+        - submit
+    - semantic elements
+    - head elements 
+    - comments
+    - tables ✅
+    - Lists ✅
+    - iframes✅
+    - styling elements✅
+    - entities
+    - svg
