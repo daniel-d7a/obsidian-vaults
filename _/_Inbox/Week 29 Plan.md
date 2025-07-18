@@ -43,20 +43,28 @@ kanban-plugin: board
 
 ## wednesday
 
-- [ ] go to the bank
-- [ ] film chapter 3 hfdp
-- [ ] film a ts video
-- [ ] session wiht seif, prepare and attend
-- [ ] finish tasks for f5 api
-- [ ] meeting with zyad for work
-- [ ] quran
-- [ ] read
+- [ ] ✅go to the bank
+- [ ] ✅session wiht seif, prepare and attend
+- [ ] ✅meeting with zyad for work
+- [ ] ✅quran
+- [ ] ✅read
 - [ ] deutsch
-- [ ] talk to bebo
+- [ ] ✅talk to bebo
 
 
 ## thursday
 
+- [ ] ✅ quran
+- [ ] ✅read
+- [ ] ✅duetsch
+- [ ] finish tasks for f5 api
+- [ ] film chapter 3 hfdp
+- [ ] film a ts video
+- [ ] go with razan to get we pay
+- [ ] ersaa session, prepare and attend
+- [ ] prepare web session
+- [ ] play
+- [ ] inertia project
 
 
 ## friday
