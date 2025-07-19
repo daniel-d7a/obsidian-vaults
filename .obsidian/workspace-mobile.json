@@ -62,9 +62,33 @@
               "icon": "lucide-file",
               "title": "web session 1"
             }
+          },
+          {
+            "id": "2908243d243dc0c9",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "_/_Inbox/Week 30 Plan.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Week 30 Plan"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -213,12 +237,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "a10eab2a9ba60c71",
+  "active": "2908243d243dc0c9",
   "lastOpenFiles": [
+    "Week Plan.md",
+    "_/_Inbox/Week 30 Plan.md",
     "Home.md",
     "_/_Inbox/web session 1.md",
     "_/_Inbox/Week 29 Plan.md",
-    "Week Plan.md",
     "_/_Inbox/intro to ts 5 - wide and narrow types.md",
     "_/_Inbox/Head First design pattern - chapter 3.md",
     "3- Permanent/Week 28 Plan.md",
@@ -240,7 +265,6 @@
     "1- MOCs/Leaning german.md",
     "3- Permanent/Personal pronomen & verb sein - personal pronouns & verb to be.md",
     "3- Permanent/deutsch glossary.md",
-    "_/_Inbox/wer sind Sie - who are you.md",
     "Untitled",
     "/_/_Templates",
     "/_",
