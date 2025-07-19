@@ -44,8 +44,9 @@
 
 - never is the narrowest type in ts
 - can be assigned to anything
-- can't be assigned nothing
+- can't be assigned nothing except never
 - used for conditional types and exhaustive checks
+- can be found in functions that never return (e.g. throw errors)
 - object keys with never type get dropped automatically 
 
 - any is not a type
