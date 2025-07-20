@@ -1,18 +1,18 @@
 ## This week in tasks
 
+- Learn better time management
+- sleep better
+
 **Gaming**
 - finish "hong kong massacre"
-- return to ghost of tsushima
 
 **Filming**
-- chapter 3 Head first design patterns
+- chapter 4 Head first design patterns
 - Vlog blog video 3
 - ts video 7
 
 **Work**
-- (F5) finish api
-- (Power) make infinte scroll work
-- (hash) make introduction video
+- (F5) continue api with new updates
 - (Eraasoft) plan the next session
 
  **Deutsch**
@@ -27,10 +27,7 @@
 - add share to social media buttons
 
  **Misc**
- - start learning three.js
- - finish Nuxt course.
- - start slowly planning a better portfolio & personal website
- - find a marketing agency
+ - continue Nuxt course.
  - go skate
  - finish the frontend web dev road map
 
