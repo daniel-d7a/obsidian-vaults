@@ -24,10 +24,9 @@ kanban-plugin: board
 
 ## Sunday
 
-- [ ] plan hfdp4
 - [ ] deutsch
 - [ ] Continue Nuxt course
-- [ ] read
+- [ ] ✅read
 - [ ] work on F5 api
 - [ ] ✅meeting with hash plus
 - [ ] ✅game
@@ -40,7 +39,18 @@ kanban-plugin: board
 ## Monday
 
 - [ ] Blog vlog 3
+- [ ] plan hfdp4
 - [ ] plan ts-8 video
+- [ ] Read
+- [ ] Quran
+- [ ] Deutsch
+- [ ] Skate
+- [ ] F5 Meeting
+- [ ] 2 hrs on F5 api
+- [ ] Continue Nuxt course
+- [ ] Inertia
+- [ ] Read an article
+- [ ] Solve 2 problems
 
 
 ## Tuesday
