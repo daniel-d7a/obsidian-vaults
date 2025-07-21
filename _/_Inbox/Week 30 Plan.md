@@ -42,15 +42,18 @@ kanban-plugin: board
 - [ ] plan hfdp4
 - [ ] plan ts-8 video
 - [ ] Read
-- [ ] Quran
 - [ ] Deutsch
 - [ ] Skate
-- [ ] F5 Meeting
 - [ ] 2 hrs on F5 api
-- [ ] Continue Nuxt course
-- [ ] Inertia
-- [ ] Read an article
-- [ ] Solve 2 problems
+- [ ] ✅Continue Nuxt course
+- [ ] ✅Read an article
+- [ ] ✅Quran
+- [ ] ✅F5 Meeting
+- [ ] ✅Inertia
+- [ ] ✅Solve 2 problems
+- [ ] ✅ersaa session
+	make a quiz
+	prepare the session
 
 
 ## Tuesday

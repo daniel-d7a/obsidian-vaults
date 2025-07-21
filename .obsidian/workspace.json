@@ -8,83 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3a73ba8edcbded80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mega Todo list.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mega Todo list"
-            }
-          },
-          {
-            "id": "c5b4c016c2395be7",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "_/_Inbox/Week 30 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Week 30 Plan"
-            }
-          },
-          {
-            "id": "455f63f339179e14",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "_/_Inbox/Week 30 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Week 30 Plan"
-            }
-          },
-          {
             "id": "9bb80e1f052fd809",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "_/_Inbox/head first design patterns chapter 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "head first design patterns chapter 4"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,17 +105,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3- Permanent/YouTube & Blogging Resources.md",
+                "file": "_/_Inbox/head first design patterns chapter 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for YouTube & Blogging Resources"
+              "title": "Backlinks for head first design patterns chapter 4"
             }
           },
           {
@@ -262,11 +199,14 @@
   "active": "9bb80e1f052fd809",
   "lastOpenFiles": [
     "_/_Inbox/Week 30 Plan.md",
+    "3- Permanent/Head first design patterns - intro + chapter 1.md",
+    "_/_Inbox/Head First design pattern - chapter 3.md",
+    "_/_Inbox/head first design patterns chapter 4.md",
+    "3- Permanent/Head First design pattern - chapter 2.md",
     "Week Plan.md",
     "Home.md",
     "Mega Todo list.md",
     "_/_Inbox/intro to ts 5 - wide and narrow types.md",
-    "_/_Inbox/Head First design pattern - chapter 3.md",
     "_/_Inbox/Week 29 Plan.md",
     "4- Journal/Wed 2025-07-16 what is work like.md",
     "3- Permanent/react course outline.md",
@@ -284,9 +224,6 @@
     "Work Board.md",
     "3- Permanent/intro to ts 4 - types and interfaces.md",
     "3- Permanent/Week 26 Plan.md",
-    "Habit tracker.md",
-    "_/_Inbox/Power I tech - Junior frontend engineer on boarding document.md",
-    "_/_Inbox/Kent C. Dods next transition of the web.md",
     "Untitled.canvas",
     "3- Permanent/Untitled",
     "git_sync.log",

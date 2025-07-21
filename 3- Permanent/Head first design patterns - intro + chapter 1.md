@@ -1,6 +1,6 @@
 [[Eraasoft]]
-
-#project/hfdp
+#project/hfdp 
+#video_script/hfdp 
 
 - المقدمة و السلام
 - و زي ما وعدناكم رجعنا بكتاب جديد
