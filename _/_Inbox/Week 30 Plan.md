@@ -40,11 +40,15 @@ kanban-plugin: board
 
 - [ ] Blog vlog 3
 - [ ] ✅plan hfdp4
+<<<<<<< HEAD
 - [ ] plan ts-8 video
 - [ ] Read
 - [ ] Deutsch
 - [ ] Skate
 - [ ] 2 hrs on F5 api
+=======
+- [ ] ✅Read
+>>>>>>> eb927120b7e1a2abc085439765dac15e2fd798e6
 - [ ] ✅Continue Nuxt course
 - [ ] ✅Read an article
 - [ ] ✅Quran
@@ -59,6 +63,20 @@ kanban-plugin: board
 ## Tuesday
 
 - [ ] film hfdp 4
+- [ ] Deutsch
+- [ ] Skate
+- [ ] 2 hrs on F5 api
+- [ ] plan ts-8 video
+- [ ] Quran
+- [ ] Read
+- [ ] Game
+- [ ] Power i tech work
+- [ ] Check on FE455
+- [ ] Read an article
+- [ ] Nuxt course
+- [ ] Inertia
+- [ ] Plan problem solving
+- [ ] Solve 2 problems
 
 
 ## Wednesday
