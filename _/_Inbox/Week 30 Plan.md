@@ -39,7 +39,7 @@ kanban-plugin: board
 ## Monday
 
 - [ ] Blog vlog 3
-- [ ] plan hfdp4
+- [ ] ✅plan hfdp4
 - [ ] plan ts-8 video
 - [ ] Read
 - [ ] Deutsch
