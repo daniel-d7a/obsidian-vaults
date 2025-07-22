@@ -30,8 +30,22 @@
               "icon": "lucide-trello",
               "title": "Week 30 Plan"
             }
+          },
+          {
+            "id": "b9cc139e8ad9cd81",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "_/_Inbox/Week 30 Plan.md",
+                "kanbanViewState": {}
+              },
+              "icon": "lucide-trello",
+              "title": "Week 30 Plan"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,13 +194,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "6f804dcfca433389",
+  "active": "b9cc139e8ad9cd81",
   "lastOpenFiles": [
     "Week Plan.md",
     "Home.md",
+    "_/_Inbox/Week 30 Plan.md",
     "_/_Inbox/head first design patterns chapter 4.md",
     "_/_Inbox/Head First design pattern - chapter 3.md",
-    "_/_Inbox/Week 30 Plan.md",
     "_/_Inbox/Hfdp chapter 4.md",
     "3- Permanent/Week 28 Plan.md",
     "_/_Inbox/Week 29 Plan.md",
