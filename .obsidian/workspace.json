@@ -38,7 +38,18 @@
               "type": "kanban",
               "state": {
                 "file": "_/_Inbox/Week 30 Plan.md",
-                "kanbanViewState": {}
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
               "icon": "lucide-trello",
               "title": "Week 30 Plan"
