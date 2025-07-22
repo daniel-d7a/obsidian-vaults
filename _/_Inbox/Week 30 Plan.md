@@ -40,15 +40,11 @@ kanban-plugin: board
 
 - [ ] Blog vlog 3
 - [ ] ✅plan hfdp4
-<<<<<<< HEAD
 - [ ] plan ts-8 video
-- [ ] Read
 - [ ] Deutsch
 - [ ] Skate
 - [ ] 2 hrs on F5 api
-=======
 - [ ] ✅Read
->>>>>>> eb927120b7e1a2abc085439765dac15e2fd798e6
 - [ ] ✅Continue Nuxt course
 - [ ] ✅Read an article
 - [ ] ✅Quran
