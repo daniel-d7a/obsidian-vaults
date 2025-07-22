@@ -38,7 +38,18 @@
               "type": "kanban",
               "state": {
                 "file": "_/_Inbox/Week 30 Plan.md",
-                "kanbanViewState": {}
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
               "icon": "lucide-trello",
               "title": "Week 30 Plan"
@@ -196,6 +207,11 @@
   },
   "active": "b9cc139e8ad9cd81",
   "lastOpenFiles": [
+    "3- Permanent/web session 1.md",
+    "3- Permanent/intro to ts 5 - wide and narrow types.md",
+    "3- Permanent/der beruf - the profession.md",
+    "3- Permanent/Week 29 Plan.md",
+    "3- Permanent/Head First design pattern - chapter 3.md",
     "Week Plan.md",
     "Home.md",
     "_/_Inbox/Week 30 Plan.md",
@@ -217,11 +233,6 @@
     "_/_Inbox/Head First design pattern - chapter 2.md",
     "_/_Inbox/timings.md",
     "3- Permanent/woher kommen sie - where do you come from.md",
-    "3- Permanent/Week 27 Plan.md",
-    "_/_Inbox/Fri 2025-06-27.md",
-    "week plan.md",
-    "Week 26 Plan.md",
-    "1- MOCs/Leaning german.md",
     "Untitled",
     "/_/_Templates",
     "/_",
