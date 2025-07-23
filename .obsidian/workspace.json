@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9bb80e1f052fd809",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "_/_Inbox/Week 30 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Week 30 Plan"
-            }
-          },
-          {
             "id": "8a2b51dd3d2a4c5b",
             "type": "leaf",
             "state": {
@@ -55,8 +31,7 @@
               "title": "Week 30 Plan"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
