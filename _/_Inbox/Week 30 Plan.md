@@ -40,7 +40,6 @@ kanban-plugin: board
 
 - [ ] Blog vlog 3
 - [ ] ✅plan hfdp4
-- [ ] plan ts-8 video
 - [ ] Deutsch
 - [ ] Skate
 - [ ] 2 hrs on F5 api
@@ -60,7 +59,6 @@ kanban-plugin: board
 
 - [ ] Skate
 - [ ] Read
-- [ ] plan ts-8 video
 - [ ] film hfdp 4
 - [ ] ✅Deutsch
 - [ ] ✅Nuxt course
@@ -76,8 +74,20 @@ kanban-plugin: board
 
 ## Wednesday
 
-- [ ] film ts-8 video
 - [ ] Plan problem solving
+- [ ] solve the last few problems again
+- [ ] plan ts-8 video
+- [ ] plan hfdp 4 part 1
+- [ ] read
+- [ ] quran
+- [ ] deutsch
+- [ ] play
+- [ ] session with seif
+- [ ] prepare the exam & ask menna
+- [ ] wok on export on F5 api
+- [ ] inertia
+- [ ] nuxt course
+- [ ] read an article
 
 
 ## Thursday
