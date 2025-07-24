@@ -74,13 +74,10 @@ kanban-plugin: board
 
 ## Wednesday
 
-- [ ] plan ts-8 video
-- [ ] plan hfdp 4 part 1
 - [ ] ✅read
 - [ ] ✅quran
 - [ ] deutsch
 - [ ] ✅prepare the exam & ask menna
-- [ ] work on export on F5 api
 - [ ] ✅read an article
 - [ ] ✅nuxt course
 - [ ] ✅inertia
@@ -92,6 +89,20 @@ kanban-plugin: board
 
 ## Thursday
 
+- [ ] plan ts-8 video
+- [ ] plan hfdp 4 part 1
+- [ ] quran
+- [ ] read
+- [ ] ersaa revision session
+	get a game and make an exam
+- [ ] deutsch
+- [ ] read an article
+- [ ] power i tech work
+- [ ] work on export on F5 api
+- [ ] Nuxt course
+- [ ] prepare for tomorrow
+	clothes
+	material
 
 
 ## Friday

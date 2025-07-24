@@ -11,24 +11,14 @@
             "id": "8a2b51dd3d2a4c5b",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "_/_Inbox/Week 30 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "3- Permanent/_more books to read.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Week 30 Plan"
+              "icon": "lucide-file",
+              "title": "_more books to read"
             }
           },
           {
@@ -222,8 +212,9 @@
   },
   "active": "8a2b51dd3d2a4c5b",
   "lastOpenFiles": [
-    "Home.md",
     "_/_Inbox/Week 30 Plan.md",
+    "_/_Inbox/_Week 30 Plan.md",
+    "Home.md",
     "Week Plan.md",
     "3- Permanent/der beruf - the profession.md",
     "_/_Inbox/head first design patterns chapter 4.md",
@@ -247,7 +238,6 @@
     "3- Permanent/Money making ideas.md",
     "1- MOCs/ideas.md",
     "3- Permanent/ideas for inertia blog.md",
-    "Work Board.md",
     "Untitled.canvas",
     "3- Permanent/Untitled",
     "git_sync.log",
