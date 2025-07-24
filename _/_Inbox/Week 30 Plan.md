@@ -74,20 +74,20 @@ kanban-plugin: board
 
 ## Wednesday
 
-- [ ] Plan problem solving
-- [ ] solve the last few problems again
 - [ ] plan ts-8 video
 - [ ] plan hfdp 4 part 1
-- [ ] read
-- [ ] quran
+- [ ] ✅read
+- [ ] ✅quran
 - [ ] deutsch
-- [ ] play
-- [ ] session with seif
-- [ ] prepare the exam & ask menna
-- [ ] wok on export on F5 api
-- [ ] inertia
-- [ ] nuxt course
-- [ ] read an article
+- [ ] ✅prepare the exam & ask menna
+- [ ] work on export on F5 api
+- [ ] ✅read an article
+- [ ] ✅nuxt course
+- [ ] ✅inertia
+- [ ] ✅Plan problem solving
+- [ ] ✅solve the last few problems again
+- [ ] ✅play
+- [ ] ✅session with seif
 
 
 ## Thursday
