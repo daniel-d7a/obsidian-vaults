@@ -127,3 +127,4 @@ Howl's moving castle (and other stuff by ghibli )
 كتاب "التفاؤل المكتسب Learned Optimism" لعالم النفس مارتن سليجمان.
 "Magic Of Thinking Big" لمؤلفه ديفيد شوارتز .
 كتاب "start more than you can finish"
+كتاب "الفتاة التي أنجبت أمها"،

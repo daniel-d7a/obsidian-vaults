@@ -4,31 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a7dedf13a8659cf2",
+        "id": "2e99d5bd1dc97bb9",
         "type": "tabs",
         "children": [
           {
-            "id": "8a2b51dd3d2a4c5b",
+            "id": "8ad9fdc9389384a8",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "_/_Inbox/Week 30 Plan.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "_/_Inbox/head first design patterns chapter 4.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Week 30 Plan"
+              "icon": "lucide-file",
+              "title": "head first design patterns chapter 4"
             }
           }
         ]
@@ -98,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5,
-    "collapsed": true
+    "width": 370.5
   },
   "right": {
     "id": "375113069dbe75d6",
@@ -115,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_/_Inbox/Week 30 Plan.md",
+                "file": "_/_Inbox/head first design patterns chapter 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +114,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Week 30 Plan"
+              "title": "Backlinks for head first design patterns chapter 4"
             }
           },
           {
@@ -206,17 +195,19 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "8a2b51dd3d2a4c5b",
+  "active": "8ad9fdc9389384a8",
   "lastOpenFiles": [
-    "Week Plan.md",
     "Home.md",
     "_/_Inbox/Week 30 Plan.md",
+    "Week Plan.md",
+    "3- Permanent/_more books to read.md",
+    "3- Permanent/web session 1.md",
+    "_/_Inbox/_Week 30 Plan.md",
     "3- Permanent/der beruf - the profession.md",
     "_/_Inbox/head first design patterns chapter 4.md",
     "3- Permanent/Head First design pattern - chapter 3.md",
     "3- Permanent/intro to ts 5 - wide and narrow types.md",
     "_/_Inbox/Power I tech - Junior frontend engineer on boarding document.md",
-    "3- Permanent/web session 1.md",
     "3- Permanent/Week 29 Plan.md",
     "3- Permanent/Head first design patterns - intro + chapter 1.md",
     "3- Permanent/Head First design pattern - chapter 2.md",
@@ -232,8 +223,6 @@
     "1- MOCs/Power I Tech.md",
     "3- Permanent/Money making ideas.md",
     "1- MOCs/ideas.md",
-    "3- Permanent/ideas for inertia blog.md",
-    "Work Board.md",
     "Untitled.canvas",
     "3- Permanent/Untitled",
     "git_sync.log",
