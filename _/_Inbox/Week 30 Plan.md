@@ -91,14 +91,14 @@ kanban-plugin: board
 
 - [ ] plan ts-8 video
 - [ ] plan hfdp 4 part 1
-- [ ] quran
+- [ ] ✅quran
 - [ ] read
-- [ ] ersaa revision session
+- [ ] ✅ersaa revision session
 	get a game and make an exam
 - [ ] deutsch
 - [ ] read an article
-- [ ] power i tech work
-- [ ] work on export on F5 api
+- [ ] ✅power i tech work
+- [ ] ✅work on export on F5 api
 - [ ] Nuxt course
 - [ ] prepare for tomorrow
 	clothes
