@@ -1,0 +1,21 @@
+- box shadow ✅
+- text shadow ✅
+- drop shadow ✅
+- clamp✅
+
+- box sizing ✅
+- calc✅
+- important 
+- cursor ✅
+- child flex ✅
+- position ✅
+- z index✅
+- opacity ✅
+- visibility ✅
+- filters ✅
+- grid
+- media query 
+- object fit
+- object position 
+- overflow 
+- text overflow 
