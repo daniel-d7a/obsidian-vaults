@@ -1,0 +1,18 @@
+## Bootstrap 
+- what is it
+- why use it 
+- how to start with it
+    - cdn
+    - download 
+    - using a package manager
+- grid system 
+    - container 
+    - row 
+    - column
+    - gutter
+    - order
+    - Offset
+ - components 
+ - utilities 
+ - problems with bootstrap 
+ - customize 
