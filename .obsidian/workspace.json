@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "_/_Inbox/26-08-2025 I need some adjustments.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "26-08-2025 I need some adjustments"
             }
           }
         ],
@@ -103,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 366.5
   },
   "right": {
     "id": "375113069dbe75d6",
@@ -212,8 +212,8 @@
   },
   "active": "394d1a434e240cd7",
   "lastOpenFiles": [
-    "_/_Inbox/head first design patterns chapter 4.md",
     "Home.md",
+    "_/_Inbox/head first design patterns chapter 4.md",
     "_/_Inbox/Week 30 Plan.md",
     "Week Plan.md",
     "3- Permanent/_more books to read.md",
