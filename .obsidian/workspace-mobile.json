@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "63c60aa76dfbd962",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_/_Inbox/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fri 2025-08-29 I need some organization and a fixed sleeping schedule"
+            }
+          },
+          {
             "id": "35e7de0a30fbc6c1",
             "type": "leaf",
             "state": {
@@ -174,7 +188,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_/_Inbox/Thu 2025-07-31 the week kinda slipped by.md",
+            "file": "_/_Inbox/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -200,9 +214,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "35e7de0a30fbc6c1",
+  "active": "63c60aa76dfbd962",
   "lastOpenFiles": [
     "Home.md",
+    "_/_Inbox/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
     "_/_Inbox/26-08-2025.md",
     "_/_Inbox/Web session 5-ish.md",
     "_/_Inbox/Sat 2025-08-09 another week with not much action and some reality checks.md",
@@ -227,7 +242,6 @@
     "1- MOCs/Teaching programming.md",
     "3- Permanent/Teaching activities.md",
     "1- MOCs/ersaa.md",
-    "_/_Inbox/Ersaa scratch course plan.md",
     "Untitled",
     "/_/_Templates",
     "/_",
