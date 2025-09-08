@@ -1,3 +1,5 @@
+[[Journal]]
+
 Basically the title, I need a plan for everyday so that I don't drift off to social media, and I also need to sleep and wake up at similar times everyday so that I can create a routine and get fixed work and free periods of time.
 
 I need to set somethings to be done daily and weekly like:
@@ -23,4 +25,6 @@ I don't know how I am going to do all that with more work coming my way, but eve
 And I want to answer an important question, what comes after all this work?
 I feel I am overworked, not enough free time, so many things lining back to back and killing any opportunity to go out and see my friends, I was in for the money, and money is what I got, but in return for what? I am seeing a future of me overworking myself and I only justify it by sinking into consumerism and buying shit wether I need it or not, just because I have the money.
 
-I don't even know what I need all that money for, not that I don't need money, everyone does, but I am not in 
+I don't even know what I need all that money for, not that I don't need money, everyone does, but I am not in a crises situation to need all that money, of course I can save it, but I can also save just from my normal work.
+
+also all that work is making me feel always on edge, because if anything happened I won't usually have time to fix it as I am always juggling too many things.

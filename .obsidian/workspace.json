@@ -27,16 +27,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/26-08-2025 I need some adjustments.md",
+                "file": "_/_Inbox/Tue 26-08-2025 I need some adjustments.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "26-08-2025 I need some adjustments"
+              "title": "Tue 26-08-2025 I need some adjustments"
+            }
+          },
+          {
+            "id": "08fe89177064fbb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_/_Inbox/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fri 2025-08-29 I need some organization and a fixed sleeping schedule"
+            }
+          },
+          {
+            "id": "9474e6f0b50c3fb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_/_Inbox/Seif problem solving sessions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Seif problem solving sessions"
+            }
+          },
+          {
+            "id": "544895d35f048470",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Week Plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week Plan"
+            }
+          },
+          {
+            "id": "2183757af37f87dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "5507baf05487ed02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_/_Inbox/al-malek store checklist.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "al-malek store checklist"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -199,6 +269,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -210,12 +281,16 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "394d1a434e240cd7",
+  "active": "5507baf05487ed02",
   "lastOpenFiles": [
     "Home.md",
+    "_/_Inbox/al-malek store checklist.md",
+    "Week Plan.md",
+    "_/_Inbox/Seif problem solving sessions.md",
+    "_/_Inbox/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
+    "_/_Inbox/Tue 26-08-2025 I need some adjustments.md",
     "_/_Inbox/head first design patterns chapter 4.md",
     "_/_Inbox/Week 30 Plan.md",
-    "Week Plan.md",
     "3- Permanent/_more books to read.md",
     "3- Permanent/web session 1.md",
     "_/_Inbox/_Week 30 Plan.md",
@@ -234,10 +309,6 @@
     "3- Permanent/deutsch glossary.md",
     "3- Permanent/Week 27 Plan.md",
     "_/_Inbox/test.md",
-    "3- Permanent/Power I tech erp.md",
-    "1- MOCs/Power I Tech.md",
-    "3- Permanent/Money making ideas.md",
-    "1- MOCs/ideas.md",
     "Untitled.canvas",
     "3- Permanent/Untitled",
     "git_sync.log",
