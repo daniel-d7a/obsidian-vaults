@@ -4,109 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2e99d5bd1dc97bb9",
+        "id": "c73426de5565d0b7",
         "type": "tabs",
         "children": [
           {
-            "id": "8ad9fdc9389384a8",
+            "id": "94c98ee8173186ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/head first design patterns chapter 4.md",
+                "file": "_/_Inbox/Sat 2025-09-13 resetting the week and my life.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "head first design patterns chapter 4"
-            }
-          },
-          {
-            "id": "394d1a434e240cd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/Tue 26-08-2025 I need some adjustments.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tue 26-08-2025 I need some adjustments"
-            }
-          },
-          {
-            "id": "08fe89177064fbb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fri 2025-08-29 I need some organization and a fixed sleeping schedule"
-            }
-          },
-          {
-            "id": "9474e6f0b50c3fb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/Seif problem solving sessions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Seif problem solving sessions"
-            }
-          },
-          {
-            "id": "544895d35f048470",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Week Plan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Week Plan"
-            }
-          },
-          {
-            "id": "2183757af37f87dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "5507baf05487ed02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/al-malek store checklist.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "al-malek store checklist"
+              "title": "Sat 2025-09-13 resetting the week and my life"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -281,10 +196,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "5507baf05487ed02",
+  "active": "94c98ee8173186ff",
   "lastOpenFiles": [
     "Home.md",
     "_/_Inbox/al-malek store checklist.md",
+    "_/_Inbox/Sat 2025-09-13 resetting the week and my life.md",
     "Week Plan.md",
     "_/_Inbox/Seif problem solving sessions.md",
     "_/_Inbox/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
@@ -308,7 +224,6 @@
     "1- MOCs/Notes.md",
     "3- Permanent/deutsch glossary.md",
     "3- Permanent/Week 27 Plan.md",
-    "_/_Inbox/test.md",
     "Untitled.canvas",
     "3- Permanent/Untitled",
     "git_sync.log",
