@@ -1,0 +1,1 @@
+I am now setting through delivering the freelance project called tajer, on this project I worked as a 
