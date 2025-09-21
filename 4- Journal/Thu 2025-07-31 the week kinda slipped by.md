@@ -1,3 +1,5 @@
+[[Journal]]
+
 Sooooooooooooo, 
 
 I didn't do much this week, one reason for this was that I mostly woke up in a hurry for something, or overslept, so I didn't put my day plan, so I didn't do much.

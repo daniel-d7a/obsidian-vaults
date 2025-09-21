@@ -1,3 +1,5 @@
+[[Journal]]
+
 This week wasn't very different from the last one, I didn't do much more than was expected from me, work, online sessions, meetings, ...etc.
 
 Didn't do much for myself, my courses had to extend their break, gamed a little, no reading, no Quran, only went to the gym for the last 2 days, wanted to record a video but didn't, and I had no plan and didn't know what to do most of the time.

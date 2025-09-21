@@ -1,3 +1,5 @@
+[[Journal]]
+
 I am now setting through delivering the freelance project called tajer, on this project I worked as a backend dev with node.js and hono, working with drizzle and zod, and deploying on cloudflare. I worked with a random frontend that found me online, he was the one who came with the project and needed a backend dev with him.
 
 I am writing this because I have a few thoughts about this, since I was working on this for the last month delivering it is a milestone for my life and habits. And today being Saturday is a checkpoint for the week where I take a moment to reorganize and reset for the new week, maybe even game a little bit.
