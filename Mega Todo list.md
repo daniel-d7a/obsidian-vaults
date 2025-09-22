@@ -1,34 +1,24 @@
-## This week in tasks
+## Today in tasks
 
-- Learn better time management
-- sleep better
+### work
+- finish prints
+- add whatsapp integration
+- check collapsible table
+- make a python quiz. 
+- ask about absent students.
 
-**Gaming**
-- finish "hong kong massacre"
+### extra work
+- ersaa session @8:00
+- upload merch images and prices
+- prepare a new chapter form head first design patterns 
+- return to the inertia blog (+ vlog)
 
-**Filming**
-- chapter 4 Head first design patterns
-- Vlog blog video 3
-- ts video 7
-
-**Work**
-- (F5) continue api with new updates
-- (Eraasoft) plan the next session
-
- **Deutsch**
-- practice by reading and writing
-- memorize more phrases
-
- **Reading**
-- head first design patterns state pattern
-
- **Inertia blog**
-- add banner images to posts
-- add share to social media buttons
-
- **Misc**
- - continue Nuxt course.
- - go skate
- - finish the frontend web dev road map
+### chores
+- clean kitchen
+- clean keyboard
+- go to the gym (3 days in a row 🎉)
+- prepare lunch
+- make a list
+- prepare an outing
 
 ---

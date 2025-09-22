@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "94c98ee8173186ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/Sat 2025-09-13 resetting the week and my life.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sat 2025-09-13 resetting the week and my life"
-            }
-          },
-          {
             "id": "df7687e422c92f4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Mega Todo list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Mega Todo list"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,8 +198,11 @@
   },
   "active": "df7687e422c92f4e",
   "lastOpenFiles": [
-    "_/_Inbox/Sat 2025-09-13 resetting the week and my life.md",
+    "Mega Todo list.md",
+    "_/_Inbox/project based web crash course.md",
+    "_/_Inbox/Top pitfalls for app and web devs.md",
     "Home.md",
+    "_/_Inbox/Sat 2025-09-13 resetting the week and my life.md",
     "_/_Inbox/al-malek store checklist.md",
     "Week Plan.md",
     "_/_Inbox/Seif problem solving sessions.md",
@@ -232,13 +220,10 @@
     "3- Permanent/Week 29 Plan.md",
     "3- Permanent/Head first design patterns - intro + chapter 1.md",
     "3- Permanent/Head First design pattern - chapter 2.md",
-    "Mega Todo list.md",
     "4- Journal/Wed 2025-07-16 what is work like.md",
     "3- Permanent/react course outline.md",
     "3- Permanent/Week 28 Plan.md",
     "1- MOCs/Notes.md",
-    "3- Permanent/deutsch glossary.md",
-    "3- Permanent/Week 27 Plan.md",
     "Untitled.canvas",
     "3- Permanent/Untitled",
     "git_sync.log",
