@@ -1,5 +1,5 @@
 - [[Habit tracker]]
-- [[Mega Todo list]]
+- [[Mega Note]]
 - [[Work Board]]
 - [[week plan]]
 

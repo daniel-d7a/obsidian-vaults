@@ -1,9 +1,0 @@
-- return to inertial blog + vlog
-- return to head first design patterns
-- return to youtube channel
-- read more
-- get a new game
-- clean kitchen
-- clean gate entrance
-- move stuff upstairs
-- clean keyboard

@@ -1,0 +1,16 @@
+- just any thing other than the phone
+- just find one thing to sink into every day
+	- read quran
+	- learning Duetsch
+	- writing videos
+		- make a video recipe that produces a video quickly
+		- continue typescript
+		- make videos about tech blogs you read
+	- reading tech blogs
+	- reading a tech book
+	- reading a normal book
+	- gaming
+- instead of YouTube pick a show
+- limit twitter
+- deactivate Facebook
+- less YouTube
