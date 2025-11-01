@@ -4,95 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "738cce0ab30cdb44",
+        "id": "7bba5450bf2fa639",
         "type": "tabs",
         "children": [
           {
-            "id": "a085e204a9309975",
+            "id": "4825a64a65899db2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4- Journal/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fri 2025-08-29 I need some organization and a fixed sleeping schedule"
+              "title": "Home"
             }
           },
           {
-            "id": "31426545470db5c4",
+            "id": "58bd3c29a435c697",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/Fri 2025-09-19 Finally some room to breath.md",
+                "file": "_/_Inbox/Wed 2025-10-15 same panic different disco.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fri 2025-09-19 Finally some room to breath"
+              "title": "Wed 2025-10-15 same panic different disco"
             }
           },
           {
-            "id": "c35c657e62fb6eef",
+            "id": "cb4ed926db60d1b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4- Journal/Sat 2025-09-13 resetting the week and my life.md",
+                "file": "_/_Inbox/Thu 2025-10-30 communication was in fact the key all along..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sat 2025-09-13 resetting the week and my life"
-            }
-          },
-          {
-            "id": "63c60aa76dfbd962",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fri 2025-08-29 I need some organization and a fixed sleeping schedule"
-            }
-          },
-          {
-            "id": "35e7de0a30fbc6c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/26-08-2025.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "26-08-2025"
-            }
-          },
-          {
-            "id": "77631d2ecb7801e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/Web session 5-ish.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Web session 5-ish"
+              "title": "Thu 2025-10-30 communication was in fact the key all along."
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,7 +173,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_/_Inbox/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
+            "file": "_/_Inbox/Intro to programming - what's next.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -242,16 +199,22 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "31426545470db5c4",
+  "active": "4825a64a65899db2",
   "lastOpenFiles": [
-    "1- MOCs/Journal.md",
-    "_/_Inbox/Fri 2025-09-19 Finally some room to breath.md",
+    "3- Permanent/Games for later.md",
+    "Home.md",
+    "_/_Inbox/Thu 2025-10-30 communication was in fact the key all along..md",
+    "_/_Inbox/Wed 2025-10-15 same panic different disco.md",
     "4- Journal/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
+    "_/_Inbox/Intro to programming - what's next.md",
+    "Habit tracker.md",
+    "Untitled",
+    "_/_Inbox/Fri 2025-09-19 Finally some room to breath.md",
+    "1- MOCs/Journal.md",
     "4- Journal/Sat 2025-08-09 another week with not much action and some reality checks.md",
     "4- Journal/Sat 2025-09-13 resetting the week and my life.md",
     "4- Journal/Thu 2025-07-31 the week kinda slipped by.md",
     "4- Journal/Tue 2025-08-26 I need some adjustments.md",
-    "Home.md",
     "_/_Inbox/26-08-2025.md",
     "_/_Inbox/Web session 5-ish.md",
     "_/_Inbox/Web session 3.md",
@@ -265,12 +228,6 @@
     "3- Permanent/Head First design pattern - chapter 3.md",
     "_/_Inbox/head first design patterns chapter 4.md",
     "_/_Inbox/Head First design pattern - chapter 3.md",
-    "_/_Inbox/Hfdp chapter 4.md",
-    "3- Permanent/Week 28 Plan.md",
-    "_/_Inbox/Week 29 Plan.md",
-    "_/_Inbox/web session 1.md",
-    "_/_Inbox/intro to ts 5 - wide and narrow types.md",
-    "Untitled",
     "/_/_Templates",
     "/_",
     "/5- Projects/Articles",
