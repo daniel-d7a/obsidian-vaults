@@ -3,7 +3,7 @@
 - return to youtube channel
 - read more
 - get a new game
-- clean kitechen
+- clean kitchen
 - clean gate entrance
 - move stuff upstairs
-- clean key
+- clean keyboard
