@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Mega Note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mega Note"
+            }
+          },
+          {
+            "id": "cebb6ddd6d1a971d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Home.md",
                 "mode": "source",
                 "source": false
@@ -49,7 +63,8 @@
               "title": "Thu 2025-10-30 communication was in fact the key all along."
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,10 +214,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4825a64a65899db2",
+  "active": "cebb6ddd6d1a971d",
   "lastOpenFiles": [
-    "3- Permanent/Games for later.md",
+    "Mega Note.md",
     "Home.md",
+    "3- Permanent/Games for later.md",
     "_/_Inbox/Thu 2025-10-30 communication was in fact the key all along..md",
     "_/_Inbox/Wed 2025-10-15 same panic different disco.md",
     "4- Journal/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
@@ -227,7 +243,6 @@
     "3- Permanent/Week 29 Plan.md",
     "3- Permanent/Head First design pattern - chapter 3.md",
     "_/_Inbox/head first design patterns chapter 4.md",
-    "_/_Inbox/Head First design pattern - chapter 3.md",
     "/_/_Templates",
     "/_",
     "/5- Projects/Articles",
