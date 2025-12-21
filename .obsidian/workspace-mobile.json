@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "1- MOCs/Teaching programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Teaching programming"
             }
           },
           {
@@ -61,6 +61,20 @@
               },
               "icon": "lucide-file",
               "title": "Thu 2025-10-30 communication was in fact the key all along."
+            }
+          },
+          {
+            "id": "c63688296f6f652b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4- Journal/Sun 2025-11-23 instead of complaining, let's start a challenge.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sun 2025-11-23 instead of complaining, let's start a challenge"
             }
           }
         ],
@@ -216,8 +230,14 @@
   },
   "active": "cebb6ddd6d1a971d",
   "lastOpenFiles": [
-    "Mega Note.md",
+    "3- Permanent/Teaching activities.md",
+    "1- MOCs/Teaching programming.md",
+    "3- Permanent/On site session ideas.md",
+    "1- MOCs/Eraasoft.md",
+    "3- Permanent/Pre programming video list.md",
     "Home.md",
+    "4- Journal/Sun 2025-11-23 instead of complaining, let's start a challenge.md",
+    "Mega Note.md",
     "3- Permanent/Games for later.md",
     "_/_Inbox/Thu 2025-10-30 communication was in fact the key all along..md",
     "_/_Inbox/Wed 2025-10-15 same panic different disco.md",
@@ -237,12 +257,6 @@
     "_/_Inbox/Week 30 Plan.md",
     "_/_Inbox/_Week 30 Plan.md",
     "Week Plan.md",
-    "3- Permanent/web session 1.md",
-    "3- Permanent/intro to ts 5 - wide and narrow types.md",
-    "3- Permanent/der beruf - the profession.md",
-    "3- Permanent/Week 29 Plan.md",
-    "3- Permanent/Head First design pattern - chapter 3.md",
-    "_/_Inbox/head first design patterns chapter 4.md",
     "/_/_Templates",
     "/_",
     "/5- Projects/Articles",
