@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7bba5450bf2fa639",
+        "id": "cbe4416143991c26",
         "type": "tabs",
         "children": [
           {
-            "id": "4825a64a65899db2",
+            "id": "4b6ad7344acab458",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,65 +20,8 @@
               "icon": "lucide-file",
               "title": "Mega Note"
             }
-          },
-          {
-            "id": "cebb6ddd6d1a971d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1- MOCs/Teaching programming.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Teaching programming"
-            }
-          },
-          {
-            "id": "58bd3c29a435c697",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/Wed 2025-10-15 same panic different disco.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Wed 2025-10-15 same panic different disco"
-            }
-          },
-          {
-            "id": "cb4ed926db60d1b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/_Inbox/Thu 2025-10-30 communication was in fact the key all along..md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Thu 2025-10-30 communication was in fact the key all along."
-            }
-          },
-          {
-            "id": "c63688296f6f652b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4- Journal/Sun 2025-11-23 instead of complaining, let's start a challenge.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sun 2025-11-23 instead of complaining, let's start a challenge"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +49,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Teach",
+            "query": "",
             "matchingCase": false,
             "explainSearch": true,
             "collapseAll": true,
@@ -169,13 +112,13 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Home.md",
+            "file": "Mega Note.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
             "showSearch": false,
             "searchQuery": "",
-            "backlinkCollapsed": true,
+            "backlinkCollapsed": false,
             "unlinkedCollapsed": true
           },
           "icon": "links-coming-in",
@@ -188,9 +131,9 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Home.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
+            "file": "Mega Note.md",
+            "linksCollapsed": true,
+            "unlinkedCollapsed": false
           },
           "icon": "links-going-out",
           "title": "Outgoing links"
@@ -202,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_/_Inbox/Intro to programming - what's next.md",
+            "file": "Mega Note.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -212,7 +155,7 @@
         }
       }
     ],
-    "currentTab": 2
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,35 +171,35 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "cebb6ddd6d1a971d",
+  "active": "4b6ad7344acab458",
   "lastOpenFiles": [
-    "3- Permanent/Teaching activities.md",
-    "1- MOCs/Teaching programming.md",
-    "3- Permanent/On site session ideas.md",
-    "1- MOCs/Eraasoft.md",
-    "3- Permanent/Pre programming video list.md",
     "Home.md",
-    "4- Journal/Sun 2025-11-23 instead of complaining, let's start a challenge.md",
     "Mega Note.md",
-    "3- Permanent/Games for later.md",
-    "_/_Inbox/Thu 2025-10-30 communication was in fact the key all along..md",
-    "_/_Inbox/Wed 2025-10-15 same panic different disco.md",
-    "4- Journal/Fri 2025-08-29 I need some organization and a fixed sleeping schedule.md",
-    "_/_Inbox/Intro to programming - what's next.md",
-    "Habit tracker.md",
-    "Untitled",
-    "_/_Inbox/Fri 2025-09-19 Finally some room to breath.md",
-    "1- MOCs/Journal.md",
-    "4- Journal/Sat 2025-08-09 another week with not much action and some reality checks.md",
-    "4- Journal/Sat 2025-09-13 resetting the week and my life.md",
-    "4- Journal/Thu 2025-07-31 the week kinda slipped by.md",
-    "4- Journal/Tue 2025-08-26 I need some adjustments.md",
-    "_/_Inbox/26-08-2025.md",
-    "_/_Inbox/Web session 5-ish.md",
-    "_/_Inbox/Web session 3.md",
-    "_/_Inbox/Week 30 Plan.md",
+    "1- MOCs/Teaching programming.md",
+    "3- Permanent/Habit tracker.md",
+    "4- Journal/2025-06-04 fighting with docker.md",
+    "3- Permanent/Week Plan.md",
+    "Work Board.md",
+    "3- Permanent/Power I tech - Junior frontend engineer on boarding document.md",
+    "1- MOCs/YouTube.md",
+    "3- Permanent/intro to ts 4 - types and interfaces.md",
+    "3- Permanent/intro to ts 5 - wide and narrow types.md",
+    "2- Fleeting/Top pitfalls for app and web devs.md",
+    "2- Fleeting/Employment references.md",
+    "_/_Inbox/Kent C. Dods next transition of the web.md",
     "_/_Inbox/_Week 30 Plan.md",
-    "Week Plan.md",
+    "_/_Inbox/project based web crash course.md",
+    "3- Permanent/Intro to programming - what's next.md",
+    "_/_Inbox/head first design patterns chapter 4.md",
+    "1- MOCs/Eraasoft.md",
+    "3- Permanent/hfooad chapter 5 part 1 script.md",
+    "3- Permanent/hfooad ch5 book notes.md",
+    "1- MOCs/Books.md",
+    "_/_Inbox/al-malek store checklist.md",
+    "3- Permanent/On site session ideas.md",
+    "3- Permanent/hfooad intro script.md",
+    "1- MOCs/ersaa.md",
+    "Untitled",
     "/_/_Templates",
     "/_",
     "/5- Projects/Articles",

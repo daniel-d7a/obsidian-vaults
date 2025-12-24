@@ -1,8 +1,4 @@
-- [[Habit tracker]]
 - [[Mega Note]]
-- [[Work Board]]
-- [[week plan]]
-
 ## What topics do I have?
 
 ```dataview
@@ -19,7 +15,7 @@ SORT length(file.inlinks) DESC
 
 ### Incomplete: `$=dv.pages('"_/_Inbox"').length`
 
-### Unorganized: `$=dv.pages('"2Fleeting"').length`
+### Unorganized: `$=dv.pages('"2- Fleeting"').length`
 
 ---
 

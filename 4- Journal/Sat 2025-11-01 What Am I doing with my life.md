@@ -1,3 +1,5 @@
+[[Journal]]
+
 every day I fall into the same loop where I just hop from one app into the other throwing my days away without doing anything of use.
 
 I wrote a bunch of stuff to do better than being on the phone, deactivated my facebook account, and added a timer on twitter.
