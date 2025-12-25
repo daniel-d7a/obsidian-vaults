@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Mega Note"
             }
+          },
+          {
+            "id": "c13736c56167c1c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,10 +186,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4b6ad7344acab458",
+  "active": "c13736c56167c1c0",
   "lastOpenFiles": [
-    "Home.md",
     "Mega Note.md",
+    "Home.md",
     "1- MOCs/Teaching programming.md",
     "3- Permanent/Habit tracker.md",
     "4- Journal/2025-06-04 fighting with docker.md",
