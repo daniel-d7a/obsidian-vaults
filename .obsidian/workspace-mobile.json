@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Mega Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Mega Note"
+            }
+          },
+          {
+            "id": "06e231f9ebaada72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mega Note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mega Note"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,10 +200,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c13736c56167c1c0",
+  "active": "06e231f9ebaada72",
   "lastOpenFiles": [
-    "Mega Note.md",
     "Home.md",
+    "Mega Note.md",
     "1- MOCs/Teaching programming.md",
     "3- Permanent/Habit tracker.md",
     "4- Journal/2025-06-04 fighting with docker.md",
