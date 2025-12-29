@@ -11,8 +11,5 @@ Check the graph view for insights on notes and connections
 
 Add more ideas with more connection
 
-<<<<<<< Updated upstream
 Tesssssssst
-=======
 Testing git
->>>>>>> Stashed changes
