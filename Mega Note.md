@@ -13,3 +13,4 @@ Add more ideas with more connection
 
 Test from github
 Test from phone 2
+Test tablet
