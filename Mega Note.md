@@ -11,6 +11,4 @@ Check the graph view for insights on notes and connections
 
 Add more ideas with more connection
 
-Tesssssssst
-Testing git
-Final test
+Test from github
