@@ -12,3 +12,4 @@ Check the graph view for insights on notes and connections
 Add more ideas with more connection
 
 Test from github
+Test from phone

@@ -128,3 +128,6 @@ Howl's moving castle (and other stuff by ghibli )
 "Magic Of Thinking Big" لمؤلفه ديفيد شوارتز .
 كتاب "start more than you can finish"
 كتاب "الفتاة التي أنجبت أمها"،
+The Female Brain or The Male Brain by Louann Brizendine
+The Creative Act by Rick Rubin
+Attached by Amir Levine.

@@ -1,46 +1,14 @@
 {
   "main": {
-    "id": "4651eb30fb448bb4",
+    "id": "24c1bf0b28213f3c",
     "type": "split",
     "children": [
       {
-        "id": "cbe4416143991c26",
+        "id": "de9a99d5d4b8dee5",
         "type": "tabs",
         "children": [
           {
-            "id": "4b6ad7344acab458",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mega Note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mega Note"
-            }
-          },
-          {
-            "id": "c13736c56167c1c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mega Note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mega Note"
-            }
-          },
-          {
-<<<<<<< Updated upstream
-            "id": "06e231f9ebaada72",
-=======
-            "id": "8d2f88b113da3bb5",
->>>>>>> Stashed changes
+            "id": "b09c122091f0d1d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,22 +21,17 @@
               "title": "Mega Note"
             }
           }
-<<<<<<< Updated upstream
-        ],
-        "currentTab": 2
-=======
         ]
->>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "bae6b5eb3f710f29",
+    "id": "9a6612b899d5b229",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "ce2533ead8996710",
+        "id": "f81b2f1c7da4692d",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -81,15 +44,15 @@
         }
       },
       {
-        "id": "5ec12e8c0ba599ae",
+        "id": "c78dc40db01729c9",
         "type": "leaf",
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "tag:#later/books",
             "matchingCase": false,
-            "explainSearch": true,
-            "collapseAll": true,
+            "explainSearch": false,
+            "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
           },
@@ -98,7 +61,7 @@
         }
       },
       {
-        "id": "91965e66c7d0e10b",
+        "id": "5398c481cfc0cd37",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -113,17 +76,7 @@
         }
       },
       {
-        "id": "6434d66166877c53",
-        "type": "leaf",
-        "state": {
-          "type": "bookmarks",
-          "state": {},
-          "icon": "lucide-bookmark",
-          "title": "Bookmarks"
-        }
-      },
-      {
-        "id": "b9b202c65b1956c2",
+        "id": "1b9e894ce8f244fd",
         "type": "leaf",
         "state": {
           "type": "all-properties",
@@ -135,21 +88,31 @@
           "icon": "lucide-archive",
           "title": "All properties"
         }
+      },
+      {
+        "id": "5e622b4edab20c56",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
       }
     ],
     "currentTab": 0
   },
   "right": {
-    "id": "565e2f752963c777",
+    "id": "bf047c071989872c",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "08fb41550c12ac97",
+        "id": "8c38e3fa27d03860",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Mega Note.md",
+            "file": "Home.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -163,26 +126,26 @@
         }
       },
       {
-        "id": "3084d16ae2cfed68",
+        "id": "e51f21342d96e044",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Mega Note.md",
-            "linksCollapsed": true,
-            "unlinkedCollapsed": false
+            "file": "Home.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
           },
           "icon": "links-going-out",
           "title": "Outgoing links"
         }
       },
       {
-        "id": "a407a17a05717085",
+        "id": "7c4eb693fa32a99b",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "Mega Note.md",
+            "file": "Home.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -196,59 +159,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian42-brat:BRAT": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "homepage:Open homepage": false
+      "bases:Create new base": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "06e231f9ebaada72",
-=======
-  "active": "4b6ad7344acab458",
->>>>>>> Stashed changes
+  "active": "b09c122091f0d1d6",
   "lastOpenFiles": [
-    "Home.md",
-    "Mega Note.md",
-    "1- MOCs/Teaching programming.md",
-    "3- Permanent/Habit tracker.md",
-    "4- Journal/2025-06-04 fighting with docker.md",
-    "3- Permanent/Week Plan.md",
-    "Work Board.md",
-    "3- Permanent/Power I tech - Junior frontend engineer on boarding document.md",
-    "1- MOCs/YouTube.md",
-    "3- Permanent/intro to ts 4 - types and interfaces.md",
-    "3- Permanent/intro to ts 5 - wide and narrow types.md",
-    "2- Fleeting/Top pitfalls for app and web devs.md",
-    "2- Fleeting/Employment references.md",
-    "_/_Inbox/Kent C. Dods next transition of the web.md",
-    "_/_Inbox/_Week 30 Plan.md",
-    "_/_Inbox/project based web crash course.md",
-    "3- Permanent/Intro to programming - what's next.md",
-    "_/_Inbox/head first design patterns chapter 4.md",
-    "1- MOCs/Eraasoft.md",
-    "3- Permanent/hfooad chapter 5 part 1 script.md",
-    "3- Permanent/hfooad ch5 book notes.md",
-    "1- MOCs/Books.md",
-    "_/_Inbox/al-malek store checklist.md",
-    "3- Permanent/On site session ideas.md",
-    "3- Permanent/hfooad intro script.md",
-    "1- MOCs/ersaa.md",
-    "Untitled",
-    "/_/_Templates",
-    "/_",
-    "/5- Projects/Articles",
-    "5- Projects/eraasoft/hfooad book video scripts",
-    "/5- Projects/eraasoft/hfooad book video scripts",
-    "/5- Projects/eraasoft",
-    "5- Projects/eraasoft",
-    "/5- Projects",
-    "/git vault/my articles"
+    "3- Permanent/_more books to read.md",
+    "3- Permanent/book to read about bussiness.md",
+    "Home.md"
   ]
 }
