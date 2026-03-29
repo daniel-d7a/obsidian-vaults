@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/_Inbox/Sat 2025-11-01 What Am I doing with my life.md",
+                "file": "1- MOCs/Journal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sat 2025-11-01 What Am I doing with my life"
+              "title": "Journal"
+            }
+          },
+          {
+            "id": "5fea445c333f2a63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4- Journal/✅Mon 2025-09-22.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "✅Mon 2025-09-22"
+            }
+          },
+          {
+            "id": "ee1f11653528872c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_/_Inbox/Sun 2026-03-29.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sun 2026-03-29"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,16 +225,19 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "874f10f37b5dd4d7",
+  "active": "ee1f11653528872c",
   "lastOpenFiles": [
-    "Mega Note.md",
-    "_/_Inbox/Sat 2025-11-01 What Am I doing with my life.md",
+    "1- MOCs/Journal.md",
+    "_/_Inbox/Sun 2026-03-29.md",
     "Home.md",
+    "Mega Note.md",
+    "4- Journal/✅Mon 2025-09-22.md",
+    "_/_Inbox/Untitled.md",
+    "_/_Inbox/Sat 2025-11-01 What Am I doing with my life.md",
     "Week Plan.md",
     "Work Board.md",
     "4- Journal/Thu 2025-10-30 communication was in fact the key all along..md",
     "4- Journal/Wed 2025-10-15 same panic different disco.md",
-    "4- Journal/✅Mon 2025-09-22.md",
     "_/_Inbox/project based web crash course.md",
     "_/_Inbox/Top pitfalls for app and web devs.md",
     "_/_Inbox/Sat 2025-09-13 resetting the week and my life.md",
@@ -221,9 +253,6 @@
     "3- Permanent/der beruf - the profession.md",
     "3- Permanent/Head First design pattern - chapter 3.md",
     "3- Permanent/intro to ts 5 - wide and narrow types.md",
-    "_/_Inbox/Power I tech - Junior frontend engineer on boarding document.md",
-    "3- Permanent/Week 29 Plan.md",
-    "3- Permanent/Head first design patterns - intro + chapter 1.md",
     "Untitled.canvas",
     "3- Permanent/Untitled",
     "git_sync.log",
