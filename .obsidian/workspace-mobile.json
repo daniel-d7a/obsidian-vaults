@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mega Note.md",
+                "file": "_/_Inbox/2026-03-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mega Note"
+              "title": "2026-03-09"
             }
           }
         ]
@@ -170,6 +170,8 @@
   },
   "active": "b09c122091f0d1d6",
   "lastOpenFiles": [
+    "Mega Note.md",
+    "_/_Inbox/2026-03-09.md",
     "3- Permanent/_more books to read.md",
     "3- Permanent/book to read about bussiness.md",
     "Home.md"
