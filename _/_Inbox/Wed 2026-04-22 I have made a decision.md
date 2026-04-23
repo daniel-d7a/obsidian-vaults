@@ -1,5 +1,0 @@
-On Saturday after my friend Bahaa got fed up with me for bringing up my love life (or the lack there of) for the millionth time, he decided that I need to take an action, he even gave me a deadline, I need to confess my attraction to that girl and take a step in the right direction, and I have until Monday.
-
-Ok to be fair that wasn't wrong, this is the right move, you think about someone that you see a future partner in, you take a step, you get together and go on your merry way, or you don't and just move on.
-
-However, I am overwhelmed with my feelings right now, I am kind of doubting myself, I am rethinking if I even love her or not, love is a strong word to use here, and I am trying to believe that loves comes later in life, what matters most is what you see of the person now, and I see a beautiful and sweet girl, we get on the same wave, and that to me as the highest kind of attraction, being able to talk freely, and understanding each others wit and humor, and she is also cute not gonna lie 
