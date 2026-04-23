@@ -159,6 +159,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-kanban:Create new board": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -170,10 +173,14 @@
   },
   "active": "b09c122091f0d1d6",
   "lastOpenFiles": [
+    "Home.md",
+    "1- MOCs/Eraasoft.md",
+    "3- Permanent/Head First design pattern - chapter 3.md",
+    "_/_Inbox/head first design patterns chapter 4.md",
+    "1- MOCs/Journal.md",
     "_/_Inbox/2026-03-09.md",
     "Mega Note.md",
     "3- Permanent/_more books to read.md",
-    "3- Permanent/book to read about bussiness.md",
-    "Home.md"
+    "3- Permanent/book to read about bussiness.md"
   ]
 }
